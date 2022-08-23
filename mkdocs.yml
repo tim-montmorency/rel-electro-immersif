@@ -1,9 +1,9 @@
-site_name: Test docs
-site_description: 'A docs test'
-site_author: 'Michael Hausenblas'
+site_name: 'REL-ÉLECTRONIQUE POUR ESPACES IMMERSIFS'
+site_description: 'Ressource éducative libre (REL) sur l'intégration de l'électronique aux espaces immersifst'
+site_author: 'Thomas O Fredericks et Guillaume Arseneault'
 docs_dir: docs/
-repo_name: 'mhausenblas/mkdocs-template'
-repo_url: 'https://github.com/mhausenblas/mkdocs-template'
+repo_name: 'tim-montmorency/rel-electro-immersif'
+repo_url: 'https://github.com/tim-montmorency/rel-electro-immersif'
 nav:
     - Home: index.md
 theme:
