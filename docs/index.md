@@ -2,8 +2,7 @@
 
 Why is this not building correctly with the theme?
 THIS IS ANOTHER TEST.
-HOT-DOG.
-
+CHATTON.
 Now:
 
 ```
