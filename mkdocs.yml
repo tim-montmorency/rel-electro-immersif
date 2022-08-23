@@ -1,5 +1,5 @@
-site_name: REL-ÉLECTRONIQUE POUR ESPACES IMMERSIFS
-site_description: 'Ressource éducative libre (REL) sur l'intégration de l'électronique aux espaces immersifs'
+site_name: ÉLECTRONIQUE POUR ESPACES IMMERSIFS
+site_description: "Ressource éducative libre (REL) sur l'intégration de l'électronique aux espaces immersifs"
 site_author: 'Thomas O Fredericks et Guillaume Arseneault'
 docs_dir: docs/
 repo_name: 'tim-montmorency/rel-electro-immersif'
@@ -7,4 +7,4 @@ repo_url: 'https://github.com/tim-montmorency/rel-electro-immersif'
 nav:
     - Home: index.md
 theme:
-  name: 'material'
+  name: 'mkdocs'
