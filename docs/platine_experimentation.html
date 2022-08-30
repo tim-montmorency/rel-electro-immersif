@@ -3,8 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Page not found</title>
-        <base href="/">
+        <title>Platine d&#x27;expérimentation</title>
         <!-- Custom HTML head -->
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
@@ -78,7 +77,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="galerie.html"><strong aria-hidden="true">1.</strong> Galerie de projets</a></li><li class="chapter-item expanded affix "><li class="part-title">Électricité</li><li class="chapter-item expanded "><a href="electricite.html"><strong aria-hidden="true">2.</strong> Courant et alimentation</a></li><li class="chapter-item expanded "><a href="grandeurs_electriques.html"><strong aria-hidden="true">3.</strong> Grandeurs électriques</a></li><li class="chapter-item expanded "><a href="platine_experimentation.html"><strong aria-hidden="true">4.</strong> Platine d'expérimentation</a></li><li class="chapter-item expanded "><a href="del.html"><strong aria-hidden="true">5.</strong> DEL</a></li><li class="chapter-item expanded "><a href="resistance.html"><strong aria-hidden="true">6.</strong> Résistance</a></li><li class="chapter-item expanded affix "><li class="part-title">Erreurs fatales</li><li class="chapter-item expanded "><a href="erreurs_fatales.html"><strong aria-hidden="true">7.</strong> Inverser les pôles + et -</a></li><li class="chapter-item expanded "><a href="erreurs_fatales.html"><strong aria-hidden="true">8.</strong> Court circuit</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="galerie.html"><strong aria-hidden="true">1.</strong> Galerie de projets</a></li><li class="chapter-item expanded affix "><li class="part-title">Électricité</li><li class="chapter-item expanded "><a href="electricite.html"><strong aria-hidden="true">2.</strong> Courant et alimentation</a></li><li class="chapter-item expanded "><a href="grandeurs_electriques.html"><strong aria-hidden="true">3.</strong> Grandeurs électriques</a></li><li class="chapter-item expanded "><a href="platine_experimentation.html" class="active"><strong aria-hidden="true">4.</strong> Platine d'expérimentation</a></li><li class="chapter-item expanded "><a href="del.html"><strong aria-hidden="true">5.</strong> DEL</a></li><li class="chapter-item expanded "><a href="resistance.html"><strong aria-hidden="true">6.</strong> Résistance</a></li><li class="chapter-item expanded affix "><li class="part-title">Erreurs fatales</li><li class="chapter-item expanded "><a href="erreurs_fatales.html"><strong aria-hidden="true">7.</strong> Inverser les pôles + et -</a></li><li class="chapter-item expanded "><a href="erreurs_fatales.html"><strong aria-hidden="true">8.</strong> Court circuit</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -137,19 +136,56 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="document-not-found-404"><a class="header" href="#document-not-found-404">Document not found (404)</a></h1>
-<p>This URL is invalid, sorry. Please use the navigation bar or search to continue.</p>
+                        <h1 id="platine-dexpérimentation-breadboard"><a class="header" href="#platine-dexpérimentation-breadboard">Platine d'expérimentation (<em>breadboard</em>)</a></h1>
+<p>Une platine d’expérimentation (<em>breadboard</em> en anglais) permet de réaliser des prototypes de circuits électroniques sans soudure et donc de pouvoir réutiliser les composants. </p>
+<p>Certains des trous de la platine d'expérimentation sont connectés entre eux. Ces connexions sont indiquées par des lignes dans l'illustration suivante.</p>
+<p><img src="platine_experimentation_connexions_internes.svg" alt="Connexions internes de la paltine d'expérimentation" /></p>
+<ul>
+<li>Tous les trous dans une rangée intérieure de 5 sont reliés entre eux. </li>
+<li>Les trous des colonnes extérieures sont reliés entre eux. Ils sont réservés à l'alimentation :
+<ul>
+<li>Colonne rouge pour le pôle positif (+).</li>
+<li>Colonne bleue pour le pôle négatif (-).</li>
+</ul>
+</li>
+</ul>
+<h1 id="bien-placer-les-composants-sur-la-platine-dexpérimentation"><a class="header" href="#bien-placer-les-composants-sur-la-platine-dexpérimentation">Bien placer les composants sur la platine d'expérimentation</a></h1>
+<p>Les broches (pattes) des composants doivent être insérés dans des trous qui sont <strong>non reliés électriquement</strong>, c'est à dire <strong>isolée</strong> électriquement. </p>
+<p>Dans la figure suivante :</p>
+<ul>
+<li>Le <strong>X</strong> indique une erreur où un composant dont les broches sont insérées dans des trous reliés électriquement.</li>
+<li>Les <strong>✓</strong> indiquent des bonnes connexions où chaque broche du composant est isolé électriquement. </li>
+</ul>
+<p><img src="platine_experimentation_connexions_valides_del.svg" alt="Exemples de connexions valides d'une DEL" /></p>
+<p>Dans la figure suivante :</p>
+<ul>
+<li>Le <strong>X</strong> indique une erreur où un composant dont les broches sont insérées dans des trous reliés électriquement.</li>
+<li>Les <strong>✓</strong> indiquent des bonnes connexions où chaque broche du composant est isolé électriquement. </li>
+</ul>
+<p><img src="platine_experimentation_connexions_valides_exemples.svg" alt="Exemples de connexions valides" /></p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="grandeurs_electriques.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="del.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
                         <div style="clear: both"></div>
                     </nav>
                 </div>
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="grandeurs_electriques.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="del.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
             </nav>
 
         </div>

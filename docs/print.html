@@ -78,7 +78,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="galerie.html"><strong aria-hidden="true">1.</strong> Galerie de projets</a></li><li class="chapter-item expanded affix "><li class="part-title">Électricité</li><li class="chapter-item expanded "><a href="electricite.html"><strong aria-hidden="true">2.</strong> Courant, générateur et circuit</a></li><li class="chapter-item expanded "><a href="grandeurs_electriques.html"><strong aria-hidden="true">3.</strong> Grandeurs électriques</a></li><li class="chapter-item expanded affix "><li class="part-title">Erreurs fatales</li><li class="chapter-item expanded "><a href="erreurs_fatales.html"><strong aria-hidden="true">4.</strong> Inverser les pôles + et -</a></li><li class="chapter-item expanded "><a href="erreurs_fatales.html"><strong aria-hidden="true">5.</strong> Court circuit</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="galerie.html"><strong aria-hidden="true">1.</strong> Galerie de projets</a></li><li class="chapter-item expanded affix "><li class="part-title">Électricité</li><li class="chapter-item expanded "><a href="electricite.html"><strong aria-hidden="true">2.</strong> Courant et alimentation</a></li><li class="chapter-item expanded "><a href="grandeurs_electriques.html"><strong aria-hidden="true">3.</strong> Grandeurs électriques</a></li><li class="chapter-item expanded "><a href="platine_experimentation.html"><strong aria-hidden="true">4.</strong> Platine d'expérimentation</a></li><li class="chapter-item expanded "><a href="del.html"><strong aria-hidden="true">5.</strong> DEL</a></li><li class="chapter-item expanded "><a href="resistance.html"><strong aria-hidden="true">6.</strong> Résistance</a></li><li class="chapter-item expanded affix "><li class="part-title">Erreurs fatales</li><li class="chapter-item expanded "><a href="erreurs_fatales.html"><strong aria-hidden="true">7.</strong> Inverser les pôles + et -</a></li><li class="chapter-item expanded "><a href="erreurs_fatales.html"><strong aria-hidden="true">8.</strong> Court circuit</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -144,13 +144,16 @@
 <div style="break-before: page; page-break-before: always;"></div><h1 id="le-courant-électrique"><a class="header" href="#le-courant-électrique">Le courant électrique</a></h1>
 <p>Le courant électrique est un déplacement d’électrons dans un milieu conducteur.</p>
 <p>Pour que ces électrons se déplacent il faut créer <strong>une différence du nombre d'électrons entre les deux extrémités du circuit électrique</strong>. C'est ce qu'on appelle une <strong>différence de potentiel</strong>.</p>
-<h1 id="le-générateur"><a class="header" href="#le-générateur">Le générateur</a></h1>
-<p>Pour créer cette différence de potentiel, on utilise un <strong>générateur</strong> qui peut prendre la forme d'une batterie, alimentation USB, panneau solaire, prise électrique , etc.</p>
-<p>Un générateur possède deux pôles. L'un <strong>positif</strong> (avec un potentiel <em>haut</em>) et l'autre <strong>négatif</strong> (avec un potentiel <em>bas</em>). </p>
-<p><img src="images/batterie_aa_electrons.svg" alt="Illustration du débalancement des électrons dans une batterie AA" /></p>
-<h1 id="circuit"><a class="header" href="#circuit">Circuit</a></h1>
-<p>Un circuit doit former une boucle pour que le courant électrique puisse circuler.</p>
-<p><img src="images/circuit_electrons.svg" alt="Les électrons voyagent en se tirant les uns derrières les autres comme les wagons d'un train" /></p>
+<h1 id="alimentation"><a class="header" href="#alimentation">Alimentation</a></h1>
+<p>Pour créer cette différence de potentiel, on utilise une <strong>alimentation électrique</strong> qui peut prendre la forme d'une batterie, alimentation USB, panneau solaire, prise électrique , etc.</p>
+<p><img src="batterie_aa_electrons.svg" alt="Illustration du débalancement des électrons dans une batterie AA" /></p>
+<p>Une alimentation possède deux pôles. L'un <strong>positif</strong> (avec un potentiel <em>haut</em>) et l'autre <strong>négatif</strong> (avec un potentiel <em>bas</em>). </p>
+<p><img src="alimentation_12v.svg" alt="Le câble et le connecteur de cette alimentation regroupe deux pôles" /></p>
+<h2 id="schéma-dalimentation-à-un-dessin"><a class="header" href="#schéma-dalimentation-à-un-dessin">Schéma d'alimentation à un dessin</a></h2>
+<h2 id="schéma-dalimentation-à-deux-dessins"><a class="header" href="#schéma-dalimentation-à-deux-dessins">Schéma d'alimentation à deux dessins</a></h2>
+<h1 id="boucle-électrique"><a class="header" href="#boucle-électrique">Boucle électrique</a></h1>
+<p>Pour circuler, le courant doit suivre une boucle entre les deux pôles de l'alimentation.</p>
+<p><img src="circuit_electrons.svg" alt="Les électrons voyagent en se tirant les uns derrières les autres comme les wagons d'un train" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="principales-grandeurs-électriques"><a class="header" href="#principales-grandeurs-électriques">Principales grandeurs électriques</a></h1>
 <div class="table-wrapper"><table><thead><tr><th>Grandeur</th><th>Symbole</th><th>Unité</th><th>Analogie</th></tr></thead><tbody>
 <tr><td>Tension</td><td>U</td><td>Volts (V)</td><td>La <em>pression</em> qui génère la circulation des électrons</td></tr>
@@ -159,39 +162,97 @@
 <tr><td>Puissance</td><td>P</td><td>Watts (W)</td><td>La puissance résultant de la <em>pression</em> multipliée par la <em>quantité</em></td></tr>
 </tbody></table>
 </div>
-<p><img src="images/grandeurs_electriques.svg" alt="Grandeurs électriques" /></p>
+<h1 id="analogie-de-leau"><a class="header" href="#analogie-de-leau">Analogie de l'eau</a></h1>
+<h2 id="pression-de-leau--tension-électrique"><a class="header" href="#pression-de-leau--tension-électrique">Pression de l'eau ≈ tension électrique</a></h2>
+<p><img src="analogie_eau_tension.svg" alt="La pression de l'eau est similaire à la tension électrique" /></p>
+<h2 id="quantité-deau--intensité-électrique"><a class="header" href="#quantité-deau--intensité-électrique">Quantité d'eau ≈ intensité électrique</a></h2>
+<p><img src="analogie_eau_intensite.svg" alt="La quantité d'eau est similaire à l'intensité électrique" /></p>
+<h2 id="Étranglement-de-tuyau--intensité-électrique"><a class="header" href="#Étranglement-de-tuyau--intensité-électrique">Étranglement de tuyau ≈ intensité électrique</a></h2>
+<p><img src="analogie_eau_resistance.svg" alt="Un étranglement dans le tuyau est similaire à l'intensité électrique" /></p>
+<h1 id="relations-mathématiques-entre-les-principales-grandeurs-électriques"><a class="header" href="#relations-mathématiques-entre-les-principales-grandeurs-électriques">Relations mathématiques entre les principales grandeurs électriques</a></h1>
+<p><img src="grandeurs_electriques_relations.svg" alt="Relations mathématiques entre les principales grandeurs électriques" /></p>
+<h1 id="exemples"><a class="header" href="#exemples">Exemples</a></h1>
+<p><img src="analogie_eau_exemple.svg" alt="Exemple des relations entre les principales grandeurs électriques" /></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="platine-dexpérimentation-breadboard"><a class="header" href="#platine-dexpérimentation-breadboard">Platine d'expérimentation (<em>breadboard</em>)</a></h1>
+<p>Une platine d’expérimentation (<em>breadboard</em> en anglais) permet de réaliser des prototypes de circuits électroniques sans soudure et donc de pouvoir réutiliser les composants. </p>
+<p>Certains des trous de la platine d'expérimentation sont connectés entre eux. Ces connexions sont indiquées par des lignes dans l'illustration suivante.</p>
+<p><img src="platine_experimentation_connexions_internes.svg" alt="Connexions internes de la paltine d'expérimentation" /></p>
+<ul>
+<li>Tous les trous dans une rangée intérieure de 5 sont reliés entre eux. </li>
+<li>Les trous des colonnes extérieures sont reliés entre eux. Ils sont réservés à l'alimentation :
+<ul>
+<li>Colonne rouge pour le pôle positif (+).</li>
+<li>Colonne bleue pour le pôle négatif (-).</li>
+</ul>
+</li>
+</ul>
+<h1 id="bien-placer-les-composants-sur-la-platine-dexpérimentation"><a class="header" href="#bien-placer-les-composants-sur-la-platine-dexpérimentation">Bien placer les composants sur la platine d'expérimentation</a></h1>
+<p>Les broches (pattes) des composants doivent être insérés dans des trous qui sont <strong>non reliés électriquement</strong>, c'est à dire <strong>isolée</strong> électriquement. </p>
+<p>Dans la figure suivante :</p>
+<ul>
+<li>Le <strong>X</strong> indique une erreur où un composant dont les broches sont insérées dans des trous reliés électriquement.</li>
+<li>Les <strong>✓</strong> indiquent des bonnes connexions où chaque broche du composant est isolé électriquement. </li>
+</ul>
+<p><img src="platine_experimentation_connexions_valides_del.svg" alt="Exemples de connexions valides d'une DEL" /></p>
+<p>Dans la figure suivante :</p>
+<ul>
+<li>Le <strong>X</strong> indique une erreur où un composant dont les broches sont insérées dans des trous reliés électriquement.</li>
+<li>Les <strong>✓</strong> indiquent des bonnes connexions où chaque broche du composant est isolé électriquement. </li>
+</ul>
+<p><img src="platine_experimentation_connexions_valides_exemples.svg" alt="Exemples de connexions valides" /></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="diode-électroluminescente-del"><a class="header" href="#diode-électroluminescente-del">Diode électroluminescente (DEL)</a></h1>
+<p>La diode électroluminescente (DEL) est un <em>actionneur</em> qui transforme un signal électrique en lumière. Elle est appelée «LED» en anglais. </p>
+<p>En utilisant divers matériaux semi-conducteurs, on fait varier la couleur de la lumière émise par la DEL. Il existe enfin une grande variété de formes de DEL.</p>
+<p>Le courant électrique ne peut traverser la diode que dans le sens de l’anode vers la cathode.</p>
+<p><img src="del.svg" alt="Une DEL" /></p>
+<p><strong>Attention</strong>: il faut limiter le courant qui traverse la DEL. Pour une DEL rouge standard:</p>
+<ul>
+<li>La DEL crée une chute de tension (<em>voltage drop</em>) d’environ 2.1 Volts.</li>
+<li>L'intensité qui traverse la DEL doit être d'environ 0.02 Ampères (20 mA). </li>
+<li>L’utilisation d’une résistance est obligatoire pour réduire l'intensité et ne pas griller la DEL.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="résistance"><a class="header" href="#résistance">Résistance</a></h1>
+<p><img src="resistance_photo.svg" alt="Une resistance" /></p>
+<p>Une résistance est un composant électrique dont la principale caractéristique est d'opposer une plus ou moins grande résistance mesurée en ohms (Ω) à la circulation du courant électrique.</p>
+<p>Une résistance est un milieu peu conducteur; les électrons peinent à s’y déplacer. Leur énergie se dissipe alors en général sous forme de chaleur. C’est ce principe utilisé pour les bouilloires électriques ou les ampoules à filaments.
+La valeur de la résistance se mesure en ohms (Ω) et elle est déterminée par ses bandes de couleurs.</p>
+<p><img src="resistance_schema.svg" alt="Schéma européen à gauche et américan à droite d'une résistance" /></p>
+<h1 id="calculer-la-valeur-dune-résistance"><a class="header" href="#calculer-la-valeur-dune-résistance">Calculer la valeur d’une résistance</a></h1>
+<p>Pour connaître la valeur en ohms (Ω) d'une résitance, il faut convertir le code couleurs des 2 ou 3 premiers anneaux pour ensuite  multiplier par le code de l'anneau suivant. La tolérance, représentée par le dernier anneau correspond à l’imprécision de la valeur en ohms. Plus elle est petite, plus la résistance est de meilleur qualité.</p>
+<p><img src="resistance_calcul_code_couleur.svg" alt="Schéma européen à gauche et américan à droite d'une résistance" /></p>
+<p>Exemple : rouge (2), rouge(2), brun (x10) = 22 * 10 = 220 Ω = 0.22 kΩ</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="erreur-fatale-1--inverser-les-pôles--et--"><a class="header" href="#erreur-fatale-1--inverser-les-pôles--et--">Erreur fatale 1 : inverser les pôles + et -</a></h1>
-<p><img src="images/erreur_fatale_1.SVG" alt="Erreur fatale 1 : inverser les pôles + et -" />
+<p><img src="erreur_fatale_1.SVG" alt="Erreur fatale 1 : inverser les pôles + et -" />
 <em>Ici le pôle positif (+) et le pôle négatif (-) sont inversés! Cette erreur fatale risque de détruire tous les composants!</em></p>
 <p><strong>A</strong> 
 : Le <em>GND</em> (pôle négatif) est branché dans la colonne rouge réservée au positif. </p>
 <p><strong>B</strong>
 :  Le <em>5V</em> (pôle positif) est branché dans la colonne noire réservée au négatif.</p>
 <h1 id="erreur-fatale-1--inverser-les-pôles--et---1"><a class="header" href="#erreur-fatale-1--inverser-les-pôles--et---1">Erreur fatale 1 : inverser les pôles + et -</a></h1>
-<p><img src="images/erreur_fatale_1.SVG" alt="Erreur fatale 1 : inverser les pôles + et -" />
+<p><img src="erreur_fatale_1.SVG" alt="Erreur fatale 1 : inverser les pôles + et -" />
 <em>Ici le pôle positif (+) et le pôle négatif (-) sont inversés! Cette erreur fatale risque de détruire tous les composants!</em></p>
 <p><code>A</code>: Le <em>GND</em> (pôle négatif) est branché dans la colonne rouge réservée au positif. </p>
 <p><code>B</code>:  Le <em>5V</em> (pôle positif) est branché dans la colonne noire réservée au négatif.</p>
 <h1 id="erreur-fatale-2--court-circuit"><a class="header" href="#erreur-fatale-2--court-circuit">Erreur fatale 2 : court circuit</a></h1>
-<p><img src="images/erreur_fatale_2.SVG" alt="Erreur fatale 2 : court circuit" /></p>
+<p><img src="erreur_fatale_2.SVG" alt="Erreur fatale 2 : court circuit" /></p>
 <h1 id="quoi-faire-en-cas-derreur-fatale"><a class="header" href="#quoi-faire-en-cas-derreur-fatale">Quoi faire en cas d'erreur fatale</a></h1>
-<p><img src="images/erreur_fatale_quoi_faire.SVG" alt="Erreur fatale 3 : inverser les pôles + et -" /></p>
+<p><img src="erreur_fatale_quoi_faire.SVG" alt="Erreur fatale 3 : inverser les pôles + et -" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="erreur-fatale-1--inverser-les-pôles--et---2"><a class="header" href="#erreur-fatale-1--inverser-les-pôles--et---2">Erreur fatale 1 : inverser les pôles + et -</a></h1>
-<p><img src="images/erreur_fatale_1.SVG" alt="Erreur fatale 1 : inverser les pôles + et -" />
+<p><img src="erreur_fatale_1.SVG" alt="Erreur fatale 1 : inverser les pôles + et -" />
 <em>Ici le pôle positif (+) et le pôle négatif (-) sont inversés! Cette erreur fatale risque de détruire tous les composants!</em></p>
 <p><strong>A</strong> 
 : Le <em>GND</em> (pôle négatif) est branché dans la colonne rouge réservée au positif. </p>
 <p><strong>B</strong>
 :  Le <em>5V</em> (pôle positif) est branché dans la colonne noire réservée au négatif.</p>
 <h1 id="erreur-fatale-1--inverser-les-pôles--et---3"><a class="header" href="#erreur-fatale-1--inverser-les-pôles--et---3">Erreur fatale 1 : inverser les pôles + et -</a></h1>
-<p><img src="images/erreur_fatale_1.SVG" alt="Erreur fatale 1 : inverser les pôles + et -" />
+<p><img src="erreur_fatale_1.SVG" alt="Erreur fatale 1 : inverser les pôles + et -" />
 <em>Ici le pôle positif (+) et le pôle négatif (-) sont inversés! Cette erreur fatale risque de détruire tous les composants!</em></p>
 <p><code>A</code>: Le <em>GND</em> (pôle négatif) est branché dans la colonne rouge réservée au positif. </p>
 <p><code>B</code>:  Le <em>5V</em> (pôle positif) est branché dans la colonne noire réservée au négatif.</p>
 <h1 id="erreur-fatale-2--court-circuit-1"><a class="header" href="#erreur-fatale-2--court-circuit-1">Erreur fatale 2 : court circuit</a></h1>
-<p><img src="images/erreur_fatale_2.SVG" alt="Erreur fatale 2 : court circuit" /></p>
+<p><img src="erreur_fatale_2.SVG" alt="Erreur fatale 2 : court circuit" /></p>
 <h1 id="quoi-faire-en-cas-derreur-fatale-1"><a class="header" href="#quoi-faire-en-cas-derreur-fatale-1">Quoi faire en cas d'erreur fatale</a></h1>
-<p><img src="images/erreur_fatale_quoi_faire.SVG" alt="Erreur fatale 3 : inverser les pôles + et -" /></p>
+<p><img src="erreur_fatale_quoi_faire.SVG" alt="Erreur fatale 3 : inverser les pôles + et -" /></p>
 
                     </main>
 
