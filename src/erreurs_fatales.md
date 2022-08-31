@@ -1,27 +1,19 @@
-# Erreur fatale 1 : inverser les pôles + et -
 
-![Erreur fatale 1 : inverser les pôles + et -](erreur_fatale_1.SVG)
-*Ici le pôle positif (+) et le pôle négatif (-) sont inversés! Cette erreur fatale risque de détruire tous les composants!*
+# Erreur fatale : court circuit
 
-**A** 
-: Le *GND* (pôle négatif) est branché dans la colonne rouge réservée au positif. 
+Ici le pôle positif (+) et le pôle négatif (-) sont connectés dans la même colonne d'alimentation! Cette erreur fatale risque d'endommager l'alimentation USB de l'ordinateur!
 
-**B**
-:  Le *5V* (pôle positif) est branché dans la colonne noire réservée au négatif.
+![Erreur fatale : court circuit](erreur_fatale_1.SVG)
 
-# Erreur fatale 1 : inverser les pôles + et -
+# Erreur fatale : inverser les pôles + et -
 
-![Erreur fatale 1 : inverser les pôles + et -](erreur_fatale_1.SVG)
-*Ici le pôle positif (+) et le pôle négatif (-) sont inversés! Cette erreur fatale risque de détruire tous les composants!*
+Ici le pôle positif (+) et le pôle négatif (-) sont inversés! Cette erreur fatale risque de détruire tous les composants!
 
-`A`: Le *GND* (pôle négatif) est branché dans la colonne rouge réservée au positif. 
-
-`B`:  Le *5V* (pôle positif) est branché dans la colonne noire réservée au négatif.
+![Erreur fatale : inverser les pôles + et -](erreur_fatale_2.SVG)
 
 
-# Erreur fatale 2 : court circuit
 
-![Erreur fatale 2 : court circuit](erreur_fatale_2.SVG)
+
 
 # Quoi faire en cas d'erreur fatale
 

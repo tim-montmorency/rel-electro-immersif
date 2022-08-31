@@ -78,7 +78,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="galerie.html"><strong aria-hidden="true">1.</strong> Galerie de projets</a></li><li class="chapter-item expanded affix "><li class="part-title">Électricité</li><li class="chapter-item expanded "><a href="electricite.html"><strong aria-hidden="true">2.</strong> Courant et alimentation</a></li><li class="chapter-item expanded "><a href="grandeurs_electriques.html"><strong aria-hidden="true">3.</strong> Grandeurs électriques</a></li><li class="chapter-item expanded "><a href="platine_experimentation.html"><strong aria-hidden="true">4.</strong> Platine d'expérimentation</a></li><li class="chapter-item expanded "><a href="del.html"><strong aria-hidden="true">5.</strong> DEL</a></li><li class="chapter-item expanded "><a href="resistance.html"><strong aria-hidden="true">6.</strong> Résistance</a></li><li class="chapter-item expanded affix "><li class="part-title">Erreurs fatales</li><li class="chapter-item expanded "><a href="erreurs_fatales.html"><strong aria-hidden="true">7.</strong> Inverser les pôles + et -</a></li><li class="chapter-item expanded "><a href="erreurs_fatales.html"><strong aria-hidden="true">8.</strong> Court circuit</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="galerie.html"><strong aria-hidden="true">1.</strong> Galerie de projets</a></li><li class="chapter-item expanded affix "><li class="part-title">Électricité</li><li class="chapter-item expanded "><a href="electricite.html"><strong aria-hidden="true">2.</strong> Courant et alimentation</a></li><li class="chapter-item expanded "><a href="grandeurs_electriques.html"><strong aria-hidden="true">3.</strong> Grandeurs électriques</a></li><li class="chapter-item expanded "><a href="platine_experimentation.html"><strong aria-hidden="true">4.</strong> Platine d'expérimentation</a></li><li class="chapter-item expanded "><a href="del.html"><strong aria-hidden="true">5.</strong> DEL</a></li><li class="chapter-item expanded "><a href="resistance.html"><strong aria-hidden="true">6.</strong> Résistance</a></li><li class="chapter-item expanded "><a href="symboles_alimentation.html"><strong aria-hidden="true">7.</strong> Symboles d'alimentation</a></li><li class="chapter-item expanded "><a href="alimenter_del_avec_une_batterie.html"><strong aria-hidden="true">8.</strong> Alimenter une DEL avec une batterie</a></li><li class="chapter-item expanded "><a href="alimentation_platine_experimentation.html"><strong aria-hidden="true">9.</strong> Alimenter la platine d'expérimentation</a></li><li class="chapter-item expanded "><a href="erreurs_fatales.html"><strong aria-hidden="true">10.</strong> Erreurs fatales</a></li><li class="chapter-item expanded "><a href="alimenter_del.html"><strong aria-hidden="true">11.</strong> Alimenter une DEL</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -221,38 +221,52 @@ La valeur de la résistance se mesure en ohms (Ω) et elle est déterminée par 
 <p>Pour connaître la valeur en ohms (Ω) d'une résitance, il faut convertir le code couleurs des 2 ou 3 premiers anneaux pour ensuite  multiplier par le code de l'anneau suivant. La tolérance, représentée par le dernier anneau correspond à l’imprécision de la valeur en ohms. Plus elle est petite, plus la résistance est de meilleur qualité.</p>
 <p><img src="resistance_calcul_code_couleur.svg" alt="Schéma européen à gauche et américan à droite d'une résistance" /></p>
 <p>Exemple : rouge (2), rouge(2), brun (x10) = 22 * 10 = 220 Ω = 0.22 kΩ</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="erreur-fatale-1--inverser-les-pôles--et--"><a class="header" href="#erreur-fatale-1--inverser-les-pôles--et--">Erreur fatale 1 : inverser les pôles + et -</a></h1>
-<p><img src="erreur_fatale_1.SVG" alt="Erreur fatale 1 : inverser les pôles + et -" />
-<em>Ici le pôle positif (+) et le pôle négatif (-) sont inversés! Cette erreur fatale risque de détruire tous les composants!</em></p>
-<p><strong>A</strong> 
-: Le <em>GND</em> (pôle négatif) est branché dans la colonne rouge réservée au positif. </p>
-<p><strong>B</strong>
-:  Le <em>5V</em> (pôle positif) est branché dans la colonne noire réservée au négatif.</p>
-<h1 id="erreur-fatale-1--inverser-les-pôles--et---1"><a class="header" href="#erreur-fatale-1--inverser-les-pôles--et---1">Erreur fatale 1 : inverser les pôles + et -</a></h1>
-<p><img src="erreur_fatale_1.SVG" alt="Erreur fatale 1 : inverser les pôles + et -" />
-<em>Ici le pôle positif (+) et le pôle négatif (-) sont inversés! Cette erreur fatale risque de détruire tous les composants!</em></p>
-<p><code>A</code>: Le <em>GND</em> (pôle négatif) est branché dans la colonne rouge réservée au positif. </p>
-<p><code>B</code>:  Le <em>5V</em> (pôle positif) est branché dans la colonne noire réservée au négatif.</p>
-<h1 id="erreur-fatale-2--court-circuit"><a class="header" href="#erreur-fatale-2--court-circuit">Erreur fatale 2 : court circuit</a></h1>
-<p><img src="erreur_fatale_2.SVG" alt="Erreur fatale 2 : court circuit" /></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="symboles-dalimentation"><a class="header" href="#symboles-dalimentation">Symboles d'alimentation</a></h1>
+<h2 id="symboles-qui-regroupent-les-deux-pôles"><a class="header" href="#symboles-qui-regroupent-les-deux-pôles">Symboles qui regroupent les deux pôles</a></h2>
+<p><img src="symbole_alimentation_batterie.svg" alt="Un symbole représentant une batterie" /></p>
+<p><img src="symbole_alimentation_cc.svg" alt="Un symbole représentant une alimentation à courant continu" /></p>
+<h2 id="représentation-qui-représentents-les-deux-pôles-de-la-même-alimentation-avec-deux-symboles"><a class="header" href="#représentation-qui-représentents-les-deux-pôles-de-la-même-alimentation-avec-deux-symboles">Représentation qui représentents les deux pôles de la même alimentation avec deux symboles</a></h2>
+<p><img src="symbole_alimentation_paire_v+.svg" alt="Une paire de symboles qui représente les deux pôles d'une même alimentation générique" /></p>
+<p><img src="symbole_alimentation_paire_5v.svg" alt="Une paire de symboles qui représente les deux pôles d'une même alimentation 5V" /></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="alimenter-une-del-avec-une-batterie"><a class="header" href="#alimenter-une-del-avec-une-batterie">Alimenter une DEL avec une batterie</a></h1>
+<p>Un schéma de circuit représente sous une forme plus précise les connexions des composants d’un circuit.</p>
+<p>Le schéma et l’image ci-bas montrent tous les deux comment allumer une DEL avec une résistance et une batterie 9V. </p>
+<p><img src="alimenter_del_avec_une_batterie.svg" alt="Schéma et image d'une DEL alimentée par une batterie" /></p>
+<h2 id="identification-de-lalimentation"><a class="header" href="#identification-de-lalimentation">Identification de l'alimentation</a></h2>
+<p><img src="alimenter_del_avec_une_batterie_alimentation.svg" alt="L'alimentation dans le schéma et l'image" /></p>
+<h2 id="identification-de-la-résistance"><a class="header" href="#identification-de-la-résistance">Identification de la résistance</a></h2>
+<p><img src="alimenter_del_avec_une_batterie_resistance.svg" alt="La résistance dans le schéma et l'image" /></p>
+<h2 id="identitfication-de-la-del"><a class="header" href="#identitfication-de-la-del">Identitfication de la DEL</a></h2>
+<p><img src="alimenter_del_avec_une_batterie_del.svg" alt="La DEL dans le schéma et l'image" /></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="alimentation-platine-dexpérimentation"><a class="header" href="#alimentation-platine-dexpérimentation">Alimentation platine d'expérimentation</a></h1>
+<h2 id="se-servir-dune-carte-arduino-pour-alimenter-une-platine-dexpérimentation"><a class="header" href="#se-servir-dune-carte-arduino-pour-alimenter-une-platine-dexpérimentation">Se servir d'une carte Arduino pour alimenter une platine d'expérimentation</a></h2>
+<h3 id="pôles-de-la-carte-arduino-nano"><a class="header" href="#pôles-de-la-carte-arduino-nano">Pôles de la carte Arduino Nano</a></h3>
+<p>Sur certains modèles de carte Arduino Nano, le pôle positif (+) n’est malheureusement pas imprimé sur la carte. Cependant, on retrouve dans la documentation des broche que c’est la broche au dessus de l'étiquette «RST». </p>
+<p>Le pôle négatif (-) est indiqué avec l'étiquette «GND» imprimée sur la carte. </p>
+<p><img src="arduino_nano_poles_alimentation.svg" alt="Pôles d'alimentation de la carte Arduino Nano" /></p>
+<h3 id="Étape-1"><a class="header" href="#Étape-1">Étape 1</a></h3>
+<p>Branchez un câble (orange ou rouge) dans la rangée de la broche du positif (+) de la carte Arduino. Ce câble transporte maintenant le positif (+).</p>
+<p>Branchez un câble (brun ou noir) dans la rangée de la broche du négatif (-) de la carte Arduino. Ce câble transporte maintenant le négatif (-)</p>
+<p><img src="alimentation_platine_experimentation_1.svg" alt="Étape 1 de l'alimentation de la platine d'expérimentation" /></p>
+<h3 id="Étape-2"><a class="header" href="#Étape-2">Étape 2</a></h3>
+<p>Brancher le câble qui transporte le positif (+) dans la colonne + rouge de la platine d’expérimentation.</p>
+<p>Brancher le câble qui transporte le négatif (-) dans la conne – bleue de la platine d’expérimentation.</p>
+<p><img src="alimentation_platine_experimentation_2.svg" alt="Étape 2 de l'alimentation de la platine d'expérimentation" /></p>
+<h3 id="Étape-3"><a class="header" href="#Étape-3">Étape 3</a></h3>
+<p>Reliez les deux autres colonnes de la patine d'expériementation.</p>
+<p><img src="alimentation_platine_experimentation_3.svg" alt="Étape 3 de l'alimentation de la platine d'expérimentation" /></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="erreur-fatale--court-circuit"><a class="header" href="#erreur-fatale--court-circuit">Erreur fatale : court circuit</a></h1>
+<p>Ici le pôle positif (+) et le pôle négatif (-) sont connectés dans la même colonne d'alimentation! Cette erreur fatale risque d'endommager l'alimentation USB de l'ordinateur!</p>
+<p><img src="erreur_fatale_1.SVG" alt="Erreur fatale : court circuit" /></p>
+<h1 id="erreur-fatale--inverser-les-pôles--et--"><a class="header" href="#erreur-fatale--inverser-les-pôles--et--">Erreur fatale : inverser les pôles + et -</a></h1>
+<p>Ici le pôle positif (+) et le pôle négatif (-) sont inversés! Cette erreur fatale risque de détruire tous les composants!</p>
+<p><img src="erreur_fatale_2.SVG" alt="Erreur fatale : inverser les pôles + et -" /></p>
 <h1 id="quoi-faire-en-cas-derreur-fatale"><a class="header" href="#quoi-faire-en-cas-derreur-fatale">Quoi faire en cas d'erreur fatale</a></h1>
 <p><img src="erreur_fatale_quoi_faire.SVG" alt="Erreur fatale 3 : inverser les pôles + et -" /></p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="erreur-fatale-1--inverser-les-pôles--et---2"><a class="header" href="#erreur-fatale-1--inverser-les-pôles--et---2">Erreur fatale 1 : inverser les pôles + et -</a></h1>
-<p><img src="erreur_fatale_1.SVG" alt="Erreur fatale 1 : inverser les pôles + et -" />
-<em>Ici le pôle positif (+) et le pôle négatif (-) sont inversés! Cette erreur fatale risque de détruire tous les composants!</em></p>
-<p><strong>A</strong> 
-: Le <em>GND</em> (pôle négatif) est branché dans la colonne rouge réservée au positif. </p>
-<p><strong>B</strong>
-:  Le <em>5V</em> (pôle positif) est branché dans la colonne noire réservée au négatif.</p>
-<h1 id="erreur-fatale-1--inverser-les-pôles--et---3"><a class="header" href="#erreur-fatale-1--inverser-les-pôles--et---3">Erreur fatale 1 : inverser les pôles + et -</a></h1>
-<p><img src="erreur_fatale_1.SVG" alt="Erreur fatale 1 : inverser les pôles + et -" />
-<em>Ici le pôle positif (+) et le pôle négatif (-) sont inversés! Cette erreur fatale risque de détruire tous les composants!</em></p>
-<p><code>A</code>: Le <em>GND</em> (pôle négatif) est branché dans la colonne rouge réservée au positif. </p>
-<p><code>B</code>:  Le <em>5V</em> (pôle positif) est branché dans la colonne noire réservée au négatif.</p>
-<h1 id="erreur-fatale-2--court-circuit-1"><a class="header" href="#erreur-fatale-2--court-circuit-1">Erreur fatale 2 : court circuit</a></h1>
-<p><img src="erreur_fatale_2.SVG" alt="Erreur fatale 2 : court circuit" /></p>
-<h1 id="quoi-faire-en-cas-derreur-fatale-1"><a class="header" href="#quoi-faire-en-cas-derreur-fatale-1">Quoi faire en cas d'erreur fatale</a></h1>
-<p><img src="erreur_fatale_quoi_faire.SVG" alt="Erreur fatale 3 : inverser les pôles + et -" /></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="alimenter-une-del"><a class="header" href="#alimenter-une-del">Alimenter une DEL</a></h1>
+<p>Portez attention à la longueur des pattes de la DEL. Une patte est plus longue que l’autre. Une DEL ne s’allume que si elle est branchée dans le bon sens. </p>
+<p><img src="del_longueur_pattes.svg" alt="Anode, cathode et longueur des pattes" /></p>
+<p><img src="alimenter_del_circuit.svg" alt="Circuit pour alimenter une DEL" /></p>
 
                     </main>
 
