@@ -1,3 +1,3 @@
-# Example MkDocs deploy GitHub Action
+#rel-electro-immersif
 
-This is a template that uses the  [MkDocs deploy](https://github.com/marketplace/actions/deploy-mkdocs) GitHub action.
+Ressource éducative libre (REL) sur l'intégration de l'électronique aux espaces immersifs 
