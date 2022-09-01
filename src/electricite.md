@@ -14,11 +14,6 @@ Une alimentation possède deux pôles. L'un **positif** (avec un potentiel *haut
 
 ![Le câble et le connecteur de cette alimentation regroupe deux pôles](alimentation_12v.svg)  
 
-## Schéma d'alimentation à un dessin
-
-
-## Schéma d'alimentation à deux dessins
-
 
 # Boucle électrique
 
