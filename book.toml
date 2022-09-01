@@ -3,7 +3,7 @@ tite = "Électronique pour espaces immersifs (REL)"
 authors = ["Thomas O Fredericks", "Guillaume Arseneault"]
 language = "fr"
 multilingual = false
-src = "src"
+src = "rel-electro-immersif-src"
 
 [build]
 build-dir = "docs"
