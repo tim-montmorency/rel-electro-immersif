@@ -1,11 +1,12 @@
 # Summary
 
-- [Galerie de projets](./galerie.md)
-# Électricité
+- [Introduction](./introduction.md)
+# L'électricité
 - [Courant et alimentation](./electricite.md)
 - [Grandeurs électriques](./grandeurs_electriques.md)
 - [Platine d'expérimentation](./platine_experimentation.md)
 - [Symboles d'alimentation](./symboles_alimentation.md)
+# Premier circuit
 - [Alimenter la platine d'expérimentation](./alimentation_platine_experimentation.md)
 - [Erreurs fatales](./erreurs_fatales.md)
 - [DEL](./del.md)
