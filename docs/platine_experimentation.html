@@ -77,7 +77,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">L'électricité</li><li class="chapter-item expanded "><a href="electricite.html"><strong aria-hidden="true">2.</strong> Courant et alimentation</a></li><li class="chapter-item expanded "><a href="grandeurs_electriques.html"><strong aria-hidden="true">3.</strong> Grandeurs électriques</a></li><li class="chapter-item expanded "><a href="platine_experimentation.html" class="active"><strong aria-hidden="true">4.</strong> Platine d'expérimentation</a></li><li class="chapter-item expanded "><a href="symboles_alimentation.html"><strong aria-hidden="true">5.</strong> Symboles d'alimentation</a></li><li class="chapter-item expanded affix "><li class="part-title">Premier circuit</li><li class="chapter-item expanded "><a href="alimentation_platine_experimentation.html"><strong aria-hidden="true">6.</strong> Alimenter la platine d'expérimentation</a></li><li class="chapter-item expanded "><a href="erreurs_fatales.html"><strong aria-hidden="true">7.</strong> Erreurs fatales</a></li><li class="chapter-item expanded "><a href="del.html"><strong aria-hidden="true">8.</strong> DEL</a></li><li class="chapter-item expanded "><a href="resistance.html"><strong aria-hidden="true">9.</strong> Résistance</a></li><li class="chapter-item expanded "><a href="alimenter_del_avec_une_batterie.html"><strong aria-hidden="true">10.</strong> Alimenter une DEL avec une batterie</a></li><li class="chapter-item expanded "><a href="alimenter_del.html"><strong aria-hidden="true">11.</strong> Alimenter une DEL</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">L'électricité</li><li class="chapter-item expanded "><a href="electricite.html"><strong aria-hidden="true">2.</strong> Courant et alimentation</a></li><li class="chapter-item expanded "><a href="grandeurs_electriques.html"><strong aria-hidden="true">3.</strong> Grandeurs électriques</a></li><li class="chapter-item expanded "><a href="symboles_alimentation.html"><strong aria-hidden="true">4.</strong> Symboles d'alimentation</a></li><li class="chapter-item expanded affix "><li class="part-title">Premier circuit</li><li class="chapter-item expanded "><a href="platine_experimentation.html" class="active"><strong aria-hidden="true">5.</strong> Platine d'expérimentation</a></li><li class="chapter-item expanded "><a href="erreurs_fatales.html"><strong aria-hidden="true">6.</strong> Erreurs fatales</a></li><li class="chapter-item expanded "><a href="del.html"><strong aria-hidden="true">7.</strong> DEL</a></li><li class="chapter-item expanded "><a href="resistance.html"><strong aria-hidden="true">8.</strong> Résistance</a></li><li class="chapter-item expanded "><a href="alimenter_del.html"><strong aria-hidden="true">9.</strong> Alimenter une DEL</a></li><li class="chapter-item expanded affix "><li class="part-title">Multimètre</li><li class="chapter-item expanded "><a href="multimetre_continuite.html"><strong aria-hidden="true">10.</strong> Multimètre: continuité</a></li><li class="chapter-item expanded "><a href="multimetre_resistance.html"><strong aria-hidden="true">11.</strong> Multimètre: mesure de résistance</a></li><li class="chapter-item expanded affix "><li class="part-title">Introduction à Arduino</li><li class="chapter-item expanded "><a href="arduino-ide_configuration_nano.html"><strong aria-hidden="true">12.</strong> Configuration Arduino Nano</a></li><li class="chapter-item expanded "><a href="arduino-ide_test_blink.html"><strong aria-hidden="true">13.</strong> Blink: le code test universel</a></li><li class="chapter-item expanded "><a href="arduino_code.html"><strong aria-hidden="true">14.</strong> Le code Arduino</a></li><li class="chapter-item expanded "><a href="arduino_exemple_del.html"><strong aria-hidden="true">15.</strong> Contrôler une DEL</a></li><li class="chapter-item expanded affix "><li class="part-title">Transducteurs</li><li class="chapter-item expanded "><a href="bouton_arcade.html"><strong aria-hidden="true">16.</strong> Bouton d'arcade</a></li><li class="chapter-item expanded "><a href="potentiometre.html"><strong aria-hidden="true">17.</strong> Potentiomètre</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -163,15 +163,31 @@
 <li>Les <strong>✓</strong> indiquent des bonnes connexions où chaque broche du composant est isolé électriquement. </li>
 </ul>
 <p><img src="platine_experimentation_connexions_valides_exemples.svg" alt="Exemples de connexions valides" /></p>
+<h1 id="se-servir-dune-carte-arduino-pour-alimenter-une-platine-dexpérimentation"><a class="header" href="#se-servir-dune-carte-arduino-pour-alimenter-une-platine-dexpérimentation">Se servir d'une carte Arduino pour alimenter une platine d'expérimentation</a></h1>
+<h2 id="pôles-de-la-carte-arduino-nano"><a class="header" href="#pôles-de-la-carte-arduino-nano">Pôles de la carte Arduino Nano</a></h2>
+<p>Sur certains modèles de carte Arduino Nano, le pôle positif (+) n’est malheureusement pas imprimé sur la carte. Cependant, on retrouve dans la documentation des broche que c’est la broche au dessus de l'étiquette «RST». </p>
+<p>Le pôle négatif (-) est indiqué avec l'étiquette «GND» imprimée sur la carte. </p>
+<p><img src="arduino_nano_poles_alimentation.svg" alt="Pôles d'alimentation de la carte Arduino Nano" /></p>
+<h2 id="Étape-1"><a class="header" href="#Étape-1">Étape 1</a></h2>
+<p>Branchez un câble (orange ou rouge) dans la rangée de la broche du positif (+) de la carte Arduino. Ce câble transporte maintenant le positif (+).</p>
+<p>Branchez un câble (brun ou noir) dans la rangée de la broche du négatif (-) de la carte Arduino. Ce câble transporte maintenant le négatif (-)</p>
+<p><img src="alimentation_platine_experimentation_1.svg" alt="Étape 1 de l'alimentation de la platine d'expérimentation" /></p>
+<h2 id="Étape-2"><a class="header" href="#Étape-2">Étape 2</a></h2>
+<p>Brancher le câble qui transporte le positif (+) dans la colonne + rouge de la platine d’expérimentation.</p>
+<p>Brancher le câble qui transporte le négatif (-) dans la conne – bleue de la platine d’expérimentation.</p>
+<p><img src="alimentation_platine_experimentation_2.svg" alt="Étape 2 de l'alimentation de la platine d'expérimentation" /></p>
+<h2 id="Étape-3"><a class="header" href="#Étape-3">Étape 3</a></h2>
+<p>Reliez les deux autres colonnes de la patine d'expériementation.</p>
+<p><img src="alimentation_platine_experimentation_3.svg" alt="Étape 3 de l'alimentation de la platine d'expérimentation" /></p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="grandeurs_electriques.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="symboles_alimentation.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
-                            <a rel="next" href="symboles_alimentation.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="erreurs_fatales.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         <div style="clear: both"></div>
@@ -180,10 +196,10 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="grandeurs_electriques.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="symboles_alimentation.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
-                    <a rel="next" href="symboles_alimentation.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="erreurs_fatales.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
