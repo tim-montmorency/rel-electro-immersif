@@ -259,6 +259,7 @@ La valeur de la résistance se mesure en ohms (Ω) et elle est déterminée par 
 <p>Un schéma de circuit représente sous une forme plus précise les connexions des composants d’un circuit.</p>
 <p>Le schéma et l’image ci-bas montrent tous les deux comment allumer une DEL avec une résistance et une batterie 9V. </p>
 <p><img src="alimenter_del_avec_une_batterie.svg" alt="Schéma et image d'une DEL alimentée par une batterie" /></p>
+<p><img src="alimenter_del/alimenter_del_batterie_9v.gif" alt="Animation de l'alimentation d'une DEL par une batterie" /></p>
 <h2 id="identification-de-lalimentation"><a class="header" href="#identification-de-lalimentation">Identification de l'alimentation</a></h2>
 <p><img src="alimenter_del_avec_une_batterie_alimentation.svg" alt="L'alimentation dans le schéma et l'image" /></p>
 <h2 id="identification-de-la-résistance"><a class="header" href="#identification-de-la-résistance">Identification de la résistance</a></h2>
@@ -268,20 +269,24 @@ La valeur de la résistance se mesure en ohms (Ω) et elle est déterminée par 
 <h1 id="alimenter-une-del-avec-la-platine-dexpérimentation"><a class="header" href="#alimenter-une-del-avec-la-platine-dexpérimentation">Alimenter une DEL avec la platine d'expérimentation</a></h1>
 <p>Portez attention à la longueur des pattes de la DEL. Une patte est plus longue que l’autre. Une DEL ne s’allume que si elle est branchée dans le bon sens. </p>
 <p><img src="del_longueur_pattes.svg" alt="Anode, cathode et longueur des pattes" /></p>
-<p><img src="alimenter_del_circuit.svg" alt="Circuit pour alimenter une DEL" /></p>
+<p><img src="alimenter_del/alimenter_del_schema.svg" alt="Circuit pour alimenter une DEL" /></p>
+<p><img src="alimenter_del/alimenter_del_schema_avec_images.svg" alt="Identification des composantes" /></p>
+<p><img src="alimenter_del/alimenter_del_circuit_bb.svg" alt="Une disposition possible sur la platine d'expérimentation" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="multimètre-continuité"><a class="header" href="#multimètre-continuité">Multimètre: continuité</a></h1>
 <p><a href="https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/all#continuity">Mesurer la continuité avec un multimètre</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="multimètre-mesure-de-résistance"><a class="header" href="#multimètre-mesure-de-résistance">Multimètre: mesure de résistance</a></h1>
 <p><a href="https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/all#measuring-resistance">Mesurer la résistance avec un multimètre</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="configuration-de-la-carte-arduino-nano"><a class="header" href="#configuration-de-la-carte-arduino-nano">Configuration de la carte Arduino Nano</a></h1>
-<h2 id="installer-le-pilote"><a class="header" href="#installer-le-pilote">Installer le pilote</a></h2>
+<h2 id="installer-le-pilote-de-la-carte-arduino-nano"><a class="header" href="#installer-le-pilote-de-la-carte-arduino-nano">Installer le pilote de la carte Arduino Nano</a></h2>
 <ul>
 <li><a href="https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all">Sparkfun : How to Install CH340 Drivers</a></li>
 </ul>
-<h2 id="identifier-le-porte-de-la-carte"><a class="header" href="#identifier-le-porte-de-la-carte">Identifier le porte de la carte</a></h2>
-<p><img src="arduino-ide_configuration_nano/Slide1.SVG" alt="..." /></p>
-<h2 id="configurer-le-logiciel-arduino"><a class="header" href="#configurer-le-logiciel-arduino">Configurer le logiciel Arduino</a></h2>
-<p><img src="arduino-ide_configuration_nano/Slide3.SVG" alt="..." /></p>
+<h2 id="identifier-le-port-de-la-carte-arduino-nano"><a class="header" href="#identifier-le-port-de-la-carte-arduino-nano">Identifier le port de la carte Arduino Nano</a></h2>
+<p><img src="arduino-ide_configuration_nano/Slide1.SVG" alt="Procédure pour identifier le port de la carte Arduino" /></p>
+<h2 id="configurer-le-logiciel-arduino-pour-la-carte-arduino-nano"><a class="header" href="#configurer-le-logiciel-arduino-pour-la-carte-arduino-nano">Configurer le logiciel Arduino pour la carte Arduino Nano</a></h2>
+<p><img src="arduino-ide_configuration_nano/configuration1.svg" alt="Brancher la carte à l’ordinateur et choisir le port trouvé à l’étape précédent" /></p>
+<p><img src="arduino-ide_configuration_nano/configuration2.svg" alt="Choisir le modèle de carte «Arduino Nano»" /></p>
+<p><img src="arduino-ide_configuration_nano/configuration3.svg" alt="Choisir le vieux Bootloader" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="blink-le-code-test-universel"><a class="header" href="#blink-le-code-test-universel">Blink: le code test universel</a></h1>
 <p><img src="arduino-ide_test_blink/Slide1.SVG" alt="..." /></p>
 <p><img src="arduino-ide_test_blink/Slide2.SVG" alt="..." /></p>
@@ -291,8 +296,6 @@ La valeur de la résistance se mesure en ohms (Ω) et elle est déterminée par 
 <ul>
 <li><a href="https://www.arduino.cc/reference/en/">Référence Arduino</a></li>
 </ul>
-<h2 id="déroulement-du-programme"><a class="header" href="#déroulement-du-programme">Déroulement du programme</a></h2>
-<p><img src="arduino_code/Slide1.SVG" alt="..." /></p>
 <h2 id="code-minimal"><a class="header" href="#code-minimal">Code minimal</a></h2>
 <pre><code class="language-cpp">
 // VARIABLE GLOBALES
@@ -307,7 +310,17 @@ void loop() {
 
 }
 </code></pre>
-<p><img src="arduino_code/Slide2.SVG" alt="..." /></p>
+<p>Nous retrouvons deux fonctions dans le code minimal :</p>
+<ul>
+<li>setup()</li>
+<li>loop()</li>
+</ul>
+<h3 id="setup"><a class="header" href="#setup">setup()</a></h3>
+<p>La fonction setup() est appelée une seule fois lorsque le programme commence. C'est pourquoi c'est dans cette fonction que l'on va écrire le code qui n'a besoin d'être exécuté qu’une seule fois. C'est une  fonction d'initialisation. On y retrouvera la mise en place des différentes sorties et quelques autres réglages.</p>
+<h3 id="loop"><a class="header" href="#loop">loop()</a></h3>
+<p>Une fois que l'on a initialisé le programme, il faut ensuite créer le «cœur» du programme, autrement dit le programme en lui même. C'est dans la fonction loop() que l’on va écrire le contenu du programme. Il faut savoir que cettefonction est appelée en permanence, c'est-à-dire qu'elle est exécutée une fois, puis lorsque son exécution est terminée, on la réexécute, encore et encore. On parle de boucle infinie!</p>
+<h2 id="déroulement-du-programme"><a class="header" href="#déroulement-du-programme">Déroulement du programme</a></h2>
+<p><img src="arduino_code/Slide1.SVG" alt="..." /></p>
 <h2 id="les-instructions"><a class="header" href="#les-instructions">Les instructions</a></h2>
 <p><img src="arduino_code/Slide3.SVG" alt="..." /></p>
 <h2 id="variables-de-base"><a class="header" href="#variables-de-base">Variables de base</a></h2>
@@ -321,9 +334,32 @@ void loop() {
 <h2 id="bien-coder"><a class="header" href="#bien-coder">Bien coder</a></h2>
 <p><a href="https://fr.flossmanuals.net/arduino/comment-bien-structurer-son-code/">FLOSS Manuals: Comment-Bien-Structurer-Son-Code / Arduino</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="contrôler-une-del"><a class="header" href="#contrôler-une-del">Contrôler une DEL</a></h1>
-<p><img src="arduino_exemple_del/Slide1.SVG" alt="..." /></p>
-<p><img src="arduino_exemple_del/Slide2.SVG" alt="..." /></p>
-<p><img src="arduino_exemple_del/Slide3.SVG" alt="..." /></p>
+<h2 id="segment-de-circuit"><a class="header" href="#segment-de-circuit">Segment de circuit</a></h2>
+<p><img src="arduino_exemple_del/Slide1.SVG" alt="Segment de circuit pour contrôler une DEL" /></p>
+<h2 id="circuit-complet"><a class="header" href="#circuit-complet">Circuit complet</a></h2>
+<p><img src="arduino_exemple_del/Slide2.SVG" alt="Circuit complet pour contrôler une DEL" /></p>
+<h3 id="comparaison-avec-le-circuit-dalimentation-simple"><a class="header" href="#comparaison-avec-le-circuit-dalimentation-simple">Comparaison avec le circuit d'alimentation simple</a></h3>
+<p><img src="arduino_exemple_del/Slide3.SVG" alt="Comparaison du circuit d'alimentation simple à gauche avec celui de contrôle à droite" /></p>
+<h2 id="fonctions-pertinentes"><a class="header" href="#fonctions-pertinentes">Fonctions pertinentes</a></h2>
+<p><img src="arduino_code/pinModeOutput.svg" alt="Configuer la broche # en tant que sortie numérique" /></p>
+<p><img src="arduino_code/digitalWriteHigh.svg" alt="Activer 5V à la broche #" /></p>
+<p><img src="arduino_code/digitalWriteLow.svg" alt="Activer 0V à la broche #" /></p>
+<h2 id="fonction-additionnelle"><a class="header" href="#fonction-additionnelle">Fonction additionnelle</a></h2>
+<p><img src="arduino_code/delay.svg" alt="Bloquer/Arrêter le code pour un certains nombre de millisecondes" /></p>
+<h2 id="code-complet"><a class="header" href="#code-complet">Code complet</a></h2>
+<pre><code class="language-cpp">const int sortieNumeriqueDel = 3;
+
+void setup() {
+  pinMode(sortieNumeriqueDel, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(sortieNumeriqueDel, HIGH);  
+  delay(1000);               
+  digitalWrite(sortieNumeriqueDel, LOW);    
+  delay(1000);              
+}
+</code></pre>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="bouton-darcade"><a class="header" href="#bouton-darcade">Bouton d'arcade</a></h1>
 <h2 id="référence-du-produit"><a class="header" href="#référence-du-produit">Référence du produit</a></h2>
 <p><a href="https://www.adafruit.com/product/3489">Arcade Button with LED - 30mm Translucent Red : ID 3489 : $2.50 : Adafruit Industries, Unique &amp; fun DIY electronics and kits</a></p>

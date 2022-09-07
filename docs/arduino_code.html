@@ -141,8 +141,6 @@
 <ul>
 <li><a href="https://www.arduino.cc/reference/en/">Référence Arduino</a></li>
 </ul>
-<h2 id="déroulement-du-programme"><a class="header" href="#déroulement-du-programme">Déroulement du programme</a></h2>
-<p><img src="arduino_code/Slide1.SVG" alt="..." /></p>
 <h2 id="code-minimal"><a class="header" href="#code-minimal">Code minimal</a></h2>
 <pre><code class="language-cpp">
 // VARIABLE GLOBALES
@@ -157,7 +155,17 @@ void loop() {
 
 }
 </code></pre>
-<p><img src="arduino_code/Slide2.SVG" alt="..." /></p>
+<p>Nous retrouvons deux fonctions dans le code minimal :</p>
+<ul>
+<li>setup()</li>
+<li>loop()</li>
+</ul>
+<h3 id="setup"><a class="header" href="#setup">setup()</a></h3>
+<p>La fonction setup() est appelée une seule fois lorsque le programme commence. C'est pourquoi c'est dans cette fonction que l'on va écrire le code qui n'a besoin d'être exécuté qu’une seule fois. C'est une  fonction d'initialisation. On y retrouvera la mise en place des différentes sorties et quelques autres réglages.</p>
+<h3 id="loop"><a class="header" href="#loop">loop()</a></h3>
+<p>Une fois que l'on a initialisé le programme, il faut ensuite créer le «cœur» du programme, autrement dit le programme en lui même. C'est dans la fonction loop() que l’on va écrire le contenu du programme. Il faut savoir que cettefonction est appelée en permanence, c'est-à-dire qu'elle est exécutée une fois, puis lorsque son exécution est terminée, on la réexécute, encore et encore. On parle de boucle infinie!</p>
+<h2 id="déroulement-du-programme"><a class="header" href="#déroulement-du-programme">Déroulement du programme</a></h2>
+<p><img src="arduino_code/Slide1.SVG" alt="..." /></p>
 <h2 id="les-instructions"><a class="header" href="#les-instructions">Les instructions</a></h2>
 <p><img src="arduino_code/Slide3.SVG" alt="..." /></p>
 <h2 id="variables-de-base"><a class="header" href="#variables-de-base">Variables de base</a></h2>

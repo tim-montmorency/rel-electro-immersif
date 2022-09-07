@@ -6,6 +6,7 @@ Le schéma et l’image ci-bas montrent tous les deux comment allumer une DEL av
 
 ![Schéma et image d'une DEL alimentée par une batterie](alimenter_del_avec_une_batterie.svg)
 
+![Animation de l'alimentation d'une DEL par une batterie](alimenter_del/alimenter_del_batterie_9v.gif)
 
 ## Identification de l'alimentation
 
@@ -27,4 +28,8 @@ Portez attention à la longueur des pattes de la DEL. Une patte est plus longue 
 ![Anode, cathode et longueur des pattes](del_longueur_pattes.svg)
 
 
-![Circuit pour alimenter une DEL](alimenter_del_circuit.svg)
+![Circuit pour alimenter une DEL](alimenter_del/alimenter_del_schema.svg)
+
+![Identification des composantes](alimenter_del/alimenter_del_schema_avec_images.svg)
+
+![Une disposition possible sur la platine d'expérimentation](alimenter_del/alimenter_del_circuit_bb.svg)

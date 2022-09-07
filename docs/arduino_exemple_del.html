@@ -137,9 +137,32 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="contrôler-une-del"><a class="header" href="#contrôler-une-del">Contrôler une DEL</a></h1>
-<p><img src="arduino_exemple_del/Slide1.SVG" alt="..." /></p>
-<p><img src="arduino_exemple_del/Slide2.SVG" alt="..." /></p>
-<p><img src="arduino_exemple_del/Slide3.SVG" alt="..." /></p>
+<h2 id="segment-de-circuit"><a class="header" href="#segment-de-circuit">Segment de circuit</a></h2>
+<p><img src="arduino_exemple_del/Slide1.SVG" alt="Segment de circuit pour contrôler une DEL" /></p>
+<h2 id="circuit-complet"><a class="header" href="#circuit-complet">Circuit complet</a></h2>
+<p><img src="arduino_exemple_del/Slide2.SVG" alt="Circuit complet pour contrôler une DEL" /></p>
+<h3 id="comparaison-avec-le-circuit-dalimentation-simple"><a class="header" href="#comparaison-avec-le-circuit-dalimentation-simple">Comparaison avec le circuit d'alimentation simple</a></h3>
+<p><img src="arduino_exemple_del/Slide3.SVG" alt="Comparaison du circuit d'alimentation simple à gauche avec celui de contrôle à droite" /></p>
+<h2 id="fonctions-pertinentes"><a class="header" href="#fonctions-pertinentes">Fonctions pertinentes</a></h2>
+<p><img src="arduino_code/pinModeOutput.svg" alt="Configuer la broche # en tant que sortie numérique" /></p>
+<p><img src="arduino_code/digitalWriteHigh.svg" alt="Activer 5V à la broche #" /></p>
+<p><img src="arduino_code/digitalWriteLow.svg" alt="Activer 0V à la broche #" /></p>
+<h2 id="fonction-additionnelle"><a class="header" href="#fonction-additionnelle">Fonction additionnelle</a></h2>
+<p><img src="arduino_code/delay.svg" alt="Bloquer/Arrêter le code pour un certains nombre de millisecondes" /></p>
+<h2 id="code-complet"><a class="header" href="#code-complet">Code complet</a></h2>
+<pre><code class="language-cpp">const int sortieNumeriqueDel = 3;
+
+void setup() {
+  pinMode(sortieNumeriqueDel, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(sortieNumeriqueDel, HIGH);  
+  delay(1000);               
+  digitalWrite(sortieNumeriqueDel, LOW);    
+  delay(1000);              
+}
+</code></pre>
 
                     </main>
 
