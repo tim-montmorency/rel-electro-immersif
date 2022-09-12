@@ -8,7 +8,7 @@
 
 ![Nettoyeur de pointe](./micro-soudure/micro-soudure_nettoyeur_pointe.svg)
 
-![Pompe à désouder](./micro-soudure/micro-soudure_pompe.svg)
+![Pompe à dessouder](./micro-soudure/micro-soudure_pompe.svg)
 
 ## Tutoriels
 
