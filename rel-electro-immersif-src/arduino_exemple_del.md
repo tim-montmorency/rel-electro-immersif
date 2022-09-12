@@ -1,5 +1,8 @@
 # Contrôler une DEL
 
+![Fiche synthèse pour allumer une DEL](arduino_exemple_del/arduino_allumer_del_resume.svg)
+
+
 ## Segment de circuit
 
 ![Segment de circuit pour contrôler une DEL](arduino_exemple_del/Slide1.SVG)

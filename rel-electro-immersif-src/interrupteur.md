@@ -1,5 +1,6 @@
 # Interrupteur
 
+![Fiche synthèse pour l'interrupteur](interrupteur/interrupteur_resume.svg)
 
 ## Bouton poussoir
 

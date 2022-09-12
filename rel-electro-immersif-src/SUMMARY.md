@@ -5,7 +5,7 @@
 # Électricité
 - [Courant et alimentation](./electricite.md)
 - [Grandeurs électriques](./grandeurs_electriques.md)
-- [Symboles d'alimentation](./symboles_alimentation.md)
+- [Schémas de circuit](./schemas_circuit.md)
 
 # Électronique
 - [Platine d'expérimentation](./platine_experimentation.md)
@@ -14,8 +14,7 @@
 - [Résistance](./resistance.md)
 - [Alimenter une DEL](./alimenter_del.md)
 - [Micro-soudure](./micro-soudure.md)
-- [Multimètre: continuité](./multimetre_continuite.md)
-- [Multimètre: résistance](./multimetre_resistance.md)
+- [Multimètre](./multimetre.md)
 
 # Arduino
 - [Modèles de cartes](./arduino_cartes.md)
