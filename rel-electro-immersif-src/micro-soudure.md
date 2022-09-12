@@ -4,11 +4,17 @@
 
 ![Fer à souder](./micro-soudure/micro-soudure_fer.svg)
 
-![Bobine de soudure](./micro-soudure/micro-soudure_bobine.svg)
+![Bobine de soudure d'étain](./micro-soudure/micro-soudure_bobine.svg)
 
 ![Nettoyeur de pointe](./micro-soudure/micro-soudure_nettoyeur_pointe.svg)
 
 ![Pompe à dessouder](./micro-soudure/micro-soudure_pompe.svg)
+
+![Pince à dénuder](./micro-soudure/micro-soudure_pince_denuder.svg)
+
+![Pince à couper latérale de précision](./micro-soudure/micro-soudure_pince_laterale.svg)
+
+![Pince à long bec](./micro-soudure/micro-soudure_pince_long_bec.svg)
 
 ## Tutoriels
 
