@@ -1,24 +1,59 @@
 # Summary
 
-- [Introduction](./introduction.md)
-# L'électricité
+[Introduction](./introduction.md)
+
+# Électricité
 - [Courant et alimentation](./electricite.md)
 - [Grandeurs électriques](./grandeurs_electriques.md)
 - [Symboles d'alimentation](./symboles_alimentation.md)
-# Premier circuit
+
+# Électronique
 - [Platine d'expérimentation](./platine_experimentation.md)
 - [Erreurs fatales](./erreurs_fatales.md)
 - [DEL](./del.md)
 - [Résistance](./resistance.md)
 - [Alimenter une DEL](./alimenter_del.md)
-# Multimètre
+- [Micro-soudure](./micro-soudure.md)
 - [Multimètre: continuité](./multimetre_continuite.md)
-- [Multimètre: mesure de résistance](./multimetre_resistance.md)
-# Introduction à Arduino
-- [Configuration Arduino Nano](./arduino-ide_configuration_nano.md)
+- [Multimètre: résistance](./multimetre_resistance.md)
+
+# Arduino
+- [Modèles de cartes](./arduino_cartes.md)
+- [Arduino Nano](./arduino_nano.md)
 - [Blink: le code test universel](./arduino-ide_test_blink.md)
 - [Le code Arduino](./arduino_code.md)
-- [Contrôler une DEL](./arduino_exemple_del.md)
-# Transducteurs
-- [Bouton d'arcade](./bouton_arcade.md)
-- [Potentiomètre](./potentiometre.md)
+
+# Numérique
+- [Sortie numérique](./sortie_numerique.md)
+   - [Contrôler une DEL](./arduino_exemple_del.md)
+- [Entrée numérique](./entree_numerique.md)
+   - [Interrupteur](./interrupteur.md)
+   - [Bouton d'arcade](./bouton_arcade.md)
+   - [Élimination du rebondissement]()
+
+# Communication 
+- [ASCII sériel]()
+- [Intervalle de temps]()
+- [Détecter un changement de valeur]()
+- [OSC + MicroOsc]()
+   - [SLIP OSC + SlipOSCBridge]()
+   - [Cycling '74 Max]()
+   - [VCV Rack]()
+   - [Unity]()
+   - [TouchDesigner]()
+   - [Pure Data]()
+   - [WebSocket]()
+
+# Analogique
+- [Entrée analogique]()
+   - [Potentiomètre](./potentiometre.md)
+   - [Photorésistance]()
+- [Sortie analogique]()
+   - [Tamiser une DEL]()
+
+# Éclairage
+- [Bande DEL]()
+   - [Contrôler une bande DEL]()
+
+# Déploiement
+- [Raspberry PI]()
