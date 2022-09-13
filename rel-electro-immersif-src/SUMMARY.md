@@ -21,13 +21,15 @@
 - [Arduino Nano](./arduino_nano.md)
 - [Blink: le code test universel](./arduino-ide_test_blink.md)
 - [Le code Arduino](./arduino_code.md)
+- [Déboguer](./arduino_deboguer.md)
+- [Mesurer le temps](./arduino_millis.md)
 
 # Numérique
 - [Sortie numérique](./sortie_numerique.md)
    - [Contrôler une DEL](./arduino_exemple_del.md)
 - [Entrée numérique](./entree_numerique.md)
    - [Interrupteur](./interrupteur.md)
-   - [Bouton d'arcade](./bouton_arcade.md)
+      - [Bouton d'arcade](./bouton_arcade.md)
    - [Élimination du rebondissement]()
 
 # Communication 
