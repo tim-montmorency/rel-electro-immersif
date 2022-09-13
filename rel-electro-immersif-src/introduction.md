@@ -2,6 +2,8 @@
 
 Ce projet a été créé par Thomas Ouellet Fredericks et Guillaume Arseneault et financé par la [fabrique REL](https://fabriquerel.org/rel/).
 
+C'est une documentation **vivante**.
+
 Technologies utilisées :
 * [mdBook](https://rust-lang.github.io/mdBook/) pour convertir les textes du format Markdown au format HTML.
 * [GitHub Actions](https://docs.github.com/en/actions) pour automatiser le déploiement des fichiers sources au site [tim-montmorency.com/rel-electro-immersif](https://tim-montmorency.com/rel-electro-immersif/).
