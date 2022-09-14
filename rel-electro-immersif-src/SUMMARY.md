@@ -21,7 +21,7 @@
 - [Arduino Nano](./arduino_nano.md)
 - [Blink: le code test universel](./arduino-ide_test_blink.md)
 - [Le code Arduino](./arduino_code.md)
-- [Déboguer](./arduino_deboguer.md)
+- [Déboguer (ASCII sériel)](./arduino_deboguer.md)
 - [Mesurer le temps](./arduino_millis.md)
 
 # Numérique
@@ -29,13 +29,13 @@
    - [Contrôler une DEL](./arduino_exemple_del.md)
 - [Entrée numérique](./entree_numerique.md)
    - [Interrupteur](./interrupteur.md)
+      - [Bouton poussoir](./bouton_poussoir.md)
       - [Bouton d'arcade](./bouton_arcade.md)
    - [Élimination du rebondissement]()
 
-# Communication 
-- [ASCII sériel]()
-- [Intervalle de temps]()
-- [Détecter un changement de valeur]()
+# Communication
+- [Intervalle de temps](./intervalle.md)
+- [Changement de valeur](./changement.md)
 - [OSC + MicroOsc]()
    - [SLIP OSC + SlipOSCBridge]()
    - [Cycling '74 Max]()
