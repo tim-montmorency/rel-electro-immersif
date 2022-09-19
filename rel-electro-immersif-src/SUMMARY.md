@@ -19,6 +19,7 @@
 # Arduino
 - [Modèles de cartes](./arduino_cartes.md)
 - [Arduino Nano](./arduino_nano.md)
+- [Identifier le port de la carte](./arduino_port.md)
 - [Blink: le code test universel](./arduino-ide_test_blink.md)
 - [Le code Arduino](./arduino_code.md)
 - [Déboguer (ASCII sériel)](./arduino_deboguer.md)
