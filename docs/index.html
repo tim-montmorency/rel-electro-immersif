@@ -139,7 +139,18 @@
                         <h1 id="introduction"><a class="header" href="#introduction">Introduction</a></h1>
 <p>Ce projet a été créé par Thomas Ouellet Fredericks et Guillaume Arseneault et financé par la <a href="https://fabriquerel.org/rel/">fabrique REL</a>.</p>
 <p>C'est une documentation <strong>vivante</strong>.</p>
-<p>Technologies utilisées :</p>
+<h2 id="conventions-de-documentation"><a class="header" href="#conventions-de-documentation">Conventions de documentation</a></h2>
+<p>Les noms de variables qui sont destinées à être créées par l'utilisateur doivent être précédés de <em>mon</em> ou <em>ma</em> pour les différencier des noms réservés du langange de programmation.</p>
+<p>Exemples :</p>
+<pre><code class="language-arduino">int maBrocheDel = 10;
+</code></pre>
+<pre><code class="language-arduino">void monTraiterMessage( microOscMessage monMessageOsc ) {
+	...
+}
+</code></pre>
+<pre><code class="language-arduino">MicroOsc monMicroOsc;
+</code></pre>
+<h2 id="technologies-utilisées"><a class="header" href="#technologies-utilisées">Technologies utilisées</a></h2>
 <ul>
 <li><a href="https://rust-lang.github.io/mdBook/">mdBook</a> pour convertir les textes du format Markdown au format HTML.</li>
 <li><a href="https://docs.github.com/en/actions">GitHub Actions</a> pour automatiser le déploiement des fichiers sources au site <a href="https://tim-montmorency.com/rel-electro-immersif/">tim-montmorency.com/rel-electro-immersif</a>.</li>

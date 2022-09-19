@@ -8,7 +8,7 @@
 
 ## Code minimal
 
-```cpp
+```arduino
 
 // VARIABLE GLOBALES
 

@@ -8,7 +8,7 @@ Cette tension peut être réglée à deux niveaux :
 
 Pour régler la tension électrique de sortie d'une broche, nous utilisons la paire de fonctions suivantes :
 1) Configurer la broche `numeroBoche` en mode sortie avec `OUTPUT` :
-```cpp
+```arduino
 pinMode( numeroBoche , OUTPUT );
 ```
 

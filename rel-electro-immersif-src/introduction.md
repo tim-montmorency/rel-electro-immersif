@@ -4,7 +4,29 @@ Ce projet a été créé par Thomas Ouellet Fredericks et Guillaume Arseneault e
 
 C'est une documentation **vivante**.
 
-Technologies utilisées :
+## Conventions de documentation
+
+Les noms de variables qui sont destinées à être créées par l'utilisateur doivent être précédés de *mon* ou *ma* pour les différencier des noms réservés du langange de programmation.
+
+Exemples :
+
+```arduino
+int maBrocheDel = 10;
+```
+
+```arduino
+void monTraiterMessage( microOscMessage monMessageOsc ) {
+	...
+}
+```
+
+```arduino
+MicroOsc monMicroOsc;
+```
+
+## Technologies utilisées
+
+
 * [mdBook](https://rust-lang.github.io/mdBook/) pour convertir les textes du format Markdown au format HTML.
 * [GitHub Actions](https://docs.github.com/en/actions) pour automatiser le déploiement des fichiers sources au site [tim-montmorency.com/rel-electro-immersif](https://tim-montmorency.com/rel-electro-immersif/).
 * Du JavaScript sur mesure pour ajouter automatiquement la description des figures sous celles-ci.
