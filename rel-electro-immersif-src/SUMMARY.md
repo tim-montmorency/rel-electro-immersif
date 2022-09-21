@@ -31,17 +31,19 @@
       - [Bouton poussoir](./bouton_poussoir.md)
       - [Bouton d'arcade](./bouton_arcade.md)
    - [Élimination du rebondissement]()
+- [Contrôle de sortie numérique par entrée numérique](./controle_sortie_num_par_entree_num.md)
 
 # Bases de la communication
 - [Déboguer (ASCII sériel)](./arduino_deboguer.md)
 - [Mesurer le temps](./arduino_millis.md)
 - [Intervalle de temps](./intervalle.md)
 - [Changement de valeur](./changement.md)
+- [Envoi optimal de valeur](./envoie_valeur.md)
 
 # Entrée analogique
 - [Entrée analogique](./entree_analogique.md)
    - [Potentiomètre](./potentiometre.md)
-   - [Photorésistance]()
+   - [Photorésistance](./photoresistance.md)
 - [Sortie analogique]()
    - [Tamiser une DEL]()
 

@@ -4,6 +4,6 @@
 
 ![...](interrupteur/interrupteur_branchement.svg)
 
-![...](interrupteur/interrupteur_programmation.svg)
+
 
 

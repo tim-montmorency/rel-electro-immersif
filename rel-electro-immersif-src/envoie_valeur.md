@@ -1,3 +1,7 @@
+# Envoi optimal de valeur
+
+Le code suivant envoie la valeur seulement si elle change et au maximum à chaque 20 millisecondes:
+```arduino
 int maBrocheEntreeNumerique = 4;
 int maValeurPrecedente; // VALEUR PRÉCÉDENTE DE L'ENTRÉE NUMÉRIQUE
 
@@ -27,3 +31,4 @@ void loop() { // RÉPÉTER LE PLUS VITE POSSIBLE
 
   }
 }
+```

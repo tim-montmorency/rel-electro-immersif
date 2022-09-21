@@ -50,12 +50,15 @@ void setup() { // AU DÉMARRAGE
 }
 
 void loop() { // RÉPÉTER LE PLUS VITE POSSIBLE
-  int maValeurInterrupteur = digitalRead( maBrocheEntreeNumerique ); // LECTURE DE TENSION
+  
 
   unsigned long monChronoEcoule = millis() - monChronoDepart; // TEMPS ÉCOULÉ DE MON CHRONOMÈTRE
   unsigned long monChronoIntervalle = 20; // INTERVALLE DE TEMPS EN MILLISECONDES
   if ( monChronoEcoule >= monChronoIntervalle ) { // SI LE TEMPS ÉCOULÉ DÉPASSE L'INTERVALLE...
     monChronoDepart = millis(); // ...REDÉMARRER LE CHRONOMÈTRE...
+    
+    int maValeurInterrupteur = digitalRead( maBrocheEntreeNumerique ); // LECTURE DE TENSION
+
     Serial.print( maValeurInterrupteur ); // ENVOYER LA VALEUR
     Serial.println();  // TERMINER LE MESSAGE
   }
