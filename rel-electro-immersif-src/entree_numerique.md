@@ -13,7 +13,7 @@ s’effectue sure une échelle à deux niveaux :
 
 En fonction du signal reçu, le microcontrôleur pourra effectuer une tâche prévue (allumer la lumière lorsqu'un capteur de mouvement détecte une présence, par exemple). 
 
-Pour mesurer la tension électrique présente à une broche, nous utilisons la paire de fonctions suivantes :
+Pour effectuer la mesure numérique de la tension électrique présente à une broche, nous utilisons la paire de fonctions suivantes :
 1) Configurer la broche `numeroBoche` en mode entrée avec `INPUT_PULLUP` :
 ```cpp
 pinMode( numeroBoche , INPUT_PULLUP );

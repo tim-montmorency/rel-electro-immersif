@@ -22,8 +22,6 @@
 - [Identifier le port de la carte](./arduino_port.md)
 - [Blink: le code test universel](./arduino-ide_test_blink.md)
 - [Le code Arduino](./arduino_code.md)
-- [Déboguer (ASCII sériel)](./arduino_deboguer.md)
-- [Mesurer le temps](./arduino_millis.md)
 
 # Numérique
 - [Sortie numérique](./sortie_numerique.md)
@@ -34,9 +32,20 @@
       - [Bouton d'arcade](./bouton_arcade.md)
    - [Élimination du rebondissement]()
 
-# Communication
+# Bases de la communication
+- [Déboguer (ASCII sériel)](./arduino_deboguer.md)
+- [Mesurer le temps](./arduino_millis.md)
 - [Intervalle de temps](./intervalle.md)
 - [Changement de valeur](./changement.md)
+
+# Entrée analogique
+- [Entrée analogique](./entree_analogique.md)
+   - [Potentiomètre](./potentiometre.md)
+   - [Photorésistance]()
+- [Sortie analogique]()
+   - [Tamiser une DEL]()
+
+# Communication OSC
 - [OSC + MicroOsc]()
    - [SLIP OSC + SlipOSCBridge]()
    - [Cycling '74 Max]()
@@ -45,13 +54,6 @@
    - [TouchDesigner]()
    - [Pure Data]()
    - [WebSocket]()
-
-# Analogique
-- [Entrée analogique]()
-   - [Potentiomètre](./potentiometre.md)
-   - [Photorésistance]()
-- [Sortie analogique]()
-   - [Tamiser une DEL]()
 
 # Éclairage
 - [Bande DEL]()
