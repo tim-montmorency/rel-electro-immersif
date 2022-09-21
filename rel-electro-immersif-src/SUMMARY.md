@@ -31,7 +31,7 @@
       - [Bouton poussoir](./bouton_poussoir.md)
       - [Bouton d'arcade](./bouton_arcade.md)
    - [Élimination du rebondissement]()
-- [Contrôle de sortie numérique par entrée numérique](./controle_sortie_num_par_entree_num.md)
+- [Entrée numérique vers sortie numérique](./controle_sortie_num_par_entree_num.md)
 
 # Bases de la communication
 - [Déboguer (ASCII sériel)](./arduino_deboguer.md)
@@ -46,6 +46,7 @@
    - [Photorésistance](./photoresistance.md)
 - [Sortie analogique]()
    - [Tamiser une DEL]()
+- [Entrée analogique vers sortie](./controle_sortie_par_entree_analogique.md)
 
 # Communication OSC
 - [OSC + MicroOsc]()
