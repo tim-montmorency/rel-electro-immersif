@@ -1,14 +1,18 @@
 # Ressource éducative libre (REL) sur l'intégration de l'électronique aux espaces immersifs
 
-## Introduction
-
-Ce projet a été initié par Thomas Ouellet Fredericks avec la collaboration de Guillaume Arseneault.
+Ce projet a été initié en 2022 par Thomas Ouellet Fredericks avec la collaboration de Guillaume Arseneault.
 
 Sa réalisation a été rendue possible grâce à un financement de la [fabrique REL](https://fabriquerel.org/rel/).
+
+### Licence
+
+[Ressource éducative libre (REL) sur l'intégration de l'électronique aux espaces immersifs](https://tim-montmorency.com/rel-electro-immersif/), sous la responsabilité de [Thomas O Fredericks](http://t-o-f.info), est partagée sous la licence [Attribution - Pas d’Utilisation Commerciale 4.0](creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1)
+![CC BY NC](./cc_by_nc.png)
 
 ## REL vivante
 
 Ce site Web est une ressource éducative libre **vivante**. C'est à dire qu'elle a été conçue pour grandir et évoluer de façon continue.
+
 
 ## Conventions de documentation
 
