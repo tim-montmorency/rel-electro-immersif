@@ -2,9 +2,13 @@
 
 ## Introduction
 
-Ce projet a été initié par Thomas Ouellet Fredericks. Il a été rendu possible par un financement de la [fabrique REL](https://fabriquerel.org/rel/).
+Ce projet a été initié par Thomas Ouellet Fredericks avec la collaboration de Guillaume Arseneault.
 
-C'est une documentation **vivante**.
+Sa réalisation a été rendue possible grâce à un financement de la [fabrique REL](https://fabriquerel.org/rel/).
+
+## REL vivante
+
+Ce site Web est une ressource éducative libre **vivante**. C'est à dire qu'elle a été conçue pour grandir et évoluer de façon continue.
 
 ## Conventions de documentation
 
@@ -26,7 +30,7 @@ void monTraiterMessage( microOscMessage monMessageOsc ) {
 MicroOsc monMicroOsc;
 ```
 
-## Technologies utilisées
+## Technologies utilisées pour la réalisation de cette ressource
 
 
 * [mdBook](https://rust-lang.github.io/mdBook/) pour convertir les textes du format Markdown au format HTML.
