@@ -1,4 +1,6 @@
-# Introduction
+# Ressource éducative libre (REL) sur l'intégration de l'électronique aux espaces immersifs
+
+## Crédits
 
 Ce projet a été créé par Thomas Ouellet Fredericks et Guillaume Arseneault et financé par la [fabrique REL](https://fabriquerel.org/rel/).
 
