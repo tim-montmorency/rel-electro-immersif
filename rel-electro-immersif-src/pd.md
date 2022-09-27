@@ -1,8 +1,8 @@
 # Pure Data
 
-## OSC SLIP
+## Réception et envoi d'OSC SLIP dans Pure Data
 
-### Instalaltion d'OSC SLIP
+### Installation des objets pour l'OSC SLIP
 
 Pour faire fonctionner l'OSC SLIP il est nécessaire d'ajouter des collections d'objets à Pure Data:
 * mrpeach
@@ -23,10 +23,21 @@ Pour faire fonctionner l'OSC SLIP il est nécessaire d'ajouter des collections d
 
 ![Installation de comport réussie](./pd/pd_installation_comport_reussie.svg)
 
-### OSC SLIP <-> MIDI
+
+### Relais de messages OSC SLIP <-> UDP
+
+[![osc_slip_relay_udp.pd](./pd/pd_osc_slip_relay_udp.svg)](./pd/osc_slip_relay_udp.pd)	
+
+
+### Relais de messages OSC SLIP <-> MIDI
 
 #### Configuration MIDI
 
 ![Ouvrir les paramètres MIDI](./pd/pd_ouvrir_parametres_midi.svg)
 
 ![Configuration MIDI pour l'utilisation de loopMIDI](./pd/pd_configurer_midi_loopmidi.svg)
+
+[![Exemple osc_slip_midi.pd](./pd/pd_osc_slip_midi.svg)](./pd/osc_slip_midi.pd)
+
+
+![Exemple d'envoi et de réception du MIDI dans VCV Rack](./pd/pd_osc_slip_midi_vcv_rack.svg)

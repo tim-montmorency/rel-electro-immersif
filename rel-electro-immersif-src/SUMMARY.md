@@ -50,12 +50,13 @@
 
 # Communication OSC
 - [OSC + MicroOsc]()
-   - [SLIP OSC + SlipOSCBridge]()
+   - [OSC SLIP](./arduino_osc_slip.md)
+   - [Pure Data](./pd.md)
    - [Cycling '74 Max]()
    - [VCV Rack]()
    - [Unity]()
    - [TouchDesigner]()
-   - [Pure Data](./pd.md)
+   
    - [WebSocket]()
 
 # Éclairage
