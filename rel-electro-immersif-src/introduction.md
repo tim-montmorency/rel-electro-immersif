@@ -34,6 +34,15 @@ void monTraiterMessage( microOscMessage monMessageOsc ) {
 MicroOsc monMicroOsc;
 ```
 
+## Références 
+
+* SparkFun
+* [Arduino à l'école 2022 (PDF)](./pdf/arduino_a_l_ecole-2022.pdf)
+* [Le blog d'Eskimon](https://eskimon.fr/)
+* [Arduino : premiers pas en informatique embarquée • Tutoriels • Zeste de Savoir](https://zestedesavoir.com/tutoriels/686/arduino-premiers-pas-en-informatique-embarquee/)
+* [SOUDER C'EST FACILE (PDF)](./pdf/bd_soudure.pdf)
+* [The Illustrated Arduino de 16Hz (PDF)](./pdf/16hz_the_illustrated_arduino.pdf)
+
 ## Technologies utilisées pour la réalisation de cette ressource
 
 

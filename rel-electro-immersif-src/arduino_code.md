@@ -1,9 +1,9 @@
 # Le code Arduino
 
-## Référence Arduino
+## Références
 
-* [Référence Arduino](https://www.arduino.cc/reference/en/)
-
+* [Référence Arduino sur Arduino.cc](https://www.arduino.cc/reference/en/)
+* [Arduino Programming Notebook de Bryan W Evans (2017) en version PDF](./pdf/arduino_programming_notebook-bryan_w_evans.pdf)
 
 
 ## Code minimal
