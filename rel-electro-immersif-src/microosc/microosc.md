@@ -10,4 +10,4 @@
 
 ## Documentation
 
-La documentation (en anglais) se trouve sur le GitHub de la bibliothèque : https://github.com/thomasfredericks/MicroOsc
+La documentation (en anglais) se trouve sur le [GitHub de la bibliothèque MicroOsc](https://github.com/thomasfredericks/MicroOsc).
