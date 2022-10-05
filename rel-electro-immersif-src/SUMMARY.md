@@ -49,15 +49,17 @@
 - [Entrée analogique->sortie](./controle_sortie_par_entree_analogique.md)
 
 # Communication OSC
-- [OSC + MicroOsc]()
+- [OSC](./osc/osc.md)
    - [OSC SLIP](./arduino_osc_slip.md)
-   - [Pure Data](./pd.md)
-   - [Cycling '74 Max]()
-   - [VCV Rack]()
-   - [Unity]()
-   - [TouchDesigner]()
-   
-   - [WebSocket]()
+      - [OSC SLIP avec Pure Data](./pd/osc_slip.md)
+      - [Relais UDP avec Pure Data](./pd/relais_osc_slip_udp.md)
+      - [Relais MIDI avec Pure Data](./pd/relais_osc_slip_midi.md)
+   - [OSC avec Pure Data]()
+   - [OSC avec Cycling '74 Max]()
+   - [OSC avec VCV Rack](./vcv_rack/vcv_rack_osc.md)
+   - [OSC avec Unity]()
+   - [OSC avec TouchDesigner]()
+   - [OSC avec WebSocket]()
 
 # Éclairage
 - [Bande DEL]()
