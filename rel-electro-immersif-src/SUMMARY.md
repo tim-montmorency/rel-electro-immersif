@@ -50,6 +50,7 @@
 
 # Communication OSC
 - [OSC](./osc/osc.md)
+   - [MicroOsc](./microosc/microosc.md)
    - [OSC SLIP](./arduino_osc_slip/arduino_osc_slip.md)
       - [OSC SLIP avec Pure Data](./pd/osc_slip.md)
       - [Relais UDP avec Pure Data](./pd/relais_osc_slip_udp.md)
