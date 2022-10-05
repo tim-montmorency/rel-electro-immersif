@@ -1,6 +1,14 @@
 # OSC SLIP
 
-Code pour Arduino :
+## Connectique
+
+![Schématisation de la chaîne de connectique](./osc_slip_connectique.svg)
+
+## Circuit
+
+![Circuit avec un bouton d'arcade, une photorésistance et un potentiometre](./bouton_arcade_photocell_potentiometre.svg)
+
+## Code pour Arduino
 ```Arduino
 // HARDWARE REQUIREMENTS
 // ==================

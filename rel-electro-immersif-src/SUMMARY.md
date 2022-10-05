@@ -41,19 +41,19 @@
 - [Envoi optimal de valeur](./envoie_valeur.md)
 
 # Entrée analogique
-- [Entrée analogique](./entree_analogique.md)
-   - [Potentiomètre](./potentiometre.md)
-   - [Photorésistance](./photoresistance.md)
+- [Entrée analogique](./entree_analogique/entree_analogique.md)
+   - [Potentiomètre](./potentiometre/potentiometre.md)
+   - [Photorésistance](./photoresistance/photoresistance.md)
 - [Sortie analogique]()
    - [Tamiser une DEL]()
 - [Entrée analogique->sortie](./controle_sortie_par_entree_analogique.md)
 
 # Communication OSC
 - [OSC](./osc/osc.md)
-   - [OSC SLIP](./arduino_osc_slip.md)
+   - [OSC SLIP](./arduino_osc_slip/arduino_osc_slip.md)
       - [OSC SLIP avec Pure Data](./pd/osc_slip.md)
       - [Relais UDP avec Pure Data](./pd/relais_osc_slip_udp.md)
-      - [Relais MIDI avec Pure Data](./pd/relais_osc_slip_midi.md)
+      - [Bonus: relais MIDI avec Pure Data](./pd/relais_osc_slip_midi.md)
    - [OSC avec Pure Data]()
    - [OSC avec Cycling '74 Max]()
    - [OSC avec VCV Rack](./vcv_rack/vcv_rack_osc.md)
