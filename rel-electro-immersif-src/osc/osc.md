@@ -24,7 +24,7 @@ L'OSC fournit également une vérification (primitive) des erreurs de transmissi
 L'OSC ne définit pas la mise en paquet des messages. 
 
 Les deux types de paquets les plus communs sont:
-* **UPD** (le mode par défaut) pour la communication par réseau ou interne de l'ordinateur
+* **UDP** (le mode par défaut) pour la communication par réseau ou interne de l'ordinateur
 * **SLIP** (souvent nommé **OSC SLIP**) pour la communication par série (USB) avec des microcontrôleurs plus vieux
 
 ### Par UDP

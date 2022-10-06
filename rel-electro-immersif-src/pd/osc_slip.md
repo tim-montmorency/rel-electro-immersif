@@ -1,6 +1,6 @@
-# OSC SLIP avec Pure Data
+# OSC SLIP ⇄ OSC UDP avec Pure Data
 
-## Installation des objets pour l'OSC SLIP
+## Installation des objets pour l'OSC SLIP dans Pure Data
 
 Pour faire fonctionner l'OSC SLIP il est nécessaire d'ajouter des collections d'objets à Pure Data:
 * mrpeach
@@ -20,3 +20,8 @@ Pour faire fonctionner l'OSC SLIP il est nécessaire d'ajouter des collections d
 ![Installer comport](./pd_installation_comport.svg)
 
 ![Installation de comport réussie](./pd_installation_comport_reussie.svg)
+
+
+## Patcher pour le relais de messages OSC SLIP ⇄ OSC UDP
+
+[![osc_slip_relay_udp.pd](./pd_osc_slip_relay_udp.svg)](./osc_slip_relay_udp.pd)	

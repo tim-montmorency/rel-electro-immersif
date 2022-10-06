@@ -24,9 +24,9 @@
 - [Le code Arduino](./arduino_code.md)
 
 # Numérique
-- [Sortie numérique](./sortie_numerique.md)
+- [Sortie numérique](./sortie_numerique/sortie_numerique.md)
    - [Contrôler une DEL](./arduino_exemple_del.md)
-- [Entrée numérique](./entree_numerique.md)
+- [Entrée numérique](./entree_numerique/entree_numerique.md)
    - [Interrupteur](./interrupteur.md)
       - [Bouton poussoir](./bouton_poussoir.md)
       - [Bouton d'arcade](./bouton_arcade.md)
@@ -52,15 +52,16 @@
 - [OSC](./osc/osc.md)
    - [MicroOsc](./microosc/microosc.md)
    - [OSC SLIP](./arduino_osc_slip/arduino_osc_slip.md)
-      - [OSC SLIP avec Pure Data](./pd/osc_slip.md)
-      - [Relais UDP avec Pure Data](./pd/relais_osc_slip_udp.md)
-      - [Bonus: relais MIDI avec Pure Data](./pd/relais_osc_slip_midi.md)
-   - [OSC avec Pure Data]()
-   - [OSC avec Cycling '74 Max]()
-   - [OSC avec VCV Rack](./vcv_rack/vcv_rack_osc.md)
-   - [OSC avec Unity]()
-   - [OSC avec TouchDesigner]()
-   - [OSC avec WebSocket]()
+      - [Relais OSC SLIP ⇄ OSC UDP avec Pure Data](./pd/osc_slip.md)
+      - [Relais OSC SLIP ⇄ MIDI avec Pure Data](./pd/relais_osc_slip_midi.md)
+   - [OSC UDP]()
+      - [OSC UDP: Pure Data]()
+      - [OSC UDP: Cycling '74 Max]()
+      - [OSC UDP: VCV Rack](./vcv_rack/vcv_rack_osc.md)
+      - [OSC UDP: Unity]()
+      - [OSC UDP: TouchDesigner]()
+      - [OSC UDP: WebSocket]()
+      
 
 # Éclairage
 - [Bande DEL]()
