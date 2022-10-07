@@ -1,6 +1,12 @@
 # OSC SLIP
 
-## Connectique
+## Scénarios de connectique
+
+### Avec une application qui supporte l'OSC SLIP
+
+![Scénario de connectique à une application qui supporte l'OSC SLIP](./osc_slip_connectique_directe.svg)
+
+### Avec une application qui supporte l'OSC UPD à l'aide d'un relais OSC SLIP ⇄ OSC UDP
 
 ![Schématisation de la chaîne de connectique](./osc_slip_connectique.svg)
 
