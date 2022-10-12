@@ -1,27 +1,31 @@
-# OSC SLIP ⇄ OSC UDP avec Pure Data
+# OSC SLIP dans Pure Data
 
-## Installation des objets pour l'OSC SLIP dans Pure Data
+## Installation de Pure Data
+
+Téléchargez la version appropriée pour votre système ici (si possible la version avec installateur) : [puredata.info/downloads/pure-data](https://puredata.info/downloads/pure-data)
+
+## Installation des objets additionnels pour l'OSC SLIP dans Pure Data
 
 Pour faire fonctionner l'OSC SLIP il est nécessaire d'ajouter des collections d'objets à Pure Data:
 * mrpeach
 * comport
 * cyclone (pas absolument nécessaire mais très utile)
 
-![Ouvrir le menu d'installation des objets supplémentaires](./pd_installer_objets_supplementaires.svg)
+![Ouvrez le menu d'installation des objets supplémentaires](./pd_installer_objets_supplementaires.svg)
 
-![Installer mrpeach](./pd_installer_mrpeach.svg)
+![Installez mrpeach](./pd_installer_mrpeach.svg)
 
-![Installation de mrpeach réussie](./pd_installation_mrpeach_reussie.svg)
+![Installation de mrpeach réussie (notez que parfois le logiciel ne confirme pas l'installation réussie)](./pd_installation_mrpeach_reussie.svg)
 
-![Installer cyclone](./pd_installation_cyclone.svg)
+![Installez cyclone](./pd_installation_cyclone.svg)
 
-![Installation de cyclone réussie](./pd_installation_cyclone_reussie.svg)
+![Installation de cyclone réussie (notez que parfois le logiciel ne confirme pas l'installation réussie)](./pd_installation_cyclone_reussie.svg)
 
-![Installer comport](./pd_installation_comport.svg)
+![Installez comport](./pd_installation_comport.svg)
 
-![Installation de comport réussie](./pd_installation_comport_reussie.svg)
+![Installation de comport réussie (notez que parfois le logiciel ne confirme pas l'installation réussie)](./pd_installation_comport_reussie.svg)
 
+## Patcher pour le traitement de l'OSC SLIP directement dans Pure Data
 
-## Patcher pour le relais de messages OSC SLIP ⇄ OSC UDP
+[![Exemple osc_slip_direct.pd (cliquez pour télécharger)](./osc_slip_direct.png)](./osc_slip_direct.pd)
 
-[![osc_slip_relay_udp.pd](./pd_osc_slip_relay_udp.svg)](./osc_slip_relay_udp.pd)	

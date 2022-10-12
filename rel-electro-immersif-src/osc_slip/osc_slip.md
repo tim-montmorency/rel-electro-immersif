@@ -1,20 +1,11 @@
 # OSC SLIP
 
-## Scénarios de connectique
-
-### Avec une application qui supporte l'OSC SLIP
-
-![Scénario de connectique à une application qui supporte l'OSC SLIP](./osc_slip_connectique_directe.svg)
-
-### Avec une application qui supporte l'OSC UPD à l'aide d'un relais OSC SLIP ⇄ OSC UDP
-
-![Schématisation de la chaîne de connectique](./osc_slip_connectique.svg)
-
-## Circuit
+## Prenons comme exemple le circuit suivant
 
 ![Circuit avec un bouton d'arcade, une photorésistance et un potentiometre](./bouton_arcade_photocell_potentiometre.svg)
 
-## Code pour Arduino
+## Voici le code OSC SLIP pour Arduino
+
 ```Arduino
 // HARDWARE REQUIREMENTS
 // ==================
@@ -94,4 +85,22 @@ void loop() {
   
 }
 ```
+
+
+## Scénarios de connectique
+
+Il existe plusieurs scénarios de connectique possible. Les trois scénarios suivants sont détaillés dans les prochaines pages.
+
+### Avec une application qui supporte directement l'OSC SLIP
+
+![Scénario de connectique à une application qui supporte directement l'OSC SLIP](./osc_slip_connectique_directe.svg)
+
+### Avec une application qui supporte l'OSC UPD à l'aide d'un relais OSC SLIP ⇄ OSC UDP
+
+![Schématisation de la chaîne de connectique OSC SLIP ⇄ OSC UDP](./osc_slip_connectique.svg)
+
+### Avec une application qui supporte le MIDI à l'aide d'un relais OSC SLIP ⇄ MIDI
+
+![Schématisation de la chaîne de connectique OSC SLIP ⇄ MIDI](./osc_slip_connectique_midi.svg)
+
 

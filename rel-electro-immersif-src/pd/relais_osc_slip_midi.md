@@ -1,19 +1,24 @@
-# Relais MIDI avec Pure Data
+# Relais OSC SLIP ⇄ MIDI avec Pure Data
 
-## Installation des objets pour l'OSC SLIP
+Cette section propose une solution pour connecter une carte Arduino qui communique en SLIP avec n'importe quelle application MIDI.
 
-Nous devons avant tout nous assurer que les objets pour l'OSC SLIP sont installés : [OSC SLIP avec Pure Data](./osc_slip.md).
+![Schématisation de la chaîne de connectique OSC SLIP ⇄ MIDI](../osc_slip/osc_slip_connectique_midi.svg)
 
-## Configuration MIDI
+## Prérequis
+
+Cette solution nécessite l'installation de **Pure Data** et d'y ajouter des objets pour l'OSC SLIP : voir la section [OSC SLIP avec Pure Data](./osc_slip.md).
+
+## Configuration MIDI de Pure Data
 
 ![Ouvrir les paramètres MIDI](./pd_ouvrir_parametres_midi.svg)
 
 ![Configuration MIDI pour l'utilisation de loopMIDI](./pd_configurer_midi_loopmidi.svg)
 
-## Relais de messages OSC SLIP <-> MIDI
+## Patcher pour le relais de messages OSC SLIP <-> MIDI
 
-[![Exemple osc_slip_midi.pd](./pd_osc_slip_midi.svg)](./osc_slip_midi.pd)
+[![Exemple osc_slip_midi.pd (cliquez pour télécharger)](./pd_osc_slip_midi.svg)](./osc_slip_midi.pd)
 
+## Exemple d'envoi et de réception du MIDI dans VCV Rack
 
 ![Exemple d'envoi et de réception du MIDI dans VCV Rack](./pd_osc_slip_midi_vcv_rack.svg)
 
