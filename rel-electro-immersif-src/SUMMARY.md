@@ -63,11 +63,15 @@
       - [OSC UDP: Unity]()
       - [OSC UDP: TouchDesigner]()
       - [OSC UDP: WebSocket]()
-      
+
+# Sortie «analogique»
+- [Sortie analogique (PWM: modulation de largeur d'impulsion)](./sortie_analogique/sortie_analogique.md)
+
 
 # Éclairage
-- [Bande DEL]()
-   - [Contrôler une bande DEL]()
+- [Bande de DEL](./bande_del/bande_del.md)
+   - [Pong 1D](./pong_1d/pong_1d.md)
+   - [Contrôler une bande de DEL]()
 
 # Déploiement
 - [Raspberry PI]()
