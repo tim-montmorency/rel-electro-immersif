@@ -13,7 +13,7 @@ Pour faire fonctionner l'OSC SLIP il est nécessaire d'ajouter une collection d'
 
 
 
-## Patcher pour le traitement de l'OSC SLIP directement dans Pure Data
+## Patcher pour le traitement de l'OSC SLIP directement dans Max
 
 [![Exemple osc_slip_direct.maxpat (cliquez pour télécharger)](./osc_slip_direct_max_patcher.png)](./osc_slip_direct.maxpat)
 

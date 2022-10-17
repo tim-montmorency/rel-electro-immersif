@@ -25,8 +25,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="873.92309"
-     inkscape:cy="429.22325"
+     inkscape:cx="641.10546"
+     inkscape:cy="421.29735"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -84,7 +84,7 @@
        style="fill:none;stroke:#ff00e3;stroke-width:1.85208;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2159"
        width="25.418015"
-       height="62.835743"
+       height="41.669075"
        x="-120.77652"
        y="62.478081" />
     <g
@@ -104,7 +104,7 @@
          id="text5494"
          transform="translate(1.3230682,0.42993466)"><tspan
            x="191.94887"
-           y="187.5925"><tspan>1a</tspan></tspan></text>
+           y="187.5925"><tspan>1</tspan></tspan></text>
     </g>
     <g
        id="g2169"
@@ -258,32 +258,13 @@
          r="5.1288457" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:9.38678;display:inline;fill:#fffcfe;fill-opacity:1;stroke:none;stroke-width:2.11667;stroke-linejoin:round"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:20.0776;display:inline;fill:#fffcfe;fill-opacity:1;stroke:none;stroke-width:2.11667;stroke-linejoin:round"
          x="191.94887"
          y="187.5925"
          id="text2293"
          transform="translate(1.3230682,0.42993466)"><tspan
            x="191.94887"
-           y="187.5925"><tspan>1b</tspan></tspan></text>
-    </g>
-    <g
-       id="g2305"
-       transform="translate(-306.13373,-79.673178)">
-      <circle
-         style="fill:#ff0a97;fill-opacity:1;stroke:#fdfdfd;stroke-width:0.325641;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="circle2297"
-         cx="193.00719"
-         cy="185.7404"
-         r="5.1288457" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:9.38678;display:inline;fill:#fffcfe;fill-opacity:1;stroke:none;stroke-width:2.11667;stroke-linejoin:round"
-         x="191.94887"
-         y="187.5925"
-         id="text2303"
-         transform="translate(1.3230682,0.42993466)"><tspan
-           x="191.94887"
-           y="187.5925"><tspan>1c</tspan></tspan></text>
+           y="187.5925"><tspan>1*</tspan></tspan></text>
     </g>
     <g
        id="g2315"
@@ -307,37 +288,34 @@
            y="187.5925"><tspan>9</tspan></tspan></text>
     </g>
     <rect
-       style="fill:#ff00e3;fill-opacity:1;stroke-width:0.79375;stroke-dasharray:0.79375, 0.79375"
+       style="fill:#ff0a97;fill-opacity:1;stroke-width:0.79375;stroke-dasharray:0.79375, 0.79374999999999996"
        id="rect914"
        width="44.064068"
        height="37.419643"
-       x="-164.49156"
-       y="76.421539" />
+       x="-5.7415619"
+       y="85.11499" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;white-space:pre;inline-size:44.3307;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="-128.83302"
        y="52.420048"
        id="text912"
-       transform="translate(-13.607143,33.261905)"><tspan
+       transform="translate(145.14286,41.955357)"><tspan
          x="-128.83302"
-         y="52.420048"><tspan
-           style="font-size:5.64444px;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583">Répéter la</tspan><tspan
+         y="52.420048"><tspan>Répéter la</tspan><tspan></tspan><tspan
            y="52.420048"> </tspan></tspan><tspan
          x="-128.83302"
          y="59.475597"><tspan
-           style="font-size:5.64444px;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583">configuration</tspan><tspan
+           style="font-size:5.64444px;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583">configuration</tspan><tspan></tspan><tspan
            y="59.475597"> </tspan></tspan><tspan
          x="-128.83302"
-         y="66.531147"><tspan
-           style="font-size:5.64444px;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583">de droite pour</tspan><tspan
-           y="66.531147"> </tspan></tspan><tspan
+         y="66.531147"><tspan>pour /pot et 
+</tspan></tspan><tspan
          x="-128.83302"
-         y="73.586696"><tspan
-           style="font-size:5.64444px;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583">les trois</tspan></tspan></text>
+         y="73.586696"><tspan>/photo</tspan></tspan></text>
     <path
        d="m 17.231441,123.85754 v 6.14312 H 7.9710242 v 7.37054 h 9.2604168 v 6.14111 l 9.260415,-9.82738 z"
        id="path1738"
-       style="fill:#ff00e3;fill-opacity:1;stroke-width:0.264583" />
+       style="fill:#ff0a97;fill-opacity:1;stroke-width:0.264583" />
   </g>
 </svg>

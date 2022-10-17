@@ -23,7 +23,9 @@ Redémarrez VCV Rack et vous devriez trouver **cvOSCcv** dans la liste des modul
 
 ![Configurer les adresses des messages](./cvosccv_adresses.svg)
 
-![Configuration de la réception de messages](./cvosccv_configurer_reception_messages.svg)
+![Configuration de la réception de messages analogiques](./cvosccv_configurer_reception_messages.svg)
+
+![Configuration de la réception du messages numérique](./cvosccv_configurer_reception_message_numerique.svg)
 
 ![Configuration de l'envoi de messages](./cvosccv_configurer_envoi_messages.svg)
 
