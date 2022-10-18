@@ -23,49 +23,54 @@
 - [Blink: le code test universel](./arduino-ide_test_blink.md)
 - [Le code Arduino](./arduino_code.md)
 
-# Numérique
-- [Sortie numérique](./sortie_numerique/sortie_numerique.md)
-   - [Contrôler une DEL](./arduino_exemple_del.md)
-- [Entrée numérique](./entree_numerique/entree_numerique.md)
-   - [Interrupteur](./interrupteur.md)
-      - [Bouton poussoir](./bouton_poussoir.md)
-      - [Bouton d'arcade](./bouton_arcade.md)
+# Bases de la communication
+- [Déboguage série ASCII](./arduino_deboguer.md)
+- [Mesurer le temps](./arduino_millis.md)
+
+# Sortie numérique
+- [Les sorties numériques](./sortie_numerique/sortie_numerique.md)
+- [Contrôler une DEL](./arduino_exemple_del.md)
+
+# Entrée numérique
+- [Les entrées numériques](./entree_numerique/entree_numerique.md)
+- [Interrupteur](./interrupteur.md)
+   - [Bouton poussoir](./bouton_poussoir.md)
+   - [Bouton d'arcade](./bouton_arcade.md)
    - [Élimination du rebondissement]()
 - [Entrée->sortie numériques](./controle_sortie_num_par_entree_num.md)
 
-# Bases de la communication
-- [Déboguer (ASCII sériel)](./arduino_deboguer.md)
-- [Mesurer le temps](./arduino_millis.md)
+# Optimiser la communication
 - [Intervalle de temps](./intervalle.md)
 - [Changement de valeur](./changement.md)
 - [Envoi optimal de valeur](./envoie_valeur.md)
 
 # Entrée analogique
-- [Entrée analogique](./entree_analogique/entree_analogique.md)
-   - [Potentiomètre](./potentiometre/potentiometre.md)
-   - [Photorésistance](./photoresistance/photoresistance.md)
-- [Sortie analogique]()
-   - [Tamiser une DEL]()
+- [Les entrées analogiques](./entree_analogique/entree_analogique.md)
+- [Potentiomètre](./potentiometre/potentiometre.md)
+- [Photorésistance](./photoresistance/photoresistance.md)
 - [Entrée analogique->sortie](./controle_sortie_par_entree_analogique.md)
 
 # Communication OSC
-- [OSC](./osc/osc.md)
-   - [MicroOsc](./microosc/microosc.md)
-   - [OSC SLIP](./osc_slip/osc_slip.md)
-      - [OSC SLIP avec Pure Data](./pd/osc_slip.md)
-         - [Relais OSC SLIP ⇄ OSC UDP avec Pure Data](./pd/relais_osc_slip_udp.md)
-         - [Relais OSC SLIP ⇄ MIDI avec Pure Data](./pd/relais_osc_slip_midi.md)
-      - [OSC SLIP avec Max](./max/max_osc_slip.md)   
-   - [OSC UDP]()
-      - [OSC UDP: Pure Data]()
-      - [OSC UDP: Cycling '74 Max]()
-      - [OSC UDP: VCV Rack](./vcv_rack/vcv_rack_osc.md)
-      - [OSC UDP: Unity]()
-      - [OSC UDP: TouchDesigner]()
-      - [OSC UDP: WebSocket]()
+- [Open Sound Control (OSC)](./osc/osc.md)
+- [MicroOsc](./microosc/microosc.md)
 
-# Sortie «analogique»
-- [Sortie analogique (PWM: modulation de largeur d'impulsion)](./sortie_analogique/sortie_analogique.md)
+# OSC SLIP
+- [OSC SLIP avec MicroOsc](./osc_slip/osc_slip.md)
+- [OSC SLIP avec Pure Data](./pd/osc_slip.md)
+   - [Relais OSC UDP avec PD](./pd/relais_osc_slip_udp.md)
+   - [Relais MIDI avec PD](./pd/relais_osc_slip_midi.md)
+- [OSC SLIP avec Max](./max/max_osc_slip.md)
+# OSC UDP
+- [OSC UDP avec MicroOsc]()
+- [OSC UDP: Pure Data]()
+- [OSC UDP: Cycling '74 Max]()
+- [OSC UDP: VCV Rack](./vcv_rack/vcv_rack_osc.md)
+- [OSC UDP: Unity]()
+- [OSC UDP: TouchDesigner]()
+- [OSC UDP: WebSocket]()
+
+# Sortie analogique
+- [Les sorties analogiques](./sortie_analogique/sortie_analogique.md)
 
 
 # Éclairage

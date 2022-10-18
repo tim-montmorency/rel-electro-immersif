@@ -1,44 +1,3 @@
-# Pong 1D (Pong à une dimension)
-
-## Qu'est-ce que Pong (2D)?
-
-* [Data Driven Gamer: Pong (Atari, 1972 arcade, 60fps) - YouTube](https://www.youtube.com/watch?v=CKzWAxMfZRA)
-* [Atari Pong Table Electromechanical Game Debut @ IAAPA 2017 (Calinfer / UNIS) - YouTube](https://www.youtube.com/watch?v=84Ymt9BAq5s)
-* [Let's Play - The PainStation - YouTube](https://www.youtube.com/watch?v=6bm7fLcj5UI)
-
-## Exemple de jeu de Pong 1D
-
-Ce projet est basé sur [DIY Arduino 1D Pong Game with WS2812 LED Strip](https://create.arduino.cc/projecthub/mircemk/diy-arduino-1d-pong-game-with-ws2812-led-strip-a2418b). Le code original a été écrit par B.Stultiens en 2015. La version présentée ici a été légèrement modifiée pour en régler un bogue et pour en retirrer le code audio.
-
-Le projet nécessite:
-* 1 bande de DEL d'au moins 32 pixels
-* la bibliothèque NeoPixel pour contrôler la bande de DEL
-* 2 interrupteurs pour démarrer et frapper la balle
-* *Optionnel*: 2 autres interrupteurs peuvent être ajoutés pour activer des bonus de jeu
-
-### Installation de la bibliothèque Adafruit NeoPixel
-
-![Installation de la bibliothèque Adafruit NeoPixel](./arduino_bibliotheque_installation_neopixel.svg)
-
-
-### Le circuit
-
-![Circuit minimal du Pong 1D](./pong_1d.svg)
-
-### Le code
-
-N'oubliez pas de modifier la configuration matérielle pour qu'elle corresponde à votre circuit:
-* **PIN_WSDATA**: Le numéro de la broche Arduino reliée à la broche DI de la bande de DEL
-* **NPIXELS**: Le nombre de pixels dans botre bande de DEL
-* **PIN_BUT_RS**: Le numéro de la broche Arduino reliée au bouton de droite
-* **PIN_BUT_LS**: Le numéro de la broche Arduino reliée au bouton de gauche
-* **ZONE_SIZE**: La taille des buts
-* **TIME_SPEED_MIN**: La vitesse de la balle
-
-
-
-
-```arduino
 /*
    Arduino 1D Pong Game with (60) WS2812B LEDs
 
@@ -60,11 +19,11 @@ N'oubliez pas de modifier la configuration matérielle pour qu'elle corresponde 
 #include "Adafruit_NeoPixel.h"
 
 // HARDWARE CONFIGURATION
-#define PIN_WSDATA		10		// LED strip data in pin
+#define PIN_WSDATA    10    // LED strip data in pin
 #define NPIXELS      64    // Number of pixels to handle
 
-#define PIN_BUT_RS		3		// Right start/hit button pin
-#define PIN_BUT_LS		2		// Left start/hit button pin
+#define PIN_BUT_RS    3   // Right start/hit button pin
+#define PIN_BUT_LS    2   // Left start/hit button pin
 
 #define PIN_BUT_RP    4   // Optionnal right power-up button
 #define PIN_BUT_LP    6   // Optionnal left power-up button
@@ -73,10 +32,10 @@ N'oubliez pas de modifier la configuration matérielle pour qu'elle corresponde 
 #define TIME_SPEED_MIN    10
 
 // ZONE AND WIN CONFIGURATION
-#define ZONE_SIZE		7		// Bounce-back zone size
+#define ZONE_SIZE   7   // Bounce-back zone size
 #define WIN_POINTS    10    // Points needed to win
-#define SHOW_LO			12		// Score dots intensity background
-#define SHOW_HI			48		// Score dots intensity foreground
+#define SHOW_LO     12    // Score dots intensity background
+#define SHOW_HI     48    // Score dots intensity foreground
 
 
 #define NELEM(x)    (sizeof(x) / sizeof((x)[0]))
@@ -84,23 +43,23 @@ N'oubliez pas de modifier la configuration matérielle pour qu'elle corresponde 
 Adafruit_NeoPixel one_d = Adafruit_NeoPixel(NPIXELS, PIN_WSDATA, NEO_GRB | NEO_KHZ800);
 
 // Events from buttons and timers
-#define EV_BUT_LS_PRESS		0x01
-#define EV_BUT_RS_PRESS		0x02
-#define EV_BUT_LP_PRESS		0x04
-#define EV_BUT_RP_PRESS		0x08
-#define EV_TIMER		0x10
-#define EV_TIMEOUT		0x20
+#define EV_BUT_LS_PRESS   0x01
+#define EV_BUT_RS_PRESS   0x02
+#define EV_BUT_LP_PRESS   0x04
+#define EV_BUT_RP_PRESS   0x08
+#define EV_TIMER    0x10
+#define EV_TIMEOUT    0x20
 
 
-#define TIME_DEBOUNCE		8
-#define TIME_IDLE		40
-#define TIME_START_TIMEOUT	20000		// Go idle if nothing happens
-#define TIME_RESUME_TIMEOUT	7500		// Auto-fire after timeout
-#define TIME_BALL_BLINK		150
-#define TIME_SPEED_INTERVAL	3
-#define TIME_POINT_BLINK	233
-#define TIME_WIN_BLINK		85
-#define TIME_LOCKOUT		250		// Prevent fast button-press to max. 4 times/s
+#define TIME_DEBOUNCE   8
+#define TIME_IDLE   40
+#define TIME_START_TIMEOUT  20000   // Go idle if nothing happens
+#define TIME_RESUME_TIMEOUT 7500    // Auto-fire after timeout
+#define TIME_BALL_BLINK   150
+#define TIME_SPEED_INTERVAL 3
+#define TIME_POINT_BLINK  233
+#define TIME_WIN_BLINK    85
+#define TIME_LOCKOUT    250   // Prevent fast button-press to max. 4 times/s
 
 
 
@@ -120,36 +79,36 @@ enum {
   ST_WIN_R,
 };
 
-static uint32_t oldtime;	// Previous' loop millis() value
-static uint8_t thestate;	// Game state
+static uint32_t oldtime;  // Previous' loop millis() value
+static uint8_t thestate;  // Game state
 
-static uint8_t bstate_ls;	// Button states
+static uint8_t bstate_ls; // Button states
 static uint8_t bstate_rs;
 static uint8_t bstate_lp;
 static uint8_t bstate_rp;
-static uint8_t debtmr_ls;	// Button debounce timers
+static uint8_t debtmr_ls; // Button debounce timers
 static uint8_t debtmr_rs;
 static uint8_t debtmr_lp;
 static uint8_t debtmr_rp;
-static uint16_t timer;		// General timer
-static uint16_t timeout;	// Timeout timer (auto-start and goto idle)
+static uint16_t timer;    // General timer
+static uint16_t timeout;  // Timeout timer (auto-start and goto idle)
 
-static uint16_t lockout_l;	// Lockout timer to prevent pushing too often
+static uint16_t lockout_l;  // Lockout timer to prevent pushing too often
 static uint16_t lockout_r;
-static uint8_t ballblinkstate;	// Blinking ball at edge on/off
-static uint8_t pointblinkcount;	// Blinking point when a side scores
-static uint8_t ballpos;		// Current position of the ball
-static uint16_t speed;		// Time between ball moves
-static uint8_t speedup;		// Faster and faster replies counter
-static uint8_t points_l;	// Score
+static uint8_t ballblinkstate;  // Blinking ball at edge on/off
+static uint8_t pointblinkcount; // Blinking point when a side scores
+static uint8_t ballpos;   // Current position of the ball
+static uint16_t speed;    // Time between ball moves
+static uint8_t speedup;   // Faster and faster replies counter
+static uint8_t points_l;  // Score
 static uint8_t points_r;
-static uint8_t zone_l;		// Hit back zone
+static uint8_t zone_l;    // Hit back zone
 static uint8_t zone_r;
-static uint8_t boost_l;		// Set if user boosted speed last round
+static uint8_t boost_l;   // Set if user boosted speed last round
 static uint8_t boost_r;
-static uint8_t boosted;		// Set if any user boosted until the ball reaches opposite side
+static uint8_t boosted;   // Set if any user boosted until the ball reaches opposite side
 
-static uint8_t tuneidx;		// Index to the running tune
+static uint8_t tuneidx;   // Index to the running tune
 
 /*
    Return the current state of a button.
@@ -158,10 +117,10 @@ static uint8_t tuneidx;		// Index to the running tune
 static inline uint8_t button_is_down(uint8_t pin)
 {
   switch (pin) {
-    case PIN_BUT_LS:	return !debtmr_ls && !bstate_ls;
-    case PIN_BUT_RS:	return !debtmr_rs && !bstate_rs;
-    case PIN_BUT_LP:	return !debtmr_lp && !bstate_lp;
-    case PIN_BUT_RP:	return !debtmr_rp && !bstate_rp;
+    case PIN_BUT_LS:  return !debtmr_ls && !bstate_ls;
+    case PIN_BUT_RS:  return !debtmr_rs && !bstate_rs;
+    case PIN_BUT_LP:  return !debtmr_lp && !bstate_lp;
+    case PIN_BUT_RP:  return !debtmr_rp && !bstate_rp;
   }
   return 0;
 }
@@ -180,7 +139,7 @@ static inline uint8_t do_debounce(uint8_t tdiff, uint8_t *bstate, uint8_t *debtm
     if (state != *bstate) {
       *debtmr = TIME_DEBOUNCE;
       if (!(*bstate = state))
-        return ev;	// Event on High-to-Low transition of input
+        return ev;  // Event on High-to-Low transition of input
       // else
       //  return release_event_value
     }
@@ -200,7 +159,7 @@ static inline uint8_t do_timer(uint8_t tdiff, uint16_t *tmr, uint8_t ev)
 {
   if (0 != *tmr) {
     if (*tmr >= tdiff)
-      *tmr -= tdiff;	// Timer countdown
+      *tmr -= tdiff;  // Timer countdown
     else
       *tmr = 0;
     // Set event when done counting
@@ -274,7 +233,7 @@ static void animate_idle_init(void)
   ai_state = 0;
 }
 
-#define H_STEPS	1542
+#define H_STEPS 1542
 
 static void animate_idle(void)
 {
@@ -406,13 +365,13 @@ static uint8_t animate_win(uint8_t side)
 static uint8_t is_game_state(uint8_t s)
 {
   switch (s) {
-    case ST_MOVE_LR:	// If you press too soon
+    case ST_MOVE_LR:  // If you press too soon
     case ST_MOVE_RL:
-    case ST_ZONE_R:		// In the zone
+    case ST_ZONE_R:   // In the zone
     case ST_ZONE_L:
-    case ST_POINT_L:	// Just got a point, delay resume
+    case ST_POINT_L:  // Just got a point, delay resume
     case ST_POINT_R:
-    case ST_WIN_R:		// Delay to activate the win sequence
+    case ST_WIN_R:    // Delay to activate the win sequence
     case ST_WIN_L:
       return 1;
     default:
@@ -559,7 +518,7 @@ static void set_state(uint8_t newstate)
 */
 void setup()
 {
-  PORTB = PORTC = PORTD = 0xff;	// Enable all pull-ups so we don't have undef inputs hanging
+  PORTB = PORTC = PORTD = 0xff; // Enable all pull-ups so we don't have undef inputs hanging
 
   pinMode(PIN_BUT_LS, INPUT_PULLUP);
   pinMode(PIN_BUT_RS, INPUT_PULLUP);
@@ -567,11 +526,11 @@ void setup()
   pinMode(PIN_BUT_RP, INPUT_PULLUP);
 
 
-  one_d.begin();		// Setup IO
-  one_d.show();		// All leds off
+  one_d.begin();    // Setup IO
+  one_d.show();   // All leds off
 
   thestate = ST_IDLE;
-  set_state(ST_IDLE);	// To run both exit and entry actions
+  set_state(ST_IDLE); // To run both exit and entry actions
 
   /*
      Setup sound hardware with Timer1 manually. The disabled interrupts
@@ -580,7 +539,7 @@ void setup()
   */
   TCCR1A = 0;
   TCCR1B = _BV(WGM12) | _BV(CS10);
-  OCR1A = 13;	// Just a value
+  OCR1A = 13; // Just a value
   TCNT1 = 0;
 }
 
@@ -590,7 +549,7 @@ void setup()
    - Handle timing and generate events
    - Run the game's state machine
 */
-#define chk_ev(ev)	(events & (ev))
+#define chk_ev(ev)  (events & (ev))
 
 void loop()
 {
@@ -851,5 +810,3 @@ void loop()
 
 
 }
-
-```
