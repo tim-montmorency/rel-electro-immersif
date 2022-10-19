@@ -27,28 +27,28 @@
 - [Déboguage série ASCII](./arduino_deboguer.md)
 - [Mesurer le temps](./arduino_millis.md)
 
-# Sortie numérique
-- [Les sorties numériques](./sortie_numerique/sortie_numerique.md)
+# Les sorties numériques
+- [Sortie numérique](./sortie_numerique/sortie_numerique.md)
 - [Contrôler une DEL](./arduino_exemple_del.md)
 
-# Entrée numérique
-- [Les entrées numériques](./entree_numerique/entree_numerique.md)
+# Les entrées numériques
+- [Entrée numérique](./entree_numerique/entree_numerique.md)
 - [Interrupteur](./interrupteur.md)
    - [Bouton poussoir](./bouton_poussoir.md)
    - [Bouton d'arcade](./bouton_arcade.md)
    - [Élimination du rebondissement]()
-- [Entrée->sortie numériques](./controle_sortie_num_par_entree_num.md)
+- [Exemples](./controle_sortie_num_par_entree_num.md)
 
 # Optimiser la communication
 - [Intervalle de temps](./intervalle.md)
 - [Changement de valeur](./changement.md)
 - [Envoi optimal de valeur](./envoie_valeur.md)
 
-# Entrée analogique
-- [Les entrées analogiques](./entree_analogique/entree_analogique.md)
+# Les entrées analogiques
+- [Entrée analogique](./entree_analogique/entree_analogique.md)
 - [Potentiomètre](./potentiometre/potentiometre.md)
 - [Photorésistance](./photoresistance/photoresistance.md)
-- [Entrée analogique->sortie](./controle_sortie_par_entree_analogique.md)
+- [Exemples](./controle_sortie_par_entree_analogique.md)
 
 # Communication OSC
 - [Open Sound Control (OSC)](./osc/osc.md)
@@ -69,14 +69,17 @@
 - [OSC UDP: TouchDesigner]()
 - [OSC UDP: WebSocket]()
 
-# Sortie analogique
-- [Les sorties analogiques](./sortie_analogique/sortie_analogique.md)
+# Les sorties analogiques
+- [Sortie analogique](./sortie_analogique/sortie_analogique.md)
+- [Exemples]()
+   - [Chandelle](./chandelle/chandelle.md)
 
 
-# Éclairage
+# Les bandes de DEL
 - [Bande de DEL](./bande_del/bande_del.md)
+- [Exemples]()
    - [Pong 1D](./pong_1d/pong_1d.md)
-   - [Contrôler une bande de DEL]()
+- [Contrôler une bande de DEL par OSC]()
 
 # Déploiement
 - [Raspberry PI]()

@@ -14,7 +14,9 @@ Le projet nécessite:
 * 1 bande de DEL d'au moins 32 pixels
 * la bibliothèque NeoPixel pour contrôler la bande de DEL
 * 2 interrupteurs pour démarrer et frapper la balle
-* *Optionnel*: 2 autres interrupteurs peuvent être ajoutés pour activer des bonus de jeu
+* *Optionnel*: 2 autres interrupteurs peuvent être ajoutés pour permettre l'activation des bonus de jeu
+
+Une simulation peut être testée en ligne ici : [https://pi-pico.preview.wokwi.com/arduino/projects/345886566467502674](https://pi-pico.preview.wokwi.com/arduino/projects/345886566467502674)
 
 ### Installation de la bibliothèque Adafruit NeoPixel
 
