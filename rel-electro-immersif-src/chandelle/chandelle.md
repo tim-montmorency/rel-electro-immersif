@@ -11,7 +11,7 @@ Exemple d'utilisation de `random()`:
 ```arduino
 int monMin = 0;
 int monMax = 255;
-int maValeurAleatoire = random( monMix , monMax );
+int maValeurAleatoire = random( monMin , monMax );
 ```
 
 
@@ -30,5 +30,25 @@ int maValeurAleatoire = random( monMix , monMax );
 
 ## Code
 ```arduino
+int maBrocheDel = 9;
 
+unsigned long monChrono;
+
+void setup() {
+  pinMode(maBrocheDel, OUTPUT);
+}
+
+void loop() {
+
+  if ( millis() - monChrono >= 20 ) {
+    monChrono = millis();
+
+    int monMin = 0;
+    int monMax = 256;
+    int maValeurAleatoire = random( monMin , monMax );
+
+    analogWrite(maBrocheDel, maValeurAleatoire);
+
+  }
+}
 ```

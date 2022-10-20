@@ -1,13 +1,21 @@
-int ledPin = 9;
+int maBrocheDel = 9;
+
+unsigned long monChrono;
 
 void setup() {
-  // put your setup code here, to run once:
-  pinMode(3,OUTPUT);
+  pinMode(maBrocheDel, OUTPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  int pwm = random(256);
-  analogWrite(3, pwm);
-  delay(20);
+
+  if ( millis() - monChrono >= 20 ) {
+    monChrono = millis();
+
+    int monMin = 0;
+    int monMax = 256;
+    int maValeurAleatoire = random( monMin , monMax );
+
+    analogWrite(maBrocheDel, maValeurAleatoire);
+
+  }
 }

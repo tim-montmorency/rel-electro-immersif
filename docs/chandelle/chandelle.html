@@ -143,7 +143,7 @@
 <p>Exemple d'utilisation de <code>random()</code>:</p>
 <pre><code class="language-arduino">int monMin = 0;
 int monMax = 255;
-int maValeurAleatoire = random( monMix , monMax );
+int maValeurAleatoire = random( monMin , monMax );
 </code></pre>
 <h2 id="circuit"><a class="header" href="#circuit">Circuit</a></h2>
 <h3 id="composants"><a class="header" href="#composants">Composants</a></h3>
@@ -159,7 +159,27 @@ int maValeurAleatoire = random( monMix , monMax );
 <h3 id="schéma"><a class="header" href="#schéma">Schéma</a></h3>
 <p><img src="./debogage_sortie_analogique.png" alt="Une DEL branchée à une sortie analogique de l'Arduino" /></p>
 <h2 id="code"><a class="header" href="#code">Code</a></h2>
-<pre><code class="language-arduino">
+<pre><code class="language-arduino">int maBrocheDel = 9;
+
+unsigned long monChrono;
+
+void setup() {
+  pinMode(maBrocheDel, OUTPUT);
+}
+
+void loop() {
+
+  if ( millis() - monChrono &gt;= 20 ) {
+    monChrono = millis();
+
+    int monMin = 0;
+    int monMax = 256;
+    int maValeurAleatoire = random( monMin , monMax );
+
+    analogWrite(maBrocheDel, maValeurAleatoire);
+
+  }
+}
 </code></pre>
 
                     </main>
