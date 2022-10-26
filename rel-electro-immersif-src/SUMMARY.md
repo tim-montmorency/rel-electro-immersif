@@ -66,7 +66,7 @@
 - [OSC UDP: Pure Data]()
 - [OSC UDP: Cycling '74 Max]()
 - [OSC UDP: VCV Rack](./vcv_rack/vcv_rack_osc.md)
-- [OSC UDP: Unity]()
+- [OSC UDP: Unity](./osc_udp_unity/osc_udp_unity.md)
 - [OSC UDP: TouchDesigner]()
 - [OSC UDP: Web]()
 
