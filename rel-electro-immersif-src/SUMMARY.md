@@ -67,13 +67,12 @@
 - [OSC UDP: VCV Rack](./vcv_rack/vcv_rack_osc.md)
 - [OSC UDP: Unity]()
 - [OSC UDP: TouchDesigner]()
-- [OSC UDP: WebSocket]()
+- [OSC UDP: Web](./web/web.md)
 
 # Les sorties analogiques
 - [Sortie analogique](./sortie_analogique/sortie_analogique.md)
 - [Exemples]()
    - [Chandelle](./chandelle/chandelle.md)
-
 
 # Les bandes de DEL
 - [Bande de DEL](./bande_del/bande_del.md)
