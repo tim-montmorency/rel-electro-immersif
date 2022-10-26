@@ -4,9 +4,13 @@
 
 ![Circuit avec un bouton d'arcade, une photorésistance et un potentiometre](./bouton_arcade_photocell_potentiometre.svg)
 
-## Voici le code OSC SLIP pour Arduino
+## Code OSC SLIP avec MicroOsc
 
 ```Arduino
+// MicroOscSlip_demo
+// by Thomas O Fredericks
+// 2022-10-26
+
 // HARDWARE REQUIREMENTS
 // ==================
 // Potentiometer connected to analog pin A0

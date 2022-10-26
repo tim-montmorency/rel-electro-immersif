@@ -60,6 +60,7 @@
    - [Relais OSC UDP avec PD](./pd/relais_osc_slip_udp.md)
    - [Relais MIDI avec PD](./pd/relais_osc_slip_midi.md)
 - [OSC SLIP avec Max](./max/max_osc_slip.md)
+- [OSC SLIP Web](./osc_slip_web/osc_slip_web.md)
 # OSC UDP
 - [OSC UDP avec MicroOsc]()
 - [OSC UDP: Pure Data]()
@@ -67,7 +68,7 @@
 - [OSC UDP: VCV Rack](./vcv_rack/vcv_rack_osc.md)
 - [OSC UDP: Unity]()
 - [OSC UDP: TouchDesigner]()
-- [OSC UDP: Web](./web/web.md)
+- [OSC UDP: Web]()
 
 # Les sorties analogiques
 - [Sortie analogique](./sortie_analogique/sortie_analogique.md)
