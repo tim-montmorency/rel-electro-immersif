@@ -62,24 +62,22 @@
 - [OSC SLIP avec Max](./max/max_osc_slip.md)
 - [OSC SLIP Web](./osc_slip_web/osc_slip_web.md)
 # OSC UDP
-- [OSC UDP avec MicroOsc]()
+- [OSC UDP avec MicroOsc](./osc_udp/osc_udp.md)
 - [OSC UDP: Pure Data]()
 - [OSC UDP: Cycling '74 Max]()
 - [OSC UDP: VCV Rack](./vcv_rack/vcv_rack_osc.md)
 - [OSC UDP: Unity](./osc_udp_unity/osc_udp_unity.md)
 - [OSC UDP: TouchDesigner]()
 - [OSC UDP: Web]()
-
 # Les sorties analogiques
 - [Sortie analogique](./sortie_analogique/sortie_analogique.md)
 - [Exemples]()
    - [Chandelle](./chandelle/chandelle.md)
-
 # Les bandes de DEL
 - [Bande de DEL](./bande_del/bande_del.md)
 - [Exemples]()
    - [Pong 1D](./pong_1d/pong_1d.md)
-- [Contrôler une bande de DEL par OSC]()
-
+   - [Contrôle par OSC](./bande_del_osc/bande_del_osc.md)
+   
 # Déploiement
 - [Raspberry PI]()

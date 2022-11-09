@@ -1,11 +1,17 @@
 # OSC UDP: Unity
 
-## Relais SLIP à UDP avec Pure Data
+## Préalables
+
+Pour envoyer de l'OSC UDP à Unity, vous pouvez l'une des solutions suivantes :
+* **de préférence** un microcontrôleur avec une connexion WiFI ou Ethernet qui peut communiquer en UDP ; dans ce cas, utilisez [MicroOsc UDP](../osc_udp/osc_udp.md)
+* **sinon** un microcontrôleur avec une connexion série ; dans ce cas, utilisez [MicroOsc SLIP](../osc_slip/osc_slip.md) ainsi qu'un logiciel permettant de faire le relais SLIP à UDP
+
+### Relais SLIP à UDP avec Pure Data pour [MicroOsc SLIP](../osc_slip/osc_slip.md)
 
 ![Shéma illustrant le relais SLIP à UDP avec Pure Data](osc_slip_pd_udp_unity.svg)
 
-* Circuit et code Arduino : [OSC SLIP avec MicroOsc](./osc_slip/osc_slip.md)
-* Code Pure Data : [Relais OSC UDP avec PD](./pd/relais_osc_slip_udp.md)
+* Circuit et code Arduino : [OSC SLIP avec MicroOsc](../osc_slip/osc_slip.md)
+* Code Pure Data : [Relais OSC UDP avec PD](../pd/relais_osc_slip_udp.md)
 
 ## Installation d'OSCJackVS dans Unity
 
