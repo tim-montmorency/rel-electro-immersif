@@ -33,7 +33,13 @@ Pour chaque modèle de bande de DEL, les couleurs sont disposées dans un certai
 
 ## Branchement
 
+![Attention, les bandes de DEL ont un sens: connectez vous du côté du DI (Data Input) et non du DO!](./bande_del_sens.svg)
+
 ![Alimentez la bande de DEL avec l’alimentation 12v](./Diapositive5.SVG)
+
+![Peu-importe le modèle, la connectique est similaire](./bande_del_connectique.svg)
+
+![Les bandes peuvent être allongées en connectant les DO aux DI des bandes suivantes](./bande_del_extension.svg)
 
 ### Bonnes pratiques
 
