@@ -2120,7 +2120,11 @@ void loop()
 </code></pre>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="contrôler-une-bande-de-del-par-osc"><a class="header" href="#contrôler-une-bande-de-del-par-osc">Contrôler une bande de DEL par OSC</a></h1>
 <h2 id="préalables-1"><a class="header" href="#préalables-1">Préalables</a></h2>
-<p>Installer les bilbiothèques nécessaires et brancher la bande de DEL tel qu'indiqués dans la section <a href="bande_del_osc/../bande_del/bande_del.html">Bande de DEL</a></p>
+<ul>
+<li>Alimentation d'une bande de DEL (30 pixels) avec la broche <em>Data Input(DI)</em> branchée à la broche 4 de l'Arduino; voir la section <a href="bande_del_osc/../bande_del/bande_del.html">Bande de DEL</a></li>
+<li>Installation de la bibliothèque de contrôle de DEL : Adafruit NeoPixel</li>
+<li>Installation de la bibliothèque de communication : MicroOsc</li>
+</ul>
 <h2 id="code-arduino"><a class="header" href="#code-arduino">Code Arduino</a></h2>
 <pre><code class="language-Arduino">// MicroOsc_NeoPixel_SLIP
 // by Thomas O Fredericks

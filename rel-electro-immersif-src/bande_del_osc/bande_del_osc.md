@@ -2,7 +2,9 @@
 
 ## Préalables
 
-Installer les bilbiothèques nécessaires et brancher la bande de DEL tel qu'indiqués dans la section [Bande de DEL](../bande_del/bande_del.md)
+* Alimentation d'une bande de DEL (30 pixels) avec la broche *Data Input(DI)* branchée à la broche 4 de l'Arduino; voir la section [Bande de DEL](../bande_del/bande_del.md)
+* Installation de la bibliothèque de contrôle de DEL : Adafruit NeoPixel
+* Installation de la bibliothèque de communication : MicroOsc
 
 ## Code Arduino
 
