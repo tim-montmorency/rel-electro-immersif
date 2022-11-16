@@ -9,14 +9,14 @@ Pour **simuler** cette variation de tension, nous utilisons la modulation de lar
 ![Simulation de variation de tension à l'aide de modulation de largeur d'impulsion](./Diapositive2.SVG)
 
 Pour effectuer une sortie analogique, nous utilisons la paire de fonctions suivantes :
-1) Configurer la broche `maBrochePWM` en mode sortie avec `OUTPUT` :
+1) Configurer la broche `maBroche` en mode sortie avec `OUTPUT` :
 ```arduino
-pinMode( maBrochePWM , OUTPUT );
+pinMode( maBroche , OUTPUT );
 ```
-2) Contrôler la modulation de largeur d'impulsion, qui est entre 0 et 255, de la broche `maBrochePWM` avec `analogWrite()` :
+2) Contrôler la modulation de largeur d'impulsion, qui est entre 0 et 255, de la broche `maBroche` avec `analogWrite()` :
 ```arduino
 int maValeurPWM = 255; // VALEUR ENTRE 0 et 255
-analogWrite( maBrochePWM, maValeurPWM );
+analogWrite( maBroche, maValeurPWM );
 ```
 
 
@@ -32,30 +32,30 @@ Les broches capables de supporter modulation de largeur d'impulsions sont identi
 Le code suivant permet de déboguer la sortie nummérique à l'aide d'une DEL branchée à la broche 9. À chaque 30 millisecondes, la largeur d'impulsion est augmentée de 5. Lorsque la valeur dépasse 255, elle retombe à 0.
 
 ```arduino
-int maBrochePWM = 9;
-int maValeurPWM = 0;
+int maDelBroche = 9;
+int maDelPWM = 0;
 
 unsigned long monChrono;
 
 void setup() {
   Serial.begin(115200);
   
-  pinMode( maBrochePWM , OUTPUT);
+  pinMode( maDelBroche , OUTPUT);
 }
 
 void loop() {
   if ( millis() - monChrono >= 30 ) {
     monChrono = millis();
     
-    maValeurPWM = maValeurPWM + 5;
-    if ( maValeurPWM > 255 ) maValeurPWM = 0;
+    maDelPWM = maDelPWM + 5;
+    if ( maDelPWM > 255 ) maDelPWM = 0;
 
-    analogWrite( maBrochePWM , maValeurPWM );
+    analogWrite( maDelBroche , maDelPWM );
 
     Serial.print("analogWrite(");
-    Serial.print(maBrochePWM);
+    Serial.print(maDelBroche);
     Serial.print(",");
-    Serial.print(maValeurPWM);
+    Serial.print(maDelPWM);
     Serial.print(")");
     Serial.println();
   }

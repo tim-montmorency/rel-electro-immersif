@@ -6,7 +6,7 @@
 * Installation de la bibliothèque de contrôle de DEL : Adafruit NeoPixel
 * Installation de la bibliothèque de communication : MicroOsc
 
-## Code Arduino
+## Arduino : code 
 
 ```Arduino
 // MicroOsc_NeoPixel_SLIP
@@ -87,8 +87,12 @@ void loop() {
 }
 ```
 
-## Code de contrôle
+## Contrôle d'animation de la band de DEL
 
-### Par Max
+### À partir d'une image (matrice) générative dans Max
 
 [![Cliquez pour télécharger le patcher MicroOsc_NeoPixel_Slip.maxpat](./MicroOsc_NeoPixel_Slip.png)](./MicroOsc_NeoPixel_Slip.maxpat)
+
+### À partir de la conversion brute du signal audio dans Max
+
+[![Cliquez pour télécharger le patcher MicroOsc_NeoPixel_Audio_Slip.maxpat](./MicroOsc_NeoPixel_Audio_Slip.png)](./MicroOsc_NeoPixel_Audio_Slip.maxpat)

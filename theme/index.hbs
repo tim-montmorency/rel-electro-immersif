@@ -339,6 +339,7 @@
                         console.log('lightbox opened');
                     });
           </script>
+
           <script type="text/javascript">
               function altTextToImageCaption() {
                   let imgs = document.getElementsByTagName('img');
@@ -355,6 +356,21 @@
                   }
                 }
                 altTextToImageCaption();
+
+                function externalLinksOpenBlank() {
+                    var anchorEls = document.querySelectorAll('a');
+                    var anchorElsLength = anchorEls.length;
+
+                    for (var i = 0; i < anchorElsLength; i++) {
+                        var anchorEl = anchorEls[i];
+                        var href = anchorEl.getAttribute('href');
+
+                        if (href.startsWith("http",0)) {
+                          anchorEl.setAttribute('target', '_blank');
+                        }
+                    }
+                }
+                externalLinksOpenBlank();
           </script>
 
     </body>

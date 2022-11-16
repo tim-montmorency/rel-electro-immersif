@@ -10,7 +10,7 @@ La fonction `random()` permet de générer un entier `int` entre un minimum et u
 Exemple d'utilisation de `random()`:
 ```arduino
 int monMin = 0;
-int monMax = 255;
+int monMax = 256;
 int maValeurAleatoire = random( monMin , monMax );
 ```
 
