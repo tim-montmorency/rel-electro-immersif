@@ -60,8 +60,7 @@
 
 # OSC SLIP: logiciels
 - [OSC SLIP avec Pure Data](./pd/osc_slip.md)
-   - [Relais OSC UDP avec PD](./pd/relais_osc_slip_udp.md)
-   - [Relais MIDI avec PD](./pd/relais_osc_slip_midi.md)
+   - [Bonus: relais MIDI avec PD](./pd/relais_osc_slip_midi.md)
 - [OSC SLIP avec Max](./max/max_osc_slip.md)
 - [OSC SLIP Web](./osc_slip_web/osc_slip_web.md)
 

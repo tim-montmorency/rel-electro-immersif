@@ -6,26 +6,19 @@ Téléchargez la version appropriée pour votre système ici (si possible la ver
 
 ## Installation des objets additionnels pour l'OSC SLIP dans Pure Data
 
-Pour faire fonctionner l'OSC SLIP il est nécessaire d'ajouter des collections d'objets à Pure Data:
-* mrpeach
-* comport
-* cyclone (pas absolument nécessaire mais très utile)
+Pour recevoir et envoyer de  l'OSC SLIP il est nécessaire d'ajouter l'object **comport** à Pure Data.
 
 ![Ouvrez le menu d'installation des objets supplémentaires](./pd_installer_objets_supplementaires.svg)
-
-![Installez mrpeach](./pd_installer_mrpeach.svg)
-
-![Installation de mrpeach réussie (notez que parfois le logiciel ne confirme pas l'installation réussie)](./pd_installation_mrpeach_reussie.svg)
-
-![Installez cyclone](./pd_installation_cyclone.svg)
-
-![Installation de cyclone réussie (notez que parfois le logiciel ne confirme pas l'installation réussie)](./pd_installation_cyclone_reussie.svg)
 
 ![Installez comport](./pd_installation_comport.svg)
 
 ![Installation de comport réussie (notez que parfois le logiciel ne confirme pas l'installation réussie)](./pd_installation_comport_reussie.svg)
 
-## Patcher pour le traitement de l'OSC SLIP directement dans Pure Data
+## Patcher OSC SLIP+UDP Pure Data
 
-[![Exemple osc_slip_direct.pd (cliquez pour télécharger)](./osc_slip_direct.png)](./osc_slip_direct.pd)
+![Scénario de connectique OSC SLIP ⇄ OSC UDP](../osc_slip/osc_slip_connectique.svg)
+
+![Exemple «osc_slip.pd»](./osc_slip_pd.png)
+
+[![Cliquez pour télécharger «osc_slip.pd»](../fichier_zip.png)](./osc_slip.pd)
 
