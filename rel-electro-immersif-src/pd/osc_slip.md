@@ -14,11 +14,8 @@ Pour recevoir et envoyer de  l'OSC SLIP il est nécessaire d'ajouter l'object **
 
 ![Installation de comport réussie (notez que parfois le logiciel ne confirme pas l'installation réussie)](./pd_installation_comport_reussie.svg)
 
-## Patcher OSC SLIP+UDP Pure Data
+## Patcher Pure Data pour traiter directement l'OSC SLIP
 
-![Scénario de connectique OSC SLIP ⇄ OSC UDP](../osc_slip/osc_slip_connectique.svg)
-
-![Exemple «osc_slip.pd»](./osc_slip_pd.png)
+![Capture d'écran du patcher «osc_slip.pd» (l'opacité du code optionnel a été réduite)](./osc_slip_pd_direct.svg)
 
 [![Cliquez pour télécharger «osc_slip.pd»](../fichier_zip.png)](./osc_slip.pd)
-

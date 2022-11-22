@@ -1,5 +1,8 @@
 # Ressource éducative libre (REL) sur l'intégration de l'électronique aux espaces immersifs
 
+
+![](./couverture.jpg)
+
 Ce projet a été initié en 2022 par Thomas Ouellet Fredericks avec la collaboration de Guillaume Arseneault.
 
 Sa réalisation a été rendue possible grâce à un financement de la [fabrique REL](https://fabriquerel.org/rel/).
@@ -36,7 +39,8 @@ MicroOsc monMicroOsc;
 
 ## Références 
 
-* SparkFun
+* [Learn at SparkFun Electronics - SparkFun Learn](https://learn.sparkfun.com/)
+* [Adafruit Learning System](https://learn.adafruit.com/)
 * [Arduino à l'école 2022 (PDF)](./pdf/arduino_a_l_ecole-2022.pdf)
 * [Le blog d'Eskimon](https://eskimon.fr/)
 * [Arduino : premiers pas en informatique embarquée • Tutoriels • Zeste de Savoir](https://zestedesavoir.com/tutoriels/686/arduino-premiers-pas-en-informatique-embarquee/)

@@ -56,11 +56,12 @@
 
 # OSC (SLIP/UDP): Arduino
 - [OSC SLIP avec MicroOsc](./osc_slip/osc_slip.md)
-- [OSC UDP avec MicroOsc](./osc_udp/osc_udp.md)
+- [OSC UDP avec MicroOsc]()
 
 # OSC SLIP: logiciels
-- [OSC SLIP avec Pure Data](./pd/osc_slip.md)
-   - [Bonus: relais MIDI avec PD](./pd/relais_osc_slip_midi.md)
+- [OSC SLIP avec Pure Data (PD)](./pd/osc_slip.md)
+   - [Relais SLIP⇄UDP avec PD](./pd/relais_osc_slip_udp.md)
+   - [Bonus: SLIP⇄MIDI avec PD](./pd/relais_osc_slip_midi.md)
 - [OSC SLIP avec Max](./max/max_osc_slip.md)
 - [OSC SLIP Web](./osc_slip_web/osc_slip_web.md)
 
