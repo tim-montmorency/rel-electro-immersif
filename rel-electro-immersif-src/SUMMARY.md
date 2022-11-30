@@ -3,47 +3,47 @@
 [Introduction](./introduction.md)
 
 # Électronique
-- [Électricité](./electricite.md)
-- [Schémas de circuit](./schemas_circuit.md)
-- [Platine d'expérimentation](./platine_experimentation.md)
-- [Erreurs fatales](./erreurs_fatales.md)
-- [DEL](./del.md)
-- [Résistance](./resistance.md)
-- [Alimenter une DEL](./alimenter_del.md)
+- [Électricité](./electricite/electricite.md)
+- [Schémas de circuit](./schemas_circuits/schemas_circuits.md)
+- [Platine d'expérimentation](./platine_experimentation/platine_experimentation.md)
+- [Erreurs fatales](./erreurs_fatales/erreurs_fatales.md)
+- [DEL](./del/del.md)
+- [Résistance](./resistance/resistance.md)
+- [Alimenter une DEL](./alimenter_del/alimenter_del.md)
 - [Micro-soudure](./micro-soudure/micro-soudure.md)
-- [Multimètre](./multimetre.md)
+- [Multimètre](./multimetre/multimetre.md)
 
 # Arduino
-- [Modèles de cartes](./arduino_cartes.md)
-- [Arduino Nano](./arduino_nano.md)
-- [Identifier le port de la carte](./arduino_port.md)
-- [Blink: le code test universel](./arduino-ide_test_blink.md)
-- [Le code Arduino](./arduino_code.md)
+- [Modèles de cartes](./arduino_cartes/arduino_cartes.md)
+- [Arduino Nano](./arduino_nano/arduino_nano.md)
+- [Identifier le port de la carte](./arduino-ide_configuration_nano/arduino-ide_configuration_nano.md)
+- [Blink: le code test universel](./arduino-ide_test_blink/arduino-ide_test_blink.md)
+- [Le code Arduino](./arduino_code/arduino_code.md)
 
 # Algorithmie
-- [Déboguage série ASCII](./arduino_deboguer.md)
-- [Mesurer le temps](./arduino_millis.md)
-- [Intervalle de temps](./intervalle.md)
-- [Changement de valeur](./changement.md)
-- [Envoi optimal de valeur](./envoie_valeur.md)
+- [Déboguage série ASCII](./arduino_deboguer/arduino_deboguer.md)
+- [Mesurer le temps](./arduino_millis/arduino_millis.md)
+- [Intervalle de temps](./intervalle/intervalle.md)
+- [Changement de valeur](./changement/changement.md)
+- [Envoi optimal de valeur](./envoi_optimal_de_valeur/envoi_optimal_de_valeur.md)
 
 # Les sorties numériques
 - [Sortie numérique](./sortie_numerique/sortie_numerique.md)
-- [Contrôler une DEL](./arduino_exemple_del.md)
+- [Contrôler une DEL](./arduino_exemple_del/arduino_exemple_del.md)
 
 # Les entrées numériques
 - [Entrée numérique](./entree_numerique/entree_numerique.md)
-- [Interrupteur](./interrupteur.md)
-   - [Bouton poussoir](./bouton_poussoir.md)
-   - [Bouton d'arcade](./bouton_arcade.md)
+- [Interrupteur](./interrupteur/interrupteur.md)
+   - [Bouton poussoir](./bouton_poussoir/bouton_poussoir.md)
+   - [Bouton d'arcade](./bouton_arcade/bouton_arcade.md)
    - [Élimination du rebondissement]()
-- [Exemples](./controle_sortie_num_par_entree_num.md)
+- [Exemples](./ex_entree_numerique/ex_entree_numerique.md)
 
 # Les entrées analogiques
 - [Entrée analogique](./entree_analogique/entree_analogique.md)
 - [Potentiomètre](./potentiometre/potentiometre.md)
 - [Photorésistance](./photoresistance/photoresistance.md)
-- [Exemples](./controle_sortie_par_entree_analogique.md)
+- [Exemples](./ex_entree_analogique/ex_entree_analogique.md)
 
 # Les sorties analogiques
 - [Sortie analogique](./sortie_analogique/sortie_analogique.md)
