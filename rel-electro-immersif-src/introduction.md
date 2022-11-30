@@ -14,7 +14,7 @@ Sa réalisation a été rendue possible grâce à un financement de la [fabrique
 
 ## REL vivante
 
-Ce site Web est une ressource éducative libre **vivante**. C'est à dire qu'elle a été conçue pour grandir et évoluer de façon continue.
+Ce site Web est une ressource éducative libre **vivante**. C'est à dire qu'elle a été conçue pour grandir et évoluer de façon continue. <!-- vivante, c'est-à-dire qu'elle a été conçue -->
 
 
 ## Conventions de documentation
