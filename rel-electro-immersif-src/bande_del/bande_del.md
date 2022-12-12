@@ -10,13 +10,22 @@
 
 ![Ajoutez une deuxième connexion au GND (pour un total de 4 connexions)](./Diapositive4.SVG)
 
-## Broches
+## Modèles
 
 Le modèle de bande de DEL que nous utilisons est le WS281X (le X indique que le dernier chiffre n’est pas important). Elle fonctionne avec une tension d'alimentation à 12V.
 
 Elle est aussi connue sous le nom de **NeoPixel**, parce qu’elle a été popularisé en Amérique par la compagnie Adafruit qui la baptisé ainsi. Adafruit fournit [plusieurs modèles de NeoPixel](https://www.adafruit.com/category/168). Cependant, les NeoPixels fonctionnent à 5V. Toutefois le système de contrôle est identique à celui de la bande de DEL que nous utilisons.
 
-Les NeoPixels possèdent 3 broches qui doivent toutes être connectées :
+![Différents modèles de bandes de DEL](./bande_del_modeles.svg)
+
+
+## Ordre des couleurs des DEL
+
+Pour chaque modèle de bande de DEL, les couleurs sont disposées dans un certain ordre: RGB, GRB, BGR, etc. **Dans notre cas, l'ordre est : RGB**
+
+## Broches
+
+Les NeoPixels possèdent au moins 3 broches qui doivent toutes être connectées :
 * GND
 * Alimentation (5V, 12V ou 24V selon les modèles)
 * Entrée de données (*Data In*)
@@ -27,10 +36,6 @@ Les WS281X 12V possèdent 4 broches (la broche supplémentaire est optionnelle) 
 * **DI** pour l'entrée de données
 * **BI** qui est optionnel et utilisé seulement en cas de bris d'un segment
 
-## Ordre des couleurs des DEL
-
-Pour chaque modèle de bande de DEL, les couleurs sont disposées dans un certain ordre: RGB, GRB, BGR, etc. **Dans notre cas, l'ordre est : RGB**
-
 ## Branchement
 
 ![Attention, les bandes de DEL ont un sens: connectez vous du côté du DI (Data Input) et non du DO!](./bande_del_sens.svg)
@@ -39,7 +44,9 @@ Pour chaque modèle de bande de DEL, les couleurs sont disposées dans un certai
 
 ![Peu-importe le modèle, la connectique est similaire](./bande_del_connectique.svg)
 
-![Les bandes peuvent être allongées en connectant les DO aux DI des bandes suivantes](./bande_del_extension.svg)
+![Les bandes peuvent être allongées en connectant les DO aux DI des bandes suivantes](./bande_del_extension_schema.svg)
+
+![Peu importe le nombre de broches, le nombre de pixels peut ainsi être augmenté](./bande_del_extension.svg)
 
 ### Bonnes pratiques
 

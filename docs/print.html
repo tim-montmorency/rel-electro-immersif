@@ -1232,10 +1232,14 @@ void loop() {
 <p><img src="bande_del/./Diapositive2.SVG" alt="Enlevez soigneusement le revêtement sur la partie cuivrée coupée" /></p>
 <p><img src="bande_del/./Diapositive3.SVG" alt="Effectuez la soudure de 3 connexions : GND, DI et +12v" /></p>
 <p><img src="bande_del/./Diapositive4.SVG" alt="Ajoutez une deuxième connexion au GND (pour un total de 4 connexions)" /></p>
-<h2 id="broches-2"><a class="header" href="#broches-2">Broches</a></h2>
+<h2 id="modèles"><a class="header" href="#modèles">Modèles</a></h2>
 <p>Le modèle de bande de DEL que nous utilisons est le WS281X (le X indique que le dernier chiffre n’est pas important). Elle fonctionne avec une tension d'alimentation à 12V.</p>
 <p>Elle est aussi connue sous le nom de <strong>NeoPixel</strong>, parce qu’elle a été popularisé en Amérique par la compagnie Adafruit qui la baptisé ainsi. Adafruit fournit <a href="https://www.adafruit.com/category/168">plusieurs modèles de NeoPixel</a>. Cependant, les NeoPixels fonctionnent à 5V. Toutefois le système de contrôle est identique à celui de la bande de DEL que nous utilisons.</p>
-<p>Les NeoPixels possèdent 3 broches qui doivent toutes être connectées :</p>
+<p><img src="bande_del/./bande_del_modeles.svg" alt="Différents modèles de bandes de DEL" /></p>
+<h2 id="ordre-des-couleurs-des-del"><a class="header" href="#ordre-des-couleurs-des-del">Ordre des couleurs des DEL</a></h2>
+<p>Pour chaque modèle de bande de DEL, les couleurs sont disposées dans un certain ordre: RGB, GRB, BGR, etc. <strong>Dans notre cas, l'ordre est : RGB</strong></p>
+<h2 id="broches-2"><a class="header" href="#broches-2">Broches</a></h2>
+<p>Les NeoPixels possèdent au moins 3 broches qui doivent toutes être connectées :</p>
 <ul>
 <li>GND</li>
 <li>Alimentation (5V, 12V ou 24V selon les modèles)</li>
@@ -1248,13 +1252,12 @@ void loop() {
 <li><strong>DI</strong> pour l'entrée de données</li>
 <li><strong>BI</strong> qui est optionnel et utilisé seulement en cas de bris d'un segment</li>
 </ul>
-<h2 id="ordre-des-couleurs-des-del"><a class="header" href="#ordre-des-couleurs-des-del">Ordre des couleurs des DEL</a></h2>
-<p>Pour chaque modèle de bande de DEL, les couleurs sont disposées dans un certain ordre: RGB, GRB, BGR, etc. <strong>Dans notre cas, l'ordre est : RGB</strong></p>
 <h2 id="branchement"><a class="header" href="#branchement">Branchement</a></h2>
 <p><img src="bande_del/./bande_del_sens.svg" alt="Attention, les bandes de DEL ont un sens: connectez vous du côté du DI (Data Input) et non du DO!" /></p>
 <p><img src="bande_del/./Diapositive5.SVG" alt="Alimentez la bande de DEL avec l’alimentation 12v" /></p>
 <p><img src="bande_del/./bande_del_connectique.svg" alt="Peu-importe le modèle, la connectique est similaire" /></p>
-<p><img src="bande_del/./bande_del_extension.svg" alt="Les bandes peuvent être allongées en connectant les DO aux DI des bandes suivantes" /></p>
+<p><img src="bande_del/./bande_del_extension_schema.svg" alt="Les bandes peuvent être allongées en connectant les DO aux DI des bandes suivantes" /></p>
+<p><img src="bande_del/./bande_del_extension.svg" alt="Peu importe le nombre de broches, le nombre de pixels peut ainsi être augmenté" /></p>
 <h3 id="bonnes-pratiques"><a class="header" href="#bonnes-pratiques">Bonnes pratiques</a></h3>
 <p>Adafruit recommande les bonnes pratiques de connexion suivantes : <a href="https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices">Best Practices | Adafruit NeoPixel Überguide | Adafruit Learning System</a></p>
 <h2 id="bibliothèques"><a class="header" href="#bibliothèques">Bibliothèques</a></h2>
