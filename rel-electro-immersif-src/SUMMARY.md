@@ -72,10 +72,12 @@
 
 # OSC SLIP : logiciels
 - [OSC SLIP : Pure Data (PD)](./pd/osc_slip.md)
-   - [Relais SLIP⇄UDP avec PD](./pd/relais_osc_slip_udp.md)
-   - [Bonus : SLIP⇄MIDI avec PD](./pd/relais_osc_slip_midi.md)
 - [OSC SLIP : Max](./max/max_osc_slip.md)
 - [OSC SLIP : Web](./osc_slip_web/osc_slip_web.md)
+
+# Relais OSC SLIP⇄UDP 
+- [Relais SLIP⇄UDP avec PD](./pd/relais_osc_slip_udp.md)
+- [SliplOscBridge]()
 
 # OSC UDP : logiciels
 - [OSC UDP : Pure Data]()
@@ -84,6 +86,10 @@
 - [OSC UDP : Unity](./osc_udp_unity/osc_udp_unity.md)
 - [OSC UDP : TouchDesigner]()
 - [OSC UDP : Web]()
+
+# Relais OSC additionnels
+- [SLIP⇄MIDI avec PD](./pd/relais_osc_slip_midi.md)
+
 
 # Les bandes de DEL
 - [Bande de DEL](./bande_del/bande_del.md)
