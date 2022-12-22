@@ -1,6 +1,6 @@
 # OSC SLIP Web
 
-## Configuration Arrduino
+## Configuration Arduino
 
 Téléversez le code *MicroOscSlip_demo* sur votre Arduino et réalisez le circuit tel qu'indiqué à la page [OSC SLIP avec MicroOsc](../osc_slip/osc_slip.md)
 

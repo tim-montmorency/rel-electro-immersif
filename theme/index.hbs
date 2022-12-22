@@ -184,6 +184,7 @@
 
                 <div id="content" class="content">
                     <main>
+                        <div id="ToC"></div>
                         {{{ content }}}
                     </main>
 
@@ -371,6 +372,72 @@
                     }
                 }
                 externalLinksOpenBlank();
+
+                function buildToc() {
+                    
+                    let tagetList = document.getElementsByTagName("h1");
+                    
+                     
+                    if (tagetList.length < 1) return
+                    let target = null;
+                    for (i =0; i<tagetList.length;i++){
+                      
+                        if ( tagetList[i].children.length > 0 ) {
+                            
+                            if ( tagetList[i].children[0].classList.contains("header")) {
+                                target = tagetList[i];
+                                
+                                break;
+                            }
+                        }
+                    }
+                    if ( target == null) return;
+
+                    // Get the h2 tags — ToC entries
+                    let headers = document.getElementsByTagName("h2");
+                    if ( headers.length < 2) return;
+
+                    // Create a list for the ToC entries
+                    let tocList = document.createElement("ul"); 
+
+                    // Add a begin if missing a first header
+                    if ( !(target.nextElementSibling.tagName == "H2" || target.nextElementSibling.tagName == "h2") )   {
+                        let tocListItem = document.createElement("li");    
+                        let tocEntry = document.createElement("a");
+                        
+                        tocEntry.setAttribute("href","#");
+                        tocEntry.innerText="Début";
+                     
+                        tocListItem.appendChild(tocEntry);
+                        tocList.appendChild(tocListItem);
+                    }
+                    
+                                         
+
+                     
+
+                     
+                     // For each h3
+                     for (i = 0; i < headers.length; i++){
+                     
+                        // Create an id
+                        //name = "h"+i;
+                        //headers[i].id=name;
+                     
+                        // a list item for the entry
+                        let tocListItem = document.createElement("li");    
+                        let tocEntry = document.createElement("a");
+                        
+                        tocEntry.setAttribute("href",headers[i].children[0].href);
+                        tocEntry.innerText=headers[i].innerText;
+                     
+                        tocListItem.appendChild(tocEntry);
+                        tocList.appendChild(tocListItem);
+                     }
+                     target.parentNode.insertBefore(tocList, target.nextSibling);
+                     //toc.insertBefore(tocList);
+                }
+                buildToc();
           </script>
 
     </body>

@@ -1,22 +1,24 @@
 # Pong 1D (Pong à une dimension)
 
-## Qu'est-ce que Pong (2D)?
+## Qu'est-ce que le Pong original?
 
 * [Data Driven Gamer: Pong (Atari, 1972 arcade, 60fps) - YouTube](https://www.youtube.com/watch?v=CKzWAxMfZRA)
 * [Atari Pong Table Electromechanical Game Debut @ IAAPA 2017 (Calinfer / UNIS) - YouTube](https://www.youtube.com/watch?v=84Ymt9BAq5s)
 * [Let's Play - The PainStation - YouTube](https://www.youtube.com/watch?v=6bm7fLcj5UI)
 
-## Exemple de jeu de Pong 1D
+## Recréer Pong en 1D
 
-Ce projet est basé sur [DIY Arduino 1D Pong Game with WS2812 LED Strip](https://create.arduino.cc/projecthub/mircemk/diy-arduino-1d-pong-game-with-ws2812-led-strip-a2418b). Le code original a été écrit par B.Stultiens en 2015. La version présentée ici a été légèrement modifiée pour en régler un bogue et pour en retirrer le code audio.
+Cet exemple est basé sur le projet [DIY Arduino 1D Pong Game with WS2812 LED Strip](https://create.arduino.cc/projecthub/mircemk/diy-arduino-1d-pong-game-with-ws2812-led-strip-a2418b). 
+
+Le code original a été écrit par B.Stultiens en 2015. La version présentée ici a été modifiée pour en régler des bogues, pour le mettre à jour et pour en retirrer toute la partie audio. Une simulation du projet modifié peut être consultée en ligne ici : [https://pi-pico.preview.wokwi.com/arduino/projects/345886566467502674](https://pi-pico.preview.wokwi.com/arduino/projects/345886566467502674)
 
 Le projet nécessite:
 * 1 bande de DEL d'au moins 32 pixels
 * la bibliothèque NeoPixel pour contrôler la bande de DEL
 * 2 interrupteurs pour démarrer et frapper la balle
-* *Optionnel*: 2 autres interrupteurs peuvent être ajoutés pour permettre l'activation des bonus de jeu
+* *Optionnel*: 2 autres interrupteurs qui peuvent être ajoutés pour permettre l'activation des bonus de jeu
 
-Une simulation peut être testée en ligne ici : [https://pi-pico.preview.wokwi.com/arduino/projects/345886566467502674](https://pi-pico.preview.wokwi.com/arduino/projects/345886566467502674)
+
 
 ### Installation de la bibliothèque Adafruit NeoPixel
 
