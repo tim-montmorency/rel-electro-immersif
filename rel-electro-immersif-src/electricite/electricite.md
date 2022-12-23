@@ -55,6 +55,10 @@ Pour circuler, le courant doit suivre une boucle entre les deux pôles de l'alim
 
 ![Exemple des relations entre les principales grandeurs électriques](./analogie_eau_exemple.svg)
 
+## Informations complémentaires
+
+* [What is Electricity? - SparkFun Learn](https://learn.sparkfun.com/tutorials/what-is-electricity)
+
 ## Vidéo complémentaire
 
-[Electricité - C'est pas sorcier - YouTube](https://www.youtube.com/watch?v=efQW-ZmpyZs)
+* [Electricité - C'est pas sorcier - YouTube](https://www.youtube.com/watch?v=efQW-ZmpyZs)

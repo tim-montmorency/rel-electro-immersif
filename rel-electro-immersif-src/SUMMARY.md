@@ -31,7 +31,7 @@
 
 # Les sorties numériques
 - [Sortie numérique](./sortie_numerique/sortie_numerique.md)
-- [Contrôler une DEL](./arduino_exemple_del/arduino_exemple_del.md)
+- [Contrôle d'une DEL](./arduino_exemple_del/arduino_exemple_del.md)
 
 # Algorithmie II
 - [Déboguage série ASCII](./arduino_deboguer/arduino_deboguer.md)

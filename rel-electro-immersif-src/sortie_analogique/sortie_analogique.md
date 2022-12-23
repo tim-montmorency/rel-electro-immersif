@@ -1,4 +1,4 @@
-# Sortie analogique (PWM: modulation de largeur d'impulsion)
+# Sortie analogique/modulation de largeur d'impulsion (PWM)
 
 
 
@@ -61,3 +61,7 @@ void loop() {
   }
 }
 ```
+
+## Information complémentaire les sorties analogiques/la modulation de largeur d'impulsion (PWM)
+
+* [Pulse Width Modulation - SparkFun Learn](https://learn.sparkfun.com/tutorials/pulse-width-modulation)

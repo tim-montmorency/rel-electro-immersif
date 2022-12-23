@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="356.00043"
    height="337.99875"
    overflow="hidden"
    version="1.1"
    id="svg96"
    sodipodi:docname="Slide1.SVG"
-   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata100">
     <rdf:RDF>
@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -36,13 +36,13 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1027"
+     inkscape:window-width="2560"
+     inkscape:window-height="1387"
      id="namedview98"
      showgrid="false"
-     inkscape:zoom="0.71981261"
-     inkscape:cx="337.30778"
-     inkscape:cy="229.35766"
+     inkscape:zoom="1.4396252"
+     inkscape:cx="297.99422"
+     inkscape:cy="170.87781"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -51,7 +51,10 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs40">
     <clipPath
@@ -189,10 +192,10 @@
      id="g94"
      transform="translate(-368,-235)">
     <rect
-       x="98.63678"
-       y="215.33382"
-       width="1093.8403"
-       height="386.57986"
+       x="369.54062"
+       y="236.17258"
+       width="352.6752"
+       height="331.70447"
        fill="#ffffff"
        id="rect42"
        style="stroke-width:0.677369" />
@@ -214,5 +217,22 @@
            y="0" />
       </g>
     </g>
+    <rect
+       style="fill:#ffffff;stroke-width:5.40094;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:16.2028, 16.2028;stroke-opacity:0.410112"
+       id="rect5709"
+       width="33.891022"
+       height="19.646969"
+       x="597.72906"
+       y="318.25629" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:5.40094;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:16.2028, 16.2028;stroke-opacity:0.410112"
+       x="613.44666"
+       y="333.4827"
+       id="text5713"><tspan
+         sodipodi:role="line"
+         id="tspan5711"
+         x="613.44666"
+         y="333.4827">200</tspan></text>
   </g>
 </svg>

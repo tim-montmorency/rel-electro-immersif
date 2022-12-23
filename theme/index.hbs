@@ -345,6 +345,7 @@
               function altTextToImageCaption() {
                   let imgs = document.getElementsByTagName('img');
                   for (var i = 0; i < imgs.length; i++) {
+      
                     var att = imgs[i].attributes.getNamedItem('alt');
                     if (!att) continue;
                     var alt = att.value;
@@ -353,7 +354,16 @@
                     var cap = document.createElement('div');
                     cap.setAttribute('class', 'imageCaption');
                     cap.appendChild(document.createTextNode(alt));
-                    imgs[i].parentNode.insertBefore(cap, imgs[i].nextSibling);
+                    //imgs[i].parentNode.insertBefore(cap, imgs[i].nextSibling);
+                    let containerDiv =  document.createElement('div');
+                    //containerDiv.style.backgroundColor ='white';
+                    //containerDiv.style.justifyContent = 'center';
+                     //containerDiv.style.display = 'inline';
+                    containerDiv.style.textAlign = 'center';
+                    imgs[i].parentNode.appendChild(containerDiv);
+                    containerDiv.appendChild(imgs[i]);
+                    containerDiv.appendChild(cap);
+
                   }
                 }
                 altTextToImageCaption();

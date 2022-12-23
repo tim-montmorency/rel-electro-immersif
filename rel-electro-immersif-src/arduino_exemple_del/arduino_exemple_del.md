@@ -7,13 +7,24 @@
 
 ![Segment de circuit pour contrôler une DEL](./Slide1.SVG)
 
-## Circuit complet
 
-![Circuit complet pour contrôler une DEL](./Slide2.SVG)
+## Circuit complet
+### Shéma du circuit
+
+![Schéma du circuit de l'exemple pour contrôler une DEL](./del_arduino_schema.png)
+
+### Illustration du circuit
+
+![Illustration du circuit de l'exemple pour contrôler une DEL](./del_arduino_illustration.png)
+del_arduino
 
 ### Comparaison avec le circuit d'alimentation simple
 
 ![Comparaison du circuit d'alimentation simple à gauche avec celui de contrôle à droite](./Slide3.SVG)
+
+
+![Comparaison du circuit d'alimentation simple à gauche avec celui de contrôle à droite](./del_alimentation_vs_controle_illustration.svg)
+
 
 ## Fonctions pertinentes
 
@@ -30,19 +41,8 @@
 
 ## Code complet 
 
-```cpp
-const int sortieNumeriqueDel = 3;
-
-void setup() {
-  pinMode(sortieNumeriqueDel, OUTPUT);
-}
-
-void loop() {
-  digitalWrite(sortieNumeriqueDel, HIGH);  
-  delay(1000);               
-  digitalWrite(sortieNumeriqueDel, LOW);    
-  delay(1000);              
-}
+```arduino
+{{#include ./controle_del_arduino/controle_del_arduino.ino}}
 ```
 
 

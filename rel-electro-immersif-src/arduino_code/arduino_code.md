@@ -41,23 +41,23 @@ Une fois que l'on a initialisé le programme, il faut ensuite créer le «cœur�
 ## Les instructions 
 
 
-
 ![...](./Slide3.SVG)
 
 ## Variables de base
 
-
-
 ![...](./Slide4.SVG)
+
+## «Arduino Cheat Sheet» de SparkFun
+
+![Capture d'écran du «Arduino Cheat Sheet» de SparkFun](./sparkfun_arduino_cheat_sheat.png)
+
+La version PDF du «Arduino Cheat Sheet» de SparkFun peut être téléchargée ici : [SparkFun Education - Classroom Downloads - Arduino Cheatsheet](https://sparkfuneducation.com/classroom-downloads/arduino-cheatsheet.html)
 
 ## Analyse du code «Blink»
 
 ![...](./Slide5.SVG)
 
-## Ressources
+## Ressources additionnelles
 
 * [FLOSS Manuals: Programmer-Arduino / Arduino](https://fr.flossmanuals.net/arduino/programmer-arduino/)
-
-## Bien coder
-
-[FLOSS Manuals: Comment-Bien-Structurer-Son-Code / Arduino](https://fr.flossmanuals.net/arduino/comment-bien-structurer-son-code/)
+* [FLOSS Manuals: Comment-Bien-Structurer-Son-Code / Arduino](https://fr.flossmanuals.net/arduino/comment-bien-structurer-son-code/)
