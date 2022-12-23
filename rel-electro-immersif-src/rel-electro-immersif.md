@@ -9,7 +9,7 @@ Sa réalisation a été rendue possible grâce à un financement de la [fabrique
 
 ### Licence
 
-[Ressource éducative libre (REL) sur l'intégration de l'électronique aux espaces immersifs](https://tim-montmorency.com/rel-electro-immersif/), sous la responsabilité de [Thomas O Fredericks](http://t-o-f.info), est partagée sous la licence [Attribution - Pas d’Utilisation Commerciale 4.0](creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1)
+Cette [ressource éducative libre (REL) sur l'intégration de l'électronique aux espaces immersifs](https://tim-montmorency.com/rel-electro-immersif/), sous la responsabilité de [Thomas O Fredericks](http://t-o-f.info), est partagée sous la licence [Attribution - Pas d’Utilisation Commerciale 4.0](creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1)
 ![CC BY NC](./cc_by_nc.png)
 
 ## REL vivante
@@ -49,8 +49,8 @@ MicroOsc monMicroOsc;
 
 ## Technologies utilisées pour la réalisation de cette ressource
 
-
 * [mdBook](https://rust-lang.github.io/mdBook/) pour convertir les textes du format Markdown au format HTML.
 * [GitHub Actions](https://docs.github.com/en/actions) pour automatiser le déploiement des fichiers sources au site [tim-montmorency.com/rel-electro-immersif](https://tim-montmorency.com/rel-electro-immersif/).
-* Du JavaScript sur mesure pour ajouter automatiquement la description des figures sous celles-ci.
+* [Fritzing](https://fritzing.org/) pour le dessins de circuits.
+* Du JavaScript sur mesure pour ajouter automatiquement la description des figures sous celles-ci et pour ajouter une petite table des matières lorsque le contenu l'exige.
 * [GLightbox](https://github.com/biati-digital/glightbox) pour permettre l'intégration de la lecture des vidéos directement dans le site.

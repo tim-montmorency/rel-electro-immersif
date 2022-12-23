@@ -376,6 +376,10 @@
                 function buildToc() {
                     
                     let tagetList = document.getElementsByTagName("h1");
+
+                                        // Get the h2 tags — ToC entries
+                    let headers = document.getElementsByTagName("h2");
+                    if ( headers.length < 2) return;
                     
                      
                     if (tagetList.length < 1) return
@@ -392,10 +396,6 @@
                         }
                     }
                     if ( target == null) return;
-
-                    // Get the h2 tags — ToC entries
-                    let headers = document.getElementsByTagName("h2");
-                    if ( headers.length < 2) return;
 
                     // Create a list for the ToC entries
                     let tocList = document.createElement("ul"); 

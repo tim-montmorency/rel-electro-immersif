@@ -6,7 +6,7 @@
    version="1.1"
    id="svg873"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   sodipodi:docname="osc_slip_connectique.svg"
+   sodipodi:docname="exemple_osc_final_connectique.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -138,7 +138,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -340,37 +339,37 @@
          style="font-size:4.93889px;stroke-width:0.264583">OSC UDP</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:48.7741;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:48.7741;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="220.33914"
        y="149.10757"
        id="text897"
        transform="translate(-26.722917,-2.38125)"><tspan
          x="220.33914"
          y="149.10757"
-         id="tspan597"><tspan
+         id="tspan721"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan595">RELAIS  
+           id="tspan719">RELAIS  
 </tspan></tspan><tspan
          x="220.33914"
          y="155.3086"
-         id="tspan605"><tspan
+         id="tspan729"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan599">OSC SLIP</tspan><tspan
+           id="tspan723">OSC SLIP</tspan><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan601">⇄</tspan><tspan
+           id="tspan725">⇄</tspan><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan603">UDP
+           id="tspan727">UDP
 </tspan></tspan><tspan
          x="220.33914"
          y="161.48222"
-         id="tspan609"><tspan
+         id="tspan733"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan607">(Avec Pure Data ou </tspan></tspan><tspan
+           id="tspan731">(Avec Pure Data ou </tspan></tspan><tspan
          x="220.33914"
          y="167.65583"
-         id="tspan613"><tspan
+         id="tspan737"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan611">SlipOscBridge)</tspan></tspan></text>
+           id="tspan735">SlipOscBridge)</tspan></tspan></text>
     <path
        d="m 256.41948,136.40612 v 3.65929 h -13.1016 v 4.39043 h 13.1016 v 3.6581 l 13.1016,-5.85391 z"
        id="path1738-2"

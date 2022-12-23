@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="416.88849mm"
    height="158.27339mm"
    viewBox="0 0 416.88847 158.2734"
    version="1.1"
    id="svg873"
-   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
-   sodipodi:docname="osc_slip_connectique.svg">
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="osc_slip_connectique.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs867">
     <clipPath
@@ -116,8 +116,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="904.7225"
-     inkscape:cy="158.52691"
+     inkscape:cx="848"
+     inkscape:cy="159"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -126,7 +126,10 @@
      inkscape:window-height="1387"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata870">
     <rdf:RDF>
@@ -135,7 +138,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -337,25 +340,37 @@
          style="font-size:4.93889px;stroke-width:0.264583">OSC UDP</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:48.7741;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="220.33914"
        y="149.10757"
-       id="text897"><tspan
-         sodipodi:role="line"
+       id="text897"
+       transform="translate(-26.722917,-2.38125)"><tspan
          x="220.33914"
          y="149.10757"
-         style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         id="tspan903">RELAIS ENTRE </tspan><tspan
-         sodipodi:role="line"
+         id="tspan597"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan595">RELAIS  
+</tspan></tspan><tspan
          x="220.33914"
-         y="155.28119"
-         style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         id="tspan907">OSC SLIP ET</tspan><tspan
-         sodipodi:role="line"
+         y="155.3086"
+         id="tspan605"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan599">OSC SLIP</tspan><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan601">⇄</tspan><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan603">UDP
+</tspan></tspan><tspan
          x="220.33914"
-         y="161.4548"
-         style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         id="tspan901"> OSC UDP</tspan></text>
+         y="161.48222"
+         id="tspan609"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan607">(Avec Pure Data ou </tspan></tspan><tspan
+         x="220.33914"
+         y="167.65583"
+         id="tspan613"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan611">SlipOscBridge)</tspan></tspan></text>
     <path
        d="m 256.41948,136.40612 v 3.65929 h -13.1016 v 4.39043 h 13.1016 v 3.6581 l 13.1016,-5.85391 z"
        id="path1738-2"
