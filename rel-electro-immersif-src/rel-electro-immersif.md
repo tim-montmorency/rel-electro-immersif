@@ -1,7 +1,7 @@
 # Ressource éducative libre (REL) sur l'intégration de l'électronique aux espaces immersifs
 
 
-![](./couverture.jpg)
+![](./couverture.svg)
 
 Ce projet a été initié en 2022 par Thomas Ouellet Fredericks avec la collaboration de Guillaume Arseneault.
 

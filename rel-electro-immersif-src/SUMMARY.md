@@ -60,6 +60,10 @@
 - [Exemples]()
    - [Chandelle](./chandelle/chandelle.md)
 
+# Scénarios
+- [Communication Arduino ⇄ logiciel multimédia](./scenario_multimedia/scenario_multimedia.md)
+- [Communication Arduino ⇄ logiciel distant](./scenario_distant/scenario_distant.md)
+
 # Communication OSC
 - [Open Sound Control (OSC)](./osc/osc.md)
 
