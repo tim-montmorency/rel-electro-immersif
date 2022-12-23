@@ -1,0 +1,363 @@
+<!DOCTYPE HTML>
+<html lang="fr" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Envoi optimal de valeur</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+            <link rel="stylesheet" href="../glightbox/dist/css/glightbox.min.css" />
+           <script src="../glightbox/dist/js/glightbox.min.js"></script>
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../rel-electro-immersif.html"><strong aria-hidden="true">1.</strong> REL Électro-immersif</a></li><li class="chapter-item expanded "><a href="../exemple_osc_final/exemple_osc_final.html"><strong aria-hidden="true">2.</strong> Exemple final</a></li><li class="chapter-item expanded affix "><li class="part-title">Électronique</li><li class="chapter-item expanded "><a href="../electricite/electricite.html"><strong aria-hidden="true">3.</strong> Électricité</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">4.</strong> V+, 5V, 3.3V, 0V et GND</div></li><li class="chapter-item expanded "><a href="../schemas_circuits/schemas_circuits.html"><strong aria-hidden="true">5.</strong> Schémas de circuit</a></li><li class="chapter-item expanded "><a href="../platine_experimentation/platine_experimentation.html"><strong aria-hidden="true">6.</strong> Platine d'expérimentation</a></li><li class="chapter-item expanded "><a href="../erreurs_fatales/erreurs_fatales.html"><strong aria-hidden="true">7.</strong> Erreurs fatales</a></li><li class="chapter-item expanded "><a href="../del/del.html"><strong aria-hidden="true">8.</strong> DEL</a></li><li class="chapter-item expanded "><a href="../resistance/resistance.html"><strong aria-hidden="true">9.</strong> Résistance</a></li><li class="chapter-item expanded "><a href="../alimenter_del/alimenter_del.html"><strong aria-hidden="true">10.</strong> Alimenter une DEL</a></li><li class="chapter-item expanded "><a href="../micro-soudure/micro-soudure.html"><strong aria-hidden="true">11.</strong> Micro-soudure</a></li><li class="chapter-item expanded "><a href="../multimetre/multimetre.html"><strong aria-hidden="true">12.</strong> Multimètre</a></li><li class="chapter-item expanded affix "><li class="part-title">Cartes Arduino</li><li class="chapter-item expanded "><a href="../arduino_cartes/arduino_cartes.html"><strong aria-hidden="true">13.</strong> Modèles de cartes</a></li><li class="chapter-item expanded "><a href="../arduino_nano/arduino_nano.html"><strong aria-hidden="true">14.</strong> Cartes Arduino Nano</a></li><li class="chapter-item expanded affix "><li class="part-title">Arduino IDE</li><li class="chapter-item expanded "><a href="../arduino-ide_configuration_nano/arduino-ide_configuration_nano.html"><strong aria-hidden="true">15.</strong> Configuration du port</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">16.</strong> Configuration du modèle</div></li><li class="chapter-item expanded "><a href="../arduino-ide_test_blink/arduino-ide_test_blink.html"><strong aria-hidden="true">17.</strong> Blink: le code test universel</a></li><li class="chapter-item expanded affix "><li class="part-title">Algorithmie I</li><li class="chapter-item expanded "><a href="../arduino_code/arduino_code.html"><strong aria-hidden="true">18.</strong> Le code Arduino</a></li><li class="chapter-item expanded "><a href="../arduino_millis/arduino_millis.html"><strong aria-hidden="true">19.</strong> Mesurer le temps</a></li><li class="chapter-item expanded "><a href="../intervalle/intervalle.html"><strong aria-hidden="true">20.</strong> Intervalle de temps</a></li><li class="chapter-item expanded affix "><li class="part-title">Les sorties numériques</li><li class="chapter-item expanded "><a href="../sortie_numerique/sortie_numerique.html"><strong aria-hidden="true">21.</strong> Sortie numérique</a></li><li class="chapter-item expanded "><a href="../arduino_exemple_del/arduino_exemple_del.html"><strong aria-hidden="true">22.</strong> Contrôle d'une DEL</a></li><li class="chapter-item expanded affix "><li class="part-title">Algorithmie II</li><li class="chapter-item expanded "><a href="../arduino_deboguer/arduino_deboguer.html"><strong aria-hidden="true">23.</strong> Déboguage série ASCII</a></li><li class="chapter-item expanded affix "><li class="part-title">Les entrées numériques</li><li class="chapter-item expanded "><a href="../entree_numerique/entree_numerique.html"><strong aria-hidden="true">24.</strong> Entrée numérique</a></li><li class="chapter-item expanded "><a href="../interrupteur/interrupteur.html"><strong aria-hidden="true">25.</strong> Interrupteur</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../bouton_poussoir/bouton_poussoir.html"><strong aria-hidden="true">25.1.</strong> Bouton poussoir</a></li><li class="chapter-item expanded "><a href="../bouton_arcade/bouton_arcade.html"><strong aria-hidden="true">25.2.</strong> Bouton d'arcade</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">25.3.</strong> Élimination du rebondissement</div></li></ol></li><li class="chapter-item expanded "><a href="../ex_entree_numerique/ex_entree_numerique.html"><strong aria-hidden="true">26.</strong> Exemples</a></li><li class="chapter-item expanded affix "><li class="part-title">Algorithmie III</li><li class="chapter-item expanded "><a href="../changement/changement.html"><strong aria-hidden="true">27.</strong> Changement de valeur</a></li><li class="chapter-item expanded "><a href="../envoi_optimal_de_valeur/envoi_optimal_de_valeur.html" class="active"><strong aria-hidden="true">28.</strong> Envoi optimal de valeur</a></li><li class="chapter-item expanded affix "><li class="part-title">Les entrées analogiques</li><li class="chapter-item expanded "><a href="../entree_analogique/entree_analogique.html"><strong aria-hidden="true">29.</strong> Entrée analogique</a></li><li class="chapter-item expanded "><a href="../potentiometre/potentiometre.html"><strong aria-hidden="true">30.</strong> Potentiomètre</a></li><li class="chapter-item expanded "><a href="../photoresistance/photoresistance.html"><strong aria-hidden="true">31.</strong> Photorésistance</a></li><li class="chapter-item expanded "><a href="../ex_entree_analogique/ex_entree_analogique.html"><strong aria-hidden="true">32.</strong> Exemples</a></li><li class="chapter-item expanded affix "><li class="part-title">Les sorties analogiques</li><li class="chapter-item expanded "><a href="../sortie_analogique/sortie_analogique.html"><strong aria-hidden="true">33.</strong> Sortie analogique</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">34.</strong> Exemples</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../chandelle/chandelle.html"><strong aria-hidden="true">34.1.</strong> Chandelle</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Scénarios</li><li class="chapter-item expanded "><a href="../scenario_multimedia/scenario_multimedia.html"><strong aria-hidden="true">35.</strong> Communication Arduino ⇄ logiciel multimédia</a></li><li class="chapter-item expanded "><a href="../scenario_distant/scenario_distant.html"><strong aria-hidden="true">36.</strong> Communication Arduino ⇄ logiciel distant</a></li><li class="chapter-item expanded affix "><li class="part-title">Communication OSC</li><li class="chapter-item expanded "><a href="../osc/osc.html"><strong aria-hidden="true">37.</strong> Open Sound Control (OSC)</a></li><li class="chapter-item expanded affix "><li class="part-title">OSC : Arduino + MicroOsc</li><li class="chapter-item expanded "><a href="../microosc/microosc.html"><strong aria-hidden="true">38.</strong> MicroOsc</a></li><li class="chapter-item expanded "><a href="../osc_slip/osc_slip.html"><strong aria-hidden="true">39.</strong> OSC SLIP avec MicroOsc</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">40.</strong> OSC UDP avec MicroOsc</div></li><li class="chapter-item expanded affix "><li class="part-title">OSC SLIP : logiciels</li><li class="chapter-item expanded "><a href="../pd/osc_slip.html"><strong aria-hidden="true">41.</strong> OSC SLIP : Pure Data (PD)</a></li><li class="chapter-item expanded "><a href="../max/max_osc_slip.html"><strong aria-hidden="true">42.</strong> OSC SLIP : Max</a></li><li class="chapter-item expanded "><a href="../osc_slip_web/osc_slip_web.html"><strong aria-hidden="true">43.</strong> OSC SLIP : Web</a></li><li class="chapter-item expanded affix "><li class="part-title">Relais OSC SLIP⇄UDP</li><li class="chapter-item expanded "><a href="../pd/relais_osc_slip_udp.html"><strong aria-hidden="true">44.</strong> Relais SLIP⇄UDP avec PD</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">45.</strong> SliplOscBridge</div></li><li class="chapter-item expanded affix "><li class="part-title">OSC UDP : logiciels</li><li class="chapter-item expanded "><div><strong aria-hidden="true">46.</strong> OSC UDP : Pure Data</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">47.</strong> OSC UDP : Cycling '74 Max</div></li><li class="chapter-item expanded "><a href="../vcv_rack/vcv_rack_osc.html"><strong aria-hidden="true">48.</strong> OSC UDP : VCV Rack</a></li><li class="chapter-item expanded "><a href="../osc_udp_unity/osc_udp_unity.html"><strong aria-hidden="true">49.</strong> OSC UDP : Unity</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">50.</strong> OSC UDP : TouchDesigner</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">51.</strong> OSC UDP : Web</div></li><li class="chapter-item expanded affix "><li class="part-title">Relais OSC additionnels</li><li class="chapter-item expanded "><a href="../pd/relais_osc_slip_midi.html"><strong aria-hidden="true">52.</strong> SLIP⇄MIDI avec PD</a></li><li class="chapter-item expanded affix "><li class="part-title">Les bandes de DEL</li><li class="chapter-item expanded "><a href="../bande_del/bande_del.html"><strong aria-hidden="true">53.</strong> Bande de DEL</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">54.</strong> Exemples</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="../pong_1d/pong_1d.html"><strong aria-hidden="true">54.1.</strong> Pong 1D</a></li><li class="chapter-item expanded "><a href="../bande_del_osc/bande_del_osc.html"><strong aria-hidden="true">54.2.</strong> Contrôle par OSC</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Déploiement</li><li class="chapter-item expanded "><div><strong aria-hidden="true">55.</strong> Raspberry PI</div></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div id="ToC"></div>
+                        <h1 id="envoi-optimal-de-valeur"><a class="header" href="#envoi-optimal-de-valeur">Envoi optimal de valeur</a></h1>
+<p>Le code suivant envoie la valeur seulement si elle change et au maximum à chaque 20 millisecondes:</p>
+<pre><code class="language-arduino">int maBrocheEntreeNumerique = 4;
+int maValeurPrecedente; // VALEUR PRÉCÉDENTE DE L'ENTRÉE NUMÉRIQUE
+
+unsigned long monChronoDepart = 0; // DEPART DE MON CHRONOMÈTRE
+
+void setup() { // AU DÉMARRAGE
+  Serial.begin(57600); // CONFIGURER LA COMMUNICATION SÉRIE
+  pinMode( maBrocheEntreeNumerique , INPUT_PULLUP); // CONFIGURER LA BROCHE DE L'INTERRUPTEUR EN ENTRÉE
+}
+
+void loop() { // RÉPÉTER LE PLUS VITE POSSIBLE
+
+  unsigned long monChronoEcoule = millis() - monChronoDepart; // TEMPS ÉCOULÉ DE MON CHRONOMÈTRE
+  unsigned long monChronoIntervalle = 20; // INTERVALLE DE TEMPS EN MILLISECONDES
+
+  if ( monChronoEcoule &gt;= monChronoIntervalle ) { // SI 20 MS SE SONT ECOULEES...
+     monChronoDepart = millis(); // ...REDÉMARRER LE CHRONOMÈTRE...
+     
+    int maNouvelleValeur = digitalRead( maBrocheEntreeNumerique ); // LECTURE DE TENSION
+    
+    if ( maNouvelleValeur != maValeurPrecedente ) { // SI LA NOUVELLE VALEUR EST DIFFERENTE DE LA PRÉCÉDENTE
+      Serial.print( maNouvelleValeur ); // ENVOYER LA VALEUR
+      Serial.println();  // TERMINER LE MESSAGE
+    }
+    
+    maValeurPrecedente = maNouvelleValeur; // METTRE EN MÉMOIRE LA NOUVELLE VALEUR
+
+  }
+}
+</code></pre>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../changement/changement.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../entree_analogique/entree_analogique.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../changement/changement.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../entree_analogique/entree_analogique.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+         <script type="text/javascript">
+              // LIGHT BOX FOR VIDEOS
+              // https://github.com/biati-digital/glightbox
+              const main = document.getElementsByTagName('main')[0];
+              var collectionOrNodes = main.getElementsByTagName('a');
+              var a = Array.prototype.slice.call( collectionOrNodes );
+              //console.log("Elements in main: "+a.length);
+              a.forEach(function(currentElement){ 
+                
+                if ( currentElement.href.includes("youtube.com") || currentElement.href.includes("vimeo.com" ) ) {
+                    currentElement.classList.add("glightboxed")
+                }
+                
+                 });
+
+
+                    var lightbox = GLightbox({
+                        selector: '.glightboxed',
+                        touchNavigation: true,
+                        loop: false,
+                        autoplayVideos: false,
+                    });
+                    lightbox.on('open', (target) => {
+                        console.log('lightbox opened');
+                    });
+          </script>
+
+          <script type="text/javascript">
+              function altTextToImageCaption() {
+                  let imgs = document.getElementsByTagName('img');
+                  for (var i = 0; i < imgs.length; i++) {
+      
+                    var att = imgs[i].attributes.getNamedItem('alt');
+                    if (!att) continue;
+                    var alt = att.value;
+                    if (!alt) continue;
+                    //if (!alt.startsWith('Fig ')) continue;
+                    var cap = document.createElement('div');
+                    cap.setAttribute('class', 'imageCaption');
+                    cap.appendChild(document.createTextNode(alt));
+                    //imgs[i].parentNode.insertBefore(cap, imgs[i].nextSibling);
+                    let containerDiv =  document.createElement('div');
+                    //containerDiv.style.backgroundColor ='white';
+                    //containerDiv.style.justifyContent = 'center';
+                     //containerDiv.style.display = 'inline';
+                    containerDiv.style.textAlign = 'center';
+                    imgs[i].parentNode.appendChild(containerDiv);
+                    containerDiv.appendChild(imgs[i]);
+                    containerDiv.appendChild(cap);
+
+                  }
+                }
+                altTextToImageCaption();
+
+                function externalLinksOpenBlank() {
+                    var anchorEls = document.querySelectorAll('a');
+                    var anchorElsLength = anchorEls.length;
+
+                    for (var i = 0; i < anchorElsLength; i++) {
+                        var anchorEl = anchorEls[i];
+                        var href = anchorEl.getAttribute('href');
+
+                        if (href.startsWith("http",0)) {
+                          anchorEl.setAttribute('target', '_blank');
+                        }
+                    }
+                }
+                externalLinksOpenBlank();
+
+                function buildToc() {
+                    
+                    let tagetList = document.getElementsByTagName("h1");
+
+                                        // Get the h2 tags — ToC entries
+                    let headers = document.getElementsByTagName("h2");
+                    if ( headers.length < 2) return;
+                    
+                     
+                    if (tagetList.length < 1) return
+                    let target = null;
+                    for (i =0; i<tagetList.length;i++){
+                      
+                        if ( tagetList[i].children.length > 0 ) {
+                            
+                            if ( tagetList[i].children[0].classList.contains("header")) {
+                                target = tagetList[i];
+                                
+                                break;
+                            }
+                        }
+                    }
+                    if ( target == null) return;
+
+                    // Create a list for the ToC entries
+                    let tocList = document.createElement("ul"); 
+
+                    // Add a begin if missing a first header
+                    if ( !(target.nextElementSibling.tagName == "H2" || target.nextElementSibling.tagName == "h2") )   {
+                        let tocListItem = document.createElement("li");    
+                        let tocEntry = document.createElement("a");
+                        
+                        tocEntry.setAttribute("href","#");
+                        tocEntry.innerText="Début";
+                     
+                        tocListItem.appendChild(tocEntry);
+                        tocList.appendChild(tocListItem);
+                    }
+                    
+                                         
+
+                     
+
+                     
+                     // For each h3
+                     for (i = 0; i < headers.length; i++){
+                     
+                        // Create an id
+                        //name = "h"+i;
+                        //headers[i].id=name;
+                     
+                        // a list item for the entry
+                        let tocListItem = document.createElement("li");    
+                        let tocEntry = document.createElement("a");
+                        
+                        tocEntry.setAttribute("href",headers[i].children[0].href);
+                        tocEntry.innerText=headers[i].innerText;
+                     
+                        tocListItem.appendChild(tocEntry);
+                        tocList.appendChild(tocListItem);
+                     }
+                     target.parentNode.insertBefore(tocList, target.nextSibling);
+                     //toc.insertBefore(tocList);
+                }
+                buildToc();
+          </script>
+
+    </body>
+</html>
