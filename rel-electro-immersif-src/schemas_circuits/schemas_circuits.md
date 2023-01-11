@@ -4,7 +4,7 @@ Un schéma de circuit est une représentation schématique de la connectique d�
 
 ## Symboles d'alimentation
 
-### Un symbole qui regroupent les deux pôles
+### Un symbole qui regroupent les deux pôles <!-- Un symbole qui regroupe les deux pôles -->
 
 ![Un symbole représentant une batterie](./symbole_alimentation_batterie.svg)
 
