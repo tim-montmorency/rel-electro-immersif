@@ -20,17 +20,17 @@ Certains des trous de la platine d'expérimentation sont connectés entre eux. C
 
 ## Bien placer les composants sur la platine d'expérimentation
 
-Les broches (pattes) des composants doivent être insérés dans des trous qui sont **non reliés électriquement**, c'est à dire **isolée** électriquement. 
+Les broches (pattes) des composants doivent être insérés <!-- insérées --> dans des trous qui sont **non reliés électriquement**, c'est à dire **isolée** électriquement. <!-- c'est-à-dire isolés -->
 
 Dans la figure suivante :
 * Le **X** indique une erreur où un composant dont les broches sont insérées dans des trous reliés électriquement.
-* Les **✓** indiquent des bonnes connexions où chaque broche du composant est isolé électriquement. 
+* Les **✓** indiquent des bonnes connexions où chaque broche du composant est isolé <!-- isolée -->  électriquement. 
 
 ![Exemples de connexions valides d'une DEL](./platine_experimentation_connexions_valides_del.svg)
 
 Dans la figure suivante :
 * Le **X** indique une erreur où un composant dont les broches sont insérées dans des trous reliés électriquement.
-* Les **✓** indiquent des bonnes connexions où chaque broche du composant est isolé électriquement. 
+* Les **✓** indiquent des bonnes connexions où chaque broche du composant est isolé <!-- isolée --> électriquement. 
 
 ![Exemples de connexions valides](./platine_experimentation_connexions_valides_exemples.svg)
 
@@ -39,7 +39,7 @@ Dans la figure suivante :
 
 ### Pôles de la carte Arduino Nano
 
-Sur certains modèles de carte Arduino Nano, le pôle positif (+) n’est malheureusement pas imprimé sur la carte. Cependant, on retrouve dans la documentation des broche que c’est la broche au dessus de l'étiquette «RST». 
+Sur certains modèles de carte Arduino Nano, le pôle positif (+) n’est malheureusement pas imprimé sur la carte. Cependant, on retrouve dans la documentation des broche <!-- broches --> que c’est la broche au dessus <!-- au-dessus --> de l'étiquette «RST». <!-- pas certaine de bien comprendre la phrase des broches que c'et la broche au-dessus... -->
 
 Le pôle négatif (-) est indiqué avec l'étiquette «GND» imprimée sur la carte. 
 
@@ -47,9 +47,9 @@ Le pôle négatif (-) est indiqué avec l'étiquette «GND» imprimée sur la ca
 
 ### Étape 1
 
-Branchez un câble (orange ou rouge) dans la rangée de la broche du positif (+) de la carte Arduino. Ce câble transporte maintenant le positif (+).
+Branchez <!-- Garder la forme er pour rester uniforme--> un câble (orange ou rouge) dans la rangée de la broche du positif (+) de la carte Arduino. Ce câble transporte maintenant le positif (+).
 
-Branchez un câble (brun ou noir) dans la rangée de la broche du négatif (-) de la carte Arduino. Ce câble transporte maintenant le négatif (-)
+Branchez <!-- Garder la forme er pour rester uniforme--> un câble (brun ou noir) dans la rangée de la broche du négatif (-) de la carte Arduino. Ce câble transporte maintenant le négatif (-) <!-- manque le point -->
 
 ![Étape 1 de l'alimentation de la platine d'expérimentation](./alimentation_platine_experimentation_1.svg)
 
@@ -58,12 +58,12 @@ Branchez un câble (brun ou noir) dans la rangée de la broche du négatif (-) d
 
 Brancher le câble qui transporte le positif (+) dans la colonne + rouge de la platine d’expérimentation.
 
-Brancher le câble qui transporte le négatif (-) dans la conne – bleue de la platine d’expérimentation.
+Brancher le câble qui transporte le négatif (-) dans la conne <!-- colonne --> – bleue de la platine d’expérimentation.
 
 ![Étape 2 de l'alimentation de la platine d'expérimentation](./alimentation_platine_experimentation_2.svg)
 
 ### Étape 3
 
-Reliez les deux autres colonnes de la patine d'expériementation.
+Reliez <!-- garder la former er --> les deux autres colonnes de la patine d'expériementation.
 
 ![Étape 3 de l'alimentation de la platine d'expérimentation](./alimentation_platine_experimentation_3.svg)
