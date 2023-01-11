@@ -4,11 +4,11 @@
 
 Le courant électrique est un déplacement d’électrons dans un milieu conducteur.
 
-Pour que ces électrons se déplacent il faut créer **une différence du nombre d'électrons entre les deux extrémités du circuit électrique**. C'est ce qu'on appelle une **différence de potentiel**.
+Pour que ces électrons se déplacent il faut créer **une différence du nombre d'électrons entre les deux extrémités du circuit électrique**. C'est ce qu'on appelle une **différence de potentiel**. <!-- Pour que ces électrons se déplacent, manque une virgule -->
 
 ## Alimentation
 
-Pour créer cette différence de potentiel, on utilise une **alimentation électrique** qui peut prendre la forme d'une batterie, alimentation USB, panneau solaire, prise électrique , etc.
+Pour créer cette différence de potentiel, on utilise une **alimentation électrique** qui peut prendre la forme d'une batterie, alimentation USB, panneau solaire, prise électrique , etc. 
 
 ![Illustration du débalancement des électrons dans une batterie AA](batterie_aa_electrons.svg)  
 
