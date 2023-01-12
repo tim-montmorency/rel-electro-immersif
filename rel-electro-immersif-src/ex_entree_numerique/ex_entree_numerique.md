@@ -1,4 +1,5 @@
-# Une entrée numérique contrôlant un sortie numérique
+# Une entrée numérique contrôlant un sortie numérique <!-- Une sortie  -->
+
 
 ## Allumer ou éteindre une DEL à partir d'un interrupteur
 ```arduino
