@@ -1,13 +1,13 @@
 # Entrée numérique
 
-Jusqu'à maintenant, nous avons traité des sorties (`OUTPUT`). Grâce à la commande `digitalWrite()` on peut contrôler la tension électrique d'un broche :
+Jusqu'à maintenant, nous avons traité des sorties (`OUTPUT`). Grâce à la commande `digitalWrite()` on peut contrôler la tension électrique d'un broche : <!-- d'une broche  -->
 * haute tension : `HIGH`
 * basse tension : `LOW` 
 
-Nous avons utilisé jusqu’ici cette différence de potentiel pour allumer des DEL.
+Nous avons utilisé jusqu’ici cette différence de potentiel pour allumer des DEL. <!-- uniformiser au nous ou on partout dans le texte -->
 
 Si une broche est configurée en entrée (`INPUT`), nous pouvons effectuer la mesure numérique de la tension électrique. Cette mes
-s’effectue sure une échelle à deux niveaux :
+s’effectue sure une échelle à deux niveaux : <!-- mesure s'effectue sur une  -->
 * haute tension : `HIGH` présence d’une tension plus grande que 3.5V
 * basse tension : `LOW` présence d’une tension sous 1.5 V
 
