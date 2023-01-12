@@ -2,7 +2,7 @@
 
 ## Configuration Arduino
 
-Téléversez le code *MicroOscSlip_demo* sur votre Arduino et réalisez le circuit tel qu'indiqué à la page [OSC SLIP avec MicroOsc](../osc_slip/osc_slip.md)
+Téléversez <!-- uniformiser avec er-->le code *MicroOscSlip_demo* sur votre Arduino et réalisez le circuit tel qu'indiqué à la page [OSC SLIP avec MicroOsc](../osc_slip/osc_slip.md)
 
 ## Installation de Node.js
 
@@ -10,9 +10,9 @@ Téléversez le code *MicroOscSlip_demo* sur votre Arduino et réalisez le circu
 
 ## Téléchargement du code slipWebDemo.zip
 
-[![CLiquez pour télécharger slipWebDemo.zip](./telecharger_slipWebDemo.png)](./slipWebDemo.zip)
+[![CLiquez pour télécharger slipWebDemo.zip](./telecharger_slipWebDemo.png)](./slipWebDemo.zip) <!-- uniformiser avec er-->
 
-![Décompressez le code](./extraire_slipWebDemo.png)
+![Décompressez le code](./extraire_slipWebDemo.png) <!-- uniformiser avec er-->
 
 ## Configuration et démarrage de «slipWebDemo
 
