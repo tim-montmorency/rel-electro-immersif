@@ -12,9 +12,9 @@
 
 ## Modèles
 
-Le modèle de bande de DEL que nous utilisons est le WS281X (le X indique que le dernier chiffre n’est pas important). Elle fonctionne avec une tension d'alimentation à 12V.
+Le modèle de bande de DEL que nous utilisons <!-- uniformiser nous ou on  -->est le WS281X (le X indique que le dernier chiffre n’est pas important). Elle fonctionne avec une tension d'alimentation à 12V.
 
-Elle est aussi connue sous le nom de **NeoPixel**, parce qu’elle a été popularisé en Amérique par la compagnie Adafruit qui la baptisé ainsi. Adafruit fournit [plusieurs modèles de NeoPixel](https://www.adafruit.com/category/168). Cependant, les NeoPixels fonctionnent à 5V. Toutefois le système de contrôle est identique à celui de la bande de DEL que nous utilisons.
+Elle est aussi connue sous le nom de **NeoPixel**, parce qu’elle a été popularisé <!-- popularisée -->en Amérique par la compagnie Adafruit qui la baptisé <!-- l'a baptisée  -->ainsi. Adafruit fournit [plusieurs modèles de NeoPixel](https://www.adafruit.com/category/168). Cependant, les NeoPixels fonctionnent à 5V. Toutefois le système de contrôle est identique à celui de la bande de DEL que nous utilisons. <!-- virgule après toutefois et bande de DEL utilisée plutôt que nous utilisons  -->
 
 ![Différents modèles de bandes de DEL](./bande_del_modeles.svg)
 
@@ -54,7 +54,7 @@ Adafruit recommande les bonnes pratiques de connexion suivantes : [Best Practice
 
 ## Bibliothèques
 
-**Les bibliothèques de DEL supportent souvent plusieurs modèles. Assurez-vous que vous sélectionnez le bon modèle dans le code!** 
+**Les bibliothèques de DEL supportent souvent plusieurs modèles. Assurez-vous que vous sélectionnez le bon modèle dans le code!** <!-- uniformiser la façon de s'adresser au lecteur  -->
 
 Les deux bibliothèques les plus populaires sont:
 * [Adafruit NeoPixel](https://learn.adafruit.com/adafruit-neopixel-uberguide/the-magic-of-neopixels) : NeoPixel est plus simple à utiliser mais moins performante.
@@ -70,9 +70,9 @@ Exemples intéressants à essayer:
 * Fire2021
 * DemoReel100
 
-Dans **chaque** exemple, vous devez vous assurer que la configuration est adéquate :
-* Que le DATA_PIN ou LED_PIN corresponde à la broche Arduino qui est connectée à la broche DI de la bande.
-* Que NUM_LEDS corresponde au nombre de DEL de votre bande
+Dans **chaque** exemple, vous devez vous assurer que la configuration est adéquate : <!-- uniformiser la façon de s'adresser au lecteur  -->
+* Que le DATA_PIN ou LED_PIN corresponde à la broche Arduino qui est connectée à la broche DI de la bande. 
+* Que NUM_LEDS corresponde au nombre de DEL de votre bande <!-- uniformiser si un point à la fin ou non  -->
 * Que COLOR_ORDER corresponde à l’ordre des couleurs RGB
 
 
