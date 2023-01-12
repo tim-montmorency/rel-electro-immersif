@@ -2,11 +2,11 @@
 
 ## Installation de Pure Data
 
-Téléchargez la version appropriée pour votre système ici (si possible la version avec installateur) : [puredata.info/downloads/pure-data](https://puredata.info/downloads/pure-data)
+Téléchargez <!-- uniformiser avec er  -->la version appropriée pour votre système ici (si possible la version avec installateur) : [puredata.info/downloads/pure-data](https://puredata.info/downloads/pure-data)
 
 ## Installation des objets additionnels pour l'OSC SLIP dans Pure Data
 
-Pour recevoir et envoyer de  l'OSC SLIP il est nécessaire d'ajouter l'object **comport** à Pure Data.
+Pour recevoir et envoyer de  l'OSC SLIP <!-- ajouter une ivrigule après l'OSC SLIP --> il est nécessaire d'ajouter l'object **comport** à Pure Data.
 
 ![Ouvrez le menu d'installation des objets supplémentaires](./pd_installer_objets_supplementaires.svg)
 
