@@ -1,4 +1,4 @@
-# Déboguer
+# Déboguer <!-- Titre de la section est écrit Déboguage plutôt que Débogage  -->
 
 ## Ouvrir et configurer le moniteur série
 ![Ouvrir et configurer le moniteur série](./arduino_serie_ouvrir.svg)
