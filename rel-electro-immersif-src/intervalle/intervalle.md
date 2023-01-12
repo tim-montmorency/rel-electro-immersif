@@ -7,12 +7,12 @@ Créer une variable **globale** pour mettre en mémoire le temps de départ du c
 unsigned long monChronoDepart = 0; // DEPART DE MON CHRONOMÈTRE
 ```
 
-Pour calculer le temps écoulé nous utilisons le code suivant:
+Pour calculer le temps écoulé nous utilisons le code suivant: <!-- uniformiser la façon de s'adresser au lecteur. Nous ou on.   -->
 ```arduino
 unsigned long monChronoEcoule = millis() - monChronoDepart; // TEMPS ÉCOULÉ DE MON CHRONOMÈTRE
 ```
 
-Nous pouvons exécuter du code si le temps écoulé dépasse un intervalle de temps (20 millisecondes dans cet exemple):
+Nous pouvons exécuter du code si le temps écoulé dépasse un intervalle de temps (20 millisecondes dans cet exemple): <!-- uniformiser la façon de s'adresser au lecteur. Nous ou on   -->
 ```arduino
 unsigned long monChronoIntervalle = 20; // INTERVALLE DE TEMPS EN MILLISECONDES
 if ( monChronoEcoule >= monChronoIntervalle ) { // SI LE TEMPS ÉCOULÉ DÉPASSE L'INTERVALLE...
@@ -20,14 +20,14 @@ if ( monChronoEcoule >= monChronoIntervalle ) { // SI LE TEMPS ÉCOULÉ DÉPASSE
 }
 ```
 
-Nous pouvons redémarrer le chronomètres avec le code suivant:
+Nous pouvons redémarrer le chronomètres avec le code suivant: <!-- chronomètre sans s   -->
 ```arduino
 monChronoDepart = millis(); // REDÉMARRER LE CHRONOMÈTRE
 ```
 
 ## Comment exécuter de façon cyclique
 
-Nous pouvons combiner le deux extraits de code précédents pour exécuter du code ET redémarrer le chronomètre de façon cyclique. Dans l'extrait suivant, le code entre les `{ }` est exécuté à chaque 20 millisecondes:
+Nous pouvons combiner le  <!-- les  --> deux extraits de code précédents pour exécuter du code ET redémarrer le chronomètre de façon cyclique. Dans l'extrait suivant, le code entre les `{ }` est exécuté à chaque 20 millisecondes:
 ```arduino
 unsigned long monChronoDepart = 0; // DEPART DE MON CHRONOMÈTRE
 
