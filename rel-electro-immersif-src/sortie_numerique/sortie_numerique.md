@@ -18,12 +18,12 @@ Pour règler la tension de sortie à 5V (pôle positif)
 digitalWrite( numeroBoche, HIGH );
 ```
 
-Pour règler la tension de sortie à 0V (pôle négatif/GND)
+Pour règler la tension de sortie à 0V (pôle négatif/GND)  <!-- Devrait-il être indiqué 3) ?   -->
 ```cpp
 digitalWrite( numeroBoche, LOW );
 ```
 
-## Debogage d'une sortie numérique
+## Debogage d'une sortie numérique  <!--  DÉbogage  -->
 
 Dans le code suivant, nous déboguons la sortie numérique 13 : 
 ```arduino
