@@ -6,7 +6,7 @@ Cette tension peut être réglée à deux niveaux :
 * `HIGH` : règle la tension de sortie à 5V (pôle positif)
 * `LOW` : règle la tension de sortie à 0V (pôle négatif/GND)
 
-Pour régler la tension électrique de sortie d'une broche, nous utilisons la paire de fonctions suivantes :
+Pour régler la tension électrique de sortie d'une broche, on utilise ces blocs de code :
 1) Configurer la broche `numeroBoche` en mode sortie avec `OUTPUT` :
 ```arduino
 pinMode( numeroBoche , OUTPUT );
@@ -18,12 +18,12 @@ Pour règler la tension de sortie à 5V (pôle positif)
 digitalWrite( numeroBoche, HIGH );
 ```
 
-Pour règler la tension de sortie à 0V (pôle négatif/GND)  <!-- Devrait-il être indiqué 3) ?   -->
+3) Pour règler la tension de sortie à 0V (pôle négatif/GND) 
 ```cpp
 digitalWrite( numeroBoche, LOW );
 ```
 
-## Debogage d'une sortie numérique  <!--  DÉbogage  -->
+## Débogage d'une sortie numérique
 
 Dans le code suivant, nous déboguons la sortie numérique 13 : 
 ```arduino

@@ -22,9 +22,9 @@ void loop() {
 
 }
 ```
-Nous retrouvons deux fonctions dans le code minimal :  <!-- dans le reste du texte, c'écrit plutôt sous la forme On retrouve  --> 
-* setup()
-* loop()
+On retoruve deux fonctions dans le code minimal : 
+* `setup()`
+* `loop()`
 
 ### setup()
 
@@ -32,7 +32,7 @@ La fonction setup() est appelée une seule fois lorsque le programme commence. C
 
 ### loop()
 
-Une fois que l'on a initialisé le programme, il faut ensuite créer le «cœur» du programme, autrement dit le programme en lui même. C'est dans la fonction loop() que l’on va écrire le contenu du programme. Il faut savoir que cettefonction  <!-- manque un espace entre les 2 mots -->  est appelée en permanence, c'est-à-dire qu'elle est exécutée une fois, puis lorsque son exécution est terminée, on la réexécute, encore et encore. On parle de boucle infinie!
+Une fois que l'on a initialisé le programme, il faut ensuite créer le «cœur» du programme, autrement dit le programme en lui même. C'est dans la fonction loop() que l’on va écrire le contenu du programme. Il faut savoir que cette fonction est appelée en permanence, c'est-à-dire qu'elle est exécutée une fois, puis lorsque son exécution est terminée, on la réexécute, encore et encore. On parle de boucle infinie!
 
 ## Déroulement du programme
 

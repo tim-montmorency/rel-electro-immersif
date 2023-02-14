@@ -7,7 +7,7 @@
 ## Extraits de code pertinents
 
 Pour détecter un changement de valeur, il faut : 
-1) Créer un variable pour se souvenir de la valeur précédente: <!-- une variable -->
+1) Créer une variable pour se souvenir de la valeur précédente: 
 ```arduino
 int maValeurPrecedente; // VALEUR PRÉCÉDENTE DE L'ENTRÉE NUMÉRIQUE
 ```

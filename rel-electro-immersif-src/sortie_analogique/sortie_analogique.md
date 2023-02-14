@@ -8,7 +8,7 @@ Pour **simuler** cette variation de tension, nous utilisons la modulation de lar
 
 ![Simulation de variation de tension à l'aide de modulation de largeur d'impulsion](./Diapositive2.SVG)
 
-Pour effectuer une sortie analogique, nous utilisons la paire de fonctions suivantes : <!-- uniformiser: nous ou on   -->
+Pour utiliser une sortie analogique, on utilise cette paire de blocs de code :
 1) Configurer la broche `maBroche` en mode sortie avec `OUTPUT` :
 ```arduino
 pinMode( maBroche , OUTPUT );
@@ -29,7 +29,7 @@ Les broches capables de supporter modulation de largeur d'impulsions sont identi
 
 ![Circuit d'une DEL branchée à la broche 9](./debogage_sortie_analogique.png)
 
-Le code suivant permet de déboguer la sortie nummérique <!-- m de trop dans numérique --> à l'aide d'une DEL branchée à la broche 9. À chaque 30 millisecondes, la largeur d'impulsion est augmentée de 5. Lorsque la valeur dépasse 255, elle retombe à 0.
+Le code suivant permet de déboguer la sortie numérique à l'aide d'une DEL branchée à la broche 9. À chaque 30 millisecondes, la largeur d'impulsion est augmentée de 5. Lorsque la valeur dépasse 255, elle retombe à 0.
 
 ```arduino
 int maDelBroche = 9;

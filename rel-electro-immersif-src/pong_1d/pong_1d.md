@@ -10,7 +10,7 @@
 
 Cet exemple est basé sur le projet [DIY Arduino 1D Pong Game with WS2812 LED Strip](https://create.arduino.cc/projecthub/mircemk/diy-arduino-1d-pong-game-with-ws2812-led-strip-a2418b). 
 
-Le code original a été écrit par B.Stultiens en 2015. La version présentée ici a été modifiée pour en régler des bogues, pour le mettre à jour et pour en retirrer <!-- retirer un r de trop  --> toute la partie audio. Une simulation du projet modifié peut être consultée en ligne ici : [https://pi-pico.preview.wokwi.com/arduino/projects/345886566467502674](https://pi-pico.preview.wokwi.com/arduino/projects/345886566467502674)
+Le code original a été écrit par B.Stultiens en 2015. La version présentée ici a été modifiée pour en régler des bogues, pour le mettre à jour et pour en retirer toute la partie audio. Une simulation du projet modifié peut être consultée en ligne ici : [https://pi-pico.preview.wokwi.com/arduino/projects/345886566467502674](https://pi-pico.preview.wokwi.com/arduino/projects/345886566467502674)
 
 Le projet nécessite:
 * 1 bande de DEL d'au moins 32 pixels
@@ -31,7 +31,7 @@ Le projet nécessite:
 
 ### Le code
 
-N'oubliez pas de modifier la configuration matérielle pour qu'elle corresponde à votre circuit: <!-- uniformiser la façon de s'adresser au lecteur: on s'adresse directement à lui? -->
+Ne pas oublier de modifier la configuration matérielle pour qu'elle corresponde au circuit: 
 * **PIN_WSDATA**: Le numéro de la broche Arduino reliée à la broche DI de la bande de DEL
 * **NPIXELS**: Le nombre de pixels dans botre bande de DEL
 * **PIN_BUT_RS**: Le numéro de la broche Arduino reliée au bouton de droite

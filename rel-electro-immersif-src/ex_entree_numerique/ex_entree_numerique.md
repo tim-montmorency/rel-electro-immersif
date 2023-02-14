@@ -1,4 +1,4 @@
-# Une entrée numérique contrôlant un sortie numérique <!-- Une sortie  -->
+# Une entrée numérique contrôlant une sortie numérique
 
 
 ## Allumer ou éteindre une DEL à partir d'un interrupteur

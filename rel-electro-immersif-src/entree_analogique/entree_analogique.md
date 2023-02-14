@@ -3,7 +3,7 @@
 ![Broches pouvant effectuer une lecture analogique](./entrees_analogiques_nano.svg)
 
 
-Pour effectuer la mesure analogique de la tension électrique présente à une broche, nous utilisons la paire de fonctions suivantes : <!-- uniformiser: nous ou on -->
+Pour effectuer la mesure analogique de la tension électrique présente à une broche, on utilison la paire de fonctions suivantes : 
 1) Configurer la broche `maBrocheAnalogique` en mode entrée avec `INPUT` :
 ```arduino
 pinMode( maBrocheAnalogique , INPUT );

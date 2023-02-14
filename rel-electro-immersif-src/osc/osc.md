@@ -102,8 +102,8 @@ Quelques exemples:
 ```
 
 Voici quelques recommandations à suivre lorsque vous concevez votre propre serveur OSC:
-* Essayez <!-- mettre er pour uniformiser  -->de réduire le nombre d'arguments au profit d'un adressage plus complet. Cela respecte mieux la hiérarchie de l'adressage et plusieurs serveurs OSC ne supportent qu'un seul argument à la fois. Par exemple, utilisez `/piste/0/vol 1.` a un seul argument plutôt que `/piste/vol 0 1.` à deux arguments.
-* Utilisez <!-- mettre er pour uniformiser  --> autant que possible des nombres réels normalisées <!-- normalisés  -->  entre `0.` et `1.` pour plus de compatibilité.
+* Essayer de réduire le nombre d'arguments au profit d'un adressage plus complet. Cela respecte mieux la hiérarchie de l'adressage et plusieurs serveurs OSC ne supportent qu'un seul argument à la fois. Par exemple, utiliser `/piste/0/vol 1.` a un seul argument plutôt que `/piste/vol 0 1.` à deux arguments.
+* Utiliser autant que possible des nombres réels normalisés entre `0.` et `1.` pour plus de compatibilité.
 
 ### Annexe d'applications supportant l'OSC
 

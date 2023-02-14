@@ -4,7 +4,7 @@
 
 Le courant électrique est un déplacement d’électrons dans un milieu conducteur.
 
-Pour que ces électrons se déplacent il faut créer **une différence du nombre d'électrons entre les deux extrémités du circuit électrique**. C'est ce qu'on appelle une **différence de potentiel**. <!-- Pour que ces électrons se déplacent, manque une virgule -->
+Pour que ces électrons se déplacent, il faut créer **une différence du nombre d'électrons entre les deux extrémités du circuit électrique**. C'est ce qu'on appelle une **différence de potentiel**. 
 
 ## Alimentation
 
