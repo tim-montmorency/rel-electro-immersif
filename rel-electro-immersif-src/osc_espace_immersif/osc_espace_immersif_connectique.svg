@@ -5,8 +5,8 @@
    viewBox="0 0 416.88847 158.2734"
    version="1.1"
    id="svg873"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
-   sodipodi:docname="exemple_osc_final_connectique.svg"
+   inkscape:version="1.3-dev (77bc73e, 2022-05-18)"
+   sodipodi:docname="osc_espace_immersif_connectique.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -116,20 +116,21 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="848"
-     inkscape:cy="159"
+     inkscape:cx="584.5"
+     inkscape:cy="314.5"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="2560"
-     inkscape:window-height="1387"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:window-width="1317"
+     inkscape:window-height="897"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1" />
+     inkscape:deskcolor="#d1d1d1"
+     showguides="false" />
   <metadata
      id="metadata870">
     <rdf:RDF>
@@ -313,17 +314,17 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="180.04929"
-       y="128.16769"
+       x="179.60471"
+       y="127.90311"
        id="text1760"><tspan
          sodipodi:role="line"
          id="tspan1758"
-         x="180.04929"
-         y="128.16769"
+         x="179.60471"
+         y="127.90311"
          style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583">OSC SLIP</tspan><tspan
          sodipodi:role="line"
-         x="180.04929"
-         y="134.34131"
+         x="179.60471"
+         y="134.07672"
          style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
          id="tspan1798">(USB SÉRIE)</tspan></text>
     <text
@@ -337,39 +338,6 @@
          x="244.23485"
          y="131.87186"
          style="font-size:4.93889px;stroke-width:0.264583">OSC UDP</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:48.7741;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="220.33914"
-       y="149.10757"
-       id="text897"
-       transform="translate(-26.722917,-2.38125)"><tspan
-         x="220.33914"
-         y="149.10757"
-         id="tspan721"><tspan
-           style="text-align:center;text-anchor:middle"
-           id="tspan719">RELAIS  
-</tspan></tspan><tspan
-         x="220.33914"
-         y="155.3086"
-         id="tspan729"><tspan
-           style="text-align:center;text-anchor:middle"
-           id="tspan723">OSC SLIP</tspan><tspan
-           style="text-align:center;text-anchor:middle"
-           id="tspan725">⇄</tspan><tspan
-           style="text-align:center;text-anchor:middle"
-           id="tspan727">UDP
-</tspan></tspan><tspan
-         x="220.33914"
-         y="161.48222"
-         id="tspan733"><tspan
-           style="text-align:center;text-anchor:middle"
-           id="tspan731">(Avec Pure Data ou </tspan></tspan><tspan
-         x="220.33914"
-         y="167.65583"
-         id="tspan737"><tspan
-           style="text-align:center;text-anchor:middle"
-           id="tspan735">SlipOscBridge)</tspan></tspan></text>
     <path
        d="m 256.41948,136.40612 v 3.65929 h -13.1016 v 4.39043 h 13.1016 v 3.6581 l 13.1016,-5.85391 z"
        id="path1738-2"
@@ -666,5 +634,31 @@
          y="87.309166"
          style="font-size:7.19057px;text-align:center;text-anchor:middle;stroke-width:0.264582"
          id="tspan901-5-4-5">glslViewer</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="217.44012"
+       y="151.18645"
+       id="text2"><tspan
+         sodipodi:role="line"
+         x="217.44012"
+         y="151.18645"
+         style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan2">RELAIS  </tspan><tspan
+         sodipodi:role="line"
+         x="217.44012"
+         y="157.36006"
+         style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan3">OSC SLIP⇄UDP</tspan><tspan
+         sodipodi:role="line"
+         x="217.44012"
+         y="163.58885"
+         style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan4">(Avec Pure Data, Max </tspan><tspan
+         sodipodi:role="line"
+         x="217.44012"
+         y="169.76247"
+         style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan5">ou SlipOscBridge)</tspan></text>
   </g>
 </svg>

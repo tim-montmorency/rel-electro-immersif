@@ -1,6 +1,6 @@
 # Résistance
 
-![Une resistance](./resistance_photo.svg)
+![Une résistance](./resistance_photo.svg)
 
 Une résistance est un composant électrique dont la principale caractéristique est d'opposer une plus ou moins grande résistance mesurée en ohms (Ω) à la circulation du courant électrique.
 

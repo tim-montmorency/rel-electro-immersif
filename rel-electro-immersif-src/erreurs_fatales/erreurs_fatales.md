@@ -12,6 +12,6 @@ Ici, le pôle positif (+) et le pôle négatif (-) sont inversés! Cette erreur 
 ![Erreur fatale : inverser les pôles + et -](./erreur_fatale_2.SVG)
 
 
-# Quoi faire en cas d'erreur fatale
+# Quoi faire en cas d'erreur fatale?
 
-![Quoi faire en cas d'erreur fatale](./erreur_fatale_quoi_faire.SVG) 
+![Débrancher l'USB en cas d'erreur fatale](./erreur_fatale_quoi_faire.SVG) 

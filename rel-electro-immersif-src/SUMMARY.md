@@ -1,7 +1,7 @@
 # Summary
 
 - [REL Électro-immersif](./rel-electro-immersif.md)
-- [Exemple final](./exemple_osc_final/exemple_osc_final.md)
+- [Objectif final](./osc_espace_immersif/osc_espace_immersif.md)
 
 # Électronique
 - [Électricité](./electricite/electricite.md)

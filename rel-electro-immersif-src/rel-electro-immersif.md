@@ -12,12 +12,12 @@ Sa réalisation a été rendue possible grâce à un financement de la [fabrique
  [Ressource éducative libre (REL) sur l'intégration de l'électronique aux espaces immersifs](https://tim-montmorency.com/rel-electro-immersif/), sous la responsabilité de [Thomas O Fredericks](http://t-o-f.info), est partagée sous la licence [Attribution - Pas d’Utilisation Commerciale 4.0](creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1)
 ![CC BY NC](./cc_by_nc.png)
 
-## Version
+###  Version
 
-Cette ressource éducative libre a été conçue pour grandir et évoluer de façon continue. Vous trouverez la version la plus à jour et en développement à l'adresse suivante : https://tim-montmorency.com/rel-electro-immersif/
+Cette ressource éducative libre a été conçue pour grandir et évoluer de façon continue. Vous trouverez la version la plus à jour et en développement à l'adresse suivante : [tim-montmorency.com/rel-electro-immersif](https://tim-montmorency.com/rel-electro-immersif/)
 
 À des fins d'archivage, des versions sont sporadiquement publiées :
-* Version 1, publiée le 1 mars 2023 : https://tim-montmorency.com/rel-electro-immersif/v1
+* Version 1, publiée le 1 mars 2023 : [tim-montmorency.com/rel-electro-immersif/v1](https://tim-montmorency.com/rel-electro-immersif/v1)
 
 
 ## Conventions de documentation

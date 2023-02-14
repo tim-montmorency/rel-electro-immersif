@@ -36,7 +36,7 @@ del_arduino
 
 ## Fonction additionnelle
 
-![Bloquer/Arrêter le code pour un certains nombre de millisecondes](./delay.svg)
+![Bloquer/Arrêter le code pour un certain nombre de millisecondes](./delay.svg)
 
 
 ## Code complet 
