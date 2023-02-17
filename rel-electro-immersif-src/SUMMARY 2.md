@@ -6,6 +6,7 @@
 
 # Électronique
 - [Électricité](./electricite/electricite.md)
+- [V+, 5V, 3.3V, 0V et GND]()
 - [Schémas de circuit](./schemas_circuits/schemas_circuits.md)
 - [Platine d'expérimentation](./platine_experimentation/platine_experimentation.md)
 - [Erreurs fatales](./erreurs_fatales/erreurs_fatales.md)
@@ -21,6 +22,7 @@
 
 # Arduino IDE
 - [Configuration du port](./arduino-ide_configuration_nano/arduino-ide_configuration_nano.md)
+- [Configuration du modèle]()
 - [Blink: le code test universel](./arduino-ide_test_blink/arduino-ide_test_blink.md)
 
 # Algorithmie I
@@ -41,6 +43,7 @@
 - [Interrupteur](./interrupteur/interrupteur.md)
    - [Bouton poussoir](./bouton_poussoir/bouton_poussoir.md)
    - [Bouton d'arcade](./bouton_arcade/bouton_arcade.md)
+   - [Élimination du rebondissement]()
 - [Exemples](./ex_entree_numerique/ex_entree_numerique.md)
 
 # Algorithmie III
@@ -69,6 +72,7 @@
 # OSC : Arduino + MicroOsc
 - [MicroOsc](./microosc/microosc.md)
 - [OSC SLIP avec MicroOsc](./osc_slip/osc_slip.md)
+- [OSC UDP avec MicroOsc]()
 
 # OSC SLIP : logiciels
 - [OSC SLIP : Pure Data (PD)](./pd/osc_slip.md)
@@ -77,8 +81,7 @@
 
 # Relais OSC SLIP⇄UDP 
 - [Relais SLIP⇄UDP avec PD](./pd/relais_osc_slip_udp.md)
-- [Relais SLIP⇄UDP avec Max](./max/relais_osc_slip_udp.md)
-
+- [SliplOscBridge]()
 
 # OSC UDP : logiciels
 - [OSC UDP : Pure Data]()
@@ -86,6 +89,7 @@
 - [OSC UDP : VCV Rack](./vcv_rack/vcv_rack_osc.md)
 - [OSC UDP : Unity](./osc_udp_unity/osc_udp_unity.md)
 - [OSC UDP : TouchDesigner]()
+- [OSC UDP : Web]()
 
 # Relais OSC additionnels
 - [SLIP⇄MIDI avec PD](./pd/relais_osc_slip_midi.md)

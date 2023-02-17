@@ -1,18 +1,21 @@
-# Ressource éducative libre (REL) sur l'intégration de l'électronique aux espaces immersifs
+# Notes de cours sur l'intégration de l'électronique aux espaces immersifs
 
+## Description
 
-![](./couverture.svg)
+Cette ressource éducative libre (REL) regroupe des **notes de cours** (et non une documentation exhaustive) sur l'intégration de l'électronique aux espaces immersifs dans un contexte de création multimédia. C'est-à-dire l’intégration de capteurs et actionneurs dans un grand espace où l'ordinateur multimédia, qui doit coordonner les aspects audiovisuels (les projections visuelles, les éclairages, les effets et les diffusions sonores), est distant.
 
-Ce projet a été initié en 2022 par Thomas Ouellet Fredericks avec la collaboration de Guillaume Arseneault.
+## Crédits
+
+Ce projet a été initié en 2022 par Thomas Ouellet Fredericks avec la collaboration de Guillaume Arseneault, tous les deux professeurs au Collège Montmorency au département de Techniques d'intégration multimédia.
 
 Sa réalisation a été rendue possible grâce à un financement de la [fabrique REL](https://fabriquerel.org/rel/).
 
-### Licence
+## Licence
 
  [Ressource éducative libre (REL) sur l'intégration de l'électronique aux espaces immersifs](https://tim-montmorency.com/rel-electro-immersif/), sous la responsabilité de [Thomas O Fredericks](http://t-o-f.info), est partagée sous la licence [Attribution - Pas d’Utilisation Commerciale 4.0](creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1)
 ![CC BY NC](./cc_by_nc.png)
 
-###  Version
+##  Version
 
 Cette ressource éducative libre a été conçue pour grandir et évoluer de façon continue. Vous trouverez la version la plus à jour et en développement à l'adresse suivante : [tim-montmorency.com/rel-electro-immersif](https://tim-montmorency.com/rel-electro-immersif/)
 
