@@ -1,5 +1,8 @@
 # Alimenter une DEL
 
+
+
+
 ## Alimenter une DEL avec une batterie
 
 Un schéma de circuit représente sous une forme plus précise les connexions des composants d’un circuit.
@@ -8,7 +11,7 @@ Le schéma et l’image ci-bas montrent tous les deux comment allumer une DEL av
 
 ![Schéma et image d'une DEL alimentée par une batterie](./alimenter_del_avec_une_batterie.svg)
 
-![Animation de l'alimentation d'une DEL par une batterie](./alimenter_del_batterie_9v.gif)
+![Animation de l'alimentation d'une DEL par une batterie — CC BY-SA 4.0 SparkFun](./alimenter_del_batterie_9v.gif)
 
 ### Identification de l'alimentation
 
@@ -35,3 +38,9 @@ Portez attention à la longueur des pattes de la DEL. Une patte est plus longue 
 ![Identification des composantes](./alimenter_del_schema_avec_images.svg)
 
 ![Une disposition possible sur la platine d'expérimentation](./alimenter_del_circuit_bb.svg)
+
+## Attributions
+
+Cette page reprend certains éléments des ressoures libres [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) suivantes :
+
+* [Voltage, Current, Resistance, and Ohm's Law - SparkFun Learn](https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law/all)

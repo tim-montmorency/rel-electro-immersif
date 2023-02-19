@@ -1,8 +1,9 @@
 # Blink: le code test universel
 
+## Ouvrir et téléverser l'exemple «0.1 Basics > Blink»
 
-![...](./Slide1.SVG)
+![Séquence pour téléverser «Blink»](./Slide2.SVG)
 
-![...](./Slide2.SVG)
+## Observer la DEL qui clignote
 
-![...](./Slide3.SVG)
+![La DEL «L» clignote](./Slide3.SVG)

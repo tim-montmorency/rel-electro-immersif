@@ -20,6 +20,7 @@
 - [Cartes Arduino Nano](./arduino_nano/arduino_nano.md)
 
 # Arduino IDE
+- [Fenêtre principale](./arduino-ide/fenetre_principale.md)
 - [Configuration du port](./arduino-ide_configuration_nano/arduino-ide_configuration_nano.md)
 - [Blink: le code test universel](./arduino-ide_test_blink/arduino-ide_test_blink.md)
 
@@ -59,8 +60,8 @@
    - [Chandelle](./chandelle/chandelle.md)
 
 # Scénarios
-- [Communication Arduino ⇄ logiciel multimédia](./scenario_multimedia/scenario_multimedia.md)
-- [Communication Arduino ⇄ logiciel distant](./scenario_distant/scenario_distant.md)
+- [Arduino ⇄ logiciel multimédia](./scenario_multimedia/scenario_multimedia.md)
+- [Arduino ⇄ logiciel distant](./scenario_distant/scenario_distant.md)
 
 # Communication OSC
 - [Open Sound Control (OSC)](./osc/osc.md)
