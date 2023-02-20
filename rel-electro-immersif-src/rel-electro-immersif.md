@@ -6,7 +6,7 @@ Cette ressource éducative libre (REL) regroupe des **notes de cours** (et non u
 
 ## Crédits
 
-Ce projet a été initié en 2022 par Thomas Ouellet Fredericks avec la collaboration de Guillaume Arseneault, tous les deux professeurs au Collège Montmorency au département de Techniques d'intégration multimédia.
+Ce projet a été initié en 2022 par [Thomas O Fredericks](http://t-o-f.info) avec la collaboration de Guillaume Arseneault, tous les deux professeurs au département de [Techniques d'intégration multimédia](https://www.cmontmorency.qc.ca/programmes/nos-programmes-detudes/techniques/techniques-dintegration-multimedia/description-du-programme/) du [Collège Montmorency](https://www.cmontmorency.qc.ca/).
 
 Sa réalisation a été rendue possible grâce à un financement de la [fabrique REL](https://fabriquerel.org/rel/).
 

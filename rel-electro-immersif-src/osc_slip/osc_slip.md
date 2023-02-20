@@ -29,5 +29,5 @@ Il existe plusieurs scénarios de connectique possible. Les trois scénarios sui
 ## Code OSC SLIP avec MicroOsc pour réaliser le scénario
 
 ```arduino
-{{#include ../osc_espace_immersif/osc_espace_immersif/osc_espace_immersif.ino}}
+{{#include ../osc_espace_immersif/MicroOsc_Demo_SLIP/MicroOsc_Demo_SLIP.ino}}
 ```
