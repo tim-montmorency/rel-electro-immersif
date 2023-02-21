@@ -91,8 +91,8 @@ void loop() {
 
 ### À partir d'une image (matrice) générative dans Max
 
-[![Cliquez pour télécharger le patcher MicroOsc_NeoPixel_Slip.maxpat](./MicroOsc_NeoPixel_Slip.png)](./MicroOsc_NeoPixel_Slip.maxpat)
+[![Cliquer pour télécharger le patcher MicroOsc_NeoPixel_Slip.maxpat](./MicroOsc_NeoPixel_Slip.png)](./MicroOsc_NeoPixel_Slip.maxpat)
 
 ### À partir de la conversion brute du signal audio dans Max
 
-[![Cliquez pour télécharger le patcher MicroOsc_NeoPixel_Audio_Slip.maxpat](./MicroOsc_NeoPixel_Audio_Slip.png)](./MicroOsc_NeoPixel_Audio_Slip.maxpat)
+[![Cliquer pour télécharger le patcher MicroOsc_NeoPixel_Audio_Slip.maxpat](./MicroOsc_NeoPixel_Audio_Slip.png)](./MicroOsc_NeoPixel_Audio_Slip.maxpat)

@@ -15,4 +15,4 @@ Assurez-vous d'avoir suivi les instruction dans la section [OSC SLIP avec Pure D
 
 ![Capture d'écran du patcher «osc_slip.pd» (l'opacité du code optionnel a été réduite)](./osc_slip_pd_relay.svg)
 
-[![Cliquez pour télécharger «osc_slip.pd»](../fichier_zip.png)](./osc_slip.pd)
+[![Cliquer pour télécharger «osc_slip.pd»](../fichier_zip.png)](./osc_slip.pd)

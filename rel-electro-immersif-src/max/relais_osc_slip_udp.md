@@ -15,5 +15,5 @@ Assurez-vous d'avoir suivi les instruction dans la section [OSC SLIP : Max](../m
 
 ![Capture d'écran du patcher «osc_slip_relay.maxpat»](./osc_slip_relay_max_patcher.png)
 
-[![Cliquez pour télécharger «osc_slip_relay.maxpat»](../fichier_zip.png)](./osc_slip_relay.maxpat)
+[![Cliquer pour télécharger «osc_slip_relay.maxpat»](../fichier_zip.png)](./osc_slip_relay.maxpat)
 

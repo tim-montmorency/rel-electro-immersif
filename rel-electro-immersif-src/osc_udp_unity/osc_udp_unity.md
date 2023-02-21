@@ -8,7 +8,7 @@ Pour envoyer de l'OSC UDP à Unity, vous pouvez l'une des solutions suivantes :
 
 ### Relais SLIP à UDP avec Pure Data pour [MicroOsc SLIP](../osc_slip/osc_slip.md)
 
-![Shéma illustrant le relais SLIP à UDP avec Pure Data](osc_slip_pd_udp_unity.svg)
+![Schéma illustrant le relais SLIP à UDP avec Pure Data](osc_slip_pd_udp_unity.svg)
 
 * Circuit et code Arduino : [OSC SLIP avec MicroOsc](../osc_slip/osc_slip.md)
 * Code Pure Data : [Relais OSC UDP avec PD](../pd/relais_osc_slip_udp.md)

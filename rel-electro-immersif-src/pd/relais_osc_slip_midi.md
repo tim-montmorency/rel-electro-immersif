@@ -16,7 +16,7 @@ Cette solution nécessite l'installation de **Pure Data** et d'y ajouter des obj
 
 ## Patcher pour le relais de messages OSC SLIP <-> MIDI
 
-[![Exemple osc_slip_midi.pd (cliquez pour télécharger)](./pd_osc_slip_midi.svg)](./osc_slip_midi.pd)
+[![Exemple osc_slip_midi.pd (cliquer pour télécharger)](./pd_osc_slip_midi.svg)](./osc_slip_midi.pd)
 
 ## Exemple d'envoi et de réception du MIDI dans VCV Rack
 

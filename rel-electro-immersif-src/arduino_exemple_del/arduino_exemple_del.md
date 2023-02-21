@@ -9,7 +9,7 @@
 
 
 ## Circuit complet
-### Shéma du circuit
+### Schéma du circuit
 
 ![Schéma du circuit de l'exemple pour contrôler une DEL](./del_arduino_schema.png)
 
