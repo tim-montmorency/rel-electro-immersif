@@ -17,20 +17,24 @@ La solution proposée essaie de rester peu onéreuse et accessible tout en demeu
 
 ## Connectique OSC de l'objectif final
 
+Le schéma suivant présente le système de connexion et de communication choisi :
 ![Connectique OSC pour un espace immersif](./osc_espace_immersif_connectique.svg)
 
 ## Circuit électronique de l'objectif final
 
 ### Illustration du circuit électronique
 
+L'illustration suivante présente le circuit que les étudiants devront réaliser pour l'intégration aux espaces immersifs :
 ![Illustration du circuit pour l'intégration de l'électronique à un espace immersif](./osc_espace_immersif_illustration.png)
 
 ### Schéma du circuit éléctronique
 
+De façon générale, les schémas de circuit seront privilégiés. Le schéma suivant représente le même circuit que l'illustration ci-haut :
 ![Schéma du circuit pour l'intégration de l'électronique à un espace immersif](./osc_espace_immersif_schema.png)
 
 ## Code Arduino de l'objectif final
 
+Pour assurer la connexion avec l’espace immersif, voici le code qui sera exécuté sur l’Arduino :
 ```arduino
 {{#include MicroOsc_Demo_SLIP/MicroOsc_Demo_SLIP.ino}}
 ```
