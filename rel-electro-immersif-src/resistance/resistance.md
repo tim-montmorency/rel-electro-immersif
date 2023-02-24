@@ -16,6 +16,7 @@ Pour connaître la valeur en ohms (Ω) d'une résistance,  il faut convertir le 
 
 ![Tableau pour la conversion des bandes de couleurs d'une résistance](./resistance_calcul_code_couleur.svg)
 
-Exemple : rouge (2), rouge(2), brun (x10) = 22 * 10 = 220 Ω = 0.22 kΩ
+Exemple : 
+```rouge (2), rouge(2), brun (x10) = 22 * 10 = 220 Ω = 0.22 kΩ.```
 
 

@@ -18,12 +18,12 @@ int maValeurAleatoire = random( monMin , monMax );
 ## Circuit
 
 ### Composants
-* Un Arduino avec une sortie analogique
-* Une DEL
-* Une résistance pour limiter l'intensité du courant qui traverse la DEL
+* Un Arduino avec une sortie analogique.
+* Une DEL.
+* Une résistance pour limiter l'intensité du courant qui traverse la DEL.
 
 ### Notes
-* La DEL doit être connectée à une sortie analogique de l'Arduino
+* La DEL doit être connectée à une sortie analogique de l'Arduino.
 
 ### Schéma
 ![Une DEL branchée à une sortie analogique de l'Arduino](./debogage_sortie_analogique.png)

@@ -2,21 +2,24 @@
 
 ## Scénario
 
+![La question se poser sur comment relier l'Arduino à l'espace immersif?](./scenario_problematique.svg)
+
 ## Solutions de connectique
 
-Il existe plusieurs scénarios de connectique possible. Les trois scénarios suivants sont détaillés dans les prochaines pages.
+![L'OSC SLIP permet de connecter un Arduino avec une application multimédia à travers sa prise USB](./scenario_multimedia.svg)
 
-### Avec une application qui supporte directement l'OSC SLIP
+Cette solution se décline en deux implémentations :
+* Avec une application qui supporte directement l'OSC SLIP.
+* Avec une application qui supporte l'OSC UPD à l'aide d'un relais OSC SLIP ⇄ OSC UDP.
+
+### Dans le cas d'une application qui supporte directement l'OSC SLIP
 
 ![Scénario de connectique à une application qui supporte directement l'OSC SLIP](./osc_slip_connectique_directe.svg)
 
-### Avec une application qui supporte l'OSC UPD à l'aide d'un relais OSC SLIP ⇄ OSC UDP
+### Dans le cas dune application qui supporte l'OSC UPD à l'aide d'un relais OSC SLIP ⇄ OSC UDP
 
 ![Schématisation de la chaîne de connectique OSC SLIP ⇄ OSC UDP](../osc_espace_immersif/osc_espace_immersif_connectique.svg)
 
-### Avec une application qui supporte le MIDI à l'aide d'un relais OSC SLIP ⇄ MIDI
-
-![Schématisation de la chaîne de connectique OSC SLIP ⇄ MIDI](./osc_slip_connectique_midi.svg)
 
 ## Circuit pour réaliser le scénario de connectique
 
