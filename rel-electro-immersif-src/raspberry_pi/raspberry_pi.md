@@ -1,5 +1,9 @@
 # Raspberry Pi 
 
+## Scénario distant
+
+![Utilisation d'un Raspberry PI pour le relais de messages OSC locaux à distance](./scenario_distant.svg)
+
 ## Installation de Raspberry PI OS
 
 ### Installer [Raspberry Pi OS](https://fr.wikipedia.org/wiki/Raspberry_Pi_OS) sur une carte micro SD

@@ -21,20 +21,20 @@ Elle est aussi connue sous le nom de **NeoPixel**, parce qu’elle a été popul
 
 ## Ordre des couleurs des DEL
 
-Pour chaque modèle de bande de DEL, les couleurs sont disposées dans un certain ordre: RGB, GRB, BGR, etc. **Dans notre cas, l'ordre est : RGB**
+Pour chaque modèle de bande de DEL, les couleurs sont disposées dans un certain ordre: RGB, GRB, BGR, etc. **Dans notre cas, l'ordre est : RGB**.
 
 ## Broches
 
 Les NeoPixels possèdent au moins 3 broches qui doivent toutes être connectées :
-* GND
-* Alimentation (5V, 12V ou 24V selon les modèles)
-* Entrée de données (*Data In*)
+* GND.
+* Alimentation (5V, 12V ou 24V selon les modèles).
+* Entrée de données (*Data In*).
 
 Les WS281X 12V possèdent 4 broches (la broche supplémentaire est optionnelle) :
-* **GND**
-* **+12V** pour l'alimentation
-* **DI** pour l'entrée de données
-* **BI** qui est optionnel et utilisé seulement en cas de bris d'un segment
+* **GND**.
+* **+12V** pour l'alimentation.
+* **DI** pour l'entrée de données.
+* **BI** qui est optionnel et utilisé seulement en cas de bris d'un segment.
 
 ## Branchement
 
@@ -50,7 +50,7 @@ Les WS281X 12V possèdent 4 broches (la broche supplémentaire est optionnelle) 
 
 ### Bonnes pratiques
 
-Adafruit recommande les bonnes pratiques de connexion suivantes : [Best Practices | Adafruit NeoPixel Überguide | Adafruit Learning System](https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices)
+Adafruit recommande les bonnes pratiques de connexion suivantes : [Best Practices | Adafruit NeoPixel Überguide | Adafruit Learning System](https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices).
 
 ## Bibliothèques
 
@@ -60,20 +60,24 @@ Les deux bibliothèques les plus populaires sont:
 * [Adafruit NeoPixel](https://learn.adafruit.com/adafruit-neopixel-uberguide/the-magic-of-neopixels) : NeoPixel est plus simple à utiliser mais moins performante.
 * [FastLED](https://github.com/FastLED/FastLED) : FastLED est plus performante, mais plus compliquée à utiliser. Cette bibliothèque présente aussi les meilleurs exemples.
 
-## Bibliothèque FastLED
+### Bibliothèque Adafruit NeoPixel
+
+![Installation de la bibliothèque Adafruit NeoPixel](./arduino_bibliotheque_installation_neopixel.svg)
+
+### Bibliothèque FastLED
 
 ![Installation de la bibliothèque FastLED et où trouver les exemples](./Diapositive6.SVG)
 
 Exemples intéressants à essayer:
-* Cylon
-* TwinkleFox
-* Fire2021
-* DemoReel100
+* Cylon.
+* TwinkleFox.
+* Fire2021.
+* DemoReel100.
 
 Dans **chaque** exemple, on doit s'assurer que la configuration est adéquate : 
-* Que le DATA_PIN ou LED_PIN corresponde à la broche Arduino qui est connectée à la broche DI de la bande
-* Que NUM_LEDS corresponde au nombre de DEL de la bande 
-* Que COLOR_ORDER corresponde à l’ordre des couleurs RGB
+* Que le DATA_PIN ou LED_PIN corresponde à la broche Arduino qui est connectée à la broche DI de la bande.
+* Que NUM_LEDS corresponde au nombre de DEL de la bande.
+* Que COLOR_ORDER corresponde à l’ordre des couleurs RGB.
 
 
 

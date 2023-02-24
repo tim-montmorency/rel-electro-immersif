@@ -41,9 +41,8 @@
 # Les entrées numériques
 - [Entrée numérique](./entree_numerique/entree_numerique.md)
 - [Interrupteur](./interrupteur/interrupteur.md)
-   - [Bouton poussoir](./bouton_poussoir/bouton_poussoir.md)
-   - [Bouton d'arcade](./bouton_arcade/bouton_arcade.md)
-- [Exemples](./ex_entree_numerique/ex_entree_numerique.md)
+- [Bouton poussoir](./bouton_poussoir/bouton_poussoir.md)
+- [Bouton d'arcade](./bouton_arcade/bouton_arcade.md)
 
 # Algorithmie III
 - [Changement de valeur](./changement/changement.md)
@@ -53,15 +52,10 @@
 - [Entrée analogique](./entree_analogique/entree_analogique.md)
 - [Potentiomètre](./potentiometre/potentiometre.md)
 - [Photorésistance](./photoresistance/photoresistance.md)
-- [Exemples](./ex_entree_analogique/ex_entree_analogique.md)
 
 # Les sorties analogiques
 - [Sortie analogique](./sortie_analogique/sortie_analogique.md)
-- [Exemples]()
-   - [Chandelle](./chandelle/chandelle.md)
-
-# Scénarios
-- [Arduino ⇄ logiciel distant](./scenario_distant/scenario_distant.md)
+- [Simuler une chandelle](./chandelle/chandelle.md)
 
 # OSC
 - [Open Sound Control (OSC)](./osc/osc.md)
@@ -70,8 +64,8 @@
 
 # OSC SLIP
 - [OSC SLIP : Pure Data (PD)](./pd/osc_slip.md)
-- [OSC SLIP : Max](./max/max_osc_slip.md)
-- [OSC SLIP : Web](./osc_slip_web/osc_slip_web.md)
+- [OSC SLIP : Cycling '74 Max](./max/max_osc_slip.md)
+- [OSC SLIP : Web/Node.js](./osc_slip_web/osc_slip_web.md)
 
 # OSC UDP
 - [Relais SLIP⇄UDP avec PD](./pd/relais_osc_slip_udp.md)
@@ -84,9 +78,8 @@
 
 # Les bandes de DEL
 - [Bande de DEL](./bande_del/bande_del.md)
-- [Exemples]()
-   - [Pong 1D](./pong_1d/pong_1d.md)
-   - [Contrôle par OSC](./bande_del_osc/bande_del_osc.md)
+- [Pong 1D](./pong_1d/pong_1d.md)
+- [Contrôle par OSC](./bande_del_osc/bande_del_osc.md)
    
 # Déploiement
 - [Raspberry PI](./raspberry_pi/raspberry_pi.md)

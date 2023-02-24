@@ -12,13 +12,12 @@ Pour régler la tension électrique de sortie d'une broche, on utilise ces blocs
 pinMode( numeroBoche , OUTPUT );
 ```
 
-2) Régler la tension avec l’une des commandes suivantes :
-Pour règler la tension de sortie à 5V (pôle positif)
+2) Pour règler la tension de sortie à 5V (pôle positif) :
 ```cpp
 digitalWrite( numeroBoche, HIGH );
 ```
 
-3) Pour règler la tension de sortie à 0V (pôle négatif/GND) 
+3) Pour règler la tension de sortie à 0V (pôle négatif/GND) :
 ```cpp
 digitalWrite( numeroBoche, LOW );
 ```

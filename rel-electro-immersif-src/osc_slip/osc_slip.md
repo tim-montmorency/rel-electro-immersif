@@ -16,12 +16,11 @@ Cette solution se décline en deux implémentations :
 
 ![Scénario de connectique à une application qui supporte directement l'OSC SLIP](./osc_slip_connectique_directe.svg)
 
-### Dans le cas dune application qui supporte l'OSC UPD à l'aide d'un relais OSC SLIP ⇄ OSC UDP
+### Dans le cas d'une application qui supporte l'OSC UPD à l'aide d'un relais OSC SLIP ⇄ OSC UDP
 
 ![Schématisation de la chaîne de connectique OSC SLIP ⇄ OSC UDP](../osc_espace_immersif/osc_espace_immersif_connectique.svg)
 
-
-## Circuit pour réaliser le scénario de connectique
+## Circuit de démonstration
 
 ### Schéma du circuit
 ![Schéma d'un circuit avec un bouton d'arcade illuminé, une photorésistance et un potentiometre](../osc_espace_immersif/osc_espace_immersif_schema.png)
@@ -29,7 +28,7 @@ Cette solution se décline en deux implémentations :
 ### Illustration du circuit
 ![Illustration d'un circuit avec un bouton d'arcade illuminé, une photorésistance et un potentiometre](../osc_espace_immersif/osc_espace_immersif_illustration.png)
 
-## Code OSC SLIP avec MicroOsc pour réaliser le scénario
+## Code OSC SLIP avec MicroOsc pour la démonstration
 
 ```arduino
 {{#include ../osc_espace_immersif/MicroOsc_Demo_SLIP/MicroOsc_Demo_SLIP.ino}}

@@ -15,3 +15,7 @@ La photorésistance nécessite un circuit de diviseur de tension pour être conn
 ## Microsoudure de la photorésistance
 
 ![](./photoresistance2.svg)
+
+## Exemple sur la variation de la luminosité d'une DEL en fonction de la lumière ambiante
+
+ * [Cours pour débuter sur Arduino - XVII-D. Code 17 : variation de la luminosité d'une LED en fonction de la lumière ambiante](https://arduino.developpez.com/tutoriels/arduino-a-l-ecole/?page=projet-9-les-inputs-analogiques#LXVII-D).

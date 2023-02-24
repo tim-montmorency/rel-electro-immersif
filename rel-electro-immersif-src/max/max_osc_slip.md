@@ -2,7 +2,7 @@
 
 ## Installation de Max
 
-Télécharger le logiciel ici (si possible la version avec installateur) : [cycling74.com/downloads](https://cycling74.com/downloads)
+Télécharger le logiciel ici (si possible la version avec installateur) : [cycling74.com/downloads](https://cycling74.com/downloads).
 
 ## Installation des objets additionnels pour l'OSC SLIP dans Max
 

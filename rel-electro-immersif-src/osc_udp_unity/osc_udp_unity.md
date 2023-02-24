@@ -3,8 +3,8 @@
 ## Préalables
 
 Pour envoyer de l'OSC UDP à Unity, vous pouvez l'une des solutions suivantes :
-* **de préférence** un microcontrôleur avec une connexion WiFI ou Ethernet qui peut communiquer en UDP ; dans ce cas, utilisez [MicroOsc UDP](../osc_udp/osc_udp.md)
-* **sinon** un microcontrôleur avec une connexion série ; dans ce cas, utilisez [MicroOsc SLIP](../osc_slip/osc_slip.md) ainsi qu'un logiciel permettant de faire le relais SLIP à UDP
+* **de préférence** un microcontrôleur avec une connexion WiFI ou Ethernet qui peut communiquer en UDP ; dans ce cas, utilisez [MicroOsc UDP](../osc_udp/osc_udp.md).
+* **sinon** un microcontrôleur avec une connexion série ; dans ce cas, utilisez [MicroOsc SLIP](../osc_slip/osc_slip.md) ainsi qu'un logiciel permettant de faire le relais SLIP à UDP.
 
 ### Relais SLIP à UDP avec Pure Data pour [MicroOsc SLIP](../osc_slip/osc_slip.md)
 

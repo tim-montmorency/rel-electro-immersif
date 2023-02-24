@@ -72,9 +72,9 @@ Un message OSC est composé des éléments suivants:
 ### Adresse
 
 L'adresse indique quel est le paramètre que l'on veut modifier. Elle peut être composée de n'importe quelle lettre et chiffre. Par contre, voici quelques recommandations à suivre lorsque vous concevez votre propre serveur OSC:
-* Une adresse doit toujours commencer par `/`
+* Une adresse doit toujours commencer par `/` (attention, dans certains logiciels comme Pure Data ou TouchDesigner, le `/`  est implicite).
 * Chaque `/` subdivise l'adresse en hiérarchie symbolique. Plus une subdivision se trouve au début, plus est elle haute dans hiérarchie. Prenons comme exemple `/A/B` : `A` englobe `B` et `B` fait partie de `A`.
-* Tous les *espaces* doivent être remplacés par des `_`
+* Tous les *espaces* doivent être remplacés par des `_`.
 
 Quelques exemples: 
 ```
@@ -105,6 +105,3 @@ Voici quelques recommandations à suivre lorsque vous concevez votre propre serv
 * Essayer de réduire le nombre d'arguments au profit d'un adressage plus complet. Cela respecte mieux la hiérarchie de l'adressage et plusieurs serveurs OSC ne supportent qu'un seul argument à la fois. Par exemple, utiliser `/piste/0/vol 1.` a un seul argument plutôt que `/piste/vol 0 1.` à deux arguments.
 * Utiliser autant que possible des nombres réels normalisés entre `0.` et `1.` pour plus de compatibilité.
 
-### Annexe d'applications supportant l'OSC
-
-* https://sensors2.org/osc/

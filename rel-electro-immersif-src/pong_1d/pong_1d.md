@@ -12,18 +12,11 @@ Cet exemple est basé sur le projet [DIY Arduino 1D Pong Game with WS2812 LED St
 
 Le code original a été écrit par B.Stultiens en 2015. La version présentée ici a été modifiée pour en régler des bogues, pour le mettre à jour et pour en retirer toute la partie audio. Une simulation du projet modifié peut être consultée en ligne ici : [https://pi-pico.preview.wokwi.com/arduino/projects/345886566467502674](https://pi-pico.preview.wokwi.com/arduino/projects/345886566467502674)
 
-Le projet nécessite:
+Le projet dépend de la bibliothèque **Adafruit NeoPixel** et nécessite:
 * 1 bande de DEL d'au moins 32 pixels
 * la bibliothèque NeoPixel pour contrôler la bande de DEL
 * 2 interrupteurs pour démarrer et frapper la balle
 * *Optionnel*: 2 autres interrupteurs qui peuvent être ajoutés pour permettre l'activation des bonus de jeu
-
-
-
-### Installation de la bibliothèque Adafruit NeoPixel
-
-![Installation de la bibliothèque Adafruit NeoPixel](./arduino_bibliotheque_installation_neopixel.svg)
-
 
 ### Le circuit
 
