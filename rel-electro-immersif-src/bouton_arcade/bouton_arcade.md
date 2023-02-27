@@ -2,7 +2,7 @@
 
 ## Référence du produit
 
-[Arcade Button with LED - 30mm Translucent Red : ID 3489 : $2.50 : Adafruit Industries, Unique & fun DIY electronics and kits](https://www.adafruit.com/product/3489)
+* Adafruit. (s. d.). Arcade Button with LED – 30mm Translucent Red. [https://www.adafruit.com/product/3489](https://www.adafruit.com/product/3489)
 
 ## Microsoudure du bouton
 

@@ -11,7 +11,7 @@ Le schéma et l’image ci-bas montrent tous les deux comment allumer une DEL av
 
 ![Schéma et image d'une DEL alimentée par une batterie](./alimenter_del_avec_une_batterie.svg)
 
-![Animation de l'alimentation d'une DEL par une batterie — CC BY-SA 4.0 SparkFun](./alimenter_del_batterie_9v.gif)
+![Animation de l'alimentation d'une DEL par une batterie (CTAYLOR, s. d.)](./alimenter_del_batterie_9v.gif)
 
 ### Identification de l'alimentation
 
@@ -39,8 +39,6 @@ Portez attention à la longueur des pattes de la DEL. Une patte est plus longue 
 
 ![Une disposition possible sur la platine d'expérimentation](./alimenter_del_circuit_bb.svg)
 
-## Attributions
+## Sources des images
 
-Cette page reprend certains éléments des ressoures libres [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) suivantes :
-
-* [Voltage, Current, Resistance, and Ohm's Law - SparkFun Learn](https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law/all)
+* CTAYLOR. (s. d.). Voltage, Current, Resistance, and Ohm’s Law. Sparkfun. [https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law/all](https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law/all)

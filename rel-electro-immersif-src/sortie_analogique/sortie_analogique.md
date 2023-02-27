@@ -62,6 +62,6 @@ void loop() {
 }
 ```
 
-## Information complémentaire les sorties analogiques/la modulation de largeur d'impulsion (PWM)
+## Information complémentaire sur les sorties analogiques/la modulation de largeur d’impulsion (PWM)
 
-* [Pulse Width Modulation - SparkFun Learn](https://learn.sparkfun.com/tutorials/pulse-width-modulation)
+* JORDANDEE. (s. d.). Pulse Width Modulation. Sparkfun. [https://learn.sparkfun.com/tutorials/pulse-width-modulation](https://learn.sparkfun.com/tutorials/pulse-width-modulation)

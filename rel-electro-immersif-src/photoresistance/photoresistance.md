@@ -10,12 +10,12 @@ La photorésistance nécessite un circuit de diviseur de tension pour être conn
 
 ## Information complémentaire sur les diviseurs de tension
 
-* [Voltage Dividers - SparkFun Learn](https://learn.sparkfun.com/tutorials/voltage-dividers)
+* JIMBLOM. (s. d.). Voltage Dividers. Sparkfun. [https://learn.sparkfun.com/tutorials/voltage-dividers](https://learn.sparkfun.com/tutorials/voltage-dividers)
 
-## Microsoudure de la photorésistance
+## Micro-soudure de la photorésistance
 
-![](./photoresistance2.svg)
+![Étapes pour effectuer la micro-soudure de deux câbles à une photorésistance](./photoresistance2.svg)
 
 ## Exemple sur la variation de la luminosité d'une DEL en fonction de la lumière ambiante
 
- * [Cours pour débuter sur Arduino - XVII-D. Code 17 : variation de la luminosité d'une LED en fonction de la lumière ambiante](https://arduino.developpez.com/tutoriels/arduino-a-l-ecole/?page=projet-9-les-inputs-analogiques#LXVII-D).
+ * F-LEB. (s. d.) Cours pour débuter sur Arduino - XVII-D. Code 17 : variation de la luminosité d'une LED en fonction de la lumière ambiante. Développez. [https://arduino.developpez.com/tutoriels/arduino-a-l-ecole/?page=projet-9-les-inputs-analogiques#LXVII-D](https://arduino.developpez.com/tutoriels/arduino-a-l-ecole/?page=projet-9-les-inputs-analogiques#LXVII-D)

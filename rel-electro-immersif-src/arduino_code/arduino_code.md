@@ -1,6 +1,6 @@
 # Le code Arduino
 
-## Références
+## Documents de référence
 
 * [Référence Arduino sur Arduino.cc](https://www.arduino.cc/reference/en/)
 * [Arduino Programming Notebook de Bryan W Evans (2017) en version PDF](../pdf/arduino_programming_notebook-bryan_w_evans.pdf)
@@ -45,7 +45,7 @@ Le programme se déroule de la façon suivante :
 
 ## Les instructions 
 
-*Cette section sur les instructions reprend plusieurs éléments de la ressource libre [FLOSS-Manuals Programmer-Arduino](https://fr.flossmanuals.net/arduino/programmer-arduino/).*
+
 
 
 Les instructions sont des lignes de code qui disent au programme : « fais ceci, fais cela… » Ce sont donc les ordres qui seront exécutés par l'Arduino. Il est très important de respecter exactement la syntaxe ; faute de quoi, le code ne pourra pas être exécuté.
@@ -196,10 +196,17 @@ switch (message) {
 
 ![Capture d'écran du «Arduino Cheat Sheet» de SparkFun](./sparkfun_arduino_cheat_sheat.png)
 
-La version PDF du «Arduino Cheat Sheet» de SparkFun peut être téléchargée ici : [SparkFun Education - Classroom Downloads - Arduino Cheatsheet](https://sparkfuneducation.com/classroom-downloads/arduino-cheatsheet.html)
+La version PDF du «Arduino Cheat Sheet» de SparkFun peut être téléchargée ici : [SparkFun Education - Classroom Downloads - Arduino Cheatsheet](https://sparkfuneducation.com/classroom-downloads/arduino-cheatsheet.html).
 
+## Références
+
+* FlossManuals. (s. d.). Programmer-Arduino. [https://fr.flossmanuals.net/arduino/programmer-arduino/](https://fr.flossmanuals.net/arduino/programmer-arduino/)
 
 ## Ressources additionnelles
 
-* [FLOSS Manuals: Programmer-Arduino / Arduino](https://fr.flossmanuals.net/arduino/programmer-arduino/)
-* [FLOSS Manuals: Comment-Bien-Structurer-Son-Code / Arduino](https://fr.flossmanuals.net/arduino/comment-bien-structurer-son-code/)
+* FlossManuals. (s. d.). Bien coder. [https://fr.flossmanuals.net/arduino/comment-bien-structurer-son-code/](https://fr.flossmanuals.net/arduino/comment-bien-structurer-son-code/)
+
+
+## Sources des images
+
+* Sparkfun. (s. d.). Arduino Cheatsheet. [https://sparkfuneducation.com/classroom-downloads/arduino-cheatsheet.html](https://sparkfuneducation.com/classroom-downloads/arduino-cheatsheet.html)

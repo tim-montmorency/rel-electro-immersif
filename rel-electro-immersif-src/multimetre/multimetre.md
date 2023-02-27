@@ -1,9 +1,13 @@
 # Multimètre
 
-## Mesure de continuité
+Voici deux tutoriels sur comment utiliser le multimètre pour :
+* Mesurer la continuité.
+* Mesurer la résistance.
 
-* [Continuity - How to Use a Multimeter - SparkFun Learn](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/all#continuity)
+## Mesurer la continuité
 
-## Mesure de résistance
+* Nate. (s. d.). Continuity. Sparkfun.[ https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/all#continuity](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/all#continuity)
 
-* [Measuring Resistance - How to Use a Multimeter - SparkFun Learn](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/all#measuring-resistance)
+## Mesurer la résistance
+
+* Nate. (s. d.). Measuring Resistance. Sparkfun. [https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/all#measuring-resistance](https://learn.sparkfun.com/tutorials/how-to-use-a-multimeter/all#measuring-resistance)

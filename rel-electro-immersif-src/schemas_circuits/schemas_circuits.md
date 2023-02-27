@@ -19,4 +19,4 @@ Un schéma de circuit est une représentation schématique de la connectique d�
 
 ## Infomation complémentaire sur la lecture de schémas
 
-* [How to Read a Schematic - SparkFun Learn](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic)
+* JIMBLOM. (s. d.). How to Read a Schematic. Sparkfun. [https://learn.sparkfun.com/tutorials/how-to-read-a-schematic](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic)

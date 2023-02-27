@@ -2,34 +2,34 @@
 
 ## Équipement essentiel
 
-![Plusieurs modèles de fer à souder — CC BY-SA 4.0 SparkFun](./soldering-iron.jpg)
+![Plusieurs modèles de fer à souder (JOEL_E_B, s. d.)](./soldering-iron.jpg)
 
-![Bobine de soudure d'étain — Capture d'écran du site Web abra-electronics.com](./micro-soudure_bobine.svg)
+![Bobine de soudure 60/40 0.031" (ADAFRUIT)](./micro-soudure_bobine.png)
 
-![Nettoyeur de pointe — CC BY-SA 4.0 SparkFun](./brass_sponge.jpg)
+![Nettoyeur de pointe (JOEL_E_B, s. d.)](./brass_sponge.jpg)
 
-![Pompe à dessouder — CC BY-SA 4.0 SparkFun](./solder_vacuum.jpg)
+![Pompe à dessouder (JOEL_E_B, s. d.)](./solder_vacuum.jpg)
 
 ![Pince à dénuder](./micro-soudure_pince_denuder.svg)
 
-![Pince à couper latérale de précision (flush cutters) — CC BY-SA 4.0 SparkFun](./flush_cutters.jpg)
+![Pince à couper latérale de précision (flush cutters) (JOEL_E_B, s. d.)](./flush_cutters.jpg)
 
-![Pince à long bec — CC BY-SA 4.0 SparkFun](./needle_nose.jpg)
+![Pince à long bec (JOEL_E_B, s. d.)](./needle_nose.jpg)
 
 ## Technique
 
-![Résumé de la technique pour la micro-soudure — CC BY-SA 4.0 SparkFun](./micro-soudure_technique.svg)
+![Résumé de la technique pour la micro-soudure (JOEL_E_B, s. d.)](./micro-soudure_technique.svg)
 
 ## Informations complémentaires
 
-* [Tutoriel sous form de bande dessinée: SOUDER C'EST FACILE](../pdf/bd_soudure.pdf)
-* [Tools | Adafruit Guide To Excellent Soldering | Adafruit Learning System](https://learn.adafruit.com/adafruit-guide-excellent-soldering/tools)
-* [Preparation | Adafruit Guide To Excellent Soldering | Adafruit Learning System](https://learn.adafruit.com/adafruit-guide-excellent-soldering/preparation)
-* [Making a good solder joint | Adafruit Guide To Excellent Soldering | Adafruit Learning System](https://learn.adafruit.com/adafruit-guide-excellent-soldering/making-a-good-solder-joint)
-* [Common Soldering Problems | Adafruit Guide To Excellent Soldering | Adafruit Learning System](https://learn.adafruit.com/adafruit-guide-excellent-soldering/common-problems)
-* [Vidéo d'introduction sur la soudure par KidzLab](https://vimeo.com/481700117/fe056befd2)
+* Altman, M. (s. d.). Souder c’est facile : voici comment faire (A. Nordgren, ill.; J. Keyzerm éd.; Snootlab, trad.). [bd_soudure.pdf](../pdf/bd_soudure.pdf)
+* Earl. B. (2012, 6 septembre). Common Soldering Problems. Adafruit. [https://learn.adafruit.com/adafruit-guide-excellent-soldering/preparation](https://learn.adafruit.com/adafruit-guide-excellent-soldering/preparation)
+* Earl. B. (2012, 6 septembre). Making good solder joint. Adafruit. [https://learn.adafruit.com/adafruit-guide-excellent-soldering/making-a-good-solder-joint](https://learn.adafruit.com/adafruit-guide-excellent-soldering/making-a-good-solder-joint)
+* Earl. B. (2012, 6 septembre). Preparation. Adafruit. [https://learn.adafruit.com/adafruit-guide-excellent-soldering/preparation](https://learn.adafruit.com/adafruit-guide-excellent-soldering/preparation)
+* Earl. B. (2012, 6 septembre). Tools. Adafruit. [https://learn.adafruit.com/adafruit-guide-excellent-soldering/tools](https://learn.adafruit.com/adafruit-guide-excellent-soldering/preparation)
+* Montuelle, C. (s. d.). Introduction à la soudure électrique [vidéo]. Vimeo. [https://vimeo.com/481700117/fe056befd2]( https://vimeo.com/481700117/fe056befd2) 
 
-## Attributions
+## Sources des images
 
-Cette page reprend certains éléments des ressoures libres [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) suivantes :
-* [How to Solder: Through-Hole Soldering - SparkFun Learn](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering/all)
+* ADAFRUIT. (s. d.). Mini Solder spool - 60/40 lead rosin-core solder 0.031" diameter - 100g. [https://www.flickr.com/photos/adafruit/39675740312](https://www.flickr.com/photos/adafruit/39675740312) 
+* JOEL_E_B. (s. d.). How to Solder : Through-Hole Soldering. Sparkfun. [https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering/all](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering/all )

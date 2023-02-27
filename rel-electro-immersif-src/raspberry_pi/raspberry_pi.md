@@ -2,21 +2,25 @@
 
 ## Scénario distant
 
-![Utilisation d'un Raspberry PI pour le relais de messages OSC locaux à distance](./scenario_distant.svg)
+![Utilisation d'un Raspberry Pi pour le relais de messages OSC locaux à distance](./scenario_distant.svg)
 
-## Installation de Raspberry PI OS
+## Installation de Raspberry Pi OS
 
-### Installer [Raspberry Pi OS](https://fr.wikipedia.org/wiki/Raspberry_Pi_OS) sur une carte micro SD
+Le système d'exploitation choisi pour le Raspberry Pi est le [Raspberry Pi OS](https://fr.wikipedia.org/wiki/Raspberry_Pi_OS).
 
-#### Utiliser [Raspberry Pi Imager](https://www.raspberrypi.com/software/) 
+### 32 bits vs 64 bits
 
-* [Vidéo survolant Raspberry Pi Imager ](https://www.youtube.com/watch?v=ntaXWS8Lk34)
+ **La distribution 32 bits est a favorisée** ; au temps d'écrire (janvier 2023), l'accélération matérielle du décodage caméra n'était pas encore active sur la mouture 64 bit.
 
-* [Documentation officielle pour bien démarrer](https://www.raspberrypi.com/documentation/computers/getting-started.html) 
 
-#### 32Bit vs 64Bit
+### Installer Raspberry Pi OS sur une carte micro SD
 
-Au temps d'écrire (janvier 2023), l'accélération matérielle du décodage caméra n'était pas encore active sur la mouture 64 bit. Le cas échéant, la distribution 32 bit est favorisée.   
+#### Utiliser Raspberry Pi Imager
+
+Le logiciel [Raspberry Pi Imager](https://www.raspberrypi.com/software/) permet d'installer facilement Raspberry Pi OS :
+* [Vidéo survolant Raspberry Pi Imager ](https://www.youtube.com/watch?v=ntaXWS8Lk34).
+* [Documentation officielle pour bien démarrer](https://www.raspberrypi.com/documentation/computers/getting-started.html).
+
 
 ### Raspi-config 
 
@@ -29,17 +33,18 @@ sudo raspi-config
 ```
 
 #### Hostname
-tim-rpi-x ou x devient un chiffre d'une séquence
+
+Il est préférable de configurer le *hostname*. Par exemple :  `tim-rpi-x` où `x` devient est le chiffre d'une séquence. Cela permet d'avoir plusieurs Raspberry Pi facilement reconnaissables.
 
 #### Interface option
 
-* IP : [Raspberry Pi Documentation - Remote access](https://www.raspberrypi.com/documentation/computers/remote-access.html#introduction-to-remote-access)
-* SSH : [Raspberry Pi Documentation - Setting up and SSH Server](https://www.raspberrypi.com/documentation/computers/remote-access.html#setting-up-an-ssh-server)
-* VNC : [Raspberry Pi Documentation - Virtual Network Computing (VNC)](https://www.raspberrypi.com/documentation/computers/remote-access.html#virtual-network-computing-vnc)
+* IP : [Raspberry Pi Documentation - Remote access](https://www.raspberrypi.com/documentation/computers/remote-access.html#introduction-to-remote-access).
+* SSH : [Raspberry Pi Documentation - Setting up and SSH Server](https://www.raspberrypi.com/documentation/computers/remote-access.html#setting-up-an-ssh-server).
+* VNC : [Raspberry Pi Documentation - Virtual Network Computing (VNC)](https://www.raspberrypi.com/documentation/computers/remote-access.html#virtual-network-computing-vnc).
 
 ### Partage de fichier réseau
 
-* Samba : [Raspberry Pi Documentation - Samba (SMB/CIFS)](https://www.raspberrypi.com/documentation/computers/remote-access.html#samba-smbcifs)
+* Samba : [Raspberry Pi Documentation - Samba (SMB/CIFS)](https://www.raspberrypi.com/documentation/computers/remote-access.html#samba-smbcifs).
 
 
 ```
@@ -84,14 +89,10 @@ ssh-keygen -t rsa -b 2048 -C $HOSTNAME
 
 La version qui est disponible via le gestionnaire de paquet est désuète. 
 
-* Télécharger et installer la plus récente version de la série Legacy IDE (1.8.X) sur le site suivant [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software) 
-
-* Sélectionner **Linux ARM 32 bits** : [https://downloads.arduino.cc/arduino-1.8.19-linux32.tar.xz](https://downloads.arduino.cc/arduino-1.8.19-linux32.tar.xz)
-
+* Télécharger et installer la plus récente version de la série Legacy IDE (1.8.X) sur le site suivant [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software).
+* Sélectionner **Linux ARM 32 bits** : [https://downloads.arduino.cc/arduino-1.8.19-linux32.tar.xz](https://downloads.arduino.cc/arduino-1.8.19-linux32.tar.xz).
 * Décompresser le fichier `tar.xz`
-
 * Exécuter le fichier `install.sh`
-
 * Lancer l'application via l'icône générée dans la barre de menu
 
 
@@ -99,7 +100,7 @@ La version qui est disponible via le gestionnaire de paquet est désuète.
 
 ### Pure Data
 
-La version de [Pure Data](http://msp.ucsd.edu/software.html) qui est disponible via le gestionnaire de paquet de Raspberry PI OS est désuète. Il faut compiler Pure Data depuis la source.
+La version de [Pure Data](http://msp.ucsd.edu/software.html) qui est disponible via le gestionnaire de paquet de Raspberry Pi OS est désuète. Il faut compiler Pure Data depuis la source.
 
 #### Compiler Pure Data depuis la source
 
@@ -135,11 +136,8 @@ sudo apt install plugdata
 Reaper est un DAW.
 
 * Télécharger la version la plus récente pour l'architecture `Linux armv7l` sur le site [REAPER | Download](https://www.reaper.fm/download.php)
-
 * Décompresser 
-
 * Executer install-reaper.sh depuis le terminal
-
 * Lancer l'application via l'icône générée dans la barre de menu
 
 ### Cardinal
@@ -147,11 +145,8 @@ Reaper est un DAW.
 Cardinal est une version libre de VCV Rack.
 
 * Télécharger la version `armhf` la plus récente depuis [Releases · DISTRHO/Cardinal](https://github.com/DISTRHO/Cardinal/releases)
-
 * Décompresser le fichier `tar.gz`
-
 * Exécuter `CardinalNative` pour lancer l'application
-
 * Configurer les DAW vers le dossier de Cardinal pour indexer Cardinal comme effet (VST, VST3, LV2, CLAP)
 
 

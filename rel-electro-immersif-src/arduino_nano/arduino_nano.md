@@ -13,5 +13,6 @@ Il existe plusieurs sous-modèles de la carte Arduino Nano qui se différencient
 
 ## Installer le pilote de la carte Arduino Nano 
 
-Si l'Arduino Nano utilise une puce CH340, les instructions suivantes pour installer le pilote doivent être suivies : [Sparkfun : How to Install CH340 Drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all)
+Si l'Arduino Nano utilise une puce CH340, les instructions suivantes pour installer le pilote doivent être suivies :
+* BBOYHO et SANTAIMPERSONATOR. (s. d.). How to Install CH340 Drivers. Sparkfun. [https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all)
 
