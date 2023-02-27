@@ -1,0 +1,1173 @@
+<!DOCTYPE HTML>
+<html lang="fr" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Pong 1D</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+            <link rel="stylesheet" href="../glightbox/dist/css/glightbox.min.css" />
+           <script src="../glightbox/dist/js/glightbox.min.js"></script>
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../couverture.html"><strong aria-hidden="true">1.</strong> Couverture</a></li><li class="chapter-item expanded "><a href="../rel-electro-immersif.html"><strong aria-hidden="true">2.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../osc_espace_immersif/osc_espace_immersif.html"><strong aria-hidden="true">3.</strong> Objectif final</a></li><li class="chapter-item expanded affix "><li class="part-title">Électronique</li><li class="chapter-item expanded "><a href="../electricite/electricite.html"><strong aria-hidden="true">4.</strong> Électricité</a></li><li class="chapter-item expanded "><a href="../schemas_circuits/schemas_circuits.html"><strong aria-hidden="true">5.</strong> Schémas de circuit</a></li><li class="chapter-item expanded "><a href="../platine_experimentation/platine_experimentation.html"><strong aria-hidden="true">6.</strong> Platine d'expérimentation</a></li><li class="chapter-item expanded "><a href="../erreurs_fatales/erreurs_fatales.html"><strong aria-hidden="true">7.</strong> Erreurs fatales</a></li><li class="chapter-item expanded "><a href="../del/del.html"><strong aria-hidden="true">8.</strong> DEL</a></li><li class="chapter-item expanded "><a href="../resistance/resistance.html"><strong aria-hidden="true">9.</strong> Résistance</a></li><li class="chapter-item expanded "><a href="../alimenter_del/alimenter_del.html"><strong aria-hidden="true">10.</strong> Alimenter une DEL</a></li><li class="chapter-item expanded "><a href="../micro-soudure/micro-soudure.html"><strong aria-hidden="true">11.</strong> Micro-soudure</a></li><li class="chapter-item expanded "><a href="../multimetre/multimetre.html"><strong aria-hidden="true">12.</strong> Multimètre</a></li><li class="chapter-item expanded affix "><li class="part-title">Cartes Arduino</li><li class="chapter-item expanded "><a href="../arduino_cartes/arduino_cartes.html"><strong aria-hidden="true">13.</strong> Modèles de cartes</a></li><li class="chapter-item expanded "><a href="../arduino_nano/arduino_nano.html"><strong aria-hidden="true">14.</strong> Cartes Arduino Nano</a></li><li class="chapter-item expanded affix "><li class="part-title">Arduino IDE</li><li class="chapter-item expanded "><a href="../arduino-ide/fenetre_principale.html"><strong aria-hidden="true">15.</strong> Fenêtre principale</a></li><li class="chapter-item expanded "><a href="../arduino-ide_configuration_nano/arduino-ide_configuration_nano.html"><strong aria-hidden="true">16.</strong> Configuration du port</a></li><li class="chapter-item expanded "><a href="../arduino-ide_test_blink/arduino-ide_test_blink.html"><strong aria-hidden="true">17.</strong> Blink: le code test universel</a></li><li class="chapter-item expanded affix "><li class="part-title">Algorithmie I</li><li class="chapter-item expanded "><a href="../arduino_code/arduino_code.html"><strong aria-hidden="true">18.</strong> Le code Arduino</a></li><li class="chapter-item expanded "><a href="../arduino_millis/arduino_millis.html"><strong aria-hidden="true">19.</strong> Mesurer le temps</a></li><li class="chapter-item expanded "><a href="../intervalle/intervalle.html"><strong aria-hidden="true">20.</strong> Intervalle de temps</a></li><li class="chapter-item expanded affix "><li class="part-title">Les sorties numériques</li><li class="chapter-item expanded "><a href="../sortie_numerique/sortie_numerique.html"><strong aria-hidden="true">21.</strong> Sortie numérique</a></li><li class="chapter-item expanded "><a href="../arduino_exemple_del/arduino_exemple_del.html"><strong aria-hidden="true">22.</strong> Contrôle d'une DEL</a></li><li class="chapter-item expanded affix "><li class="part-title">Algorithmie II</li><li class="chapter-item expanded "><a href="../arduino_deboguer/arduino_deboguer.html"><strong aria-hidden="true">23.</strong> Déboguage série ASCII</a></li><li class="chapter-item expanded affix "><li class="part-title">Les entrées numériques</li><li class="chapter-item expanded "><a href="../entree_numerique/entree_numerique.html"><strong aria-hidden="true">24.</strong> Entrée numérique</a></li><li class="chapter-item expanded "><a href="../interrupteur/interrupteur.html"><strong aria-hidden="true">25.</strong> Interrupteur</a></li><li class="chapter-item expanded "><a href="../bouton_poussoir/bouton_poussoir.html"><strong aria-hidden="true">26.</strong> Bouton poussoir</a></li><li class="chapter-item expanded "><a href="../bouton_arcade/bouton_arcade.html"><strong aria-hidden="true">27.</strong> Bouton d'arcade</a></li><li class="chapter-item expanded affix "><li class="part-title">Algorithmie III</li><li class="chapter-item expanded "><a href="../changement/changement.html"><strong aria-hidden="true">28.</strong> Changement de valeur</a></li><li class="chapter-item expanded "><a href="../envoi_optimal_de_valeur/envoi_optimal_de_valeur.html"><strong aria-hidden="true">29.</strong> Envoi optimal de valeur</a></li><li class="chapter-item expanded affix "><li class="part-title">Les entrées analogiques</li><li class="chapter-item expanded "><a href="../entree_analogique/entree_analogique.html"><strong aria-hidden="true">30.</strong> Entrée analogique</a></li><li class="chapter-item expanded "><a href="../potentiometre/potentiometre.html"><strong aria-hidden="true">31.</strong> Potentiomètre</a></li><li class="chapter-item expanded "><a href="../photoresistance/photoresistance.html"><strong aria-hidden="true">32.</strong> Photorésistance</a></li><li class="chapter-item expanded affix "><li class="part-title">Les sorties analogiques</li><li class="chapter-item expanded "><a href="../sortie_analogique/sortie_analogique.html"><strong aria-hidden="true">33.</strong> Sortie analogique</a></li><li class="chapter-item expanded "><a href="../chandelle/chandelle.html"><strong aria-hidden="true">34.</strong> Simuler une chandelle</a></li><li class="chapter-item expanded affix "><li class="part-title">OSC</li><li class="chapter-item expanded "><a href="../osc/osc.html"><strong aria-hidden="true">35.</strong> Open Sound Control (OSC)</a></li><li class="chapter-item expanded "><a href="../microosc/microosc.html"><strong aria-hidden="true">36.</strong> MicroOsc</a></li><li class="chapter-item expanded "><a href="../osc_slip/osc_slip.html"><strong aria-hidden="true">37.</strong> OSC SLIP avec MicroOsc</a></li><li class="chapter-item expanded affix "><li class="part-title">OSC SLIP</li><li class="chapter-item expanded "><a href="../pd/osc_slip.html"><strong aria-hidden="true">38.</strong> OSC SLIP : Pure Data (PD)</a></li><li class="chapter-item expanded "><a href="../max/max_osc_slip.html"><strong aria-hidden="true">39.</strong> OSC SLIP : Cycling '74 Max</a></li><li class="chapter-item expanded "><a href="../osc_slip_web/osc_slip_web.html"><strong aria-hidden="true">40.</strong> OSC SLIP : Web/Node.js</a></li><li class="chapter-item expanded affix "><li class="part-title">OSC UDP</li><li class="chapter-item expanded "><a href="../pd/relais_osc_slip_udp.html"><strong aria-hidden="true">41.</strong> Relais SLIP⇄UDP avec PD</a></li><li class="chapter-item expanded "><a href="../max/relais_osc_slip_udp.html"><strong aria-hidden="true">42.</strong> Relais SLIP⇄UDP avec Max</a></li><li class="chapter-item expanded "><a href="../pd/pd_osc_udp.html"><strong aria-hidden="true">43.</strong> OSC UDP : Pure Data</a></li><li class="chapter-item expanded "><a href="../max/max_osc_udp.html"><strong aria-hidden="true">44.</strong> OSC UDP : Cycling '74 Max</a></li><li class="chapter-item expanded "><a href="../vcv_rack/vcv_rack_osc.html"><strong aria-hidden="true">45.</strong> OSC UDP : VCV Rack</a></li><li class="chapter-item expanded "><a href="../osc_udp_unity/osc_udp_unity.html"><strong aria-hidden="true">46.</strong> OSC UDP : Unity</a></li><li class="chapter-item expanded "><a href="../touchdesigner/td_osc_udp.html"><strong aria-hidden="true">47.</strong> OSC UDP : TouchDesigner</a></li><li class="chapter-item expanded affix "><li class="part-title">Les bandes de DEL</li><li class="chapter-item expanded "><a href="../bande_del/bande_del.html"><strong aria-hidden="true">48.</strong> Bande de DEL</a></li><li class="chapter-item expanded "><a href="../pong_1d/pong_1d.html" class="active"><strong aria-hidden="true">49.</strong> Pong 1D</a></li><li class="chapter-item expanded "><a href="../bande_del_osc/bande_del_osc.html"><strong aria-hidden="true">50.</strong> Contrôle par OSC</a></li><li class="chapter-item expanded affix "><li class="part-title">Déploiement</li><li class="chapter-item expanded "><a href="../raspberry_pi/raspberry_pi.html"><strong aria-hidden="true">51.</strong> Raspberry PI</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <div id="ToC"></div>
+                        <h1 id="pong-1d-pong-à-une-dimension"><a class="header" href="#pong-1d-pong-à-une-dimension">Pong 1D (Pong à une dimension)</a></h1>
+<h2 id="quest-ce-que-le-pong-original"><a class="header" href="#quest-ce-que-le-pong-original">Qu'est-ce que le Pong original?</a></h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=CKzWAxMfZRA">Data Driven Gamer: Pong (Atari, 1972 arcade, 60fps) - YouTube</a></li>
+<li><a href="https://www.youtube.com/watch?v=84Ymt9BAq5s">Atari Pong Table Electromechanical Game Debut @ IAAPA 2017 (Calinfer / UNIS) - YouTube</a></li>
+<li><a href="https://www.youtube.com/watch?v=6bm7fLcj5UI">Let's Play - The PainStation - YouTube</a></li>
+</ul>
+<h2 id="recréer-pong-en-1d"><a class="header" href="#recréer-pong-en-1d">Recréer Pong en 1D</a></h2>
+<p>Cet exemple est basé sur le projet <a href="https://create.arduino.cc/projecthub/mircemk/diy-arduino-1d-pong-game-with-ws2812-led-strip-a2418b">DIY Arduino 1D Pong Game with WS2812 LED Strip</a>. </p>
+<p>Le code original a été écrit par B.Stultiens en 2015. La version présentée ici a été modifiée pour en régler des bogues, pour le mettre à jour et pour en retirer toute la partie audio. Une simulation du projet modifié peut être consultée en ligne ici : <a href="https://pi-pico.preview.wokwi.com/arduino/projects/345886566467502674">https://pi-pico.preview.wokwi.com/arduino/projects/345886566467502674</a></p>
+<p>Le projet dépend de la bibliothèque <strong>Adafruit NeoPixel</strong> et nécessite:</p>
+<ul>
+<li>1 bande de DEL d'au moins 32 pixels</li>
+<li>la bibliothèque NeoPixel pour contrôler la bande de DEL</li>
+<li>2 interrupteurs pour démarrer et frapper la balle</li>
+<li><em>Optionnel</em>: 2 autres interrupteurs qui peuvent être ajoutés pour permettre l'activation des bonus de jeu</li>
+</ul>
+<h3 id="le-circuit"><a class="header" href="#le-circuit">Le circuit</a></h3>
+<p><img src="./pong_1d.svg" alt="Circuit minimal du Pong 1D" /></p>
+<h3 id="le-code"><a class="header" href="#le-code">Le code</a></h3>
+<p>Ne pas oublier de modifier la configuration matérielle pour qu'elle corresponde au circuit: </p>
+<ul>
+<li><strong>PIN_WSDATA</strong>: Le numéro de la broche Arduino reliée à la broche DI de la bande de DEL</li>
+<li><strong>NPIXELS</strong>: Le nombre de pixels dans botre bande de DEL</li>
+<li><strong>PIN_BUT_RS</strong>: Le numéro de la broche Arduino reliée au bouton de droite</li>
+<li><strong>PIN_BUT_LS</strong>: Le numéro de la broche Arduino reliée au bouton de gauche</li>
+<li><strong>ZONE_SIZE</strong>: La taille des buts</li>
+<li><strong>TIME_SPEED_MIN</strong>: La vitesse de la balle</li>
+</ul>
+<pre><code class="language-arduino">/*
+   Arduino 1D Pong Game with (60) WS2812B LEDs
+
+   Copyright (C) 2015  B.Stultiens (modified by Thomas O Fredericks in 2022)
+
+   This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope sthat it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+*/
+#include &quot;Adafruit_NeoPixel.h&quot;
+
+// HARDWARE CONFIGURATION
+#define PIN_WSDATA		10		// LED strip data in pin
+#define NPIXELS      64    // Number of pixels to handle
+
+#define PIN_BUT_RS		3		// Right start/hit button pin
+#define PIN_BUT_LS		2		// Left start/hit button pin
+
+#define PIN_BUT_RP    4   // Optionnal right power-up button
+#define PIN_BUT_LP    6   // Optionnal left power-up button
+
+// BALL SPEED
+#define TIME_SPEED_MIN    10
+
+// ZONE AND WIN CONFIGURATION
+#define ZONE_SIZE		7		// Bounce-back zone size
+#define WIN_POINTS    10    // Points needed to win
+#define SHOW_LO			12		// Score dots intensity background
+#define SHOW_HI			48		// Score dots intensity foreground
+
+
+#define NELEM(x)    (sizeof(x) / sizeof((x)[0]))
+
+Adafruit_NeoPixel one_d = Adafruit_NeoPixel(NPIXELS, PIN_WSDATA, NEO_GRB | NEO_KHZ800);
+
+// Events from buttons and timers
+#define EV_BUT_LS_PRESS		0x01
+#define EV_BUT_RS_PRESS		0x02
+#define EV_BUT_LP_PRESS		0x04
+#define EV_BUT_RP_PRESS		0x08
+#define EV_TIMER		0x10
+#define EV_TIMEOUT		0x20
+
+
+#define TIME_DEBOUNCE		8
+#define TIME_IDLE		40
+#define TIME_START_TIMEOUT	20000		// Go idle if nothing happens
+#define TIME_RESUME_TIMEOUT	7500		// Auto-fire after timeout
+#define TIME_BALL_BLINK		150
+#define TIME_SPEED_INTERVAL	3
+#define TIME_POINT_BLINK	233
+#define TIME_WIN_BLINK		85
+#define TIME_LOCKOUT		250		// Prevent fast button-press to max. 4 times/s
+
+
+
+enum {
+  ST_IDLE = 0,
+  ST_START_L,
+  ST_START_R,
+  ST_MOVE_LR,
+  ST_MOVE_RL,
+  ST_ZONE_L,
+  ST_ZONE_R,
+  ST_POINT_L,
+  ST_POINT_R,
+  ST_RESUME_L,
+  ST_RESUME_R,
+  ST_WIN_L,
+  ST_WIN_R,
+};
+
+static uint32_t oldtime;	// Previous' loop millis() value
+static uint8_t thestate;	// Game state
+
+static uint8_t bstate_ls;	// Button states
+static uint8_t bstate_rs;
+static uint8_t bstate_lp;
+static uint8_t bstate_rp;
+static uint8_t debtmr_ls;	// Button debounce timers
+static uint8_t debtmr_rs;
+static uint8_t debtmr_lp;
+static uint8_t debtmr_rp;
+static uint16_t timer;		// General timer
+static uint16_t timeout;	// Timeout timer (auto-start and goto idle)
+
+static uint16_t lockout_l;	// Lockout timer to prevent pushing too often
+static uint16_t lockout_r;
+static uint8_t ballblinkstate;	// Blinking ball at edge on/off
+static uint8_t pointblinkcount;	// Blinking point when a side scores
+static uint8_t ballpos;		// Current position of the ball
+static uint16_t speed;		// Time between ball moves
+static uint8_t speedup;		// Faster and faster replies counter
+static uint8_t points_l;	// Score
+static uint8_t points_r;
+static uint8_t zone_l;		// Hit back zone
+static uint8_t zone_r;
+static uint8_t boost_l;		// Set if user boosted speed last round
+static uint8_t boost_r;
+static uint8_t boosted;		// Set if any user boosted until the ball reaches opposite side
+
+static uint8_t tuneidx;		// Index to the running tune
+
+/*
+   Return the current state of a button.
+   Returns non-zero on button pressed.
+*/
+static inline uint8_t button_is_down(uint8_t pin)
+{
+  switch (pin) {
+    case PIN_BUT_LS:	return !debtmr_ls &amp;&amp; !bstate_ls;
+    case PIN_BUT_RS:	return !debtmr_rs &amp;&amp; !bstate_rs;
+    case PIN_BUT_LP:	return !debtmr_lp &amp;&amp; !bstate_lp;
+    case PIN_BUT_RP:	return !debtmr_rp &amp;&amp; !bstate_rp;
+  }
+  return 0;
+}
+
+/*
+   Debounce a button and return an event at the rising edge of the detection.
+   The rising edge ensures that there is no delay from pressing the button and
+   the event propagating. It is a prerequisite that the input line is not
+   glitchy.
+   A release event may be generated if the routine is slightly modified.
+*/
+static inline uint8_t do_debounce(uint8_t tdiff, uint8_t *bstate, uint8_t *debtmr, uint8_t pin, uint8_t ev)
+{
+  if (0 == *debtmr) {
+    uint8_t state = digitalRead(pin);
+    if (state != *bstate) {
+      *debtmr = TIME_DEBOUNCE;
+      if (!(*bstate = state))
+        return ev;	// Event on High-to-Low transition of input
+      // else
+      //  return release_event_value
+    }
+  } else {
+    if (*debtmr &gt;= tdiff)
+      *debtmr -= tdiff;
+    else
+      *debtmr = 0;
+  }
+  return 0;
+}
+
+/*
+   Timer countdown and return an event on timer reaching zero.
+*/
+static inline uint8_t do_timer(uint8_t tdiff, uint16_t *tmr, uint8_t ev)
+{
+  if (0 != *tmr) {
+    if (*tmr &gt;= tdiff)
+      *tmr -= tdiff;	// Timer countdown
+    else
+      *tmr = 0;
+    // Set event when done counting
+    if (0 == *tmr)
+      return ev;
+  }
+  return 0;
+}
+
+
+/*
+   Draw the left and right zones where the ball may be hit back.
+*/
+static void draw_sides()
+{
+  for (uint8_t i = 0; i &lt; zone_l - 1; i++) {
+    one_d.setPixelColor(i, 0, 64, 64);
+  }
+  one_d.setPixelColor(0, 0, 64, 64);
+  for (uint8_t i = 0; i &lt; zone_r - 1; i++) {
+    one_d.setPixelColor(NPIXELS - 1 - i, 0, 64, 64);
+  }
+  one_d.setPixelColor(NPIXELS - 1, 0, 64, 64);
+}
+
+/*
+   Draw the ball with a tail of five pixels in diminishing intensity.
+*/
+static void draw_ball(int8_t dir, uint8_t pos)
+{
+  uint8_t c = 255;
+  for (uint8_t i = 0; i &lt; 5 &amp;&amp; pos &gt;= 0 &amp;&amp; pos &lt; NPIXELS; i++) {
+    one_d.setPixelColor(pos, c, c, 0);
+    c &gt;&gt;= 1;
+    pos -= dir;
+  }
+}
+
+/*
+   Draw the playing field consisting of the zones and the points scored so far.
+*/
+static void draw_course(uint8_t v)
+{
+  one_d.clear();
+  draw_sides();
+  if (v) {
+    for (uint8_t i = 0; i &lt; points_l; i++) {
+      one_d.setPixelColor(NPIXELS / 2 - 1 - (2 * i + 0), v, 0, 0);
+      one_d.setPixelColor(NPIXELS / 2 - 1 - (2 * i + 1), v, 0, 0);
+    }
+    for (uint8_t i = 0; i &lt; points_r; i++) {
+      one_d.setPixelColor(NPIXELS / 2 + (2 * i + 0), 0, v, 0);
+      one_d.setPixelColor(NPIXELS / 2 + (2 * i + 1), 0, v, 0);
+    }
+  }
+}
+
+/*
+   Animate the game idle situation with following content:
+   - A rainbow pattern
+   - Ball bouncing left-right-left-right
+   - Score animation
+*/
+static uint16_t ai_h;
+static uint8_t ai_state;
+static uint8_t ai_pos;
+
+static void animate_idle_init(void)
+{
+  ai_h = 0;
+  ai_state = 0;
+}
+
+#define H_STEPS	1542
+
+static void animate_idle(void)
+{
+  switch (ai_state) {
+    case 0:
+    case 1:
+    case 2:
+    case 3:
+      /* Rainbow pattern */
+      for (uint8_t i = 0; i &lt; NPIXELS; i++) {
+        uint16_t h = ai_h + (i &lt;&lt; 4);
+        if (h &gt;= H_STEPS)
+          h -= H_STEPS;
+        uint32_t rgbcolor = one_d.ColorHSV(h, 255, 128);
+        one_d.setPixelColor(i, rgbcolor);
+      }
+      ai_h += H_STEPS / 60;
+      if (ai_h &gt;= H_STEPS) {
+        ai_h -= H_STEPS;
+        ai_pos = 0;
+        ai_state++;
+      }
+      break;
+    case 4:
+    case 6:
+      /* Ball left-to-right */
+      draw_course(0);
+      draw_ball(1, ai_pos++);
+      if (ai_pos &gt;= NPIXELS) {
+        ai_state++;
+      }
+      break;
+    case 5:
+    case 7:
+      /* Ball right-to-left */
+      draw_course(0);
+      draw_ball(-1, --ai_pos);
+      if (!ai_pos) {
+        ai_state++;
+      }
+      break;
+    case 8:
+    case 10:
+      /* Score blinkenlights */
+      draw_course(0);
+      for (uint8_t i = 0; i &lt; ai_pos; i++) {
+        one_d.setPixelColor(NPIXELS / 2 - 1 - i, 255, 0, 0);
+        one_d.setPixelColor(NPIXELS / 2 + i, 0, 255, 0);
+      }
+      if (++ai_pos &gt;= NPIXELS / 2) {
+        ai_state++;
+        ai_pos = 0;
+      }
+      break;
+
+    case 9:
+    case 11:
+      draw_course(0);
+      for (uint8_t i = 0; i &lt; NPIXELS / 2 - ai_pos; i++) {
+        one_d.setPixelColor(NPIXELS / 2 - 1 - i, 255, 0, 0);
+        one_d.setPixelColor(NPIXELS / 2 + i, 0, 255, 0);
+      }
+      if (++ai_pos &gt;= NPIXELS / 2) {
+        ai_state++;
+        ai_pos = 0;
+      }
+      break;
+
+    default:
+      ai_state = 0;
+      break;
+  }
+  one_d.show();
+}
+
+/*
+   Animate a winner. Flash the winning side's points.
+*/
+static uint8_t aw_state;
+static void animate_win_init()
+{
+  aw_state = 0;
+}
+
+static uint8_t animate_win(uint8_t side)
+{
+  uint32_t clr;
+  uint8_t pos;
+
+  if (side) {
+    clr = Adafruit_NeoPixel::Color(0, 255, 0);
+    pos = NPIXELS / 2;
+  } else {
+    clr = Adafruit_NeoPixel::Color(255, 0, 0);
+    pos = 0;
+  }
+
+  one_d.clear();
+  if (aw_state &lt; 20) {
+    if (aw_state &amp; 0x01) {
+      for (uint8_t i = 0; i &lt; NPIXELS / 2; i++) {
+        one_d.setPixelColor(pos + i, clr);
+      }
+    }
+  } else if (aw_state &lt; 50) {
+    for (uint8_t i = 0; i &lt; aw_state - 20; i++) {
+      one_d.setPixelColor(pos + i, clr);
+    }
+  } else if (aw_state &lt; 80) {
+    for (uint8_t i = aw_state - 50; i &lt; NPIXELS / 2; i++) {
+      one_d.setPixelColor(pos + i, clr);
+    }
+  } else if (aw_state &lt; 110) {
+    for (uint8_t i = 0; i &lt; aw_state - 80; i++) {
+      one_d.setPixelColor(NPIXELS / 2 - 1 - i + pos, clr);
+    }
+  } else if (aw_state &lt; 140) {
+    for (uint8_t i = aw_state - 110; i &lt; NPIXELS / 2; i++) {
+      one_d.setPixelColor(NPIXELS / 2 - 1 - i + pos, clr);
+    }
+  }
+  one_d.show();
+  return ++aw_state &lt; 140;
+}
+
+/*
+   Active game states suppress fast button pushes
+*/
+static uint8_t is_game_state(uint8_t s)
+{
+  switch (s) {
+    case ST_MOVE_LR:	// If you press too soon
+    case ST_MOVE_RL:
+    case ST_ZONE_R:		// In the zone
+    case ST_ZONE_L:
+    case ST_POINT_L:	// Just got a point, delay resume
+    case ST_POINT_R:
+    case ST_WIN_R:		// Delay to activate the win sequence
+    case ST_WIN_L:
+      return 1;
+    default:
+      return 0;
+  }
+}
+
+/*
+   Set the timer to the speed of the ball and the current boost-state
+*/
+static inline void speed_to_timer()
+{
+  if (boosted)
+    timer = speed * 3 / 4;
+  else
+    timer = speed;
+  if (timer &lt; 2)
+    timer = 2;
+}
+
+/*
+   State transition routine. Setup prerequisites for the new state to function
+   properly.
+   - Handle a state's exit actions
+   - Handle a state's entry actions
+*/
+static void set_state(uint8_t newstate)
+{
+  /* State exit actions */
+  switch (thestate) {
+    case ST_IDLE:
+    case ST_WIN_L:
+    case ST_WIN_R:
+      points_l = points_r = 0;
+      boost_l = boost_r = 0;
+      zone_l = zone_r = ZONE_SIZE;
+      speedup = 0;
+      boosted = 0;
+      break;
+
+    case ST_START_L:
+    case ST_POINT_L:
+    case ST_RESUME_L:
+      ballpos = 0;
+      /* Serve speed not too fast */
+      speed = TIME_SPEED_MIN + 5 * TIME_SPEED_INTERVAL;
+      speedup = 0;
+      break;
+
+    case ST_START_R:
+    case ST_POINT_R:
+    case ST_RESUME_R:
+      ballpos = NPIXELS - 1;
+      /* Serve speed not too fast */
+      speed = TIME_SPEED_MIN + 5 * TIME_SPEED_INTERVAL;
+      speedup = 0;
+      break;
+
+    case ST_ZONE_L:
+      /* Calculate the speed for the return */
+      speed = TIME_SPEED_MIN + TIME_SPEED_INTERVAL * ballpos;
+      if (++speedup / 2 &gt;= speed)
+        speed = 2;
+      else
+        speed -= speedup / 2;
+      boosted = 0;
+      break;
+
+    case ST_ZONE_R:
+      /* Calculate the speed for the return */
+      speed = TIME_SPEED_MIN + TIME_SPEED_INTERVAL * (NPIXELS - 1 - ballpos);
+      if (++speedup / 2 &gt;= speed)
+        speed = 2;
+      else
+        speed -= speedup / 2;
+      boosted = 0;
+      break;
+  }
+
+  thestate = newstate;
+  /* State entry actions */
+  switch (thestate) {
+    case ST_IDLE:
+      boost_l = boost_r = 0;
+      zone_l = zone_r = ZONE_SIZE;
+      animate_idle_init();
+      timer = TIME_IDLE;
+      break;
+
+    case ST_START_L:
+    case ST_START_R:
+      draw_course(SHOW_HI);
+      one_d.show();
+      timer = TIME_BALL_BLINK;
+      timeout = TIME_START_TIMEOUT;
+      ballblinkstate = 0;
+      ballpos = thestate == ST_START_L ? 0 : NPIXELS - 1;
+      break;
+
+    case ST_MOVE_LR:
+    case ST_MOVE_RL:
+      speed_to_timer();
+      break;
+
+    case ST_POINT_L:
+    case ST_POINT_R:
+      pointblinkcount = 7;
+      /* Recover the zone next round */
+      if (!boost_l &amp;&amp; zone_l &lt; ZONE_SIZE)
+        zone_l++;
+      if (!boost_r &amp;&amp; zone_r &lt; ZONE_SIZE)
+        zone_r++;
+      timer = TIME_POINT_BLINK;
+      if (boost_l)
+        boost_l--;
+      if (boost_r)
+        boost_r--;
+      // Ensure we get to the score display before continuing
+      lockout_l  = lockout_r = TIME_LOCKOUT;
+      break;
+
+    case ST_RESUME_L:
+    case ST_RESUME_R:
+      draw_course(SHOW_HI);
+      one_d.show();
+      timer = TIME_BALL_BLINK;
+      timeout = TIME_RESUME_TIMEOUT;
+      ballblinkstate = 0;
+      break;
+
+    case ST_WIN_L:
+    case ST_WIN_R:
+      // Ensure we get to the winner display before continuing
+      lockout_l  = lockout_r = 2 * TIME_LOCKOUT;
+      animate_win_init();
+      timer = TIME_WIN_BLINK;
+      tuneidx = 0;
+      break;
+  }
+}
+
+/*
+   Arduino setup
+*/
+void setup()
+{
+  PORTB = PORTC = PORTD = 0xff;	// Enable all pull-ups so we don't have undef inputs hanging
+
+  pinMode(PIN_BUT_LS, INPUT_PULLUP);
+  pinMode(PIN_BUT_RS, INPUT_PULLUP);
+  pinMode(PIN_BUT_LP, INPUT_PULLUP);
+  pinMode(PIN_BUT_RP, INPUT_PULLUP);
+
+
+  one_d.begin();		// Setup IO
+  one_d.show();		// All leds off
+
+  thestate = ST_IDLE;
+  set_state(ST_IDLE);	// To run both exit and entry actions
+
+  /*
+     Setup sound hardware with Timer1 manually. The disabled interrupts
+     in the pixel-update causes interference in the timing resulting in
+     clicks in the sound output.
+  */
+  TCCR1A = 0;
+  TCCR1B = _BV(WGM12) | _BV(CS10);
+  OCR1A = 13;	// Just a value
+  TCNT1 = 0;
+}
+
+/*
+   Main program, called constantly and forever.
+
+   - Handle timing and generate events
+   - Run the game's state machine
+*/
+#define chk_ev(ev)	(events &amp; (ev))
+
+void loop()
+{
+  uint32_t now;
+  uint8_t tdiff = (now = millis()) - oldtime;
+  uint8_t events = 0;
+
+  /* Handle buttons and timers on (just about) every millisecond */
+  if (tdiff) {
+    oldtime = now;
+    events |= do_debounce(tdiff, &amp;bstate_ls, &amp;debtmr_ls, PIN_BUT_LS, EV_BUT_LS_PRESS);
+    events |= do_debounce(tdiff, &amp;bstate_rs, &amp;debtmr_rs, PIN_BUT_RS, EV_BUT_RS_PRESS);
+    events |= do_debounce(tdiff, &amp;bstate_lp, &amp;debtmr_lp, PIN_BUT_LP, EV_BUT_LP_PRESS);
+    events |= do_debounce(tdiff, &amp;bstate_rp, &amp;debtmr_rp, PIN_BUT_RP, EV_BUT_RP_PRESS);
+    events |= do_timer(tdiff, &amp;timer, EV_TIMER);
+    events |= do_timer(tdiff, &amp;timeout, EV_TIMEOUT);
+    do_timer(tdiff, &amp;lockout_l, 0);
+    do_timer(tdiff, &amp;lockout_r, 0);
+  }
+
+  if (is_game_state(thestate)) {
+    // If the lockout timer is running, squash the button event
+    if (lockout_l)
+      events &amp;= ~EV_BUT_LS_PRESS;
+    if (lockout_r)
+      events &amp;= ~EV_BUT_RS_PRESS;
+  }
+
+  // A button press activates the lockout timer
+  if (chk_ev(EV_BUT_LS_PRESS))
+    lockout_l = TIME_LOCKOUT;
+  if (chk_ev(EV_BUT_RS_PRESS))
+    lockout_r = TIME_LOCKOUT;
+
+  switch (thestate) {
+    // Nothing to do
+    case ST_IDLE:
+      if (chk_ev(EV_BUT_LS_PRESS)) {
+        set_state(ST_START_L);
+      } else if (chk_ev(EV_BUT_RS_PRESS)) {
+        set_state(ST_START_R);
+      } else if (chk_ev(EV_TIMER)) {
+        timer = TIME_IDLE;
+        animate_idle();
+      }
+      break;
+
+    // Game is started, waiting for left player to serve the ball
+    case ST_START_L:
+      if (chk_ev(EV_BUT_LS_PRESS)) {
+        set_state(ST_MOVE_LR);
+      } else if (chk_ev(EV_TIMEOUT)) {
+        set_state(ST_IDLE);
+      } else if (chk_ev(EV_TIMER)) {
+        timer = TIME_BALL_BLINK;
+        if (ballblinkstate)
+          one_d.setPixelColor(ballpos, 255, 128, 0);
+        else
+          one_d.setPixelColor(ballpos, 0, 0, 0);
+        one_d.show();
+        ballblinkstate = !ballblinkstate;
+      }
+      break;
+
+    // Game is started, waiting for right player to serve the ball
+    case ST_START_R:
+      if (chk_ev(EV_BUT_RS_PRESS)) {
+        set_state(ST_MOVE_RL);
+      } else if (chk_ev(EV_TIMEOUT)) {
+        set_state(ST_IDLE);
+      } else if (chk_ev(EV_TIMER)) {
+        timer = TIME_BALL_BLINK;
+        if (ballblinkstate)
+          one_d.setPixelColor(ballpos, 255, 128, 0);
+        else
+          one_d.setPixelColor(ballpos, 0, 0, 0);
+        one_d.show();
+        ballblinkstate = !ballblinkstate;
+      }
+      break;
+
+    // Ball is moving left-to-right outside the playback zone
+    case ST_MOVE_LR:
+      if (chk_ev(EV_TIMER)) {
+
+        speed_to_timer();
+        draw_course(SHOW_LO);
+        draw_ball(1, ballpos);
+        one_d.show();
+        ballpos++;
+        if (NPIXELS - 1 - ballpos &lt;= zone_r)
+          set_state(ST_ZONE_R);
+      }
+      break;
+
+    // Ball is moving right-to-left outside the playback zone
+    case ST_MOVE_RL:
+      if (chk_ev(EV_TIMER)) {
+
+        speed_to_timer();
+        draw_course(SHOW_LO);
+        draw_ball(-1, ballpos);
+        one_d.show();
+        ballpos--;
+        if (ballpos &lt;= zone_l)
+          set_state(ST_ZONE_L);
+      }
+      break;
+
+    // Ball is in the left playback zone, waiting for hit/score
+    case ST_ZONE_L:
+      if (chk_ev(EV_BUT_LS_PRESS)) {
+        set_state(ST_MOVE_LR);
+        // Changing speed is done after the state-change's exit/entry action
+        if (zone_l &gt; 1 &amp;&amp; button_is_down(PIN_BUT_LP)) {
+          zone_l--;
+          boosted = 1;
+          speed_to_timer();
+          boost_l++;
+        }
+      } else if (chk_ev(EV_TIMER)) {
+        if (!ballpos) {
+          if (++points_r &gt;= WIN_POINTS)
+            set_state(ST_WIN_R);
+          else
+            set_state(ST_POINT_R);
+        } else {
+          speed_to_timer();
+          ballpos--;
+        }
+        draw_course(SHOW_LO);
+        draw_ball(-1, ballpos);
+        one_d.show();
+      }
+      break;
+
+    // Ball is in the right playback zone, waiting for hit/score
+    case ST_ZONE_R:
+      if (chk_ev(EV_BUT_RS_PRESS)) {
+        set_state(ST_MOVE_RL);
+        // Changing speed is done after the state-change's exit/entry action
+        if (zone_r &gt; 1 &amp;&amp; button_is_down(PIN_BUT_RP)) {
+          zone_r--;
+          speed_to_timer();
+          boosted = 1;
+          boost_r++;
+        }
+      } else if (chk_ev(EV_TIMER)) {
+        if (ballpos == NPIXELS - 1) {
+
+          if (++points_l &gt;= WIN_POINTS)
+            set_state(ST_WIN_L);
+          else
+            set_state(ST_POINT_L);
+        } else {
+          speed_to_timer();
+          ballpos++;
+        }
+        draw_course(SHOW_LO);
+        draw_ball(1, ballpos);
+        one_d.show();
+      }
+      break;
+
+    // Left player scored, animate point
+    case ST_POINT_L:
+      if (chk_ev(EV_BUT_LS_PRESS)) {
+        set_state(ST_RESUME_L);
+      } else if (chk_ev(EV_TIMER)) {
+        timer = TIME_POINT_BLINK;
+        draw_course(SHOW_HI);
+        if (!(pointblinkcount &amp; 0x01)) {
+          one_d.setPixelColor(NPIXELS / 2 - 1 - (2 * (points_l - 1) + 0), 0, 0, 0);
+          one_d.setPixelColor(NPIXELS / 2 - 1 - (2 * (points_l - 1) + 1), 0, 0, 0);
+        } else {
+          one_d.setPixelColor(NPIXELS / 2 - 1 - (2 * (points_l - 1) + 0), 255, 0, 0);
+          one_d.setPixelColor(NPIXELS / 2 - 1 - (2 * (points_l - 1) + 1), 255, 0, 0);
+        }
+        one_d.show();
+        if (!--pointblinkcount)
+          set_state(ST_RESUME_L);
+      }
+      break;
+
+    // Right player scored, animate point
+    case ST_POINT_R:
+      if (chk_ev(EV_BUT_RS_PRESS)) {
+        set_state(ST_RESUME_R);
+      } else if (chk_ev(EV_TIMER)) {
+        timer = TIME_POINT_BLINK;
+        draw_course(SHOW_HI);
+        if (!(pointblinkcount &amp; 0x01)) {
+          one_d.setPixelColor(NPIXELS / 2 + (2 * (points_r - 1) + 0), 0, 0, 0);
+          one_d.setPixelColor(NPIXELS / 2 + (2 * (points_r - 1) + 1), 0, 0, 0);
+        } else {
+          one_d.setPixelColor(NPIXELS / 2 + (2 * (points_r - 1) + 0), 0, 255, 0);
+          one_d.setPixelColor(NPIXELS / 2 + (2 * (points_r - 1) + 1), 0, 255, 0);
+        }
+        one_d.show();
+        if (!--pointblinkcount)
+          set_state(ST_RESUME_R);
+      }
+      break;
+
+    // Left player previously scored and must serve again (or timeout to auto-serve)
+    case ST_RESUME_L:
+      if (chk_ev(EV_BUT_LS_PRESS | EV_TIMEOUT)) {
+        set_state(ST_MOVE_LR);
+
+      } else if (chk_ev(EV_TIMER)) {
+        timer = TIME_BALL_BLINK;
+        if (ballblinkstate)
+          one_d.setPixelColor(ballpos, 255, 128, 0);
+        else
+          one_d.setPixelColor(ballpos, 0, 0, 0);
+        one_d.show();
+        ballblinkstate = !ballblinkstate;
+      }
+      break;
+
+    // Right player previously scored and must serve again (or timeout to auto-serve)
+    case ST_RESUME_R:
+      if (chk_ev(EV_BUT_RS_PRESS | EV_TIMEOUT)) {
+        set_state(ST_MOVE_RL);
+
+      } else if (chk_ev(EV_TIMER)) {
+        timer = TIME_BALL_BLINK;
+        if (ballblinkstate)
+          one_d.setPixelColor(ballpos, 255, 128, 0);
+        else
+          one_d.setPixelColor(ballpos, 0, 0, 0);
+        one_d.show();
+        ballblinkstate = !ballblinkstate;
+      }
+      break;
+
+    // A player won the game, animate the winning side
+    case ST_WIN_L:
+    case ST_WIN_R:
+
+      if (chk_ev(EV_BUT_LS_PRESS)) {
+        set_state(ST_START_L);
+      } else if (chk_ev(EV_BUT_RS_PRESS)) {
+        set_state(ST_START_R);
+      } else if (chk_ev(EV_TIMER)) {
+        timer = TIME_WIN_BLINK;
+        if (!animate_win(thestate == ST_WIN_R))
+          set_state(ST_IDLE);
+      }
+      break;
+
+    // If we get confused, start at idle...
+    default:
+      set_state(ST_IDLE);
+      break;
+  }
+
+
+
+}
+
+</code></pre>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../bande_del/bande_del.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../bande_del_osc/bande_del_osc.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../bande_del/bande_del.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../bande_del_osc/bande_del_osc.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+         <script type="text/javascript">
+              // LIGHT BOX FOR VIDEOS
+              // https://github.com/biati-digital/glightbox
+              const main = document.getElementsByTagName('main')[0];
+              var collectionOrNodes = main.getElementsByTagName('a');
+              var a = Array.prototype.slice.call( collectionOrNodes );
+              //console.log("Elements in main: "+a.length);
+              a.forEach(function(currentElement){ 
+                
+                if ( currentElement.href.includes("youtube.com") || currentElement.href.includes("vimeo.com" ) ) {
+                    currentElement.classList.add("glightboxed")
+                }
+                
+                 });
+
+
+                    var lightbox = GLightbox({
+                        selector: '.glightboxed',
+                        touchNavigation: true,
+                        loop: false,
+                        autoplayVideos: false,
+                    });
+                    lightbox.on('open', (target) => {
+                        console.log('lightbox opened');
+                    });
+          </script>
+
+          <script type="text/javascript">
+              function altTextToImageCaption() {
+                  let imgs = document.getElementsByTagName('img');
+                  for (var i = 0; i < imgs.length; i++) {
+      
+                    var att = imgs[i].attributes.getNamedItem('alt');
+                    if (!att) continue;
+                    var alt = att.value;
+                    if (!alt) continue;
+                    //if (!alt.startsWith('Fig ')) continue;
+                    var cap = document.createElement('div');
+                    cap.setAttribute('class', 'imageCaption');
+                    cap.appendChild(document.createTextNode(alt));
+                    //imgs[i].parentNode.insertBefore(cap, imgs[i].nextSibling);
+                    let containerDiv =  document.createElement('div');
+                    //containerDiv.style.backgroundColor ='white';
+                    //containerDiv.style.justifyContent = 'center';
+                     //containerDiv.style.display = 'inline';
+                    containerDiv.style.textAlign = 'center';
+                    imgs[i].parentNode.appendChild(containerDiv);
+                    containerDiv.appendChild(imgs[i]);
+                    containerDiv.appendChild(cap);
+
+                  }
+                }
+                altTextToImageCaption();
+
+                function externalLinksOpenBlank() {
+                    var anchorEls = document.querySelectorAll('a');
+                    var anchorElsLength = anchorEls.length;
+
+                    for (var i = 0; i < anchorElsLength; i++) {
+                        var anchorEl = anchorEls[i];
+                        var href = anchorEl.getAttribute('href');
+
+                        if (href.startsWith("http",0)) {
+                          anchorEl.setAttribute('target', '_blank');
+                        }
+                    }
+                }
+                externalLinksOpenBlank();
+
+                function buildToc() {
+                    
+                    let tagetList = document.getElementsByTagName("h1");
+
+                                        // Get the h2 tags — ToC entries
+                    let headers = document.getElementsByTagName("h2");
+                    if ( headers.length < 2) return;
+                    
+                     
+                    if (tagetList.length < 1) return
+                    let target = null;
+                    for (i =0; i<tagetList.length;i++){
+                      
+                        if ( tagetList[i].children.length > 0 ) {
+                            
+                            if ( tagetList[i].children[0].classList.contains("header")) {
+                                target = tagetList[i];
+                                
+                                break;
+                            }
+                        }
+                    }
+                    if ( target == null) return;
+
+                    // Create a list for the ToC entries
+                    let tocList = document.createElement("ul"); 
+
+                    // Add a begin if missing a first header
+                    if ( !(target.nextElementSibling.tagName == "H2" || target.nextElementSibling.tagName == "h2") )   {
+                        let tocListItem = document.createElement("li");    
+                        let tocEntry = document.createElement("a");
+                        
+                        tocEntry.setAttribute("href","#");
+                        tocEntry.innerText="Début";
+                     
+                        tocListItem.appendChild(tocEntry);
+                        tocList.appendChild(tocListItem);
+                    }
+                    
+                                         
+
+                     
+
+                     
+                     // For each h3
+                     for (i = 0; i < headers.length; i++){
+                     
+                        // Create an id
+                        //name = "h"+i;
+                        //headers[i].id=name;
+                     
+                        // a list item for the entry
+                        let tocListItem = document.createElement("li");    
+                        let tocEntry = document.createElement("a");
+                        
+                        tocEntry.setAttribute("href",headers[i].children[0].href);
+                        tocEntry.innerText=headers[i].innerText;
+                     
+                        tocListItem.appendChild(tocEntry);
+                        tocList.appendChild(tocListItem);
+                     }
+                     target.parentNode.insertBefore(tocList, target.nextSibling);
+                     //toc.insertBefore(tocList);
+                }
+                buildToc();
+
+                
+          </script>
+
+    </body>
+</html>
