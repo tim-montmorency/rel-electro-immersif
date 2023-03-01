@@ -149,7 +149,7 @@
 <h3 id="illustration-du-circuit-électronique"><a class="header" href="#illustration-du-circuit-électronique">Illustration du circuit électronique</a></h3>
 <p>L'illustration suivante présente le circuit que les étudiants devront réaliser pour l'intégration aux espaces immersifs :
 <img src="./osc_espace_immersif_illustration.png" alt="Illustration du circuit pour l'intégration de l'électronique à un espace immersif" /></p>
-<h3 id="schéma-du-circuit-éléctronique"><a class="header" href="#schéma-du-circuit-éléctronique">Schéma du circuit éléctronique</a></h3>
+<h3 id="schéma-du-circuit-électronique"><a class="header" href="#schéma-du-circuit-électronique">Schéma du circuit électronique</a></h3>
 <p>De façon générale, les schémas de circuit seront privilégiés. Le schéma suivant représente le même circuit que l'illustration ci-haut :
 <img src="./osc_espace_immersif_schema.png" alt="Schéma du circuit pour l'intégration de l'électronique à un espace immersif" /></p>
 <h2 id="code-arduino-de-lobjectif-final"><a class="header" href="#code-arduino-de-lobjectif-final">Code Arduino de l'objectif final</a></h2>
@@ -323,22 +323,6 @@ void loop() {
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         <script type="text/javascript">
             window.playground_copyable = true;
         </script>

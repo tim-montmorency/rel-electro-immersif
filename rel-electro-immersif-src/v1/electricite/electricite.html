@@ -142,7 +142,7 @@
 <p>Pour créer cette différence de potentiel, on utilise une <strong>alimentation électrique</strong> qui peut prendre la forme d'une batterie, alimentation USB, panneau solaire, prise électrique , etc. </p>
 <p><img src="batterie_aa_electrons.svg" alt="Illustration du débalancement des électrons dans une batterie AA (JIMBLOM, s. d.)" /></p>
 <p>Une alimentation possède deux pôles. L'un <strong>positif</strong> (avec un potentiel <em>haut</em>) et l'autre <strong>négatif</strong> (avec un potentiel <em>bas</em>). </p>
-<p><img src="alimentation_12v.svg" alt="Le câble et le connecteur de cette alimentation regroupe deux pôles" /></p>
+<p><img src="alimentation_12v.svg" alt="Une alimentation 12V à courant continu (CC)" /></p>
 <h2 id="boucle-électrique"><a class="header" href="#boucle-électrique">Boucle électrique</a></h2>
 <p>Pour circuler, le courant doit suivre une boucle entre les deux pôles de l'alimentation.</p>
 <p><img src="circuit_electrons.svg" alt="Les électrons voyagent en se tirant les uns derrières les autres comme les wagons d'un train (JIMBLOM, s. d.)" /></p>
@@ -200,22 +200,6 @@
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         <script type="text/javascript">
             window.playground_copyable = true;
         </script>
