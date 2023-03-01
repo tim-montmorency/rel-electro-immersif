@@ -22,7 +22,7 @@ void loop() {
 
 }
 ```
-On retoruve deux fonctions dans le code minimal : 
+On retrouve deux fonctions dans le code minimal : 
 * `setup()`
 * `loop()`
 
@@ -32,16 +32,16 @@ La fonction setup() est appelée une seule fois lorsque le programme commence. C
 
 ### loop()
 
-Une fois que l'on a initialisé le programme, il faut ensuite créer le «cœur» du programme, autrement dit le programme en lui même. C'est dans la fonction loop() que l’on va écrire le contenu du programme. Il faut savoir que cette fonction est appelée en permanence, c'est-à-dire qu'elle est exécutée une fois, puis lorsque son exécution est terminée, on la réexécute, encore et encore. On parle de boucle infinie!
+Une fois que l'on a initialisé le programme, il faut ensuite créer le «cœur» du programme, autrement dit le programme en lui-même. C'est dans la fonction loop() que l’on va écrire le contenu du programme. Il faut savoir que cette fonction est appelée en permanence, c'est-à-dire qu'elle est exécutée une fois, puis lorsque son exécution est terminée, on l'exécute, encore et encore. On parle de boucle infinie!
 
 ## Déroulement du programme
 
 ![Déroulement du programme](./Slide1.SVG)
 
 Le programme se déroule de la façon suivante :
-1. Prise en compte des instructions de l'en-tête déclarative
+1. Prise en compte des instructions de l'en-tête déclarative.
 2. Exécution au démarrage de la partie configuration définie par la fonction setup().
-3. Exécution de la boucle qui s’exécute indéfiniment et le plusrapidement possible.
+3. Exécution de la boucle qui s’exécute indéfiniment et le plus rapidement possible.
 
 ## Les instructions 
 
@@ -109,7 +109,7 @@ Dans ce cas, l'on peut moduler leurs valeurs depuis la commande qui l'appelle :
 clignote(5,1000); //la sortie 5 clignotera vite
 clignote(3,250); //la sortie 3 clignotera lentement
 ```
-### Les scructures de contrôle
+### Les structures de contrôle
 
 Les structures de contrôle sont des blocs d'instructions qui s'exécutent en fonction du respect d'un certain nombre de conditions.
 

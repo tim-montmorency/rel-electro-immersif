@@ -16,7 +16,7 @@ Pour créer cette différence de potentiel, on utilise une **alimentation élect
 
 Une alimentation possède deux pôles. L'un **positif** (avec un potentiel *haut*) et l'autre **négatif** (avec un potentiel *bas*). 
 
-![Le câble et le connecteur de cette alimentation regroupe deux pôles](alimentation_12v.svg)  
+![Une alimentation 12V à courant continu (CC)](alimentation_12v.svg)  
 
 
 ## Boucle électrique

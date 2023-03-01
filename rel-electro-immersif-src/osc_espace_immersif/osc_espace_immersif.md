@@ -27,7 +27,7 @@ Le schéma suivant présente le système de connexion et de communication choisi
 L'illustration suivante présente le circuit que les étudiants devront réaliser pour l'intégration aux espaces immersifs :
 ![Illustration du circuit pour l'intégration de l'électronique à un espace immersif](./osc_espace_immersif_illustration.png)
 
-### Schéma du circuit éléctronique
+### Schéma du circuit électronique
 
 De façon générale, les schémas de circuit seront privilégiés. Le schéma suivant représente le même circuit que l'illustration ci-haut :
 ![Schéma du circuit pour l'intégration de l'électronique à un espace immersif](./osc_espace_immersif_schema.png)
