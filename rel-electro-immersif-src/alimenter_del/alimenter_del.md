@@ -33,6 +33,8 @@ Portez attention à la longueur des pattes de la DEL. Une patte est plus longue 
 ![Anode, cathode et longueur des pattes](./del_longueur_pattes.svg)
 
 
+### Alimenter une DEL avec la platine d'expérimentation et un Arduino
+
 ![Circuit pour alimenter une DEL](./alimenter_del_schema.svg)
 
 ![Identification des composantes](./alimenter_del_schema_avec_images.svg)
