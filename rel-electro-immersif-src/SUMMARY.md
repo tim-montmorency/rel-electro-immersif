@@ -18,7 +18,9 @@
 
 # Cartes Arduino
 - [Modèles de cartes](./arduino_cartes/arduino_cartes.md)
+- [Cartes M5Stack Atom](./m5stack_atom/m5stack_atom.md)
 - [Cartes Arduino Nano](./arduino_nano/arduino_nano.md)
+
 
 # Arduino IDE
 - [Fenêtre principale](./arduino-ide/fenetre_principale.md)
