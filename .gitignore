@@ -2,3 +2,4 @@ book
 .DS_Store
 docs/.DS_Store
 docs/**
+esp32.svd

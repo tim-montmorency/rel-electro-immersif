@@ -34,6 +34,7 @@
 # Les sorties numériques
 - [Sortie numérique](./sortie_numerique/sortie_numerique.md)
 - [Contrôle d'une DEL](./arduino_exemple_del/arduino_exemple_del.md)
+- [Pixel du M5Stack Atom Lite](./m5stack_atom_lite_pixel/m5stack_atom_lite_pixel.md)
 
 # Algorithmie II
 - [Déboguage série ASCII](./arduino_deboguer/arduino_deboguer.md)

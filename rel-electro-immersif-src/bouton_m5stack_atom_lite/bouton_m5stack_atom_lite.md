@@ -1,8 +1,8 @@
 # Bouton du M5Stack Atom Lite
 
-## Documentation de l'API officielle
+## Documentation de l'API
 
-La documentation officielle de l'API ici : [m5-docs](https://docs.m5stack.com/en/api/atom/button)
+La documentation complète de l'API se trouve ici : [m5-docs](https://docs.m5stack.com/en/api/atom/button)
 
 ## Configuration dans *setup()*
 
@@ -51,5 +51,5 @@ if ( M5.Btn.isReleased() ) {
 ![Ouvrir et configuer le moniteur série pour voir les messages envoyés](./m5stack_atom_lite_bouton_moniteur_serie.svg)
 
 
-**Astuce** : Commenter les lignes qui donne l'etat actuel du bouton pour garder seulement les lignes qui indiquent si le bouton **A ÉTÉ** relâché ou appuyé. Cela va réduire considérablement la quantité de messages.
+**Astuce** : Commenter les lignes qui valident l'etat actuel du bouton pour garder seulement les lignes qui indiquent si le bouton **A ÉTÉ** relâché ou appuyé. Cela va réduire considérablement la quantité de messages dans le moniteur série.
 
