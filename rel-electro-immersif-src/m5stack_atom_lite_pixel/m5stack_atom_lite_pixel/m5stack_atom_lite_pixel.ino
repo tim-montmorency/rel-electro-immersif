@@ -19,9 +19,6 @@ CRGB mesPixels[1];
 // Une variable pour mémoriser l'état actuel du pixel
 int monEtatPixel = 0;
 
-// Cette variable va servir pour chronométrer le clignotement de la DEL :
-unsigned long monChronoDepart = 0;  // DEPART DE MON CHRONOMÈTRE
-
 void setup() {
   // Démarrer la libraire M5 avec toutes les options de pré-configuration désactivées :
   M5.begin(false, false, false);
