@@ -51,5 +51,5 @@ if ( M5.Btn.isReleased() ) {
 ![Ouvrir et configuer le moniteur série pour voir les messages envoyés](./m5stack_atom_lite_bouton_moniteur_serie.svg)
 
 
-**Astuce** : Commenter les lignes qui valident l'etat actuel du bouton pour garder seulement les lignes qui indiquent si le bouton **A ÉTÉ** relâché ou appuyé. Cela va réduire considérablement la quantité de messages dans le moniteur série.
+**Astuce** : Commenter (en d'autres mots, de désactiver) les lignes qui valident l'etat présent du bouton pour garder seulement les lignes qui indiquent si le bouton **A ÉTÉ** relâché ou appuyé, réduit considérablement la quantité de messages dans le moniteur série.
 
