@@ -41,9 +41,9 @@
 
 # Les entrées numériques
 - [Entrée numérique](./entree_numerique/entree_numerique.md)
-- [Interrupteur](./interrupteur/interrupteur.md)
-- [Bouton poussoir](./bouton_poussoir/bouton_poussoir.md)
-- [Bouton d'arcade](./bouton_arcade/bouton_arcade.md)
+- [Bouton simple](./bouton_simple/bouton_simple.md)
+- [Bouton du M5Stack Atom Lite](./bouton_m5stack_atom_lite/bouton_m5stack_atom_lite.md)
+
 
 # Algorithmie III
 - [Changement de valeur](./changement/changement.md)
