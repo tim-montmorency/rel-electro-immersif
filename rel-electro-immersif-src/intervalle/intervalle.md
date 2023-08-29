@@ -64,29 +64,3 @@ void loop() {
 }
 ```
 
-
-## Exemple : envoyer la valeur d'une entrée numérique à chaque 20 millisecondes
-```arduino
-int maBrocheEntreeNumerique = 4;
-unsigned long monChronoDepart = 0;
-
-void setup() { // AU DÉMARRAGE
-  Serial.begin(57600); // CONFIGURER LA COMMUNICATION SÉRIE
-  pinMode( maBrocheEntreeNumerique , INPUT_PULLUP); // CONFIGURER LA BROCHE DE L'INTERRUPTEUR EN ENTRÉE
-}
-
-void loop() { // RÉPÉTER LE PLUS VITE POSSIBLE
-  
-
-  unsigned long monChronoEcoule = millis() - monChronoDepart; // TEMPS ÉCOULÉ DE MON CHRONOMÈTRE
-  unsigned long monChronoIntervalle = 20; // INTERVALLE DE TEMPS EN MILLISECONDES
-  if ( monChronoEcoule >= monChronoIntervalle ) { // SI LE TEMPS ÉCOULÉ DÉPASSE L'INTERVALLE...
-    monChronoDepart = millis(); // ...REDÉMARRER LE CHRONOMÈTRE...
-    
-    int maValeurInterrupteur = digitalRead( maBrocheEntreeNumerique ); // LECTURE DE TENSION
-
-    Serial.print( maValeurInterrupteur ); // ENVOYER LA VALEUR
-    Serial.println();  // TERMINER LE MESSAGE
-  }
-}
-```

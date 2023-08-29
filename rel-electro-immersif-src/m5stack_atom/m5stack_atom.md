@@ -1,5 +1,40 @@
-# Les cartes M5Stack Atom
+# M5Stack Atom
 
-## Broches
+## Introduction
+
+Page de produit : [ATOM Lite ESP32 IoT Development Kit | m5stack-store](https://shop.m5stack.com/products/atom-lite-esp32-development-kit)
+
+## Broches du Atom Lite
 
 ![Les broches du connecteur Grove du M5Stack Atom Lite](./m5stack_atom_broches.png) 
+
+## Ajouter M5Stack à Arduino (à effectuer une fois)
+
+![Ouvrir les préférences et trouver la section «Additional boards manager URLs» en bas](./ajouter_m5stack1.SVG)
+
+Voici l'URL à ajouter à l'étape suivante : 
+```
+https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/package_m5stack_index.json
+```
+
+![Ajouter l'URL «https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/package_m5stack_index.json»](./ajouter_m5stack2.SVG)
+
+
+
+![Installer M5Stack](./ajouter_m5stack3.SVG)
+
+
+## Configurer Arduino (à vérifier à chaque utilisation)
+
+![Configurer pour la bonne plateforme](./configurer_plateforme.png)
+
+![Identifier le bon port (le numéro de COM risque d'être différent)](./trouver_port.svg)
+
+![Configurer pour le bon port (le numéro de COM risque d'être différent)](./configurer_port.png)
+
+## Code de base du Atom Lite
+
+```arduino
+{{#include ./m5stack_atom_lite_base/m5stack_atom_lite_base.ino}}
+```
+

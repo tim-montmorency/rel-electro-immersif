@@ -5,6 +5,24 @@
 * [Référence Arduino sur Arduino.cc](https://www.arduino.cc/reference/en/)
 * [Arduino Programming Notebook de Bryan W Evans (2017) en version PDF](../pdf/arduino_programming_notebook-bryan_w_evans.pdf)
 
+## Variables les plus communes
+
+| Type | Taille | Description |
+|---------|---------|---------|
+| `int`    | 16 bits     |   pour stocker un chiffre général compris entre -32 768 et 32 767       |
+| `unsigned long`    | 32 bits      |  pour stocker un chiffre (surtout du temps en millisecondes) compris entre 0 et 4 294 967 295  |
+| `float`     | 32 bits      |  pour stocker des nombres décimaux       |
+
+## D'autres variables assez communes
+
+| Type | Taille | Description |
+|---------|---------|---------|
+| `char`     | 8 bits     |  pour stocker des caractères        |
+| `byte `    | 8 bits     |   pour stocker un chiffre compris entre 0 et 255      |
+| `unsigned int`     | 16 bits     |   pour stocker un chiffre compris entre 0 et 65 535        |
+| `long`     | 32 bits     | pour stocker un chiffre compris entre  -2 147 483 648 et 2 147 483 647        |
+| `double`     | 64 bits     |  pour stocker des nombres décimaux avec plus de précision       |
+
 
 ## Code minimal
 
@@ -179,18 +197,7 @@ switch (message) {
     }
 ```
 
-## Variables de base
 
-| Type | Taille | Description |
-|---------|---------|---------|
-| `char`     | 8 bits     |  pour stocker des caractères        |
-| `byte `    | 8 bits     |   pour stocker un chiffre compris entre 0 et 255      |
-| `int`    | 16 bits     |   pour stocker un chiffre compris entre -32 768 et 32 767       |
-| `unsigned int`     | 16 bits     |   pour stocker un chiffre compris entre 0 et 65 535        |
-| `long`     | 32 bits     | pour stocker un chiffre compris entre  -2 147 483 648 et 2 147 483 647        |
-| `unsigned long`    | 32 bits      |  pour stocker un chiffre compris entre 0 et 4 294 967 295  |
-| `float`     | 32 bits      |  pour stocker des nombres décimaux       |
-| `double`     | 64 bits     |  pour stocker des nombres décimaux avec plus de précision       |
 
 ## «Arduino Cheat Sheet» de SparkFun
 
