@@ -21,43 +21,40 @@
 - [M5Stack Atom](./m5stack_atom/m5stack_atom.md)
 - [Arduino Nano](./arduino_nano/arduino_nano.md)
 
-
 # Arduino IDE
 - [Fenêtre principale](./arduino-ide/fenetre_principale.md)
 - [Blink: le code test universel](./arduino-ide_test_blink/arduino-ide_test_blink.md)
 
 # Algorithmie I
 - [Le code Arduino](./arduino_code/arduino_code.md)
-- [Mesurer le temps](./arduino_millis/arduino_millis.md)
-- [Intervalle de temps](./intervalle/intervalle.md)
-
-# Les sorties numériques
-- [Sortie numérique](./sortie_numerique/sortie_numerique.md)
-- [Contrôle d'une DEL](./arduino_exemple_del/arduino_exemple_del.md)
-- [Pixel du M5Stack Atom Lite](./m5stack_atom_lite_pixel/m5stack_atom_lite_pixel.md)
-
-# Algorithmie II
 - [Déboguage série ASCII](./arduino_deboguer/arduino_deboguer.md)
 
-
-# Les entrées numériques
+# Entrées à deux états
 - [Entrée numérique](./entree_numerique/entree_numerique.md)
 - [Bouton simple](./bouton_simple/bouton_simple.md)
 - [Bouton du M5Stack Atom Lite](./bouton_m5stack_atom_lite/bouton_m5stack_atom_lite.md)
 
+# Algorithmie II
+- [Mesurer le temps](./arduino_millis/arduino_millis.md)
+- [Intervalle de temps](./intervalle/intervalle.md)
+
+# Sorties lumineuses à deux états
+- [Sortie numérique](./sortie_numerique/sortie_numerique.md)
+- [Contrôle d'une DEL](./arduino_exemple_del/arduino_exemple_del.md)
+
+# Sorties lumineuses graduelles I
+- [Sortie «analogique» PWM](./sortie_analogique/sortie_analogique.md)
+- [Simuler une chandelle](./chandelle/chandelle.md)
+- [Pixel du M5Stack Atom Lite](./m5stack_atom_lite_pixel/m5stack_atom_lite_pixel.md)
 
 # Algorithmie III
 - [Changement de valeur](./changement/changement.md)
 - [Envoi optimal de valeur](./envoi_optimal_de_valeur/envoi_optimal_de_valeur.md)
 
-# Les entrées analogiques
+# Entrées à valeurs graduelles
 - [Entrée analogique](./entree_analogique/entree_analogique.md)
 - [Potentiomètre](./potentiometre/potentiometre.md)
 - [Photorésistance](./photoresistance/photoresistance.md)
-
-# Les sorties analogiques
-- [Sortie analogique](./sortie_analogique/sortie_analogique.md)
-- [Simuler une chandelle](./chandelle/chandelle.md)
 
 # OSC
 - [Open Sound Control (OSC)](./osc/osc.md)
@@ -78,7 +75,7 @@
 - [OSC UDP : Unity](./osc_udp_unity/osc_udp_unity.md)
 - [OSC UDP : TouchDesigner](./touchdesigner/td_osc_udp.md)
 
-# Les bandes de DEL
+# Sorties lumineuses graduelles II
 - [Bande de DEL](./bande_del/bande_del.md)
 - [Pong 1D](./pong_1d/pong_1d.md)
 - [Contrôle par OSC](./bande_del_osc/bande_del_osc.md)
