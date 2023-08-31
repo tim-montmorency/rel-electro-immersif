@@ -14,12 +14,9 @@ Page de produit : [ATOM Lite ESP32 IoT Development Kit | m5stack-store](https://
 
 Voici l'URL à ajouter à l'étape suivante : 
 ```
-https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/package_m5stack_index.json
+https://espressif.github.io/arduino-esp32/package_esp32_index.json
 ```
-
-![Ajouter l'URL «https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/package_m5stack_index.json»](./ajouter_m5stack2.SVG)
-
-
+![Ajouter l'URL «https://espressif.github.io/arduino-esp32/package_esp32_index.json»](./ajouter_m5stack2.SVG)
 
 ![Installer M5Stack](./ajouter_m5stack3.SVG)
 
