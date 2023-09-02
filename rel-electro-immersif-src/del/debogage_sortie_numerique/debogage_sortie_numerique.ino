@@ -1,31 +1,3 @@
-# Sortie numérique
-
-Il est possible de régler la tension présente à la plupart des broches de la carte Arduino. 
-
-Cette tension peut être réglée à deux niveaux :
-* `HIGH` : règle la tension de sortie à 5V (pôle positif)
-* `LOW` : règle la tension de sortie à 0V (pôle négatif/GND)
-
-Pour régler la tension électrique de sortie d'une broche, on utilise ces blocs de code :
-1) Configurer la broche `numeroBoche` en mode sortie avec `OUTPUT` :
-```arduino
-pinMode( numeroBoche , OUTPUT );
-```
-
-2) Pour règler la tension de sortie à 5V (pôle positif) :
-```cpp
-digitalWrite( numeroBoche, HIGH );
-```
-
-3) Pour règler la tension de sortie à 0V (pôle négatif/GND) :
-```cpp
-digitalWrite( numeroBoche, LOW );
-```
-
-## Débogage d'une sortie numérique
-
-Dans le code suivant, nous déboguons la sortie numérique 13 : 
-```arduino
 int maBroche = 13;
 int maValeur = LOW ; // VALEUR DÉSIRÉE DE LA SORTIE NUMÉRIQUE
 
@@ -51,7 +23,7 @@ void loop() { // RÉPÉTER LE PLUS VITE POSSIBLE
     // APLLIQUER LA VALEUR DÉSIRÉE À LA SORTIE NUMÉRIQUE
     digitalWrite( maBroche , maValeur );
     
-    Serial.print( "Envoi sur la broche " ); // ENVOYER UNE EN-TÊTE DE MESSAGE
+    Serial.print( "Envoi sur la broche  " ); // ENVOYER UNE EN-TÊTE DE MESSAGE
     Serial.print( maBroche ); // ENVOYER LE NUMÉRO DE LA BROCHE
     Serial.print( " de la valeur (0=LOW, 1=HIGH) : " ); // ENVOYER UN SÉPARATEUR ENTRE LE NUMÉRO DE LA BROCHE ET SA VALEUR
     Serial.print( maValeur ); // ENVOYER LA VALEUR
@@ -60,6 +32,3 @@ void loop() { // RÉPÉTER LE PLUS VITE POSSIBLE
 
   }
 }
-```
-
-![Résultat du débogage de la sortie numérique dans le moniteur série](./debogage_sortie_numerique_moniteur_serie.png)

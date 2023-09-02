@@ -7,11 +7,13 @@
 
 ## Variables les plus communes
 
-| Type | Taille | Description |
-|---------|---------|---------|
-| `int`    | 16 bits     |   pour stocker un chiffre général compris entre -32 768 et 32 767       |
-| `unsigned long`    | 32 bits      |  pour stocker un chiffre (surtout du temps en millisecondes) compris entre 0 et 4 294 967 295  |
-| `float`     | 32 bits      |  pour stocker des nombres décimaux       |
+| Type | Taille | Étendue | Utilisation  | 
+|---------|---------|---------|---------|
+| `bool`    | 1 bit   |  0 à 1  | Faux ou vrai |
+| `int` (Arduino Nano)    | 16 bits     |  -32 768 à 32 767   | Nombre général |
+| `int` (ESP32)    | 32 bits     |  -2 147 483 648 à 2 147 483 647  | Nombre général |
+| `unsigned long`    | 32 bits      |  0 à 4 294 967 295    | Pour stocker du temps en millisecondes |
+| `float`     | 32 bits      | -3.4028235E+38 à 3.4028235E+38 | Pour stocker un nombre décimal    |
 
 ## D'autres variables assez communes
 

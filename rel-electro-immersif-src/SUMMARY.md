@@ -4,7 +4,6 @@
 - [Introduction](./rel-electro-immersif.md)
 - [Objectif final](./osc_espace_immersif/osc_espace_immersif.md)
 
-
 # Électronique
 - [Électricité](./electricite/electricite.md)
 - [Schémas de circuit](./schemas_circuits/schemas_circuits.md)
@@ -12,7 +11,7 @@
 - [Erreurs fatales](./erreurs_fatales/erreurs_fatales.md)
 - [DEL](./del/del.md)
 - [Résistance](./resistance/resistance.md)
-- [Alimenter une DEL](./alimenter_del/alimenter_del.md)
+- [Alimenter une DEL](./platine_experimentation/alimenter_del.md)
 - [Micro-soudure](./micro-soudure/micro-soudure.md)
 - [Multimètre](./multimetre/multimetre.md)
 
@@ -27,10 +26,11 @@
 
 # Algorithmie I
 - [Le code Arduino](./arduino_code/arduino_code.md)
+
+# Communication I
 - [Déboguage série ASCII](./arduino_deboguer/arduino_deboguer.md)
 
 # Entrées à deux états
-- [Entrée numérique](./entree_numerique/entree_numerique.md)
 - [Bouton simple](./bouton_simple/bouton_simple.md)
 - [Bouton du M5Stack Atom Lite](./bouton_m5stack_atom_lite/bouton_m5stack_atom_lite.md)
 
@@ -38,23 +38,20 @@
 - [Mesurer le temps](./arduino_millis/arduino_millis.md)
 - [Intervalle de temps](./intervalle/intervalle.md)
 
-# Sorties lumineuses à deux états
-- [Sortie numérique](./sortie_numerique/sortie_numerique.md)
-- [Contrôle d'une DEL](./arduino_exemple_del/arduino_exemple_del.md)
-
-# Sorties lumineuses graduelles I
-- [Sortie «analogique» PWM](./sortie_analogique/sortie_analogique.md)
-- [Simuler une chandelle](./chandelle/chandelle.md)
+# Sorties lumineuses I
+- [Contrôle d'une DEL](./del/del_controle.md)
 - [Pixel du M5Stack Atom Lite](./m5stack_atom_lite_pixel/m5stack_atom_lite_pixel.md)
 
 # Algorithmie III
 - [Changement de valeur](./changement/changement.md)
 - [Envoi optimal de valeur](./envoi_optimal_de_valeur/envoi_optimal_de_valeur.md)
 
-# Entrées à valeurs graduelles
-- [Entrée analogique](./entree_analogique/entree_analogique.md)
-- [Potentiomètre](./potentiometre/potentiometre.md)
-- [Photorésistance](./photoresistance/photoresistance.md)
+# Entrées analogiques
+- [Potentiomètre](./entree_analogique/potentiometre.md)
+- [Photorésistance](./entree_analogique/photoresistance.md)
+
+# Communication II
+- [Réception série ASCII dans Max](./max/max_ascii.md)
 
 # OSC
 - [Open Sound Control (OSC)](./osc/osc.md)
@@ -75,7 +72,7 @@
 - [OSC UDP : Unity](./osc_udp_unity/osc_udp_unity.md)
 - [OSC UDP : TouchDesigner](./touchdesigner/td_osc_udp.md)
 
-# Sorties lumineuses graduelles II
+# Sorties lumineuses II
 - [Bande de DEL](./bande_del/bande_del.md)
 - [Pong 1D](./pong_1d/pong_1d.md)
 - [Contrôle par OSC](./bande_del_osc/bande_del_osc.md)

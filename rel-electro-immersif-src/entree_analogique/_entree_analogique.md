@@ -1,7 +1,4 @@
-# Entrée analogique
-
-![Broches pouvant effectuer une lecture analogique](./entrees_analogiques_nano.svg)
-
+## Effectuer la lecture d'une entrée analogique
 
 Pour effectuer la mesure analogique de la tension électrique présente à une broche, on utilison la paire de fonctions suivantes : 
 1) Configurer la broche `maBrocheAnalogique` en mode entrée avec `INPUT` :
@@ -13,14 +10,17 @@ pinMode( maBrocheAnalogique , INPUT );
 int maLectureAnalogique = analogRead( maBrocheAnalogique );
 ```
 
-La fonction `analogRead()` mesure une tension entre 0V et 5V avec une résolution de 1024 seuils. 
-La valeur retournée par `analogRead()` est toujours entre 0 et 1023.
+La fonction `analogRead()` mesure une tension entre 0V et 5V et retourne une valeur entre 0 et 1023 (4095 dans le cas de l'ESP32) proportionnelle.
 
-## Debogage d'une entrée analogique
+### Broches pouvant effectuer une entrée analogique
 
-Dans le code suivant, nous déboguons l'entrée analogique A1 : 
+ ![Broches pouvant effectuer une lecture analogique](./entrees_analogiques_nano.svg)
+
+### Debogage d'une entrée analogique
+
+Dans le code suivant, nous déboguons l'entrée analogique 1 : 
 ```arduino
-int maBrocheEntreeAnalogique = A1;
+int maBrocheEntreeAnalogique = 1;
 int maValeurPrecedente; // VALEUR PRÉCÉDENTE DE L'ENTRÉE ANALOGIQUE
 
 unsigned long monChronoDepart = 0; // DEPART DE MON CHRONOMÈTRE
