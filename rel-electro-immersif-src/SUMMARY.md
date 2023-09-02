@@ -26,23 +26,19 @@
 
 # Algorithmie I
 - [Le code Arduino](./arduino_code/arduino_code.md)
-
-# Communication I
+- [Mesurer le temps](./arduino_millis/arduino_millis.md)
 - [Déboguage série ASCII](./arduino_deboguer/arduino_deboguer.md)
 
 # Entrées à deux états
 - [Bouton simple](./bouton_simple/bouton_simple.md)
 - [Bouton du M5Stack Atom Lite](./bouton_m5stack_atom_lite/bouton_m5stack_atom_lite.md)
 
-# Algorithmie II
-- [Mesurer le temps](./arduino_millis/arduino_millis.md)
-- [Intervalle de temps](./intervalle/intervalle.md)
-
 # Sorties lumineuses I
 - [Contrôle d'une DEL](./del/del_controle.md)
 - [Pixel du M5Stack Atom Lite](./m5stack_atom_lite_pixel/m5stack_atom_lite_pixel.md)
 
-# Algorithmie III
+# Algorithmie II
+- [Intervalle de temps](./intervalle/intervalle.md)
 - [Changement de valeur](./changement/changement.md)
 - [Envoi optimal de valeur](./envoi_optimal_de_valeur/envoi_optimal_de_valeur.md)
 
@@ -50,7 +46,7 @@
 - [Potentiomètre](./entree_analogique/potentiometre.md)
 - [Photorésistance](./entree_analogique/photoresistance.md)
 
-# Communication II
+# Communication
 - [Réception série ASCII dans Max](./max/max_ascii.md)
 
 # OSC
