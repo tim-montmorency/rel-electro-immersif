@@ -17,37 +17,40 @@
 
 # Cartes Arduino
 - [Modèles de cartes](./arduino_cartes/arduino_cartes.md)
-- [M5Stack Atom](./m5stack_atom/m5stack_atom.md)
+- [M5Stack Atom](./m5stack/atom_lite.md)
 - [Arduino Nano](./arduino_nano/arduino_nano.md)
 
 # Arduino IDE
 - [Fenêtre principale](./arduino-ide/fenetre_principale.md)
-- [Blink: le code test universel](./arduino-ide_test_blink/arduino-ide_test_blink.md)
+- [Blink: le code test universel](./arduino/blink.md)
 
 # Algorithmie I
-- [Le code Arduino](./arduino_code/arduino_code.md)
-- [Mesurer le temps](./arduino_millis/arduino_millis.md)
-- [Déboguage série ASCII](./arduino_deboguer/arduino_deboguer.md)
+- [Le code Arduino](./arduino/code.md)
+- [Mesurer le temps](./arduino/millis.md)
+- [Déboguage série ASCII](./arduino/serie_ascii.md)
 
 # Entrées à deux états
 - [Bouton simple](./bouton_simple/bouton_simple.md)
-- [Bouton du M5Stack Atom Lite](./bouton_m5stack_atom_lite/bouton_m5stack_atom_lite.md)
+- [Bouton du M5Stack Atom Lite](./m5stack_atom/atom_lite_bouton.md)
 
 # Sorties lumineuses I
 - [Contrôle d'une DEL](./del/del_controle.md)
-- [Pixel du M5Stack Atom Lite](./m5stack_atom_lite_pixel/m5stack_atom_lite_pixel.md)
+- [Pixel du M5Stack Atom Lite](./m5stack/atom_lite_pixel.md)
 
 # Algorithmie II
-- [Intervalle de temps](./intervalle/intervalle.md)
-- [Changement de valeur](./changement/changement.md)
-- [Envoi optimal de valeur](./envoi_optimal_de_valeur/envoi_optimal_de_valeur.md)
+- [Intervalle de temps](./arduino/intervalle.md)
+- [Changement de valeur](./arduino/changement.md)
 
 # Entrées analogiques
 - [Potentiomètre](./entree_analogique/potentiometre.md)
 - [Photorésistance](./entree_analogique/photoresistance.md)
+- [M5Stack Angle](./m5stack/unit_angle.md)
+- [M5Stack Light](./m5stack/unit_light.md)
 
-# Communication
+# # Algorithmie III
+- [Identifiants série ASCII](./arduino/serie_ascii_identifiants.md)
 - [Réception série ASCII dans Max](./max/max_ascii.md)
+- [Envoi optimal de valeur](./arduino/envoi_optimal_de_valeur.md)
 
 # OSC
 - [Open Sound Control (OSC)](./osc/osc.md)

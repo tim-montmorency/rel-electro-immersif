@@ -56,7 +56,7 @@ Une fois que l'on a initialisé le programme, il faut ensuite créer le «cœur�
 
 ## Déroulement du programme
 
-![Déroulement du programme](./Slide1.SVG)
+![Déroulement du programme](./arduino_code1.SVG)
 
 Le programme se déroule de la façon suivante :
 1. Prise en compte des instructions de l'en-tête déclarative.

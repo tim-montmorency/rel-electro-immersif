@@ -42,3 +42,4 @@ https://espressif.github.io/arduino-esp32/package_esp32_index.json
 {{#include ./m5stack_atom_lite_base/m5stack_atom_lite_base.ino}}
 ```
 
+{{#include ./_grove_colors.md}}
