@@ -47,7 +47,7 @@
 - [M5Stack Angle](./m5stack/unit_angle.md)
 - [M5Stack Light](./m5stack/unit_light.md)
 
-# # Algorithmie III
+# Algorithmie III
 - [Identifiants série ASCII](./arduino/serie_ascii_identifiants.md)
 - [Réception série ASCII dans Max](./max/max_ascii.md)
 - [Envoi optimal de valeur](./arduino/envoi_optimal_de_valeur.md)
