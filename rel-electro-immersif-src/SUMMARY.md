@@ -31,7 +31,7 @@
 
 # Entrées à deux états
 - [Bouton simple](./bouton_simple/bouton_simple.md)
-- [Bouton du M5Stack Atom Lite](./m5stack_atom/atom_lite_bouton.md)
+- [Bouton du M5Stack Atom Lite](./m5stack/atom_lite_bouton.md)
 
 # Sorties lumineuses I
 - [Contrôle d'une DEL](./del/del_controle.md)
