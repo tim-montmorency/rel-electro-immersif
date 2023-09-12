@@ -1,66 +1,48 @@
 # Intervalle de temps
 
-## Comment chronométer un intervalle de temps avec millis()
 
-Créer une variable **globale** pour mettre en mémoire le temps de départ du chronomètre :
+## Comment meurer un intervalle de temps
+
+
+### À ajouter dans l'espace global (au début du code)
+
+Créer une variable **globale** pour mettre en mémoire le temps de départ du chronomètre:
 ```arduino
 unsigned long monChronoDepart = 0; // DEPART DE MON CHRONOMÈTRE
 ```
+### Configuration dans *setup()*
 
-Pour calculer le temps écoulé on utilison le code suivant: 
+Il n'y a rien à configurer dans *setup()*.
+
+### Utilisation dans *loop()*
+Pour calculer le temps écoulé on utilise le code suivant: 
 ```arduino
 unsigned long monChronoEcoule = millis() - monChronoDepart; // TEMPS ÉCOULÉ DE MON CHRONOMÈTRE
 ```
 
-On execute un bloc de code seulement si le temps écoulé dépasse un intervalle de temps (20 millisecondes dans cet exemple): 
-```arduino
-unsigned long monChronoIntervalle = 20; // INTERVALLE DE TEMPS EN MILLISECONDES
-if ( monChronoEcoule >= monChronoIntervalle ) { // SI LE TEMPS ÉCOULÉ DÉPASSE L'INTERVALLE...
-	// ...FAIRE QQCH 
-}
-```
-
-On peut redémarrer l'intervalle du  chronomètre avec le code suivant:
+On peut redémarrer la mesure du temps avec le code suivant:
 ```arduino
 monChronoDepart = millis(); // REDÉMARRER LE CHRONOMÈTRE
 ```
 
-## Comment exécuter de façon cyclique
+## Comment répéter une action selon un intervalle
 
-Nous pouvons combiner les deux extraits de code précédents pour exécuter du code ET redémarrer le chronomètre de façon cyclique. Dans l'extrait suivant, le code entre les `{ }` est exécuté à chaque 20 millisecondes:
+### À ajouter dans l'espace global (au début du code)
 ```arduino
 unsigned long monChronoDepart = 0; // DEPART DE MON CHRONOMÈTRE
-
-void setup() { 
-};
-
-void loop() {
-
-    unsigned long monChronoEcoule = millis() - monChronoDepart; // TEMPS ÉCOULÉ DE MON CHRONOMÈTRE
-
-    unsigned long monChronoIntervalle = 20; // INTERVALLE DE TEMPS EN MILLISECONDES
-
-    if ( monChronoEcoule >= monChronoIntervalle ) { // SI LE TEMPS ÉCOULÉ DÉPASSE L'INTERVALLE...
-    	monChronoDepart = millis(); // ...REDÉMARRER LE CHRONOMÈTRE...
-    	// CETTE SECTION SERA EXÉCUTÉE À CHAQUE 20 MS
-    }
-}
 ```
 
-## Comment exécuter de façon cyclique (code abrégé)
+### Configuration dans *setup()*
+Il n'y a rien à configurer dans *setup()*.
+
+### Utilisation dans *loop()*
+Dans cet extrait de code, le bloc de la condition `if` est exécuté à chaque 50 millisecondes: 
 
 ```arduino
-unsigned long monChronoDepart = 0; // DEPART DE MON CHRONOMÈTRE
-
-void setup() { 
-};
-
-void loop() {
-
-    if ( millis() - monChronoDepart >= 20 ) { // SI LE TEMPS ÉCOULÉ DÉPASSE L'INTERVALLE...
+if ( millis() - monChronoDepart >= 50 ) { // SI LE TEMPS ÉCOULÉ DÉPASSE 50 MS...
       monChronoDepart = millis(); // ...REDÉMARRER LE CHRONOMÈTRE...
-      // CETTE SECTION SERA EXÉCUTÉE À CHAQUE 20 MS
-    }
+      // CETTE SECTION SERA EXÉCUTÉE À CHAQUE 50 MS
+      // AJOUTER LE CODE À RÉPETTER ICI
 }
 ```
 
