@@ -10,9 +10,8 @@ L'OSC fournit également une vérification (primitive) des erreurs de transmissi
 
 ## Client et serveur
 
-* Une application qui envoie de l'OSC est un **client OSC**. 
-* Une application qui reçoit de l'OSC est un **serveur OSC**. 
-* Habituellement, toutes les applications qui supportent l'OSC sont *client OSC* et *serveur OSC* (elles peuvent donc supporter la réception et l'envoi de messages OSC).
+Il n'y a pas vraiment d'architecture client/serveur en OSC. Fait important : l'envoi et la réception se font séparemment. C'est à dire qu'il faut créer deux connexions unidirectionnelles.
+
 
 ## Unité de transmission
 
@@ -40,22 +39,6 @@ Pour recevoir un message , il faut simplement spécifier le port de réception.
 ### Par SLIP
 
 Le *SLIP* ne permet pas d'adresser les messages à des destinataires spécifiques. Seule l'application qui est connectée au port série peut envoyer et recevoir des messages (qu'elle peut relayer par la suite par UDP si nécessaire).
-
-## Exemples d'architectures
-
-### Un client sur une machine -> un serveur sur une autre machine
-
-![Un client qui envoie des message à un serveur](./OSC_unidirectionnel.png)
-
-### Une machine <-> une autre machine
-
-![Deux clients/serveurs](./OSC_bidirectionnel.png)
-
-### Un client -> un serveur sur la même machine
-
-L'architecture suivante  permet d'envoyer un message entre deux applications différentes sur la même machine (ou à l'intérieur de la même application). L'adresse IP **127.0.0.1** veut dire «la machine elle-même».
-
-![Un client qui envoie des message à un serveur local (sur la même machine)](./OSC_mono.png)
 
 
 ## Composition d'un bundle OSC
@@ -105,3 +88,18 @@ Voici quelques recommandations à suivre lorsque vous concevez votre propre serv
 * Essayer de réduire le nombre d'arguments au profit d'un adressage plus complet. Cela respecte mieux la hiérarchie de l'adressage et plusieurs serveurs OSC ne supportent qu'un seul argument à la fois. Par exemple, utiliser `/piste/0/vol 1.` a un seul argument plutôt que `/piste/vol 0 1.` à deux arguments.
 * Utiliser autant que possible des nombres réels normalisés entre `0.` et `1.` pour plus de compatibilité.
 
+## Exemples d'architectures
+
+### Un client sur une machine -> un serveur sur une autre machine
+
+![Un client qui envoie des message à un serveur](./OSC_unidirectionnel.png)
+
+### Une machine <-> une autre machine
+
+![Deux clients/serveurs](./OSC_bidirectionnel.png)
+
+### Un client -> un serveur sur la même machine
+
+L'architecture suivante  permet d'envoyer un message entre deux applications différentes sur la même machine (ou à l'intérieur de la même application). L'adresse IP **127.0.0.1** veut dire «la machine elle-même».
+
+![Un client qui envoie des message à un serveur local (sur la même machine)](./OSC_mono.png)

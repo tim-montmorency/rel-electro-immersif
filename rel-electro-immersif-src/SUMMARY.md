@@ -53,9 +53,8 @@
 - [Envoi optimal de valeur](./arduino/envoi_optimal_de_valeur.md)
 
 # OSC
-- [Open Sound Control (OSC)](./osc/osc.md)
+- [OSC : Open Sound Control ](./osc/osc.md)
 - [MicroOsc](./microosc/microosc.md)
-
 
 # OSC SLIP
 - [OSC SLIP : MicroOsc](./microosc/osc_slip.md)
