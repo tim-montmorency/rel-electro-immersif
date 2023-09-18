@@ -55,16 +55,19 @@
 # OSC
 - [Open Sound Control (OSC)](./osc/osc.md)
 - [MicroOsc](./microosc/microosc.md)
-- [OSC SLIP avec MicroOsc](./osc_slip/osc_slip.md)
+
 
 # OSC SLIP
+- [OSC SLIP : MicroOsc](./microosc/osc_slip.md)
 - [OSC SLIP : Pure Data (PD)](./pd/osc_slip.md)
 - [OSC SLIP : Cycling '74 Max](./max/max_osc_slip.md)
-- [OSC SLIP : Web/Node.js](./osc_slip_web/osc_slip_web.md)
+- [OSC SLIP : Web/Node.js](./nodejs/osc_slip_web.md)
 
-# OSC UDP
+# OSC SLIP⇄UDP
 - [Relais SLIP⇄UDP avec PD](./pd/relais_osc_slip_udp.md)
 - [Relais SLIP⇄UDP avec Max](./max/relais_osc_slip_udp.md)
+
+# OSC UDP
 - [OSC UDP : Pure Data](./pd/pd_osc_udp.md)
 - [OSC UDP : Cycling '74 Max](./max/max_osc_udp.md)
 - [OSC UDP : VCV Rack](./vcv_rack/vcv_rack_osc.md)
