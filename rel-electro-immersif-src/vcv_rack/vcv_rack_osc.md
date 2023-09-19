@@ -1,4 +1,4 @@
-# OSC avec VCV Rack
+# OSC UDP : VCV Rack
 
 Il existe quelques modules OSC pour VCV Rack.  Le module **cvOSCcv** est privilégié pour sa configurabilité. 
 

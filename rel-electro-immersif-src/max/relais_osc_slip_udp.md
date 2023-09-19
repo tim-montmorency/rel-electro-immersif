@@ -7,7 +7,7 @@ Max peut être utilisé pour relayer les messages OSC entre une source SLIP et u
 
 ## Prérequis
 
-Assurez-vous d'avoir suivi les instruction dans la section [OSC SLIP : Max](../max/max_osc_slip.md).
+Assurez-vous d'avoir suivi les instruction dans la section [OSC SLIP : Max](./max_osc_slip.md).
 
 
 ## Patcher Max pour le relais des messages OSC SLIP ⇄ UDP 

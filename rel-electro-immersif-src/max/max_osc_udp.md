@@ -1,4 +1,4 @@
-# OSC UDP avec Max
+# OSC UDP : Cycling '74 Max
 
 ## Installation de Max
 

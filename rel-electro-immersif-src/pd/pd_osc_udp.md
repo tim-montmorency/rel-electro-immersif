@@ -1,4 +1,4 @@
-# OSC UDP dans Pure Data
+# OSC UDP : Pure Data
 
 ## Installation de Pure Data
 

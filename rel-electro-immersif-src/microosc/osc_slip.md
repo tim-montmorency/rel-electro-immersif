@@ -1,4 +1,4 @@
-# OSC SLIP
+# OSC SLIP : MicroOsc
 
 ## Problématique
 

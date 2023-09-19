@@ -1,8 +1,5 @@
-# OSC SLIP Web
+# OSC SLIP : Web/Node.js
 
-## Préalables
-
-Cette exemple dépend du code et du circuit présenté à la section [OSC SLIP avec MicroOsc](../osc_slip/osc_slip.md).
 
 ## Installation de Node.js
 

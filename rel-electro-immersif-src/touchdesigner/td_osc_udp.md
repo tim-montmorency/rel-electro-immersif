@@ -1,4 +1,4 @@
-# OSC UDP avec TouchDesigner
+# OSC UDP : TouchDesigner
 
 ## Installation de TouchDesigner
 

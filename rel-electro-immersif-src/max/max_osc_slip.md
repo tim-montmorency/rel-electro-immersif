@@ -1,4 +1,4 @@
-# OSC SLIP avec Max
+# OSC SLIP : Cycling '74 Max
 
 ## Installation de Max
 
