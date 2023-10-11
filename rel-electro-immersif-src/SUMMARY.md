@@ -73,6 +73,9 @@
 - [OSC UDP : Unity](./unity/osc_udp_unity.md)
 - [OSC UDP : TouchDesigner](./touchdesigner/td_osc_udp.md)
 
+# I²C
+- [M5Stack PbHub](./m5stack/pbhub.md)
+
 # Sorties lumineuses II
 - [Bande de DEL](./bande_del/bande_del.md)
 - [Pong 1D](./pong_1d/pong_1d.md)
