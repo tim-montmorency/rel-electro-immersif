@@ -1,4 +1,4 @@
-# M5Stack PbHub
+# M5Stack UNIT PbHub
 
 ## Introduction
 
@@ -69,7 +69,7 @@ myPbHub.fillPixelColor(uint8_t channel, uint16_t start, uint16_t index, uint8_t 
 
 ### Exemple avec débogage série
 
-![Des UNIT KEY, LIGHT, PIR et ANGLE connectés au PbHub v1.1](pbhub_connected.jpg)
+![Des UNITS KEY, LIGHT, PIR et ANGLE connectés au PbHub v1.1](pbhub_connected.jpg)
 
 ```arduino
 
