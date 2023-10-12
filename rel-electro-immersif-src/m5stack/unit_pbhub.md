@@ -132,7 +132,7 @@ void loop() {
     Serial.print(maValeurAngle);
 
     Serial.print(" PIR: ");
-    int maValeurPir = myPbHub.analogRead(PIR_UNIT_CHANNEL);
+    int maValeurPir = myPbHub.digitalRead(PIR_UNIT_CHANNEL);
     Serial.print(maValeurPir);
 
     Serial.print(" LIGHT: ");
