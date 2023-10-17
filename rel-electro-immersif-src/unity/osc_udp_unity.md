@@ -2,18 +2,36 @@
 
 ## Préalables
 
-Pour envoyer de l'OSC UDP à Unity, vous pouvez l'une des solutions suivantes :
-* **de préférence** un microcontrôleur avec une connexion WiFI ou Ethernet qui peut communiquer en UDP ; dans ce cas, utilisez [MicroOsc UDP](../osc_udp/osc_udp.md).
-* **sinon** un microcontrôleur avec une connexion série ; dans ce cas, utilisez [MicroOsc SLIP](../osc_slip/osc_slip.md) ainsi qu'un logiciel permettant de faire le relais SLIP à UDP.
+Pour envoyer de l'OSC UDP à Unity, vous devez utiliser l'une des solutions suivantes :
+* **de préférence** un microcontrôleur avec une connexion WiFI ou Ethernet qui peut communiquer en UDP ; dans ce cas, vous pouvez utilisez [MicroOsc UDP](../osc_udp/osc_udp.md).
+* **sinon** un microcontrôleur avec une connexion série ; dans ce cas, vous pouvez utilisez [MicroOsc SLIP](../osc_slip/osc_slip.md) ainsi qu'un logiciel permettant de faire le relais SLIP à UDP :  [relais avec PD](../pd/relais_osc_slip_udp.md) ou [relais avec Max](../max/relais_osc_slip_udp.md).
 
-### Relais SLIP à UDP avec Pure Data pour [MicroOsc SLIP](../osc_slip/osc_slip.md)
 
-![Schéma illustrant le relais SLIP à UDP avec Pure Data](osc_slip_pd_udp_unity.svg)
 
-* Circuit et code Arduino : [OSC SLIP avec MicroOsc](../osc_slip/osc_slip.md)
-* Code Pure Data : [Relais OSC UDP avec PD](../pd/relais_osc_slip_udp.md)
+## Solution C# avec le paquet extOSC
 
-## Installation d'OSCJackVS dans Unity
+Trouvez «extOSC» dans l'[Asset Store](https://assetstore.unity.com/) (n'oubliez pas de vous connecter avec votre compte Unity avant) :
+![Recherche pour «extOSC» dans l'Asset Store](./extosc_install1.png)
+
+Cliquez le bouton pour ajouter «extOSC» à vos *assets* et cliquez de nouveau sur le bouton pour ouvrir l'*asset* dans Unity :
+![Acquisistion du paquet «extOSC»](./extosc_install2.png)
+
+Téléchargez le paquet «extOSC» à partir du gestionnaire de paquet :
+![«extOSC» dans le gestionnaire de paquet](./extosc_install3.png)
+
+Cliquez le bouton pour importer le paquet «extOSC» :
+![«extOSC» a été téléchargé](./extosc_install4.png)
+
+Installez toutes les dépendances :
+![Boîte de dialogue sur l'installation des dépendances](./extosc_install5.png)
+
+Importez tous les *assets* :
+![Boîte de dialogue sur les assets à importer](./extosc_install6.png)
+
+Vous devriez maintenant trouver *extOSC* dans vos *assets* :
+![«extOSC» dans les Assets du projet](./extosc_install7.png)
+
+## Solution Visual Scripting avec le paquet OSCJackVS
 
 Nous utilisons [OSCJackVS](https://github.com/keijiro/OscJackVS) de Keijiro pour traiter les messages OSC UDP dans Unity.
 
@@ -33,7 +51,7 @@ Voici l'information à inscrire dans les paramètres du gestionnaire de paquets 
 
 ![Renommez et configurez la connexion](./Diapositive4.SVG)
 
-## Assignation du message /pot à la rotation d'un cylindre
+### Assignation du message /pot à la rotation d'un cylindre
 
 ![Créez un cylindre et un nouveau Script Graph](./Diapositive5.SVG)
 
