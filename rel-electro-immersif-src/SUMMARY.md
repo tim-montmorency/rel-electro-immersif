@@ -23,6 +23,7 @@
 # Arduino IDE
 - [Fenêtre principale](./arduino-ide/fenetre_principale.md)
 - [Blink: le code test universel](./arduino/blink.md)
+- [Bogue de la souris qui saute](./arduino/bogue_souris.md)
 
 # Algorithmie I
 - [Le code Arduino](./arduino/code.md)

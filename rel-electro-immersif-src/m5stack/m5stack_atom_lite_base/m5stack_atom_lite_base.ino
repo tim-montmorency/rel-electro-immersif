@@ -24,6 +24,15 @@ void setup() {
 
   // Ajouter le pixel (il y en a un seul) du M5Atom à la librairie FastLED :
   FastLED.addLeds<WS2812, DATA_PIN, GRB>(mesPixels, 1);
+
+  // Animation de démarrage
+  while ( millis() < 5000) {
+    mesPixels[0] = CHSV( (millis()/5) % 255,255,255-(millis()*255/5000));
+    FastLED.show();
+    delay(50);
+  } 
+  mesPixels[0] = CRGB(0,0,0);
+  FastLED.show();
 }
 
 void loop() {
