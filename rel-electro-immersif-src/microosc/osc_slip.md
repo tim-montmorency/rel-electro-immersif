@@ -18,6 +18,12 @@ Idéallement, nous utiliserions l'OSC UDP qui voyage par Ethernet. Cependant, pa
 
 ![Schéma de connectique OSC SLIP et du relais OSC SLIP ⇄ UDP](./osc_slip_connectique.svg)
 
+## Connexion sérielle
+
+### Code à ajouter à *setup()*
+
+Il est nécessaire d'initialiser la communication sérielle si elle ne l'a pas été faite avec `Serial.begin(115200);`.
+
 ## MicroOsc SLIP
 
 ### Code à ajouter à l'espace global
@@ -30,50 +36,7 @@ Il faut ajouter la bibliothèque *MicroOscSlip* qui fait partie de *MicroOsc* et
 MicroOscSlip<64> myMicroOsc(&Serial);
 ```
 
-### Code à ajouter à *setup()*
-
-Il n'y a rien de spécial à ajouter à *setup()* sauf un rappel qu'il est nécessaire d'avoir unitialisé la communication sérielle si elle ne l'a pas été faite avec `Serial.begin(115200);`.
-
-
-## Fonction personnalisée à ajouter avant *loop()*
-
-Il est nécessaire de définir une fonction qui va être appelée lorsqu'un nouveau message OSC va être reçu :
-
-```arduino
-// FUNCTION THAT WILL BE CALLED WHEN AN OSC MESSAGE IS RECEIVED:
-void myOscMessageParser( MicroOscMessage& receivedOscMessage) {
-   // ADD MESSAGE PARSING CODE HERE
-}
-```
-
-Dans cette fonction l'adresse du message peut être validée avec *checkOscAddress()* ainsi :
-```arduino
-if ( receivedOscMessage.checkOscAddress("/address") ) {
-	// MESSAGE ADDRESS IS "/address"
-}
-```
-
-Lorsque l'adresse du message a été validée, il est possible de récuprer les données.Par exemple, pour récupérer un entier:
-```arduino
-int32_t intArgument = receivedOscMessage.nextAsInt();
-```
-
-
-
-### Code à intégrer dans *loop()*
-
-
-Dans *loop()* nous devons déclencher la réception des messages OSC avec la méthode *onOscMessageReceived()* à laquelle nous passons le nom de la fonctione personnalisée créée précédemment:
-
-```arduino
-myMicroOsc.onOscMessageReceived( myOscMessageParser );
-```
-
-Nous pouvons aussi envoyer des messages, par exemple un entier ainsi :
-```arduino
-int myIntToSend = 100;
-myMicroOsc.sendInt("/address", myIntToSend);
-```
+{{#include ./_osc_common.md}}
 
 
 ## Exemple MicroOsc SLIP pour M5Stack Atom Lite

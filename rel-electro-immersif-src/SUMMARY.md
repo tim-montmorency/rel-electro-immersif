@@ -55,7 +55,7 @@
 
 # OSC
 - [OSC : Open Sound Control ](./osc/osc.md)
-- [MicroOsc](./microosc/microosc.md)
+- [OSC : MicroOsc](./microosc/microosc.md)
 
 # OSC SLIP
 - [OSC SLIP : MicroOsc](./microosc/osc_slip.md)
@@ -68,6 +68,7 @@
 - [Relais SLIP⇄UDP avec Max](./max/relais_osc_slip_udp.md)
 
 # OSC UDP
+- [OSC UDP : MicroOsc](./microosc/osc_udp.md)
 - [OSC UDP : Pure Data](./pd/pd_osc_udp.md)
 - [OSC UDP : Cycling '74 Max](./max/max_osc_udp.md)
 - [OSC UDP : VCV Rack](./vcv_rack/vcv_rack_osc.md)
