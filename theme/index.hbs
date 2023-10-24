@@ -286,7 +286,16 @@
         {{/if}}
 
         <script src="{{ path_to_root }}clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="{{ path_to_root }}highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="{{ path_to_root }}highlight.min.js"></script>
+        <!-- and it's easy to individually load additional languages -->
+        <script src="{{ path_to_root }}javascript.min.js"></script>
+        <script src="{{ path_to_root }}arduino.min.js"></script>
+        <script src="{{ path_to_root }}json.min.js"></script>
+        <script src="{{ path_to_root }}csharp.min.js"></script>
+        <script src="{{ path_to_root }}cpp.min.js"></script>
+
+
+
         <script src="{{ path_to_root }}book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
@@ -307,6 +316,7 @@
         <script type="text/javascript">
         window.addEventListener('load', function() {
             window.setTimeout(window.print, 100);
+
         });
         </script>
         {{/if}}
