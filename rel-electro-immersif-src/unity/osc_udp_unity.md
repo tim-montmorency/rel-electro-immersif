@@ -6,11 +6,11 @@ Pour envoyer de l'OSC UDP à Unity, vous devez utiliser l'une des solutions suiv
 * **de préférence** un microcontrôleur avec une connexion WiFI ou Ethernet qui peut communiquer en UDP ; dans ce cas, vous pouvez utilisez [MicroOsc UDP](../osc_udp/osc_udp.md).
 * **sinon** un microcontrôleur avec une connexion série ; dans ce cas, vous pouvez utilisez [MicroOsc SLIP](../osc_slip/osc_slip.md) ainsi qu'un logiciel permettant de faire le relais SLIP à UDP :  [relais avec PD](../pd/relais_osc_slip_udp.md) ou [relais avec Max](../max/relais_osc_slip_udp.md).
 
-
 ## Avant tout : Activez «Run in Background» dans Unity
 
 Pour que Unity puisse continuer à rouler son code quand sa fenêtre n'est pas en avant plan, cochez la case «Run in Background» dans «Project Settings→Player→Resolution and Presentation→Run in Background» :
 ![Désactivation de «Run in Background» dans les «Project Settings»](./run_in_background.png)
+
 
 ## Option #1 : Solution C# avec le paquet extOSC
 
@@ -37,6 +37,8 @@ Importez tous les *assets* :
 Vous devriez maintenant trouver *extOSC* dans vos *assets* :
 ![«extOSC» dans les Assets du projet](./extosc_install7.png)
 
+
+
 ### Intégration
 
 * Créez un nouveau GameObject vide nommé «OSC».
@@ -48,13 +50,18 @@ Vous devriez maintenant trouver *extOSC* dans vos *assets* :
 Créez un nouveau script nommé «MyOSC» :
 ![Le script «MyOSC» dans les Assets](./extosc_script_myosc.png)
 
-Dans ce script il faut deux variables qui pointent vers les scripts *components* «OSCTransmitter» et «OSCReceiver» :
+Dans ce script, indiquez que vous allez utiliser le paquet « extOSC » en ajoutant `using extOSC` au tout début (après les autres `using`) :
+```csharp
+using extOSC;
+```
+
+Ensuite, ajoutez deux variables qui pointeront vers les scripts *components* «OSCTransmitter» et «OSCReceiver» :
 ```csharp
 public extOSC.OSCReceiver oscReceiver;
 public extOSC.OSCTransmitter oscTransmitter;
 ```
 
-Dans Unity vous devez lier ces variables aux scripts *components* «OSCTransmitter» et «OSCReceiver»:
+Dans l'éditeur Unity liez ces variables aux scripts *components* «OSCTransmitter» et «OSCReceiver»:
 ![Les scripts *components* «OSCTransmitter» et «OSCReceiver» liés aux variables publqiues](./extosc_script_myosc_lien.png)
 
 Pour interagir avec les GameObjects dans la scène, vous devez aussi ajouter une variable publique au script «MyOSC» :
