@@ -2,11 +2,13 @@
 
 ## Introduction
 
+![Photo de l'avant et l'arrière du M5Stack Unit TOF](./unit_tof.png)
+
 Le [M5Stack Unit TOF](https://docs.m5stack.com/en/unit/tof) permet de mesurer des distances jusqu'à 2 mètres avec la technologie *Time of Flight*. 
 
 C'est un *Unit* de type I²C tel qu'identifié par son connecteur rouge.
 
-![Photo de l'avant et l'arrière du M5Stack Unit TOF](./unit_tof.png)
+
 
 ## Bibliothèque vl53l0x-arduino
 
