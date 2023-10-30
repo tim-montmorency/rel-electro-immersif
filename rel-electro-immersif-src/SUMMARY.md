@@ -76,7 +76,10 @@
 - [OSC UDP : TouchDesigner](./touchdesigner/td_osc_udp.md)
 
 # I²C
-- [M5Stack PbHub](./m5stack/unit_pbhub.md)
+- [M5Stack Unit PbHub](./m5stack/unit_pbhub.md)
+- [M5Stack Unit TOF](./m5stack/unit_tof.md)
+- [M5Stack Unit Encoder](./m5stack/unit_encoder.md)
+
 
 # Sorties lumineuses II
 - [Bande de DEL](./bande_del/bande_del.md)
