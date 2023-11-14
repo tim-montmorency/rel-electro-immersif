@@ -55,25 +55,26 @@
 
 # OSC
 - [OSC : Open Sound Control ](./osc/osc.md)
-- [OSC : MicroOsc](./microosc/microosc.md)
+- [OSC avec MicroOsc](./microosc/microosc.md)
 
 # OSC SLIP
-- [OSC SLIP : MicroOsc](./microosc/osc_slip.md)
-- [OSC SLIP : Pure Data (PD)](./pd/osc_slip.md)
-- [OSC SLIP : Cycling '74 Max](./max/max_osc_slip.md)
-- [OSC SLIP : Web/Node.js](./nodejs/osc_slip_web.md)
+- [OSC SLIP avec MicroOsc](./microosc/osc_slip.md)
+- [OSC SLIP avec Pure Data (PD)](./pd/osc_slip.md)
+- [OSC SLIP avec Cycling '74 Max](./max/max_osc_slip.md)
+- [OSC SLIP avec Web/Node.js](./nodejs/osc_slip_web.md)
 
-# OSC SLIP⇄UDP
+# Relais OSC SLIP⇄UDP
+- [Relais SLIP⇄UDP SlipOscBridge](./sliposcbridge/sliposcbridge.md)
 - [Relais SLIP⇄UDP avec PD](./pd/relais_osc_slip_udp.md)
 - [Relais SLIP⇄UDP avec Max](./max/relais_osc_slip_udp.md)
 
 # OSC UDP
-- [OSC UDP : MicroOsc](./microosc/osc_udp.md)
-- [OSC UDP : Pure Data](./pd/pd_osc_udp.md)
-- [OSC UDP : Cycling '74 Max](./max/max_osc_udp.md)
-- [OSC UDP : VCV Rack](./vcv_rack/vcv_rack_osc.md)
-- [OSC UDP : Unity](./unity/osc_udp_unity.md)
-- [OSC UDP : TouchDesigner](./touchdesigner/td_osc_udp.md)
+- [OSC UDP avec MicroOsc](./microosc/osc_udp.md)
+- [OSC UDP avec Pure Data](./pd/pd_osc_udp.md)
+- [OSC UDP avec Cycling '74 Max](./max/max_osc_udp.md)
+- [OSC UDP avec VCV Rack](./vcv_rack/vcv_rack_osc.md)
+- [OSC UDP avec Unity](./unity/osc_udp_unity.md)
+- [OSC UDP avec TouchDesigner](./touchdesigner/td_osc_udp.md)
 
 # I²C
 - [M5Stack Unit PbHub](./m5stack/unit_pbhub.md)
