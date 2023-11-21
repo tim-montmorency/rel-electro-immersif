@@ -34,7 +34,7 @@
 - [Bouton simple](./bouton_simple/bouton_simple.md)
 - [Bouton du M5Stack Atom Lite](./m5stack/atom_lite_bouton.md)
 
-# Sorties lumineuses I
+# Sorties lumineuses simples
 - [Contrôle d'une DEL](./del/del_controle.md)
 - [Pixel du M5Stack Atom Lite](./m5stack/atom_lite_pixel.md)
 
@@ -83,10 +83,9 @@
 - [M5Stack Grove Hub](./m5stack/unit_grove-hub.md)
 
 
-# Sorties lumineuses II
-- [Bande de DEL](./bande_del/bande_del.md)
-- [Pong 1D](./pong_1d/pong_1d.md)
-- [Contrôle par OSC](./bande_del_osc/bande_del_osc.md)
+# Bandes de DEL
+- [Bande de DEL + Arduino Nano](./bande_del/bande_del_nano.md)
+- [Bande de DEL + M5Stack Atom](./bande_del/bande_del_atom.md)
    
 # Déploiement
 - [Raspberry PI](./raspberry_pi/raspberry_pi.md)
