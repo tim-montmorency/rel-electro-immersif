@@ -30,7 +30,7 @@
 - [Mesurer le temps](./arduino/millis.md)
 - [Déboguage série ASCII](./arduino/serie_ascii.md)
 
-# Entrées à deux états
+# Entrées binaires
 - [Bouton simple](./bouton_simple/bouton_simple.md)
 - [Bouton du M5Stack Atom Lite](./m5stack/atom_lite_bouton.md)
 
@@ -41,6 +41,7 @@
 # Algorithmie II
 - [Intervalle de temps](./arduino/intervalle.md)
 - [Changement de valeur](./arduino/changement.md)
+- [Détection de seuil d'un bouton](./arduino/seuil_bouton.md)
 
 # Entrées analogiques
 - [Potentiomètre](./entree_analogique/potentiometre.md)

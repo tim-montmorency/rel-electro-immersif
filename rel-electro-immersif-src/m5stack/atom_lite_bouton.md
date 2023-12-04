@@ -4,11 +4,20 @@
 
 La documentation complète de l'API du bouton du M5Stack Atom Lite se trouve ici : [m5-docs](https://docs.m5stack.com/en/api/atom/button)
 
-## Configuration dans *setup()*
+## Code à intégrer dans *setup()*
 
 Le bouton du M5Stack Atom Lite ne nécessite aucune configuration à ajouter dans *setup()*.
 
-## Utilisation dans *loop()*
+## Code à intégrer dans la boucle de mise à jour de *loop()*
+
+Valider si le bouton est **présentement** relâché :
+```arduino
+if ( M5.Btn.isReleased() ) {
+
+}
+```
+
+### Autres fonctions pertinentes
 
 Valider si le bouton **a été** appuyé depuis le dernier *M5.update()* :
 ```arduino
@@ -27,13 +36,6 @@ if ( M5.Btn.wasReleased() ) {
 Valider si le bouton est **présentement** appuyé :
 ```arduino
 if ( M5.Btn.isPressed() ) {
-
-}
-```
-
-Valider si le bouton est **présentement** relâché :
-```arduino
-if ( M5.Btn.isReleased() ) {
 
 }
 ```
