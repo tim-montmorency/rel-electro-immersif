@@ -31,12 +31,14 @@
 - [Déboguage série ASCII](./arduino/serie_ascii.md)
 
 # Entrées binaires
-- [Bouton simple](./bouton_simple/bouton_simple.md)
+- [Bouton simple](./bouton/bouton_simple.md)
 - [Bouton du M5Stack Atom Lite](./m5stack/atom_lite_bouton.md)
 
 # Sorties lumineuses simples
 - [Contrôle d'une DEL](./del/del_controle.md)
 - [Pixel du M5Stack Atom Lite](./m5stack/atom_lite_pixel.md)
+- [Bouton d'arcade](./bouton/bouton_arcade.md)
+- [Atom et bouton d'arcade](./m5stack/unit_396_bouton_arcade.md)
 
 # Algorithmie II
 - [Intervalle de temps](./arduino/intervalle.md)
