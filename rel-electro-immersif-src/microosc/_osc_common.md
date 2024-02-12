@@ -78,7 +78,7 @@ myMicroOsc.sendInt(const char *address, int32_t i);
 // SEND A FLOAT
 myMicroOsc.sendFloat(const char *address, float f);
 // SEND A STRING
-myMicroOsc.endString(const char *address, const char *str);
+myMicroOsc.sendString(const char *address, const char *str);
 // SEND A BLOB
 myMicroOsc.sendBlob(const char *address, unsigned char *b, int32_t length);
 // SEND DOUBLE
