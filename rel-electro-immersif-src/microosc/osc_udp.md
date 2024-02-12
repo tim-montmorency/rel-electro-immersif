@@ -89,4 +89,4 @@ MicroOscUdp<1024> myOsc(&myUdp, mySendIp, mySendPort);
 
 ## Exemple MicroOsc UDP Ethernet à adresse statique pour M5Stack Atom Lite
 
-L'exemple [microosc_ethernet_static_m5stack_atom_poe dans le GitHub de MicroOsc](https://github.com/thomasfredericks/MicroOsc/blob/main/examples/microosc_ethernet_static_m5stack_atom_poe/microosc_ethernet_static_m5stack_atom_poe.ino) démontre comment effectuer l'intégration de MicroOsc UDP à une connexion Ethernet avec une adresse statique.
+L'exemple **microosc_ethernet_static_m5stack_atom_poe** dans les [exemples de MicroOs pour M5Stack Atom](https://github.com/thomasfredericks/MicroOsc/tree/main/examples/m5stack-atom) démontre comment effectuer l'intégration de MicroOsc UDP à une connexion Ethernet avec une adresse statique.
