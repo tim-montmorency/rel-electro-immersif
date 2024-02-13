@@ -6,7 +6,7 @@
 
 ## Prépration
 
-![Soudure du bouton](./unit_396_bouton_arcade_soudure.png)
+![Soudure du bouton](./unit_396_bouton_arcade_identification.png)
 
 ![Connexion du bouton au Unit 3.96](./unit_396_bouton_arcade_connexion.png)
 
