@@ -84,6 +84,7 @@
 - [M5Stack Unit TOF](./m5stack/unit_tof.md)
 - [M5Stack Unit Encoder](./m5stack/unit_encoder.md)
 - [M5Stack Grove Hub](./m5stack/unit_grove-hub.md)
+- [M5Stack Unit PaHub](./m5stack/unit_pahub.md)
 
 
 # Bandes de DEL
