@@ -11,7 +11,6 @@
 Dans `setup()`, initialiser la broche du ATOM Lite :
 ```arduino
   pinMode(32, INPUT);
-
 ```
 
 ### Code à utiliser dans la boucle à intervalle régulier dans loop()
