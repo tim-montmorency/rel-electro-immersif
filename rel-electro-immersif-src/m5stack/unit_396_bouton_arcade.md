@@ -4,7 +4,7 @@
 
 * Adafruit. (s. d.). Arcade Button with LED – 30mm Translucent Red. [https://www.adafruit.com/product/3489](https://www.adafruit.com/product/3489)
 
-## Prépration
+## Préparation
 
 ![Soudure du bouton](./unit_396_bouton_arcade_identification.png)
 

@@ -50,6 +50,7 @@
 - [Photorésistance](./entree_analogique/photoresistance.md)
 - [M5Stack Angle](./m5stack/unit_angle.md)
 - [M5Stack Light](./m5stack/unit_light.md)
+- [Atom et photorésistance](./m5stack/unit_396_photoresistance.md)
 
 # Algorithmie III
 - [Identifiants série ASCII](./arduino/serie_ascii_identifiants.md)
