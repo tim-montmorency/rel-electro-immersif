@@ -6,13 +6,11 @@ Le téléchargement du logiciel TouchDesigner (pour Windows et macOS) est dispon
 
 ## Code pour traiter l'OSC UDP dans TouchDesigner
 
-### Capture d'écran
-
 ![Capture d'écran de «td_osc_udp.toe»](./td_osc_udp.svg)
 
-### Téléchargement
+**Très important** : comme Vincent Desjardins l'explique dans la [vidéo YouTube Intégrité des messages OSC (OSC OUT) envoyés par TouchDesigner](https://www.youtube.com/shorts/TV2MpaqKaOE), il faut choisir pour le **Data Format** le mode *Sample*.
 
-* La document TouchDesigner peut être téléchargé ici : [td_osc_udp.toe](./td_osc_udp.toe)
+La document TouchDesigner peut être téléchargé ici : [td_osc_udp.toe](./td_osc_udp.toe)
 
 
 

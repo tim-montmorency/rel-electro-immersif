@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -97,7 +97,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 116.0, 97.0, 54.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "/pwm $1"
 				}
 
@@ -184,7 +183,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 25.0, 150.0, 135.0, 22.0 ],
-					"text" : "udpsend localhost 7001"
+					"text" : "udpsend localhost 7000"
 				}
 
 			}
@@ -207,7 +206,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 236.0, 97.0, 22.0 ],
-					"text" : "udpreceive 7000"
+					"text" : "udpreceive 7001"
 				}
 
 			}
