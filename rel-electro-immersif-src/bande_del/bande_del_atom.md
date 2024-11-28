@@ -52,7 +52,37 @@ Adafruit recommande les bonnes pratiques de connexion suivantes : [Best Practice
 
 **Les bibliothèques de bandes de DEL supportent souvent plusieurs modèles. On doit sélectionner le bon modèle dans le code!**  Il est recommandé d'utiliser la bibliothèque [FastLED](https://github.com/FastLED/FastLED) qui peut être installée à partir du gestionnaire de bibliothèques. FastLED est trèes performante, mais un êu compliquée à utiliser. 
 
-## Exemple de code avec des animations
+### À ajouter à l'espace global
+
+```arduino
+#define NOMBRE_PIXELS 30 
+CRGB mesPixels[NOMBRE_PIXELS];
+```
+
+### À ajouter dans setup()
+
+Il faut ajouter les pixels à FastLED. Le 26 c'est le numéro de la broche du Atom qui envoie les données à la bande de pixels.
+
+```arduino
+FastLED.addLeds<WS2812, 26, RGB>(mesPixels, NOMBRE_PIXELS);
+```
+
+### Dans loop()
+
+Pour changer la couleur d'un pixel, changer sa couleur CRGB dans le tableau. Par exemple, pour changer la couleur du pixel à l'index 13 :
+```arduino
+int indexDuPixel = 13;
+int rouge = 255;
+int vert = 255;
+int bleu = 255;
+mesPixels[indexDuPixel] = CRGB( rouge , vert, bleu);
+```
+Par après, mettre à jour les pixels de la bande de DEL :
+```arduino
+FastLED.show();
+```
+
+### Exemple de code FastLED avec des animations
 
 ```arduino
 {{#include ./bande-del_atom_animations/bande-del_atom_animations.ino}}
