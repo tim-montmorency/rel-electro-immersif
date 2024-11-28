@@ -27,10 +27,12 @@ Il est possible d'établir une connexion UDP de deux manières:
 
 #### Code à ajouter à l'espace global pour une connexion UDP Ethernet
 
-Modifiez les adreses et les ports pour que cela corresponde à votre configuration réseau :
+**Modifiez les adreses et les ports pour que cela corresponde à votre configuration réseau**!
+
 ```arduino
 #include <SPI.h>
 #include <Ethernet.h>
+#include <esp_mac.h>
 EthernetUDP myUdp;
 
 IPAddress myDestinationIp(10, 1, 2, 3);
@@ -45,42 +47,46 @@ unsigned int myPort = 7000;
 Initialisation et configuration de la connexion Etheret UDP :
 ```arduino
 // CONFIGURE ETHERNET HARDWARE :
-// THE NUMBERS ARE THE HARDWARE PINS FOR THE ATOM POE.
-SPI.begin(22, 23, 33, 19); 
-Ethernet.init(19);
-// GET FACTORY DEFINED ESP32 MAC :
-uint8_t myMac[6];
-esp_efuse_mac_get_default(myMac);
-// START ETHERNET WITH STATIC IP
-Ethernet.begin(myMac, myIp);
-myUdp.begin(myReceivePort);
-```
+  // THE NUMBERS ARE THE HARDWARE PINS FOR THE ATOM POE.
+  SPI.begin(22, 23, 33, 19);
+  Ethernet.init(19);
+  // GET FACTORY DEFINED ESP32 MAC :
+  uint8_t myMac[6];
+  esp_efuse_mac_get_default(myMac);
+  // START ETHERNET WITH STATIC IP
+  Ethernet.begin(myMac, myIp);
+  myUdp.begin(myPort);
 
-Déboguer les détails de la connexion dans le moniteur série :
-
-```arduino
-Serial.println();
-Serial.println(__FILE__);
-Serial.print("myDestinationIp: ");
-Serial.println(myDestinationIp);
-Serial.print("myDestinationPort: ");
-Serial.println(myDestinationPort);
-Serial.print("myIp: ");
-Serial.println(Ethernet.localIP());
-Serial.print("myPort: ");
-Serial.println(myPort);
+  Serial.println();
+  Serial.println(__FILE__);
+  Serial.print("myDestinationIp: ");
+  Serial.println(myDestinationIp);
+  Serial.print("myDestinationPort: ");
+  Serial.println(myDestinationPort);
+  Serial.print("myIp: ");
+  Serial.println(Ethernet.localIP());
+  Serial.print("myPort: ");
+  Serial.println(myPort);
 ```
 
 ## MicroOsc UDP
 
-### Code à ajouter à l'espace global pour MicroOsc UDP
+### Code à modifier ou ajouter à l'espace global pour MicroOsc UDP
+
+Le code pour *MicroOscUdp* doit être ajouté dans l'espace global après l'initialisation des variables précédentes.
+
+Si *MicroOscSlip* était utilisé, il faut commenter pour désactiver les lignes suivantes :
+```arduino
+// #include <MicroOscSlip.h>
+// MicroOscSlip<1024> myOsc(&Serial);
+```
 
 Il faut ajouter la bibliothèque *MicroOscUdp* qui fait partie de *MicroOsc* et initialiser une instance de MicroOscUdp : 
 ```arduino
 #include <MicroOscUdp.h>
 // The number 1024 between the < > below  is the maximum number of bytes reserved for incomming messages.
 // Outgoing messages are written directly to the output and do not need more reserved bytes.
-MicroOscUdp<1024> myOsc(&myUdp, mySendIp, mySendPort);
+MicroOscUdp<1024> myOsc(&myUdp, myDestinationIp, myDestinationPort);
 ```
 
 ### Code à ajouter à *setup()* pour MicroOsc UDP
